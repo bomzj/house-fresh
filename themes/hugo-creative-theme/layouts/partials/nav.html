@@ -1,0 +1,45 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{ with .Site.Params.navigation.brand }}
+                <a class="navbar-brand" href="/#page-top">{{ . | markdownify }}</a>
+            {{ end }}
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
+                    <li>
+                        <a  href="/#about">{{ .Site.Params.navigation.links.about }}</a>
+                    </li>
+                {{ end }}
+                {{ if .Site.Params.navigation.links.catalog }}
+                    <li>
+                        <a  href="/#catalog">{{ .Site.Params.navigation.links.catalog }}</a>
+                    </li>
+                {{ end }}
+				{{ if and .Site.Params.partners .Site.Params.navigation.links.partners }}
+                    <li>
+                        <a  href="/#partners">{{ .Site.Params.navigation.links.partners }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
+                <li>
+                    <a  href="/#location">{{ .Site.Params.navigation.links.location }}</a>
+                </li>
+                {{ end }}
+                {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
+                    <li>
+                        <a  href="/#contact">{{ .Site.Params.navigation.links.contact }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>

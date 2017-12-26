@@ -1,0 +1,35 @@
+{{ "<!-- PARTNERS -->" | safeHTML }}
+<section id="partners">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				{{ with .Site.Params.partners.headline }}
+					<h2 class="section-heading">{{ . }}</h2>
+				{{ end }}
+				{{ if and .Site.Params.partners.headline .Site.Params.partners.description }}
+					<hr class="primary">
+				{{ end }}
+				{{ with .Site.Params.partners.description }}
+					<p class="text-muted">{{ . | markdownify }}</p>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+    <div class="container">
+		<div class="row">
+		  {{ range .Site.Params.partners.list }}
+			<div class="col-md-3 col-sm-6 col">
+			  {{ $url := printf "img/logos/%s" .logo }}
+			  {{ if .link }}
+				<a href="{{ .link }}">
+				  <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+				</a>
+			  {{ else }}
+				<img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+			  {{ end }}
+			</div>
+		  {{ end }}
+
+		</div>
+    </div>
+</section>

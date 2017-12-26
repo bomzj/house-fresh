@@ -1,0 +1,14 @@
+{{ "<!-- FOOTER -->" | safeHTML }}
+<aside class="footer">
+    <div class="container">
+		<div class="row">
+			{{ with .Site.Params.contact.companyIcon }}
+				<img src="/{{ . }}" class="img-responsive img-centered" alt="">
+				
+			{{ end }}
+		</div>
+		<div class="row col-lg-8 col-lg-offset-2 text-center">
+			<span class="copyright">{{ with .Site.Params.contact.copyright }}{{ . | markdownify }}{{ end }}</span>
+		</div>
+	</div>
+</aside>

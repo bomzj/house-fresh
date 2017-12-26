@@ -1,0 +1,166 @@
+baseurl = "https://house-fresh.netlify.com"
+languageCode = "en-us"
+title = "Свежая выпечка и кондитерские изделия"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the catalog are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "ХаусФреш"
+	description = "Свежая выпечка и кондитерские изделия"
+
+	# The path must be relative to the static folder
+	favicon = "img/houseFreshLogo.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "ХаусФреш"
+		brandIcon = "img/houseFreshLogo.png"
+
+		[params.navigation.links]
+			about     = "О нас"
+			catalog = "Услуги"
+			partners  = "Партнёры"
+			contact   = "Контакты"
+
+
+	# Hero section
+	[params.hero]
+		slogan     = "ХАУСФРЕШ | продукты питания"
+		companyIcon = "img/houseFreshLogo128x128.svg"	
+		subtitle   = "[Мы предлагаем] (#catalog) широкий ассортимент свежей выпечки и кондитерских изделий собственного производства, а также профессиональную дистрибуцию продуктов питания и организацию обедов на предприятии!"
+		buttonText = "Наши услуги"
+
+
+	# About section
+	[params.about]
+		headline    = "У нас есть то, что вам нужно!"
+		description = "Компания [ХаусФреш](#) существует на рынке продуктов питания совсем недавно, но уже успела завоевать популярность среди потребителей и зарекомендовать себя как надёжного партнёра. Мы нацелены на создание высококачественных продуктов питания, построение долгосрочных и надёжных отношений с нашими клиентами и партнёрами." 
+
+
+	# Service section
+	[params.services]
+		headline = "Наши преимущества"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Собственное производство"
+            description = "Высококвалифицированный штат сотрудников и современная производственная база"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Внутренняя служба доставки"
+			description = "Не зависим от посредников, поэтому доставим Ваш заказ в самые короткие сроки. Убедитесь сами! "
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Сертифицированная продукция"
+            description = "Безопасность нашей выпечки и кондитерских изделий подтверждена декларациями качества"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Готовим с любовью и душой"
+            description = "У нас работают только самые лучшие высококвалифицированные и ответственные сотрудники!"
+
+			
+			
+	# Catalog section
+	[params.catalog]
+		headline    = "К вашим услугам"
+		description = "[ХаусФреш](/) предлагает ... "
+	[params.catalog.downloadButton]
+			text = "Скачать в PDF"
+			link = "/"
+	[params.catalog.contactButton]
+			text = "Связаться"
+			link = "/#contact"
+
+	# ServiceTiles Section
+	  [params.ServiceTiles]
+		enable = true
+		issueDate = "Срок хранения и реализации при t"
+		
+		[[params.ServiceTiles.showcase]]
+		  title = "Производство продукции"
+		  subtitle = "Описание производства продукции"
+		  image = "catalog/production-tile.jpg"
+		  url = "production"
+		  
+
+		[[params.ServiceTiles.showcase]]
+		  title = "Дистрибуция продуктов питания"
+		  subtitle = "текст"
+		  image = "catalog/distribution-tile.jpg"
+		  url = "distribution"
+		  
+
+		[[params.ServiceTiles.showcase]]
+		  title = "Организация питания"
+		  subtitle = "Описание организации питания на предприятиях!"
+		  image = "catalog/canteen-tile.jpg"
+		  url = "canteen"
+		  
+
+		
+    # Aside section
+	[params.aside]
+		headline = "Скачать каталог продукции нашего производства в формате PDF"
+
+		[params.aside.button]
+			text = "Скачать"
+			link = "//"
+	
+	
+	# Partners section
+	[params.partners]
+		headline    = "Наши партнёры"
+		description = "[Мы ценим](#) каждого нашего партнёра и благодарим за плодотворное сотрудничество. Присоединяйтесь к нам!"
+		
+		[[params.partners.list]]
+		logo = "envato.jpg"
+		link = "#"
+
+	    [[params.partners.list]]
+		logo = "designmodo.jpg"
+		link = "#"
+
+	    [[params.partners.list]]
+		logo = "themeforest.jpg"
+		link = "#"
+
+	    [[params.partners.list]]
+		logo = "creative-market.jpg"
+		link = "#"
+		
+
+	# Contact section
+	[params.contact]
+		headline = "Давайте оставаться на связи!"
+		description = "Готовы к сотрудничеству? Отлично! Просто позвоните нам или напишите письмо на электронную почту, и наши специалисты проконсультируют по любому вопросу, а также предложат самые выгодные индивидуальные условия!"
+		phone = "+375 29 6089560 (Евгений)"
+		email = "belov.evgen@mail.ru (Евгений)"
+		
+		companyIcon = "img/houseFreshLogo64x64.svg"	
+		copyright = "© 2018 ХаусФреш, г.Минск, проспект Жукова 44"
+		
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "53.876794"
+	# 	longitude = "27.5145162"
+	# 	maps_api_key = ""
