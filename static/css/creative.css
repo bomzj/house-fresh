@@ -82,10 +82,16 @@ p {
 	background-repeat: 100% 100%;
 }
 
-.bg-bread-white {
+.bg-bread-primary {
 	background-color: #6fac37;
 	background-image: url(../img/bg-bread-white.svg);
 	background-repeat: 100% 100%;
+}
+
+.bg-bread-primary-small {
+	background-color: #6fac37;
+	background-image: url(../img/bg-bread-white.svg);
+	background-repeat: 50% 50%;
 }
 
 .text-faded {
