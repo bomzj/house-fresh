@@ -77,6 +77,17 @@ p {
     background-color: #222;
 }
 
+.bg-bread{
+	background-image: url(../img/bg-bread.svg);
+	background-repeat: 100% 100%;
+}
+
+.bg-bread-white {
+	background-color: #6fac37;
+	background-image: url(../img/bg-bread-white.svg);
+	background-repeat: 100% 100%;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
