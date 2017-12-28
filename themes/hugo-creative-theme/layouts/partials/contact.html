@@ -39,6 +39,11 @@
 					<p>{{ .Site.Params.contact.emailname }}</p>
                 </div>
             {{ end }}
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.contact.text }}
+                    <span class="text-muted">{{ . }}</span>
+                {{ end }}
+            </div>
         </div>
 		
     </div>
