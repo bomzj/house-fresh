@@ -81,3 +81,28 @@ body {
     display: none;
     opacity: 0;
 }
+
+.catalog-modal, ul li {
+  
+  font-family: "Ruda", sans-serif;
+  text-align: left;
+  font-size: 1.05em;
+}
+
+.catalog-modal, p {
+  
+  font-family: "Ruda", sans-serif;
+  text-align: left;
+  font-size: 1.05em;
+}
+
+.catalog-modal ul {
+  margin-left: 35px;
+  padding: 0;
+  
+}
+
+.catalog-modal ul li {
+  margin-left: 35px;
+  padding: 0;
+}

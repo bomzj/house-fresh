@@ -85,21 +85,21 @@ googleAnalytics = ""
 		
 		[[params.ServiceTiles.showcase]]
 		  title = "Производство продукции"
-		  subtitle = "Описание производства продукции"
+		  subtitle = "Высококвалифицированный штат сотрудников, современное оборудование"
 		  image = "catalog/production-tile.jpg"
 		  url = "production"
 		  
 
 		[[params.ServiceTiles.showcase]]
 		  title = "Дистрибуция продуктов питания"
-		  subtitle = "текст"
+		  subtitle = "Внутренняя служба доставки, надёжные партнёры"
 		  image = "catalog/distribution-tile.jpg"
 		  url = "distribution"
 		  
 
 		[[params.ServiceTiles.showcase]]
 		  title = "Организация питания"
-		  subtitle = "Описание организации питания на предприятиях!"
+		  subtitle = "Современный индивидуальный подход, широкий ассортимент вкуснейших блюд"
 		  image = "catalog/canteen-tile.jpg"
 		  url = "canteen"
 		  
