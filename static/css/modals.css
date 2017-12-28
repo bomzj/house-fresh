@@ -83,14 +83,12 @@ body {
 }
 
 .catalog-modal, ul li {
-  
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.05em;
 }
 
-.catalog-modal, p {
-  
+.catalog-modal p {
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.05em;
