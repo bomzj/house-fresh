@@ -105,6 +105,9 @@ body {
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.05em;
+  line-height: 200%;
+  list-style-image: url(../img/list-bullet.svg);
+  
 }
 
 .catalog-modal p {
@@ -113,13 +116,9 @@ body {
   font-size: 1.05em;
 }
 
-.catalog-modal ul {
-  margin-left: 35px;
-  padding: 0;
-  
-}
-
 .catalog-modal ul li {
   margin-left: 35px;
   padding: 0;
 }
+
+
