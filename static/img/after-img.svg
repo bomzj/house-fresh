@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22.854759"
+   height="26.410557"
+   viewBox="0 0 6.0469879 6.9877926"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="after-img.svg">
+  <title
+     id="title3790">houseFreshLogo</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="15.740887"
+     inkscape:cy="-18.147424"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>houseFreshLogo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-51.982548,-76.637257)">
+    <g
+       id="g43"
+       transform="matrix(1.4213075,0,0,1.4213075,-24.448277,-35.231857)"
+       style="stroke-width:0.70357752">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3705"
+         style="fill:#68a822;fill-rule:evenodd;stroke-width:0.18615487"
+         d="m 55.193337,81.166709 h -1.75e-4 c 0.783361,0.783362 2.053232,0.783362 2.836373,0 v 0 c -0.783141,-0.783199 -2.053012,-0.78314 -2.836209,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3707"
+         style="fill:#68a822;fill-rule:evenodd;stroke-width:0.18615487"
+         d="m 54.605881,80.714206 v 0 c 1.107755,0 2.00556,-0.898023 2.00556,-2.00556 v -5.3e-5 c -1.107589,0 -2.00556,0.898017 -2.00556,2.005613 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3709"
+         style="fill:#68a822;fill-rule:evenodd;stroke-width:0.18615487"
+         d="m 54.605881,81.619434 v 0 c 1.107755,0 2.00556,0.898017 2.00556,2.005613 v -5.3e-5 c -1.107589,0 -2.00556,-0.897806 -2.00556,-2.00556 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3727"
+         style="fill:#84756f;fill-rule:evenodd;stroke-width:0.18615487"
+         d="m 53.77501,81.166709 c 0,-0.176159 0.143124,-0.31923 0.319505,-0.31923 0.176316,-5.3e-5 0.319229,0.143124 0.319229,0.31923 5.3e-5,0.176538 -0.142913,0.319498 -0.319229,0.319498 -0.176322,-5.2e-5 -0.319505,-0.14296 -0.319505,-0.319498 z" />
+    </g>
+  </g>
+</svg>

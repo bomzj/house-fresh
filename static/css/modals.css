@@ -34,6 +34,25 @@ body {
     font-size: 3em;
 }
 
+.catalog-modal .modal-content h2:before{
+	content: '';
+    position: absolute;
+    top: 21px;
+    left: -2038px;
+    width: 2020px;
+    height: 1px;
+    background: #6fac37;
+}
+
+
+.catalog-modal .modal-content h2:after {
+	content: url(../img/after-img.svg);
+    position: absolute;
+    top: -7px;
+    left: -18px;
+}
+
+
 .catalog-modal .modal-content img {
     margin-bottom: 30px;
 }
