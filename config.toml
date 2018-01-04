@@ -73,7 +73,7 @@ googleAnalytics = ""
 		description = "[ХаусФреш](/) предлагает ... "
 	[params.catalog.downloadButton]
 			text = "Скачать в PDF"
-			link = "/"
+			link = "/files/catalog.pdf"
 	[params.catalog.contactButton]
 			text = "Связаться"
 			link = "/#contact"
@@ -111,29 +111,29 @@ googleAnalytics = ""
 
 		[params.aside.button]
 			text = "Скачать"
-			link = "//"
+			link = "/files/catalog.pdf"
 	
 	
 	# Partners section
-	[params.partners]
-		headline    = "Наши партнёры"
-		description = "[Мы ценим](#) каждого нашего партнёра и благодарим за плодотворное сотрудничество. Присоединяйтесь к нам!"
+	#[params.partners]
+		#headline    = "Наши партнёры"
+		#description = "[Мы ценим](#) каждого нашего партнёра и благодарим за плодотворное сотрудничество. Присоединяйтесь к нам!"
 		
-		[[params.partners.list]]
-		logo = "envato.jpg"
-		link = "#"
+		#[[params.partners.list]]
+		#logo = "envato.jpg"
+		#link = "#"
 
-	    [[params.partners.list]]
-		logo = "designmodo.jpg"
-		link = "#"
+	    #[[params.partners.list]]
+		#logo = "designmodo.jpg"
+		#link = "#"
 
-	    [[params.partners.list]]
-		logo = "themeforest.jpg"
-		link = "#"
+	    #[[params.partners.list]]
+		#logo = "themeforest.jpg"
+		#link = "#"
 
-	    [[params.partners.list]]
-		logo = "creative-market.jpg"
-		link = "#"
+	    #[[params.partners.list]]
+		#logo = "creative-market.jpg"
+		#link = "#"
 		
 
 	# Contact section
