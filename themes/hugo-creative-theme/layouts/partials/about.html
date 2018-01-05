@@ -12,8 +12,11 @@
                 {{ with .Site.Params.about.description }}
                     <p class="text-faded">{{ . | markdownify }}</p>
                 {{ end }}
+				{{ with .Site.Params.about.subdescription }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
                 {{ with .Site.Params.about.buttonText }}
-                    <a href="#portfolio" class="btn btn-default btn-xl">{{ . }}</a>
+                    <a href="#contact" class="btn btn-secondary btn-xl">{{ . }}</a>
                 {{ end }}
             </div>
         </div>

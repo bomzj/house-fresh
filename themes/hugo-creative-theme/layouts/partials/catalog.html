@@ -1,13 +1,13 @@
 {{ "<!-- CATALOG -->" | safeHTML }}
 
-<section id="catalog">
-  <div class="container">
+<section id="catalog" class="no-bottom-padding">
+  <div class="container-fluid">
     <div class="row">
 		<div class="col-lg-8 col-lg-offset-2 text-center">
 			{{ with .Site.Params.catalog.headline }}
 				<h2 class="section-heading">{{ . }}</h2>
 			{{ end }}
-			{{ if and .Site.Params.catalog.headline .Site.Params.catalog.description}}
+			{{ if .Site.Params.catalog.headline }}
 				<hr class="primary">
 			{{ end }}
 			{{ with .Site.Params.catalog.description }}
@@ -15,7 +15,7 @@
 			{{ end }}
 		</div>
     </div>
-    <div class="row">
+    <div class="row no-gutter">
 
       {{ range .Site.Params.ServiceTiles.showcase }}
         <div class="col-lg-4 col-md-4 col-sm-12 catalog-item">
@@ -29,9 +29,11 @@
 				{{ end }}
 				<hr class="light">
 				<p>{{ .subtitle }}</p>
+				<span class="more">Подробнее -></span>
               </div>
             </div>
 			<img src="{{ .Site.Params.baseURL }}img/{{ .image }}" class="img-responsive" alt="" />
+			
           </a>
         </div>
       {{ end }}
