@@ -31,18 +31,10 @@ body {
     box-shadow: none;
 }
 
-.catalog-modal .cakeItem {
-	min-height: 630px;
-}
 
 .catalog-modal .breadItem {
 	height: 500px;
 }
-
-.catalog-modal .itemName {
-	
-}
-
 
 .catalog-modal .modal-content h2 {
     margin: 0;
@@ -113,6 +105,8 @@ body {
   font-size: 1.05em;
   hyphens: auto;
 }
+
+
 
 .catalog-modal ul li {
   margin-left: 35px;
@@ -202,4 +196,6 @@ body {
     margin-bottom: 0;
 }
 
-
+.catalog-modal .text-small {
+	font-size: 0.85em;
+}

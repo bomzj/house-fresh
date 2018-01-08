@@ -17,6 +17,7 @@
 					<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
 						{{ if .Description }}
 							<p>{{ .Description }}</p>
+							<p class="text-muted"><strong>{{.Params.subdescription}}</strong></p>
 							<hr class="star-primary">
 						{{ end }}
 					</div>
@@ -56,7 +57,7 @@
 											
 										</div>
 									{{ else if (eq .itemDesc "cake")}}
-										<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cakeItem text-center">
+										<div class="col-xs-12 col-sm-12 col-lg-10 col-lg-offset-1 cakeItem text-center">
 											<h3 class="itemName text-primary">{{ .itemTitle }}</h3>
 											<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
 											<div class="img">
@@ -93,6 +94,8 @@
 							<hr class="star-primary">
 						{{ end }}
 					</div>
+					
+					
 				</div>
 				
 				<div class="row">
@@ -103,6 +106,7 @@
 				
 				<div class="row col-lg-8 col-lg-offset-2">
 					{{ if and .Params.downloadButton .Site.Params.catalog.downloadButton.link .Site.Params.catalog.downloadButton.text }}
+						<p class="text-muted text-small"><strong>*Просим обратить внимание!</strong> Изображение продукции на сайте носит иллюстративный характер и может отличаться от реального.</p>
 						<a href="{{ .Site.Params.catalog.downloadButton.link }}" download class="btn btn-primary btn-xl wow tada">{{ .Site.Params.catalog.downloadButton.text }}</a>
 					{{ end }}
 					{{ if and .Params.contactButton .Site.Params.catalog.contactButton.link .Site.Params.catalog.contactButton.text }}
