@@ -120,8 +120,12 @@ aside.catalog-modal{
     padding: 0;
 }
 
-.no-bottom-padding{
+.no-bottom-padding {
 	padding: 100px 0 0 0;
+}
+
+.bottom-padding {
+	padding: 0 0 70px 0;
 }
 
 .navbar-default {
@@ -379,8 +383,10 @@ header .header-content .header-content-inner p {
 #catalog .catalog-item .catalog-link {
     display: block;
     position: relative;
-    margin: 0 auto;
-    max-width: 440px;
+    
+	margin-left: 4px;
+	margin-right: 4px;
+    
 }
 
 #catalog .catalog-item .catalog-link .catalog-hover {
@@ -470,9 +476,11 @@ header .header-content .header-content-inner p {
 
 @media(min-width:767px) {
     #catalog .catalog-item {
-        margin: 0 0 30px;
+        margin: 0 0 10px;
+		
     }
 }
+
 
 span.copyright {
     text-transform: uppercase;

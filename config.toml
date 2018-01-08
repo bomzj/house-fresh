@@ -57,12 +57,14 @@ googleAnalytics = ""
 	# ServiceTiles Section
 	  [params.ServiceTiles]
 		enable = true
-		issueDate = "Срок хранения и реализации при t"
+		issueDate = "Срок хранения и реализации"
+		itemIngredients = "Состав"
 		
 		[[params.ServiceTiles.showcase]]
 		  title = "Производство продукции"
 		  subtitle = ""
 		  image = "catalog/production-tile.jpg"
+		  imageMd = "catalog/canteen-tile-md.jpg"
 		  url = "production"
 		  
 

@@ -18,7 +18,7 @@
     <div class="row no-gutter">
 
       {{ range .Site.Params.ServiceTiles.showcase }}
-        <div class="col-lg-4 col-md-4 col-sm-12 catalog-item">
+        <div class="col-lg-4 col-md-12 col-sm-12 catalog-item">
           <a href="{{ .url | absURL }}" class="catalog-link">
             <div class="catalog-hover">
               <div class="catalog-hover-content">
@@ -32,8 +32,7 @@
 				<span class="more">Подробнее -></span>
               </div>
             </div>
-			<img src="{{ .Site.Params.baseURL }}img/{{ .image }}" class="img-responsive" alt="" />
-			
+			<img src="{{ .Site.Params.baseURL }}img/{{ .image }}" class="img-responsive img-centered" alt="" />
           </a>
         </div>
       {{ end }}
