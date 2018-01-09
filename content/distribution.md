@@ -42,26 +42,17 @@ contactButton: true
 	</div>
 </section>
 
-<div class="row">
-	<h3 class="">Как оформить заявку на дистрибуцию?</h3>
-</div>
 <section>
 	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1 text-center">
-			<p class="text-muted">
-			Составьте описание Вашего продукта в свободной форме и вышлите заявку на нашу электронную почту. Не забудьте оставить Ваши контактные данные.
+		<div class="container">
+			<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
+			<p>
+			Для получения более подробной информации свяжитесь с нами по указанным телефонам или
+			электронной почте. Уверены, что мы найдём с Вами общий профессиональный язык!
 			</p>
-			<p class="text-muted">
-			Мы принимаем на дистрибуцию позиции, соответствующие следующим критериям:
-			</p>
-			<ul class="text-muted">
-				<li>Продукты питания со сроком годности не менее 5 суток.</li>
-				<li>Замороженные или охлаждённые продукты питания.</li>
-			</ul>
+			<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
 		</div>
 	</div>
 </section>
-
-
 	
 ***

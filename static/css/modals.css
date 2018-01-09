@@ -145,6 +145,15 @@ body {
     position: relative;
 }
 
+.catalog-modal .img-in-text {
+    display: block;
+    overflow: hidden;
+    height: 140px;
+    margin: 0 0 20px;
+    position: relative;
+}
+
+
 .catalog-modal a.label:hover,
 .catalog-modal a.label:focus {
   color: #fff;
