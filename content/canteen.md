@@ -113,6 +113,7 @@ contactButton: true
 			</p> 
 			<a href="" download class="btn btn-primary btn-xl wow tada">Скачать меню на сегодня</a>
 			<p></p>
+			<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">	
 			<p>
 			Для каждого предприятия организация питания разрабатывается индивидуально – 
 			цена формируется в зависимости от конкретных условий и задач. 
