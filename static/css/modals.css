@@ -33,7 +33,7 @@ body {
 
 
 .catalog-modal .breadItem {
-	height: 500px;
+	height: 600px;
 }
 
 .catalog-modal .modal-content h2 {
@@ -140,7 +140,7 @@ body {
     display: block;
     width: 100%;
     overflow: hidden;
-    height: 250px;
+    height: 300px;
     margin: 0 0 20px;
     position: relative;
 }
