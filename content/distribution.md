@@ -50,7 +50,6 @@ contactButton: true
 			Для получения более подробной информации свяжитесь с нами по указанным телефонам или
 			электронной почте. Уверены, что мы найдём с Вами общий профессиональный язык!
 			</p>
-			<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
 		</div>
 	</div>
 </section>
