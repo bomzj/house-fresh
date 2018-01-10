@@ -37,58 +37,22 @@
 								</div>
 							</div>
 							<div class="row bottom-padding">
+							{{ $save := . }}
 								{{range .items}}
-									{{ if or (eq .itemDesc "bread") (eq .itemDesc "baguette")}}
-										<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 breadItem text-center">
-											<h3 class="itemName text-primary">{{ .itemTitle }}</h3>
-											<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
-											
-											<div class="img">
-												{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive img-centered" alt="">{{end}}
-												{{ with .itemWeight }}
-													<span class="label">{{ . }}</span>
-												{{ end }}
-											</div>
-											
-											<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
-											{{ with .itemIngredients }}
-												<p>{{ . }}</p>
-											{{ end }}
-											
-										</div>
-									{{ else if (eq .itemDesc "cake")}}
-										<div class="col-xs-12 col-sm-12 col-lg-10 col-lg-offset-1 cakeItem text-center">
-											<h3 class="itemName text-primary">{{ .itemTitle }}</h3>
-											<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
-											<div class="img">
-												{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive img-centered" alt="">{{end}}
-												{{ with .itemWeight }}
-													<span class="label">{{ . }}</span>
-												{{ end }}
-											</div>
-											
-											<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
-											{{ with .itemIngredients }}
-												<p>{{ . }}</p>
+									<div class="{{ $save.class }}">
+										<h3 class="itemName text-primary">{{ .itemTitle }}</h3>
+										<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
+										<div class="img">
+											{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive img-centered" alt="">{{end}}
+											{{ with .itemWeight }}
+												<span class="label">{{ . }}</span>
 											{{ end }}
 										</div>
-									{{ else}}
-										<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
-											<h3 class="itemName text-primary">{{ .itemTitle }}</h3>
-											<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
-											<div class="img">
-												{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive img-centered" alt="">{{end}}
-												{{ with .itemWeight }}
-													<span class="label">{{ . }}</span>
-												{{ end }}
-											</div>
-											
-											<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
-											{{ with .itemIngredients }}
-												<p>{{ . }}</p>
-											{{ end }}
-										</div>
-									{{ end }}
+										<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
+										{{ with .itemIngredients }}
+											<p>{{ . }}</p>
+										{{ end }}
+									</div>
 								{{end}}
 							</div>
 							<hr class="star-primary">

@@ -36,6 +36,11 @@ body {
 	height: 600px;
 }
 
+
+.catalog-modal .baguetteItem {
+	height: 560px;
+}
+
 .catalog-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
