@@ -1,26 +1,26 @@
-{{ "<!-- CATALOG -->" | safeHTML }}
+{{ "<!-- services -->" | safeHTML }}
 
-<section id="catalog" class="no-bottom-padding">
+<section id="services" class="no-bottom-padding">
     <div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
-				{{ with .Site.Params.catalog.headline }}
+				{{ with .Site.Params.services.headline }}
 					<h2 class="section-heading">{{ . }}</h2>
 				{{ end }}
-				{{ if .Site.Params.catalog.headline }}
+				{{ if .Site.Params.services.headline }}
 					<hr class="primary">
 				{{ end }}
-				{{ with .Site.Params.catalog.description }}
+				{{ with .Site.Params.services.description }}
 					<p>{{ . | markdownify }}</p>
 				{{ end }}
 			</div>
 		</div>
 		<div class="row no-gutter">
 		  {{ range .Site.Params.ServiceTiles.showcase }}
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog-item">
-			  <a href="{{ .url | absURL }}" class="catalog-link">
-				<div class="catalog-hover">
-				  <div class="catalog-hover-content">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 services-item">
+			  <a href="{{ .url | absURL }}" class="services-link">
+				<div class="services-hover">
+				  <div class="services-hover-content">
 					{{ with .title }}
 						<div>
 							{{ . }}

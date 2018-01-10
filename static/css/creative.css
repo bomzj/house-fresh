@@ -124,7 +124,7 @@ aside.footer{
     padding: 50px 0 20px 0;
 }
 
-aside.catalog-modal{
+aside.services-modal{
     padding: 50px 0 0 0;
 }
 
@@ -309,97 +309,20 @@ header .header-content .header-content-inner p {
     margin-top: 0;
 }
 
-.service-box {
-    margin: 50px auto 0;
-    max-width: 400px;
-}
 
-@media(min-width:992px) {
-    .service-box {
-        margin: 20px auto 0;
-    }
-}
-
-.service-box p {
-    margin-bottom: 0;
-}
-
-.catalog-box {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 650px;
-}
-
-.catalog-box .catalog-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: rgba(111,172,55,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.catalog-box .catalog-box-caption .catalog-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.catalog-box .catalog-box-caption .catalog-box-caption-content .project-category,
-.catalog-box .catalog-box-caption .catalog-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-
-.catalog-box .catalog-box-caption .catalog-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.catalog-box .catalog-box-caption .catalog-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.catalog-box:hover .catalog-box-caption {
-    opacity: 1;
-}
-
-@media(min-width:768px) {
-    .catalog-box .catalog-box-caption .catalog-box-caption-content .project-category {
-        font-size: 16px;
-    }
-
-    .catalog-box .catalog-box-caption .catalog-box-caption-content .project-name {
-        font-size: 22px;
-    }
-}
-
-
-
-
-#catalog .catalog-item {
+#services .services-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#catalog .catalog-item .catalog-link {
+#services .services-item .services-link {
     display: block;
     position: relative;
 	margin-left: 4px;
 	margin-right: 4px;
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover {
+#services .services-item .services-link .services-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -409,11 +332,11 @@ header .header-content .header-content-inner p {
     transition: all ease .5s;
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover:hover {
+#services .services-item .services-link .services-hover:hover {
 	background: rgba(255, 255, 255, 0.3);
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover .more {
+#services .services-item .services-link .services-hover .more {
     position: absolute;
     bottom: -110px;
     right: 0;
@@ -434,11 +357,11 @@ header .header-content .header-content-inner p {
     color: white;
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover {
+#services .services-item .services-link .services-hover {
     opacity: 1;
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover .catalog-hover-content {
+#services .services-item .services-link .services-hover .services-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -450,16 +373,16 @@ header .header-content .header-content-inner p {
     color: #fff;
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover .catalog-hover-content i {
+#services .services-item .services-link .services-hover .services-hover-content i {
     margin-top: -12px;
 }
 
-#catalog .catalog-item .catalog-link .catalog-hover .catalog-hover-content h3,
-#catalog .catalog-item .catalog-link .catalog-hover .catalog-hover-content h4 {
+#services .services-item .services-link .services-hover .services-hover-content h3,
+#services .services-item .services-link .services-hover .services-hover-content h4 {
     margin: 0;
 }
 
-#catalog .catalog-item .catalog-caption {
+#services .services-item .services-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -467,24 +390,24 @@ header .header-content .header-content-inner p {
     background-color: #fff;
 }
 
-#catalog .catalog-item .catalog-caption h4 {
+#services .services-item .services-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#catalog .catalog-item .catalog-caption p {
+#services .services-item .services-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-#catalog * {
+#services * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #catalog .catalog-item {
+    #services .services-item {
         margin: 0 0 10px;
     }
 }
@@ -493,14 +416,14 @@ header .header-content .header-content-inner p {
 @media screen 
 and (min-width : 320px) 
 and (max-width : 767px) {
-    #catalog .catalog-item .catalog-link .catalog-hover .catalog-hover-content {
+    #services .services-item .services-link .services-hover .services-hover-content {
 		font-size: 3em;
 		font-weight: 400;
     }
 	
-	#catalog .catalog-item .catalog-link .catalog-hover .more {
+	#services .services-item .services-link .services-hover .more {
 		position: absolute;
-		bottom: -155px;
+		bottom: -150px;
 		right: 0;
 		height: 32px;
 		line-height: 32px;

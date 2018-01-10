@@ -1,18 +1,8 @@
-/*!
- * The code below adds the modal functionality of the Freelancer Bootstrap Theme
- * and was originally part of this theme.
- *
- *
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     overflow-x: hidden;
 }
 
-.catalog-modal section {
+.services-modal section {
     padding: 50px 0;
 }
 
@@ -20,7 +10,7 @@ body {
     margin: 0 auto;
 }
 
-.catalog-modal .modal-content {
+.services-modal .modal-content {
     padding: 100px 0 50px;
     min-height: 100%;
     border: 0;
@@ -35,7 +25,7 @@ body {
 @media screen 
 and (min-width : 320px) 
 and (max-width : 767px){
-	.catalog-modal .breadItem {
+	.services-modal .breadItem {
 		
 	}
 } 
@@ -43,49 +33,49 @@ and (max-width : 767px){
 
 @media screen 
 and (min-width : 768px) {
-	.catalog-modal .baguetteItem {
+	.services-modal .baguetteItem {
 		height: 550px;
 	}
 }
 
 @media screen 
 and (min-width : 992px) {
-	.catalog-modal .baguetteItem {
+	.services-modal .baguetteItem {
 		height: 500px;
 	}
 } 
 
 @media screen 
 and (min-width : 992px) {
-	.catalog-modal .sandwichItem {
+	.services-modal .sandwichItem {
 		height: 660px;
 	}
 } 
 
 @media screen 
 and (min-width : 992px) {
-	.catalog-modal .cakeItem {
+	.services-modal .cakeItem {
 		height: 740px;
 	}
 } 
 
 
 
-.catalog-modal .modal-content h2 {
+.services-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
 
-.catalog-modal .modal-content img {
+.services-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.catalog-modal .modal-content .item-details {
+.services-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.catalog-modal .close-modal {
+.services-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -95,11 +85,11 @@ and (min-width : 992px) {
     cursor: pointer;
 }
 
-.catalog-modal .close-modal:hover {
+.services-modal .close-modal:hover {
     opacity: .3;
 }
 
-.catalog-modal .close-modal .lr {
+.services-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -110,7 +100,7 @@ and (min-width : 992px) {
     transform: rotate(45deg);
 }
 
-.catalog-modal .close-modal .lr .rl {
+.services-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -120,12 +110,12 @@ and (min-width : 992px) {
     transform: rotate(90deg);
 }
 
-.catalog-modal .modal-backdrop {
+.services-modal .modal-backdrop {
     display: none;
     opacity: 0;
 }
 
-.catalog-modal, ul li {
+.services-modal, ul li {
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.05em;
@@ -134,7 +124,7 @@ and (min-width : 992px) {
   
 }
 
-.catalog-modal p {
+.services-modal p {
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.05em;
@@ -143,14 +133,14 @@ and (min-width : 992px) {
 
 
 
-.catalog-modal ul li {
+.services-modal ul li {
   margin-left: 35px;
   padding: 0;
 }
 
 
 
-.catalog-modal .label {
+.services-modal .label {
     position: absolute;
     bottom: 35px;
     right: 0;
@@ -171,7 +161,7 @@ and (min-width : 992px) {
     color: white;
 }
 
-.catalog-modal .img {
+.services-modal .img {
     display: block;
     width: 100%;
     overflow: hidden;
@@ -180,7 +170,7 @@ and (min-width : 992px) {
     position: relative;
 }
 
-.catalog-modal .img-in-text {
+.services-modal .img-in-text {
     display: block;
     overflow: hidden;
     height: 140px;
@@ -189,57 +179,57 @@ and (min-width : 992px) {
 }
 
 
-.catalog-modal a.label:hover,
-.catalog-modal a.label:focus {
+.services-modal a.label:hover,
+.services-modal a.label:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
-.catalog-modal .label:empty {
+.services-modal .label:empty {
   display: none;
 }
-.catalog-modal .btn .label {
+.services-modal .btn .label {
   position: relative;
   top: -1px;
 }
 
-.catalog-modal .label-primary {
+.services-modal .label-primary {
   background-color: #6fac37;
 }
-.catalog-modal .label-primary[href]:hover,
-.catalog-modal .label-primary[href]:focus {
+.services-modal .label-primary[href]:hover,
+.services-modal .label-primary[href]:focus {
   background-color: #6fac37;
 }
 
 
 
-.catalog-modal div.polaroid {
+.services-modal div.polaroid {
   width: 50%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
 
-.catalog-modal div.container {
+.services-modal div.container {
   text-align: center;
   padding: 10px 20px;
 }
 
-.catalog-modal .service-box {
+.services-modal .service-box {
     margin: 50px auto 0;
     max-width: 400px;
 }
 
 @media(min-width:992px) {
-    .catalog-modal .service-box {
+    .services-modal .service-box {
         margin: 20px auto 0;
     }
 }
 
-.catalog-modal .service-box p {
+.services-modal .service-box p {
     margin-bottom: 0;
 }
 
-.catalog-modal .text-small {
+.services-modal .text-small {
 	font-size: 0.85em;
 }

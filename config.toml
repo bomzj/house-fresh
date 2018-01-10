@@ -22,7 +22,7 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "О нас"
-			catalog = "Услуги"
+			services = "Услуги"
 			partners  = "Партнёры"
 			contact   = "Контакты"
 
@@ -31,7 +31,7 @@ googleAnalytics = ""
 	[params.hero]
 		slogan     = "ХАУСФРЕШ | продукты питания"
 		companyIcon = "img/houseFreshLogo128x128.svg"	
-		subtitle   = "[Мы предлагаем] (#catalog) оптовые и мелкооптовые поставки широкого ассортимента свежей выпечки и кондитерских изделий собственного производства, а также профессиональную дистрибуцию продуктов питания и организацию обедов на предприятии!"
+		subtitle   = "[Мы предлагаем] (#services) оптовые и мелкооптовые поставки широкого ассортимента свежей выпечки и кондитерских изделий собственного производства, а также профессиональную дистрибуцию продуктов питания и организацию обедов на предприятии!"
 		buttonText = "Наши услуги"
 
 
@@ -43,14 +43,14 @@ googleAnalytics = ""
 		buttonText = "Связаться"
 
 			
-	# Catalog section
-	[params.catalog]
+	# services section
+	[params.services]
 		headline    = "К вашим услугам"
 		#description = "[ХаусФреш](/) предлагает ... "
-	[params.catalog.downloadButton]
+	[params.services.downloadButton]
 			text = "Скачать каталог"
 			link = "/files/catalog.pdf"
-	[params.catalog.contactButton]
+	[params.services.contactButton]
 			text = "Связаться"
 			link = "/#contact"
 
@@ -64,7 +64,6 @@ googleAnalytics = ""
 		  title = "Производство"
 		  subtitle = ""
 		  image = "catalog/production-tile.jpg"
-		  imageMd = "catalog/canteen-tile-md.jpg"
 		  url = "production"
 		  
 
