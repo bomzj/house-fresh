@@ -1,5 +1,5 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
-<section class="bg-bread-primary" id="about">
+<section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -10,13 +10,14 @@
                     <hr class="light">
                 {{ end }}
                 {{ with .Site.Params.about.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
+                    <p>{{ . | markdownify }}</p>
                 {{ end }}
+					<hr class="light">
 				{{ with .Site.Params.about.subdescription }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
                 {{ with .Site.Params.about.buttonText }}
-                    <a href="#contact" class="btn btn-secondary btn-xl">{{ . }}</a>
+                    <a href="#contact" class="btn btn-default btn-xl wow tada">{{ . }}</a>
                 {{ end }}
             </div>
         </div>

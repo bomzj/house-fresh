@@ -1,43 +1,41 @@
 {{ "<!-- CATALOG -->" | safeHTML }}
 
 <section id="catalog" class="no-bottom-padding">
-  <div class="container-fluid">
-    <div class="row">
-		<div class="col-lg-8 col-lg-offset-2 text-center">
-			{{ with .Site.Params.catalog.headline }}
-				<h2 class="section-heading">{{ . }}</h2>
-			{{ end }}
-			{{ if .Site.Params.catalog.headline }}
-				<hr class="primary">
-			{{ end }}
-			{{ with .Site.Params.catalog.description }}
-				<p>{{ . | markdownify }}</p>
-			{{ end }}
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				{{ with .Site.Params.catalog.headline }}
+					<h2 class="section-heading">{{ . }}</h2>
+				{{ end }}
+				{{ if .Site.Params.catalog.headline }}
+					<hr class="primary">
+				{{ end }}
+				{{ with .Site.Params.catalog.description }}
+					<p>{{ . | markdownify }}</p>
+				{{ end }}
+			</div>
+		</div>
+		<div class="row no-gutter">
+		  {{ range .Site.Params.ServiceTiles.showcase }}
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog-item">
+			  <a href="{{ .url | absURL }}" class="catalog-link">
+				<div class="catalog-hover">
+				  <div class="catalog-hover-content">
+					{{ with .title }}
+						<div>
+							{{ . }}
+						</div>
+					{{ end }}
+					<hr class="light">
+					<p>{{ .subtitle }}</p>
+					<span class="more">Подробнее -></span>
+				  </div>
+				</div>
+				<img src="{{ .Site.Params.baseURL }}img/{{ .image }}" class="img-responsive img-centered" alt="" />
+			  </a>
+			</div>
+		  {{ end }}
 		</div>
     </div>
-    <div class="row no-gutter">
-
-      {{ range .Site.Params.ServiceTiles.showcase }}
-        <div class="col-lg-4 col-md-12 col-sm-12 catalog-item">
-          <a href="{{ .url | absURL }}" class="catalog-link">
-            <div class="catalog-hover">
-              <div class="catalog-hover-content">
-				{{ with .title }}
-					<div class="project-name">
-						{{ . }}
-					</div>
-				{{ end }}
-				<hr class="light">
-				<p>{{ .subtitle }}</p>
-				<span class="more">Подробнее -></span>
-              </div>
-            </div>
-			<img src="{{ .Site.Params.baseURL }}img/{{ .image }}" class="img-responsive img-centered" alt="" />
-          </a>
-        </div>
-      {{ end }}
-
-    </div>
-  </div>
 </section>
 

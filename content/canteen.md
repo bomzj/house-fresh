@@ -111,7 +111,7 @@ contactButton: true
 			Великолепный вкус и отменное качество всех блюд — в этом вы можете быть уверены. 
 			От вас потребуется только хороший аппетит.
 			</p> 
-			<a href="" download class="btn btn-primary btn-xl wow tada">Скачать меню на сегодня</a>
+			<a href="/files/menu-today.pdf" download class="btn btn-primary btn-xl wow tada">Скачать меню на сегодня</a>
 			<p></p>
 			<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">	
 			<p>
