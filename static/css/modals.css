@@ -30,20 +30,29 @@ and (max-width : 767px){
 	}
 } 
 
-
 @media screen 
-and (min-width : 768px) {
+and (min-width : 1920px) {
 	.services-modal .baguetteItem {
-		height: 550px;
-	}
-}
-
-@media screen 
-and (min-width : 992px) {
-	.services-modal .baguetteItem {
-		height: 550px;
+		height: 600px;
 	}
 } 
+
+
+@media screen 
+and (min-width : 992px)
+and (max-width : 1919px) {
+	.services-modal .baguetteItem {
+		height: 530px;
+	}
+} 
+
+@media screen 
+and (min-width : 768px)
+and (max-width : 991px) {
+	.services-modal .baguetteItem {
+		height: 560px;
+	}
+}
 
 @media screen 
 and (min-width : 992px) {
