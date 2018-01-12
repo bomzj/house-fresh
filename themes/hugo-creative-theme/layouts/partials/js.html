@@ -1,5 +1,6 @@
 {{ "<!-- jQuery -->" | safeHTML }}
 <script src="{{ "js/jquery.js" | absURL }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js" ></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
@@ -13,3 +14,10 @@
 {{ end }}
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "js/creative.js" | absURL }}"></script>
+
+
+<script>
+	$(function() {
+		$('.item').matchHeight({byRow:true});
+	});
+</script>

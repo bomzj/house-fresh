@@ -4,7 +4,7 @@ description: "Наш высококвалифицированный персон
 downloadButton: true
 category:
 - categoryTitle: Маффины
-  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center" 
+  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 item text-center" 
   issueDate: "замороженные - при t°при -18°C- 30 суток после разморозки - при t°: от +2°Cдо +6°C - 5 суток, охлажденные без заморозки - при t°: от +2°Cдо +6°C - 5 суток"
   items:
   - itemTitle: Маффин классический
@@ -16,7 +16,7 @@ category:
     itemIngredients: Мука пшеничная высший сорт, масло растительное, сахар-песок, яйца куриные пищевые, вода питьевая, смесь Королевский шоко-маффин 
     itemWeight: 100 гр.
 - categoryTitle: Пончики "Донатс"
-  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center" 
+  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 item text-center" 
   issueDate: "замороженные - при t°при -18°C- 30 суток после разморозки - при t°: от +2°Cдо +6°C - 5 суток, охлажденные без заморозки - при t°: от +2°Cдо +6°C - 5 суток"
   items:
   - itemTitle: С белым шоколадом
@@ -36,7 +36,7 @@ category:
     itemIngredients: Мука пшеничная высший сорт, вода питьевая кипяченая, крем для выпечки, яйца куриные пищевые, концентрат «Берлинский пончик» сахар, маргарин, дрожжи 
     itemWeight: 65 гр.
 - categoryTitle: Чиабатта и булочки
-  class: "col-xs-12 col-sm-12 col-md-4 col-lg-4 breadItem text-center" 
+  class: "col-xs-12 col-sm-12 col-md-4 col-lg-4 item text-center" 
   issueDate: "замороженные - при t°при -18°C- 30 суток после разморозки - при t°: от +2°Cдо +6°C - 48 часов, охлажденные без заморозки - при t°: от +2°Cдо +6°C - 48 часов"
   items:
   - itemTitle: Чиабатта темный
@@ -52,7 +52,7 @@ category:
     itemIngredients: Мука пшеничная высший сорт, концентрат «ржаные булочки 10%», сахар-песок, маргарин, дрожжи хлебопекарные прессованные, кориандр, экстракт солодовый жид-кий «Барлей мальт экстракт экстра дарк» (Barley Malt Extract Extra Dark) 
     itemWeight: 100 гр.
 - categoryTitle: Багеты 
-  class: "col-xs-12 col-sm-6 col-md-4 col-lg-4 baguetteItem text-center"
+  class: "col-xs-12 col-sm-6 col-md-4 col-lg-4 item text-center"
   issueDate: "замороженные - при t°при -18°C- 90 суток после разморозки - при t°: от +2°Cдо +6°C - 48 часов, охлажденные без заморозки - при t°: от +2°Cдо +6°C - 48 часов"
   items:
   - itemTitle: Прованский темный
@@ -76,7 +76,7 @@ category:
     itemIngredients: Мука, отруби пшеничные, кунжут, вода, мегостабил (улучшитель), клейковина, дрожжи, сахар, соль, солод светлый, солод темный, морковь свежая 
     itemWeight: 220 гр.
 - categoryTitle: Французские мини багеты 
-  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center"
+  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 item text-center"
   issueDate: "замороженные - при t°при -18°C- 30 суток после разморозки - при t°: от +2°Cдо +6°C - 12 часов, охлажденные без заморозки - при t°: от +2°Cдо +6°C - 12 часов"
   items:
   - itemTitle: Фаршированный курицей и грибами запеченный, охлажденный
@@ -96,7 +96,7 @@ category:
     itemIngredients: Багет белый с кунжутом, ветчина копчёно-варёная, огурец маринованный, томаты свежие, сыр, майонез, кетчуп, петрушка свежая  
     itemWeight: 185 гр.
 - categoryTitle: Сэндвичи запеченные
-  class: "col-xs-12 col-sm-12 col-md-6 col-lg-6 sandwichItem text-center" 
+  class: "col-xs-12 col-sm-12 col-md-6 col-lg-6 item text-center" 
   issueDate: "от +2С до +6С - 12 часов; замороженные сэндвичи при -18С - 30 суток; замороженные сэндвичи после разморозки при t от +2С до +6С - 12 часов."
   items:
   - itemTitle: С ветчиной охлаждённый
@@ -132,7 +132,7 @@ category:
     itemIngredients: Багет, сыр копчёный, сыр плавленный, огурец свежий, лист салата "Айсберг", кукуруза консервированная, соус "Чесночный", рулет куриный.
     itemWeight: 230 гр.
 - categoryTitle: Торты
-  class: "col-xs-12 col-sm-12 col-md-6 col-lg-6 cakeItem text-center" 
+  class: "col-xs-12 col-sm-12 col-md-6 col-lg-6 item text-center" 
   issueDate: "замороженные десерты - при t°при -18°C- 90 суток после разморозки - при t°: от +2°Cдо +6°C - 5 суток, охлажденные без заморозки - при t°: от +2°Cдо +6°C - 5 суток"
   items:
   - itemTitle: Фруктовый

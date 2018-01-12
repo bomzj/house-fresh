@@ -165,7 +165,7 @@ aside.services-modal{
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 900;
     color: #222;
 }
 
@@ -202,7 +202,7 @@ aside.services-modal{
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(255,255,255,.9);
     }
 
     .navbar-default .nav > li>a:hover,

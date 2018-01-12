@@ -22,54 +22,6 @@ body {
 }
 
 
-@media screen 
-and (min-width : 320px) 
-and (max-width : 767px){
-	.services-modal .breadItem {
-		
-	}
-} 
-
-@media screen 
-and (min-width : 1920px) {
-	.services-modal .baguetteItem {
-		height: 600px;
-	}
-} 
-
-
-@media screen 
-and (min-width : 992px)
-and (max-width : 1919px) {
-	.services-modal .baguetteItem {
-		height: 530px;
-	}
-} 
-
-@media screen 
-and (min-width : 768px)
-and (max-width : 991px) {
-	.services-modal .baguetteItem {
-		height: 560px;
-	}
-}
-
-@media screen 
-and (min-width : 992px) {
-	.services-modal .sandwichItem {
-		height: 670px;
-	}
-} 
-
-@media screen 
-and (min-width : 992px) {
-	.services-modal .cakeItem {
-		height: 740px;
-	}
-} 
-
-
-
 .services-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
