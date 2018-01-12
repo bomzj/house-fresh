@@ -41,14 +41,14 @@ and (min-width : 768px) {
 @media screen 
 and (min-width : 992px) {
 	.services-modal .baguetteItem {
-		height: 500px;
+		height: 550px;
 	}
 } 
 
 @media screen 
 and (min-width : 992px) {
 	.services-modal .sandwichItem {
-		height: 660px;
+		height: 670px;
 	}
 } 
 
