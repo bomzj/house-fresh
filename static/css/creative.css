@@ -121,7 +121,7 @@ aside {
 }
 
 aside.footer{
-    padding: 50px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 aside.services-modal{
@@ -138,6 +138,10 @@ aside.services-modal{
 
 .bottom-padding {
 	padding: 0 0 70px 0;
+}
+
+.small-bottom-padding {
+	padding: 100px 0 30px 0;
 }
 
 .navbar-default {

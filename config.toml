@@ -92,26 +92,14 @@ googleAnalytics = ""
 	
 	
 	# Partners section
-	#[params.partners]
-		#headline    = "Наши партнёры"
-		#description = "[Мы ценим](#) каждого нашего партнёра и благодарим за плодотворное сотрудничество. Присоединяйтесь к нам!"
+	[params.partners]
+		headline    = "Благодарим за плодотворное взаимовыгодное сотрудничество"
+		description = " "
 		
-		#[[params.partners.list]]
-		#logo = "envato.jpg"
+		[[params.partners.list]]
+		logo = "yummy.jpg"
 		#link = "#"
-
-	    #[[params.partners.list]]
-		#logo = "designmodo.jpg"
-		#link = "#"
-
-	    #[[params.partners.list]]
-		#logo = "themeforest.jpg"
-		#link = "#"
-
-	    #[[params.partners.list]]
-		#logo = "creative-market.jpg"
-		#link = "#"
-		
+	    
 
 	# Contact section
 	[params.contact]

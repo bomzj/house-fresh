@@ -100,35 +100,35 @@ category:
   issueDate: "от +2С до +6С - 12 часов; замороженные сэндвичи при -18С - 30 суток; замороженные сэндвичи после разморозки при t от +2С до +6С - 12 часов."
   items:
   - itemTitle: С ветчиной охлаждённый
-    itemImg: /catalog/sandwich/2.jpg
+    itemImg: /catalog/sandwich/1.jpg
     itemIngredients: Багет, сыр Сулугуни, сыр плавленный, ветчина к/в, огурец свежий, помидор свежий, салат "Айсберг", майонез.
     itemWeight: 230 гр.
   - itemTitle: С говядиной охлаждённый
-    itemImg: /catalog/sandwich/7.jpg
+    itemImg: /catalog/sandwich/2.jpg
     itemIngredients: Багет, сыр Голландский, сыр плавленный, огурец свежий, помидор свежий, капуста пряная, майонез, кетчуп, говядина к/в.
     itemWeight: 230 гр.
   - itemTitle: С салями охлаждённый
-    itemImg: /catalog/sandwich/1.jpg
+    itemImg: /catalog/sandwich/3.jpg
     itemIngredients: Багет, сыр Голландский твёрдый, колбаса салями с/к, капуста пекинская, огурцы маринованные, морковь по-корейски, майонез, сыр плавленный, лук красный.
     itemWeight: 230 гр.
   - itemTitle: С курицей охлаждённый
-    itemImg: /catalog/sandwich/5.jpg
+    itemImg: /catalog/sandwich/4.jpg
     itemIngredients: Багет, сыр копчёный, сыр плавленный, огурец свежий, лист салата "Айсберг", кукуруза консервированная, соус "Чесночный", рулет куриный.
     itemWeight: 230 гр.
   - itemTitle: С ветчиной замороженный
-    itemImg: /catalog/sandwich/3.jpg
+    itemImg: /catalog/sandwich/5.jpg
     itemIngredients: Багет, сыр Сулугуни, сыр плавленный, ветчина к/в, огурец свежий, помидор свежий, салат "Айсберг", майонез.
     itemWeight: 230 гр.
   - itemTitle: С говядиной замороженный
-    itemImg: /catalog/sandwich/8.jpg
+    itemImg: /catalog/sandwich/6.jpg
     itemIngredients: Багет, сыр Голландский, сыр плавленный, огурец свежий, помидор свежий, капуста пряная, майонез, кетчуп, говядина к/в.
     itemWeight: 230 гр.
   - itemTitle: С салями замороженный
-    itemImg: /catalog/sandwich/4.jpg
+    itemImg: /catalog/sandwich/7.jpg
     itemIngredients: Багет, сыр Голландский твёрдый, колбаса салями с/к, капуста пекинская, огурцы маринованные, морковь по-корейски, майонез, сыр плавленный, лук красный.
     itemWeight: 230 гр.
   - itemTitle: С курицей замороженный
-    itemImg: /catalog/sandwich/6.jpg
+    itemImg: /catalog/sandwich/8.jpg
     itemIngredients: Багет, сыр копчёный, сыр плавленный, огурец свежий, лист салата "Айсберг", кукуруза консервированная, соус "Чесночный", рулет куриный.
     itemWeight: 230 гр.
 - categoryTitle: Торты
