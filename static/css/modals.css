@@ -85,6 +85,13 @@ body {
   
 }
 
+.services-modal p.text-center {
+  font-family: "Ruda", sans-serif;
+  text-align: center;
+  font-size: 1.05em;
+  hyphens: auto;
+}
+
 .services-modal p {
   font-family: "Ruda", sans-serif;
   text-align: left;
