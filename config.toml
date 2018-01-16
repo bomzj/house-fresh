@@ -97,8 +97,9 @@ googleAnalytics = ""
 		description = " "
 		
 		[[params.partners.list]]
-		logo = "yummy.jpg"
+		logo = "yummy.svg"
 		#link = "#"
+		
 	    
 
 	# Contact section
