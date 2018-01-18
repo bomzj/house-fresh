@@ -96,7 +96,7 @@ category:
     itemIngredients: Багет белый с кунжутом, ветчина копчёно-варёная, огурец маринованный, томаты свежие, сыр, майонез, кетчуп, петрушка свежая  
     itemWeight: 185 гр.
 - categoryTitle: Сэндвичи запеченные
-  class: "col-xs-12 col-sm-6 col-md-3 col-lg-3 item text-center" 
+  class: "col-xs-12 col-sm-6 col-md-6 col-lg-6 item text-center" 
   issueDate: "от +2С до +6С - 12 часов; замороженные сэндвичи при -18С - 30 суток; замороженные сэндвичи после разморозки при t от +2С до +6С - 12 часов."
   items:
   - itemTitle: С ветчиной охлаждённый

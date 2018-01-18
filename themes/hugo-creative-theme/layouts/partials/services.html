@@ -21,13 +21,7 @@
 			  <a href="{{ .url | absURL }}" class="services-link">
 				<div class="services-hover">
 				  <div class="services-hover-content">
-					{{ with .title }}
-						<div>
-							{{ . }}
-						</div>
-					{{ end }}
-					
-					<span class="more">Подробнее -></span>
+					<span class="more">{{.title}}</span>
 				  </div>
 				</div>
 				<img src="{{ .Site.Params.baseURL }}img/{{ .image }}" class="img-responsive img-centered" alt="" />
