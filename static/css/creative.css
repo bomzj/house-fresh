@@ -343,7 +343,7 @@ header .header-content .header-content-inner p {
 
 #services .services-item .services-link .services-hover .more {
     position: absolute;
-    bottom: -110px;
+    bottom: -95px;
     right: 0;
     height: 32px;
     line-height: 32px;
