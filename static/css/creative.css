@@ -428,7 +428,7 @@ and (max-width : 767px) {
 	
 	#services .services-item .services-link .services-hover .more {
 		position: absolute;
-		bottom: -150px;
+		bottom: -135px;
 		right: 0;
 		height: 32px;
 		line-height: 32px;
