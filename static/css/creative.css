@@ -345,8 +345,8 @@ header .header-content .header-content-inner p {
     position: absolute;
     bottom: -95px;
     right: 0;
-    height: 32px;
-    line-height: 32px;
+    height: 40px;
+    line-height: 40px;
     padding: 0 20px;
     -webkit-border-radius: 1px 0 0 1px;
     -webkit-background-clip: padding-box;
@@ -355,9 +355,8 @@ header .header-content .header-content-inner p {
     border-radius: 1px 0 0 1px;
     background-clip: padding-box;
     font-size: 14px;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     text-transform: uppercase;
-    text-shadow: 0 1px 0px #780d33;
     background: #ee4b28;
     color: white;
 }
@@ -411,6 +410,11 @@ header .header-content .header-content-inner p {
     z-index: 2;
 }
 
+#services .row {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
 @media(min-width:767px) {
     #services .services-item {
         margin: 0 0 10px;
@@ -421,7 +425,7 @@ header .header-content .header-content-inner p {
 @media screen 
 and (min-width : 320px) 
 and (max-width : 767px) {
-    #services .services-item .services-link .services-hover .services-hover-content {
+	#services .services-item .services-link .services-hover .services-hover-content {
 		font-size: 3em;
 		font-weight: 400;
     }
@@ -430,8 +434,8 @@ and (max-width : 767px) {
 		position: absolute;
 		bottom: -135px;
 		right: 0;
-		height: 32px;
-		line-height: 32px;
+		height: 40px;
+		line-height: 40px;
 		padding: 0 30px;
 		-webkit-border-radius: 1px 0 0 1px;
 		-webkit-background-clip: padding-box;
@@ -440,9 +444,8 @@ and (max-width : 767px) {
 		border-radius: 1px 0 0 1px;
 		background-clip: padding-box;
 		font-size: 20px;
-		font-size: 1.55rem;
+		font-size: 1.85rem;
 		text-transform: uppercase;
-		text-shadow: 0 1px 0px #780d33;
 		background: #ee4b28;
 		color: white;
 	}
