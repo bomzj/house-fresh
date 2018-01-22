@@ -1,6 +1,6 @@
-baseurl = "https://house-fresh.netlify.com"
+baseurl = "https://housefresh.by"
 languageCode = "en-us"
-title = "Производство продуктов питания, дистрибуция, организация питания на предприятиях"
+title = "Производство продуктов питания, дистрибуция, организация питания"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
