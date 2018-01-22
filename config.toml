@@ -1,4 +1,4 @@
-baseurl = "https://housefresh.by"
+baseurl = "housefresh.by"
 languageCode = "en-us"
 title = "Производство продуктов питания, дистрибуция, организация питания"
 theme = "hugo-creative-theme"
