@@ -18,7 +18,7 @@
 		<div class="row no-gutter">
 		  {{ range .Site.Params.ServiceTiles.showcase }}
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 services-item">
-			  <a href="{{ .url | absURL }}" class="services-link">
+			  <a href="{{ .url | absURL }}" class="services-link" title="{{ .atitle}}">
 				<div class="services-hover">
 				  <div class="services-hover-content">
 					<span class="more">{{.title}}</span>
