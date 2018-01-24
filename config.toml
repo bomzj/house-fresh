@@ -1,6 +1,6 @@
 baseurl = "https://housefresh.by/"
 languageCode = "en-us"
-title = "Производство продуктов питания, дистрибуция, организация питания"
+title = "Производство, дистрибуция, организация питания, Минск | ХаусФреш"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -9,7 +9,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "ХаусФреш"
-	description = "Производство продуктов питания, дистрибуция, организация питания на предприятиях"
+	description = "ХаусФреш | Производство продуктов питания, дистрибуция, организация питания на предприятиях Минска"
 
 	# The path must be relative to the static folder
 	favicon = "img/houseFreshLogo.png"
