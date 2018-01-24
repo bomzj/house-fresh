@@ -9,7 +9,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "ХаусФреш"
-	description = "ХаусФреш | Производство продуктов питания, дистрибуция, организация питания на предприятиях Минска"
+	description = "ХаусФреш | Производство продуктов питания, дистрибуция, организация питания на предприятиях Минска и Беларуси"
 
 	# The path must be relative to the static folder
 	favicon = "img/houseFreshLogo.png"
@@ -64,6 +64,7 @@ googleAnalytics = ""
 		  title = "Производство"
 		  subtitle = ""
 		  image = "catalog/production-tile.jpg"
+		  alt = "производство продуктов питания ХаусФреш Минск"
 		  url = "production"
 		  
 
@@ -71,6 +72,7 @@ googleAnalytics = ""
 		  title = "Дистрибуция"
 		  subtitle = ""
 		  image = "catalog/distribution-tile.jpg"
+		  alt = "дистрибуция продуктов питания ХаусФреш Беларусь"
 		  url = "distribution"
 		  
 
@@ -78,13 +80,14 @@ googleAnalytics = ""
 		  title = "Организация питания"
 		  subtitle = ""
 		  image = "catalog/canteen-tile.jpg"
+		  alt = "организация питания на предприятиях Минска и Беларуси ХаусФреш"
 		  url = "canteen"
 		  
 
 		
     # Aside section
 	[params.aside]
-		headline = "Скачать каталог продукции нашего производства в формате PDF"
+		headline = "Скачать каталог продуктов питания нашего производства в формате PDF"
 
 		[params.aside.button]
 			text = "Скачать"
@@ -98,6 +101,7 @@ googleAnalytics = ""
 		
 		[[params.partners.list]]
 		logo = "yummy.svg"
+		alt = "партнёр Yummy кафе логотип"
 		#link = "#"
 		
 	    
@@ -108,7 +112,7 @@ googleAnalytics = ""
 		description = "Готовы к сотрудничеству? Отлично! <br> Просто позвоните нам или напишите письмо на электронную почту, и наши специалисты проконсультируют по любому вопросу, а также предложат самые выгодные индивидуальные условия!"
 		address = "г.Минск, проспект Жукова, д.44, офис 1-4"
 		phone = "+375 29 6089560 (Евгений)"
-		email = "belov.evgen@mail.ru (Евгений)"
+		email = "belov.evgen@mail.ru"
 		text = "Время приёма звонков и обработки корреспонденции: с понедельника по пятницу 9:00-18:00. Суббота и воскресенье - выходные дни."
 		
 		companyIcon = "img/houseFreshLogo64x64.svg"	

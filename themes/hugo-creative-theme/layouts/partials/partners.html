@@ -22,10 +22,10 @@
 			  {{ $url := printf "img/logos/%s" .logo }}
 			  {{ if .link }}
 				<a href="{{ .link }}">
-				  <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+				  <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="{{ .alt}}">
 				</a>
 			  {{ else }}
-				<img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+				<img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="{{ .alt}}">
 			  {{ end }}
 			</div>
 		  {{ end }}
