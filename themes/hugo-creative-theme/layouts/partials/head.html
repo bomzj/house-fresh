@@ -4,9 +4,9 @@
 <meta name="yandex-verification" content="1f734b10fb74f0ac" />
 <meta name="msvalidate.01" content="64E032959A8E608F139642E180B51FE5" />
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with .Params.metadescription }}<meta name="description" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
-<title>{{ .Site.Title }}</title>
+<title>{{ .Params.sitetitle }}</title>
 
 
 

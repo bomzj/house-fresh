@@ -9,7 +9,6 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "ХаусФреш"
-	description = "ХаусФреш | Производство продуктов питания, оптовые и мелкооптовые поставки сэндвичей, фаршированных мини-багетов, свежей выпечки и кондитерских изделий собственного производства, дистрибуция продуктов питания, организация питания на предприятиях Минска и Беларуси"
 
 	# The path must be relative to the static folder
 	favicon = "img/houseFreshLogo.png"
