@@ -22,7 +22,7 @@ body {
 }
 
 .services-modal .modal-content .row{
-	margin: 25px;
+	margin: 20px;
 }
 
 
@@ -244,6 +244,11 @@ body {
 	
 	.services-modal .modal-content h2 {
 		font-size: 2em;
+	}
+	
+	.lunch-item h4{
+		text-align: left;
+		font-size: 1em;
 	}
 }
 
