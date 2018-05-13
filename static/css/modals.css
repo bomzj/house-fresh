@@ -11,7 +11,7 @@ body {
 }
 
 .services-modal .modal-content {
-    padding: 100px 0 50px;
+    padding: 30px 0 50px;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -21,19 +21,14 @@ body {
     box-shadow: none;
 }
 
+.services-modal .modal-content .row{
+	margin: 25px;
+}
+
 
 .services-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
-}
-
-
-.services-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.services-modal .modal-content .item-details {
-    margin: 30px 0;
 }
 
 .services-modal .close-modal {
@@ -90,12 +85,13 @@ body {
   text-align: center;
   font-size: 1.05em;
   hyphens: auto;
+  
 }
 
 .services-modal p {
   font-family: "Ruda", sans-serif;
   text-align: left;
-  font-size: 1.05em;
+  font-size: 1.1em;
   hyphens: auto;
 }
 
@@ -108,33 +104,10 @@ body {
 
 
 
-.services-modal .label {
-    position: absolute;
-    bottom: 35px;
-    right: 0;
-    height: 32px;
-    line-height: 32px;
-    padding: 0 20px;
-    -webkit-border-radius: 1px 0 0 1px;
-    -webkit-background-clip: padding-box;
-    -moz-border-radius: 1px 0 0 1px;
-    -moz-background-clip: padding;
-    border-radius: 1px 0 0 1px;
-    background-clip: padding-box;
-    font-size: 14px;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0px #780d33;
-    background: #ee4b28;
-    color: white;
-}
-
 .services-modal .img {
     display: block;
     width: 100%;
     overflow: hidden;
-    
-    margin: 0 0 20px;
     position: relative;
 }
 
@@ -142,7 +115,6 @@ body {
     display: block;
     overflow: hidden;
     height: 140px;
-    margin: 0 0 20px;
     position: relative;
 }
 
@@ -194,6 +166,8 @@ body {
     }
 }
 
+
+
 .services-modal .service-box p {
     margin-bottom: 0;
 }
@@ -202,3 +176,74 @@ body {
 	font-size: 0.85em;
 	text-align: center;
 }
+
+
+.catalog-item {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	margin-bottom: 10px;
+	
+	display: flex;
+}
+
+
+.catalog-item-img {
+	padding: 0;
+	margin: 0;
+}
+
+
+.lunch-item {
+	text-align: left;
+}
+
+
+.catalog-item-main-info {
+	padding: 15px;
+}
+
+.catalog-item-weight {
+	color: #ee4b28;
+	
+	position: absolute;
+	bottom: 15px;
+	right: 30px;
+}
+
+.catalog-item-name {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+@media(max-width:992px) {
+	.services-modal .modal-content .row{
+		margin: 5px;
+	}
+	
+	.catalog-item {
+		display: block;
+	}
+	
+	.catalog-item-weight {
+		color: #ee4b28;
+		text-align: left;
+		position: relative;
+		bottom: 15px;
+		right: -10px;
+	}
+	
+	.services-modal p {
+	  font-size: 0.9em;
+	}
+	
+	.catalog-item-name {
+		font-size: 1.5em;
+	}
+	
+	.services-modal .modal-content h2 {
+		font-size: 2em;
+	}
+}
+

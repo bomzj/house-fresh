@@ -44,7 +44,7 @@ googleAnalytics = ""
 			
 	# services section
 	[params.services]
-		headline    = "К вашим услугам"
+		#headline    = "К вашим услугам"
 		#description = "[ХаусФреш](/) предлагает ... "
 	[params.services.downloadButton]
 			text = "Скачать каталог"
@@ -53,25 +53,24 @@ googleAnalytics = ""
 			text = "Связаться"
 			link = "/#contact"
 
-	# ServiceTiles Section
-	  [params.ServiceTiles]
-		enable = true
-		issueDate = "Срок хранения и реализации"
-		itemIngredients = "Состав"
-		
-		[[params.ServiceTiles.showcase]]
-		  title = "Производство"
-		  subtitle = ""
+	# ServiceTiles for product catalog
+	  [params.ProdTile]
+	    [[params.ProdTile.showcase]]
+		  title = "Производство продукции"
+		  subtitle = "Качество, подтверждённое Декларациями Евразийского экономического союза!"
 		  image = "catalog/production-tile.jpg"
 		  alt = "производство продуктов питания ХаусФреш Минск"
 		  url = "production"
 		  atitle = "производство продуктов питания, каталог продукции ХаусФреш"
-		  
-
+	
+	# ServiceTiles Section
+	  [params.ServiceTiles]
+		enable = true
+		
 		[[params.ServiceTiles.showcase]]
 		  title = "Дистрибуция"
 		  subtitle = ""
-		  image = "catalog/distribution-tile.jpg"
+		  image = "catalog/distribution-tile-origin.jpg"
 		  alt = "дистрибуция продуктов питания ХаусФреш Беларусь"
 		  url = "distribution"
 		  atitle = "дистрибуция продуктов питания ХаусФреш Беларусь"
@@ -83,12 +82,12 @@ googleAnalytics = ""
 		  image = "catalog/canteen-tile.jpg"
 		  alt = "организация питания на предприятиях Минска и Беларуси ХаусФреш"
 		  url = "canteen"
-		  atitle = "организация питания на предприятиях, доставка обедов в офис Минск"
+		  atitle = "организация питания на предприятиях, доставка обедов в офис и бизнес-центры Минск"
 
 		
     # Aside section
 	[params.aside]
-		headline = "Скачать каталог продуктов питания нашего производства в формате PDF"
+		headline = "Скачать каталог в формате PDF"
 
 		[params.aside.button]
 			text = "Скачать"

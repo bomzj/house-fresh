@@ -24,6 +24,12 @@ hr.light {
     border-color: #fff;
 }
 
+hr.gray {
+    border-color: #ddd;
+	border-width: 1px;
+	max-width: 1000px;
+}
+
 a {
     color: #6fac37;
     -webkit-transition: all .35s;
@@ -104,6 +110,12 @@ p {
 	background-color: #222;
 	background-image: url(../img/bg-bread-white.svg);
 	background-repeat: 50% 50%;
+}
+
+.bg-border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
 }
 
 .text-faded {
@@ -317,14 +329,11 @@ header .header-content .header-content-inner p {
 
 #services .services-item {
     right: 0;
-    margin: 0 0 15px;
 }
 
 #services .services-item .services-link {
     display: block;
     position: relative;
-	margin-left: 4px;
-	margin-right: 4px;
 }
 
 #services .services-item .services-link .services-hover {
@@ -341,25 +350,6 @@ header .header-content .header-content-inner p {
 	background: rgba(255, 255, 255, 0.3);
 }
 
-#services .services-item .services-link .services-hover .more {
-    position: absolute;
-    bottom: -95px;
-    right: 0;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 20px;
-    -webkit-border-radius: 1px 0 0 1px;
-    -webkit-background-clip: padding-box;
-    -moz-border-radius: 1px 0 0 1px;
-    -moz-background-clip: padding;
-    border-radius: 1px 0 0 1px;
-    background-clip: padding-box;
-    font-size: 14px;
-    font-size: 1.45rem;
-    text-transform: uppercase;
-    background: #ee4b28;
-    color: white;
-}
 
 #services .services-item .services-link .services-hover {
     opacity: 1;
@@ -367,7 +357,7 @@ header .header-content .header-content-inner p {
 
 #services .services-item .services-link .services-hover .services-hover-content {
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 100%;
     height: 20px;
     margin-top: -50px;
@@ -377,8 +367,13 @@ header .header-content .header-content-inner p {
     color: #fff;
 }
 
+
 #services .services-item .services-link .services-hover .services-hover-content i {
     margin-top: -12px;
+}
+
+#services .services-item .services-link .services-hover .services-hover-content div {
+    margin-top: 40px;
 }
 
 #services .services-item .services-link .services-hover .services-hover-content h3,
@@ -411,13 +406,13 @@ header .header-content .header-content-inner p {
 }
 
 #services .row {
-	margin-left: -20px;
-	margin-right: -20px;
+	margin-right: -15px;
+    margin-left: -15px;
 }
 
 @media(min-width:767px) {
     #services .services-item {
-        margin: 0 0 10px;
+        
     }
 }
 
@@ -430,24 +425,12 @@ and (max-width : 767px) {
 		font-weight: 400;
     }
 	
-	#services .services-item .services-link .services-hover .more {
+	#services .services-item .services-link .services-hover .prod {
 		position: absolute;
-		bottom: -135px;
-		right: 0;
-		height: 40px;
-		line-height: 40px;
-		padding: 0 30px;
-		-webkit-border-radius: 1px 0 0 1px;
-		-webkit-background-clip: padding-box;
-		-moz-border-radius: 1px 0 0 1px;
-		-moz-background-clip: padding;
-		border-radius: 1px 0 0 1px;
-		background-clip: padding-box;
-		font-size: 20px;
-		font-size: 1.85rem;
-		text-transform: uppercase;
-		background: #ee4b28;
-		color: white;
+		top: 20%;
+		width: 100%;
+		text-align: center;
+		color: #fff;
 	}
 }
 
@@ -501,6 +484,15 @@ a.label:focus {
     color: #6fac37;
 }
 
+.text-primary-italic {
+    color: #6fac37;
+	font-style: italic;
+}
+
+.text-muted-italic {
+    color: #777;
+	font-style: italic;
+}
 
 .text-dark {
     color: #222;

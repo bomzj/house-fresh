@@ -1,6 +1,7 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
+		{{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -12,6 +13,7 @@
                 <a class="navbar-brand" href="/#page-top" title="главная страница ХаусФреш">{{ . | markdownify }}</a>
             {{ end }}
         </div>
+		{{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
@@ -21,7 +23,7 @@
                 {{ end }}
                 {{ if .Site.Params.navigation.links.services }}
                     <li>
-                        <a  href="/#services" title="услуги ХаусФреш: производство продуктов питания, дистрибуция, организация питания">{{ .Site.Params.navigation.links.services }}</a>
+                        <a href="/#services"  title="услуги ХаусФреш: производство продуктов питания, дистрибуция, организация питания">{{ .Site.Params.navigation.links.services }}</a>
                     </li>
                 {{ end }}
 				{{ if and .Site.Params.partners .Site.Params.navigation.links.partners }}
@@ -31,15 +33,17 @@
                 {{ end }}
                 {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
                 <li>
-                    <a  href="/#location" title="найти на карте ХаусФреш">{{ .Site.Params.navigation.links.location }}</a>
+                    <a href="/#location" title="найти на карте ХаусФреш">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
                 {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
-                        <a  href="/#contact" title="контактная информация ХаусФреш">{{ .Site.Params.navigation.links.contact }}</a>
+                        <a href="/#contact" title="контактная информация ХаусФреш">{{ .Site.Params.navigation.links.contact }}</a>
                     </li>
                 {{ end }}
             </ul>
         </div>
+		{{ "<!-- /.navbar-collapse -->" | safeHTML }}
     </div>
+	{{ "<!-- /.container-fluid -->" | safeHTML }}
 </nav>

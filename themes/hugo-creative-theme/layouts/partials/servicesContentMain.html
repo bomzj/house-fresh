@@ -2,81 +2,116 @@
 <aside class="bg-bread-dark-small services-modal">
 	<div class="services-modal">
 		<div class="modal-content">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center text-dark">
-						{{ with .Title }}
-							<h2>{{ . }}</h2>
-						{{ end }}
-						{{ if .Title }}
-							<hr class="star-primary">
-						{{ end }}
-					</div>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center text-dark">
+					{{ with .Title }}
+						<h1>{{ . }}</h1>
+					{{ end }}
+					{{ with .Params.subtitle }}
+						<h3>{{ . }}</h3>
+					{{ end }}
 				</div>
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
-						{{ if .Description }}
-							<p class="text-center">{{ .Description }}</p>
-							<p class="text-muted text-center"><strong>{{.Params.subdescription}}</strong></p>
-							<hr class="star-primary">
-						{{ end }}
-					</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
+					{{ if .Description }}
+						<p class="text-center">{{ .Description }}</p>
+						<p class="text-muted text-center"><strong>{{.Params.subdescription}}</strong></p>
+						<hr class="star-primary">
+					{{ end }}
 				</div>
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1 text-center">
-						{{ range .Params.category }}
-							<div class="row" >
-								<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
-									{{ with .categoryTitle }}
-										<h3 class="text-muted"><strong>{{ . }}</strong></h3>
-									{{ end }}
-									{{ if .issueDate }}
-										{{ with $.Site.Params.ServiceTiles.issueDate }}{{.}}: {{ end }}
-										<strong>{{ .issueDate }}</strong>
-									{{ end }}
-								</div>
-							</div>
-							<div class="row bottom-padding">
-							{{ $save := . }}
-								{{range .items}}
-									<div class="{{ $save.class }}">
-										<h3 class="itemName text-primary">{{ .itemTitle }}</h3>
-										<img src="/img/before-product-description-img.svg" class="img-responsive img-centered" alt="">
+			</div>
+			<div class="row">
+				{{ range .Params.category }}
+					<div class="row" >
+						<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
+							{{ with .categoryTitle }}
+								<h2 class="text-primary">{{ . }}</h2>
+							{{ end }}
+							
+						</div>
+					</div>
+					<div class="row bottom-padding">
+					<!--{{ $save := . }}-->
+						<div class="row">
+						{{range .items}}
+							<!--<div class="{{ $save.class }}">-->
+								<div class=" row catalog-item" >
+									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
 										<div class="img">
-											{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive img-centered" alt="">{{end}}
-											{{ with .itemWeight }}
-												<span class="label">{{ . }}</span>
-											{{ end }}
+											{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive" alt="">{{end}}
 										</div>
-										<img src="/img/after-product-description-img.svg" class="img-responsive img-centered" alt="">
-										{{ with .itemIngredients }}
-											<p>{{ . }}</p>
-										{{ end }}
 									</div>
-								{{end}}
-							</div>
-							<hr class="star-primary">
+									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+										<div class="catalog-item-main-info">
+											<h3 class="catalog-item-name">{{ .itemTitle }}</h3>
+											{{if .itemSubTitle}}
+												<h5 class="text-muted-italic">{{ .itemSubTitle }}</h5>
+											{{end}}
+											<hr class="gray">
+											{{if .itemIngredients}}
+												<p class="text-muted">{{.itemIngredients}}</p>
+											{{end}}
+											
+											
+											{{if .salad}}
+											<div class="row lunch-item">
+												<h4 class="text-muted">{{.salad}}</h4>
+											</div>
+											{{end}}
+											{{if .soup}}
+											<div class="row lunch-item">
+												<h4 class="text-muted">{{.soup}}</h4>
+											</div>
+											{{end}}
+											{{if .meat}}
+											<div class="row lunch-item">
+												<h4 class="text-muted">{{.meat}}</h4>
+											</div>
+											{{end}}
+											{{if .side}}
+											<div class="row lunch-item">
+												<h4 class="text-muted">{{.side}}</h4>
+											</div>
+											{{end}}
+											
+										</div>
+										<div>
+											{{if .itemWeight}}
+												<h3 class="catalog-item-weight">{{.itemWeight}}</h3>
+											{{end}}
+										</div>
+									</div>
+								</div>
+								
+							<!--</div>-->
+						{{end}}
+						</div>
+						
+						{{ if .issueDate }}
+							<p class="text-muted text-small">{{ .issueDate }}</p>
 						{{ end }}
 					</div>
 					
-					
+				{{ end }}
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12">
+					{{.Content}}
 				</div>
+			</div>
+			
+			<div class="col-lg-8 col-lg-offset-2 bottom-padding">
+			<p class="text-muted text-small"><b>*Просим обратить внимание!</b> Изображение продукции на сайте носит иллюстративный характер и может отличаться от реального.</p>
 				
-				<div class="row">
-					<div class="col-lg-12">
-						{{.Content}}
-					</div>
-				</div>
+				{{ if and .Params.downloadButton .Site.Params.services.downloadButton.link .Site.Params.services.downloadButton.text }}
+					<a href="{{ .Site.Params.services.downloadButton.link }}" download class="btn btn-primary btn-xl wow tada" title="скачать каталог продукции ХаусФреш">{{ .Site.Params.services.downloadButton.text }}</a>
+				{{ end }}
+				{{ if and .Params.contactButton .Site.Params.services.contactButton.link .Site.Params.services.contactButton.text }}
+					<a href="{{ .Site.Params.services.contactButton.link }}" class="btn btn-primary btn-xl wow tada" title="контактная информация ХаусФреш">{{ .Site.Params.services.contactButton.text }}</a>
+				{{ end }}
 				
-				<div class="row col-lg-8 col-lg-offset-2">
-					{{ if and .Params.downloadButton .Site.Params.services.downloadButton.link .Site.Params.services.downloadButton.text }}
-						<p class="text-muted text-small"><strong>*Просим обратить внимание!</strong> Изображение продукции на сайте носит иллюстративный характер и может отличаться от реального.</p>
-						<a href="{{ .Site.Params.services.downloadButton.link }}" download class="btn btn-primary btn-xl wow tada" title="скачать каталог продукции ХаусФреш">{{ .Site.Params.services.downloadButton.text }}</a>
-					{{ end }}
-					{{ if and .Params.contactButton .Site.Params.services.contactButton.link .Site.Params.services.contactButton.text }}
-						<a href="{{ .Site.Params.services.contactButton.link }}" class="btn btn-primary btn-xl wow tada" title="контактная информация ХаусФреш">{{ .Site.Params.services.contactButton.text }}</a>
-					{{ end }}
-				</div>
 			</div>
 		</div>
 	</div>
