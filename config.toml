@@ -70,7 +70,7 @@ googleAnalytics = ""
 		[[params.ServiceTiles.showcase]]
 		  title = "Дистрибуция"
 		  subtitle = ""
-		  image = "catalog/distribution-tile-origin.jpg"
+		  image = "catalog/distribution-tile.jpg"
 		  alt = "дистрибуция продуктов питания ХаусФреш Беларусь"
 		  url = "distribution"
 		  atitle = "дистрибуция продуктов питания ХаусФреш Беларусь"
