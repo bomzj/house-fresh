@@ -108,7 +108,6 @@ p {
 
 .bg-bread-dark-small {
 	background-color: #222;
-	background-image: url(../img/bg-bread-white.svg);
 	background-repeat: 50% 50%;
 }
 
@@ -136,9 +135,6 @@ aside.footer{
     padding: 20px 0 20px 0;
 }
 
-aside.services-modal{
-    padding: 50px 0 0 0;
-}
 
 .no-padding {
     padding: 0;

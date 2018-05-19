@@ -2,15 +2,15 @@ body {
     overflow-x: hidden;
 }
 
-.services-modal section {
-    padding: 50px 0;
+.aside {
+    padding: 50px 0 0 0;
 }
 
 .img-centered {
     margin: 0 auto;
 }
 
-.services-modal .modal-content {
+.modal-content {
     padding: 30px 0 50px;
     min-height: 100%;
     border: 0;
@@ -21,57 +21,22 @@ body {
     box-shadow: none;
 }
 
-.services-modal .modal-content .row{
+.modal-content a {
+	text-align: center;
+}
+
+.modal-content .row{
 	margin: 20px;
 }
 
 
-.services-modal .modal-content h2 {
+.modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.services-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
 
-.services-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.services-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.services-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.services-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
-}
-
-.services-modal, ul li {
+.modal-content, ul li {
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.05em;
@@ -80,7 +45,7 @@ body {
   
 }
 
-.services-modal p.text-center {
+.modal-content p.text-center {
   font-family: "Ruda", sans-serif;
   text-align: center;
   font-size: 1.05em;
@@ -88,7 +53,7 @@ body {
   
 }
 
-.services-modal p {
+.modal-content p {
   font-family: "Ruda", sans-serif;
   text-align: left;
   font-size: 1.1em;
@@ -97,21 +62,21 @@ body {
 
 
 
-.services-modal ul li {
+.modal-content ul li {
   margin-left: 35px;
   padding: 0;
 }
 
 
 
-.services-modal .img {
+.modal-content .img {
     display: block;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.services-modal .img-in-text {
+.modal-content .img-in-text {
     display: block;
     overflow: hidden;
     height: 140px;
@@ -119,60 +84,8 @@ body {
 }
 
 
-.services-modal a.label:hover,
-.services-modal a.label:focus {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-.services-modal .label:empty {
-  display: none;
-}
-.services-modal .btn .label {
-  position: relative;
-  top: -1px;
-}
 
-.services-modal .label-primary {
-  background-color: #6fac37;
-}
-.services-modal .label-primary[href]:hover,
-.services-modal .label-primary[href]:focus {
-  background-color: #6fac37;
-}
-
-
-
-.services-modal div.polaroid {
-  width: 50%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-.services-modal div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-.services-modal .service-box {
-    margin: 50px auto 0;
-    max-width: 400px;
-}
-
-@media(min-width:992px) {
-    .services-modal .service-box {
-        margin: 20px auto 0;
-    }
-}
-
-
-
-.services-modal .service-box p {
-    margin-bottom: 0;
-}
-
-.services-modal .text-small {
+.modal-content .text-small {
 	font-size: 0.85em;
 	text-align: center;
 }
@@ -217,6 +130,14 @@ body {
 	font-size: 2.5em;
 }
 
+.catalog-item-itemSubTitle {
+	text-align: center;
+}
+
+.catalog-footer{
+	text-align: center;
+}
+
 
 .back-to-top {
 	display: none;
@@ -235,13 +156,16 @@ body {
     background-color: #f8f8f8;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 13px;
+	padding-top: 13px;
 	
 }
 
 
 @media(max-width:992px) {
-	.services-modal .modal-content .row{
+	.modal-content .row{
 		margin: 5px;
 	}
 	
@@ -257,7 +181,7 @@ body {
 		right: -10px;
 	}
 	
-	.services-modal p {
+	.modal-content p {
 	  font-size: 0.9em;
 	}
 	
@@ -265,7 +189,7 @@ body {
 		font-size: 1.5em;
 	}
 	
-	.services-modal .modal-content h2 {
+	.modal-content h2 {
 		font-size: 2em;
 	}
 	
