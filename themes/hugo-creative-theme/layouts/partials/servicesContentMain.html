@@ -38,7 +38,7 @@
 							<div class=" row catalog-item" >
 								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
 									<div class="img">
-										{{if .itemImg}}<img src="/img/{{ .itemImg }}" class="img-responsive" alt="">{{end}}
+										{{if and .itemImg .itemImgAlt}}<img src="/img/{{ .itemImg }}" class="img-responsive" alt="{{ .itemImgAlt}}">{{end}}
 									</div>
 								</div>
 								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
