@@ -24,14 +24,20 @@
                 <div class="col-lg-4
                 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p><a href="tel:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phoneDescription }}</a></p>
+                    <p>
+						<a href="tel:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phoneDescription }}</a>
+						<a href="tel:{{ .Site.Params.contact.phone2 }}">{{ .Site.Params.contact.phoneDescription2 }}</a>
+					</p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
                 <div class="col-lg-4
                  text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                    <p>
+						<a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.emailDescription }}</a>
+						<a href="mailto:{{ .Site.Params.contact.email2 }}">{{ .Site.Params.contact.emailDescription2 }}</a>
+					</p>
                 </div>
             {{ end }}
 			<div class="col-lg-8 col-lg-offset-2 text-center">

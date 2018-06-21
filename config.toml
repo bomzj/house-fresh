@@ -30,7 +30,7 @@ googleAnalytics = ""
 	[params.hero]
 		slogan     = "ХАУСФРЕШ | продукты питания"
 		companyIcon = "img/houseFreshLogo128x128.svg"	
-		subtitle   = "[Мы предлагаем] (#services) оптовые и мелкооптовые поставки широкого ассортимента сэндвичей, фаршированных мини-багетов, саталов, свежей выпечки и кондитерских изделий собственного производства, а также профессиональную дистрибуцию продуктов питания и организацию обедов на предприятиях!"
+		subtitle   = "[Мы предлагаем] (#services) оптовые и мелкооптовые поставки широкого ассортимента сэндвичей, фаршированных мини-багетов, салатов, свежей выпечки и кондитерских изделий собственного производства, а также профессиональную дистрибуцию продуктов питания и организацию обедов на предприятиях!"
 		buttonText = "Наши услуги"
 
 
@@ -48,7 +48,7 @@ googleAnalytics = ""
 		#description = "[ХаусФреш](/) предлагает ... "
 	[params.services.downloadButton]
 			text = "Скачать каталог"
-			link = "/files/catalog.pdf"
+			link = "/files/HouseFresh.pdf"
 	[params.services.contactButton]
 			text = "Связаться"
 			link = "/#contact"
@@ -91,7 +91,7 @@ googleAnalytics = ""
 
 		[params.aside.button]
 			text = "Скачать"
-			link = "/files/catalog.pdf"
+			link = "/files/HouseFresh.pdf"
 	
 	
 	# Partners section
@@ -110,10 +110,15 @@ googleAnalytics = ""
 	[params.contact]
 		headline = "Давайте оставаться на связи!"
 		description = "Готовы к сотрудничеству? Отлично! <br> Просто позвоните нам или напишите письмо на электронную почту, и наши специалисты проконсультируют по любому вопросу, а также предложат самые выгодные индивидуальные условия!"
-		address = "г.Минск, проспект Жукова, д.44, офис 1-4"
+		address = "220014, РБ, г.Минск, проспект Жукова, д.44, офис 1-4"
 		phone = "+375293728006"
-		phoneDescription ="+375(29)372-80-06 (Светлана)"
+		phone2 = "+375445148090"
+		phoneDescription ="+375(29)372-80-06 (Дмитрий)"
+		phoneDescription2 ="+375(44)514-80-90 (Роман)"
 		email = "housefreshbysm@gmail.com"
+		email2 = "housefreshlysell@gmail.com"
+		emailDescription = "housefreshbysm@gmail.com (Дмитрий)"
+		emailDescription2 = "housefreshlysell@gmail.com (Роман)"
 		text = "Время приёма звонков и обработки корреспонденции: с понедельника по пятницу 9:00-18:00. Суббота и воскресенье - выходные дни."
 		
 		companyIcon = "img/houseFreshLogo64x64.svg"	
