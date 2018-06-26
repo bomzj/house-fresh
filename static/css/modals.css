@@ -110,6 +110,7 @@ body {
 
 .lunch-item {
 	text-align: left;
+	font-size: 1.1em;
 }
 
 
@@ -182,7 +183,7 @@ body {
 	}
 	
 	.modal-content p {
-	  font-size: 0.9em;
+	  font-size: 1em;
 	}
 	
 	.catalog-item-name {
@@ -193,7 +194,7 @@ body {
 		font-size: 2em;
 	}
 	
-	.lunch-item h4{
+	.lunch-item p{
 		text-align: left;
 		font-size: 1em;
 	}

@@ -35,49 +35,44 @@
 					<div class="row">
 					{{range .items}}
 						<!--<div class="{{ $save.class }}">-->
-							<div class=" row catalog-item" >
+							<div itemscope class="row catalog-item" >
 								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
-									<div class="img">
+									<div itemprop="image" class="img">
 										{{if and .itemImg .itemImgAlt}}<img src="/img/{{ .itemImg }}" class="img-responsive" alt="{{ .itemImgAlt}}">{{end}}
 									</div>
 								</div>
 								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 									<div class="catalog-item-main-info">
-										<h3 class="catalog-item-name">{{ .itemTitle }}</h3>
+										<h3 itemprop="name" class="catalog-item-name">{{ .itemTitle }}</h3>
 										{{if .itemSubTitle}}
 											<h5 class="text-muted-italic catalog-item-itemSubTitle">{{ .itemSubTitle }}</h5>
 										{{end}}
+										
 										<hr class="gray">
+										
 										{{if .itemIngredients}}
-											<p class="text-muted">{{.itemIngredients}}</p>
+											<p itemprop="description" class="text-muted">{{.itemIngredients}}</p>
 										{{end}}
 										
-										
-										{{if .salad}}
-										<div class="row lunch-item">
-											<h4 class="text-muted">{{.salad}}</h4>
+										<div itemprop="description" class="row lunch-item">
+											{{if .salad}}
+												<p class="text-muted">{{.salad}}</p>
+											{{end}}
+											{{if .soup}}
+												<p class="text-muted">{{.soup}}<p>
+											{{end}}
+											{{if .meat}}
+												<p class="text-muted">{{.meat}}</p>
+											{{end}}
+											{{if .side}}
+												<p class="text-muted">{{.side}}</p>
+											{{end}}
 										</div>
-										{{end}}
-										{{if .soup}}
-										<div class="row lunch-item">
-											<h4 class="text-muted">{{.soup}}</h4>
-										</div>
-										{{end}}
-										{{if .meat}}
-										<div class="row lunch-item">
-											<h4 class="text-muted">{{.meat}}</h4>
-										</div>
-										{{end}}
-										{{if .side}}
-										<div class="row lunch-item">
-											<h4 class="text-muted">{{.side}}</h4>
-										</div>
-										{{end}}
 										
 									</div>
 									<div class="row">
 										{{if .itemWeight}}
-											<h3 class="catalog-item-weight">{{.itemWeight}}</h3>
+											<h3 itemprop="weight" class="catalog-item-weight">{{.itemWeight}}</h3>
 										{{end}}
 									</div>
 								</div>
