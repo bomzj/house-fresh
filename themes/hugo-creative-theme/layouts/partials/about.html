@@ -16,8 +16,8 @@
 				{{ with .Site.Params.about.subdescription }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
-                {{ with .Site.Params.about.buttonText }}
-                    <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">{{ . }}</a>
+                {{ if and .Site.Params.about.buttonText .Site.Params.about.buttonTitle }}
+                    <a href="#contact" title="{{.Site.Params.about.buttonTitle}}" class="btn btn-default btn-xl wow tada page-scroll">{{ .Site.Params.about.buttonText }}</a>
                 {{ end }}
             </div>
         </div>
