@@ -81,7 +81,7 @@ googleAnalytics = ""
 		  subtitle = ""
 		  image = "catalog/distribution-tile.jpg"
 		  alt = "Дистрибуция продуктов питания ХаусФреш Беларусь"
-		  url = "distribution"
+		  url = "#services"
 		  atitle = "Дистрибуция продуктов питания ХаусФреш Беларусь"
 		  
 
@@ -90,7 +90,7 @@ googleAnalytics = ""
 		  subtitle = ""
 		  image = "catalog/canteen-tile.jpg"
 		  alt = "Доставка обедов в офис. Минск Беларусь ХаусФреш"
-		  url = "canteen"
+		  url = "production/#lunch"
 		  atitle = "Организация питания сотрудников на предприятиях, доставка обедов в офис и бизнес-центры Минск"
 
 		

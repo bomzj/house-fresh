@@ -23,12 +23,14 @@
 		<div class="row">
 			{{ range .Params.category }}
 				<div class="row" >
-					<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
+					{{if .categoryId}}
+					<div class="col-lg-10 col-lg-offset-1 text-center text-dark" id="{{.categoryId}}">
 						{{ with .categoryTitle }}
 							<h2 class="text-primary">{{ . }}</h2>
 						{{ end }}
 						
 					</div>
+					{{end}}
 				</div>
 				<div class="row bottom-padding">
 				<!--{{ $save := . }}-->
@@ -53,6 +55,9 @@
 										{{if .itemIngredients}}
 											<p itemprop="description" class="text-muted">{{.itemIngredients}}</p>
 										{{end}}
+										{{if .itemWeight}}
+											<p class="catalog-item-weight text-muted">{{.itemWeight}}</p>
+										{{end}}
 										
 										<div itemprop="description" class="row lunch-item">
 											{{if .salad}}
@@ -71,8 +76,8 @@
 										
 									</div>
 									<div class="row">
-										{{if .itemWeight}}
-											<h3 itemprop="weight" class="catalog-item-weight">{{.itemWeight}}</h3>
+										{{if .itemPrice}}
+											<h3 itemprop="price" class="catalog-item-price">{{.itemPrice}}</h3>
 										{{end}}
 									</div>
 								</div>
