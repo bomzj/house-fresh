@@ -1,17 +1,17 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
     <div class="header-content">
-        <div class="header-content-inner">
+        <div itemscope itemtype="https://schema.org/Organization" class="header-content-inner">
 			<div class="row">
 				{{ with .Site.Params.hero.companyIcon }}
-					<img src="{{ . }}" class="img-responsive img-centered" alt="ХаусФреш логотип">
+					<img src="{{ . }}" itemprop="logo" class="img-responsive img-centered" alt="ХаусФреш логотип">
 				{{ end }}
 
 				{{ with .Site.Params.hero.slogan }}
-					<h1>{{ . }}</h1>
+					<h1 itemprop="brand" >{{ . }}</h1>
 				{{ end }}
 				{{ with .Site.Params.hero.sloganDescription }}
-					<h2>{{ . | markdownify  }}</h2>
+					<h2 > {{ . | markdownify  }}</h2>
 				{{ end }}
 			</div>
             
@@ -19,7 +19,7 @@
                 <hr>
             {{ end }}
             {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
+                <p itemprop="description">{{ . | markdownify }}</p>
             {{ end }}
             {{ if and .Site.Params.hero.buttonText .Site.Params.hero.buttonTitle }}
                 <a href="#services" class="btn btn-primary btn-xl page-scroll" title="{{.Site.Params.hero.buttonTitle}}">{{ .Site.Params.hero.buttonText }}</a>
