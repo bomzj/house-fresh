@@ -104,9 +104,10 @@
 		</div>
 		
 		<div class="catalog-footer">
-		<p class="text-muted text-small"><b>*Просим обратить внимание!</b> Изображение продукции на сайте носит иллюстративный характер и может отличаться от реального.</p>
+		
 			
 			{{ if and .Params.downloadButton .Site.Params.services.downloadButton.link .Site.Params.services.downloadButton.text }}
+				<p class="text-muted text-small"><b>*Просим обратить внимание!</b> Изображение продукции на сайте носит иллюстративный характер и может отличаться от реального.</p>
 				<a href="{{ .Site.Params.services.downloadButton.link }}" download class="btn btn-primary btn-xl wow tada" title="Каталог продукции ХаусФреш: фото, описание, цены">{{ .Site.Params.services.downloadButton.text }}</a>
 			{{ end }}
 			{{ if and .Params.contactButton .Site.Params.services.contactButton.link .Site.Params.services.contactButton.text }}

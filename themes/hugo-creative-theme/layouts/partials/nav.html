@@ -18,27 +18,32 @@
             <ul class="nav navbar-nav navbar-right">
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
-                        <a  href="/#about" title="{{.Site.Params.navigation.links.aboutTitle}}"> {{ .Site.Params.navigation.links.about }} </a>
+                        <a  href="{{.Site.Params.navigation.links.aboutUrl}}" title="{{.Site.Params.navigation.links.aboutTitle}}"> {{ .Site.Params.navigation.links.about }} </a>
                     </li>
                 {{ end }}
-                {{ if .Site.Params.navigation.links.services }}
+                {{ if .Site.Params.navigation.links.catalog }}
                     <li>
-                        <a href="/#services"  title="{{.Site.Params.navigation.links.servicesTitle}}">{{ .Site.Params.navigation.links.services }}</a>
+                        <a href="{{.Site.Params.navigation.links.catalogUrl}}"  title="{{.Site.Params.navigation.links.catalogTitle}}">{{ .Site.Params.navigation.links.catalog }}</a>
                     </li>
                 {{ end }}
-				{{ if and .Site.Params.partners .Site.Params.navigation.links.partners }}
+				{{ if .Site.Params.navigation.links.lunch }}
                     <li>
-                        <a  href="/#partners" title="{{.Site.Params.navigation.links.partnersTitle}}">{{ .Site.Params.navigation.links.partners }}</a>
+                        <a  href="{{.Site.Params.navigation.links.lunchUrl}}" title="{{.Site.Params.navigation.links.lunchTitle}}">{{ .Site.Params.navigation.links.lunch }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
                 <li>
-                    <a href="/#location" title="{{.Site.Params.navigation.links.locationTitle}}">{{ .Site.Params.navigation.links.location }}</a>
+                    <a href="{{.Site.Params.navigation.links.locationUrl}}" title="{{.Site.Params.navigation.links.locationTitle}}">{{ .Site.Params.navigation.links.location }}</a>
+                </li>
+                {{ end }}
+				{{ if .Site.Params.navigation.links.delivery }}
+                <li>
+                    <a href="{{.Site.Params.navigation.links.deliveryUrl}}" title="{{.Site.Params.navigation.links.deliveryTitle}}">{{ .Site.Params.navigation.links.delivery }}</a>
                 </li>
                 {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
-                        <a href="/#contact" title="{{.Site.Params.navigation.links.contact}}">{{ .Site.Params.navigation.links.contact }}</a>
+                        <a href="{{.Site.Params.navigation.links.contactUrl}}" title="{{.Site.Params.navigation.links.contact}}">{{ .Site.Params.navigation.links.contact }}</a>
                     </li>
                 {{ end }}
             </ul>

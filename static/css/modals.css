@@ -35,6 +35,10 @@ body {
     font-size: 3em;
 }
 
+.modal-content .deliverySection {
+	margin-bottom: 20px;
+}
+
 
 .modal-content, ul li {
   font-family: "Ruda", sans-serif;

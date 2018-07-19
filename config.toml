@@ -22,14 +22,21 @@ googleAnalytics = ""
 		title = "ХаусФреш: продукты питания оптом, доставка обедов. Минск"
 
 		[params.navigation.links]
-			about     = "О нас"
-			aboutTitle = "О компании ХаусФреш"
-			services = "Услуги"
-			servicesTitle = "Производство продуктов, доставка обедов ХаусФреш"
-			partners  = "Партнёры"
-			partnersTitle = "Партнёры ХаусФреш"
+			#about     = "О нас"
+			#aboutTitle = "О компании ХаусФреш"
+			aboutUrl = "/#about"
+			catalog = "Продукция"
+			catalogTitle = "Сэндвичи, булочки, чиабатта, салаты, выпечка, торты: цены, описание"
+			catalogUrl = "/production"
+			lunch  = "Обеды"
+			lunchTitle = "Комплексные обеды, меню: описание, цены"
+			lunchUrl = "/lunch"
+			delivery  = "Доставка"
+			deliveryTitle = "Условия доставки и оплаты"
+			deliveryUrl = "/delivery"
 			contact   = "Контакты"
 			contactTitle = "Контакты ХаусФреш"
+			contactUrl = "/#contact"
 
 
 	# Hero section
@@ -37,8 +44,8 @@ googleAnalytics = ""
 		slogan     = "ХАУСФРЕШ | продукты питания оптом"
 		companyIcon = "img/houseFreshLogo128x128.svg"	
 		subtitle   = "[Мы предлагаем] (#services) оптовые и мелкооптовые поставки широкого ассортимента свежих и замороженных продуктов питания собственного производства: сэндвичи, булочки, багеты, чиабатта, хлеб, фаршированные мини багеты, салаты, выпечка, торты. Доставка обедов в офис и организация питания сотрудников на предприятиях!"
-		buttonText = "Каталог"
-		buttonTitle = "сэндвичи, булочки, чиабатта, салаты, выпечка, торты, комплексные обеды: цены, описание"
+		buttonText = "Продукция"
+		buttonTitle = "Сэндвичи, булочки, чиабатта, салаты, выпечка, торты, комплексные обеды: цены, описание"
 		ButtonUrl = "production"
 
 
@@ -66,7 +73,7 @@ googleAnalytics = ""
 	  [params.ProdTile]
 	    [[params.ProdTile.showcase]]
 		  title = "Производство продуктов питания"
-		  subtitle = "сэндвичи, булочки, чиабатта, салаты, выпечка, торты, комплексные обеды"
+		  subtitle = "сэндвичи, булочки, чиабатта, салаты, выпечка, торты"
 		  buttonTitle = "Каталог продукции: фото, описание, цены. ХаусФреш Минск"
 		  image = "catalog/production-tile.jpg"
 		  alt = "Производство продуктов питания, каталог ХаусФреш Минск Беларусь"
@@ -78,21 +85,21 @@ googleAnalytics = ""
 		enable = true
 		
 		[[params.ServiceTiles.showcase]]
-		  title = "Дистрибуция"
+		  title = "Доставка"
 		  subtitle = ""
 		  image = "catalog/distribution-tile.jpg"
-		  alt = "Дистрибуция продуктов питания ХаусФреш Беларусь"
-		  url = "#services"
-		  atitle = "Дистрибуция продуктов питания ХаусФреш Беларусь"
+		  alt = "Доставка продуктов питания ХаусФреш Беларусь"
+		  url = "delivery"
+		  atitle = "Доставка продуктов питания ХаусФреш Беларусь"
 		  
 
 		[[params.ServiceTiles.showcase]]
-		  title = "Доставка обедов"
+		  title = "Комплексные обеды"
 		  subtitle = ""
 		  image = "catalog/canteen-tile.jpg"
 		  alt = "Доставка обедов в офис. Минск Беларусь ХаусФреш"
-		  url = "production/#lunch"
-		  atitle = "Организация питания сотрудников на предприятиях, доставка обедов в офис и бизнес-центры Минск"
+		  url = "lunch"
+		  atitle = "Комплексные обеды, меню: цены, описание | Минск"
 
 		
     # Aside section
@@ -107,12 +114,24 @@ googleAnalytics = ""
 	
 	# Partners section
 	[params.partners]
-		headline    = "Благодарим за плодотворное взаимовыгодное сотрудничество"
+		headline    = "Нам доверяют"
 		description = " "
+		
+		
+		
+		[[params.partners.list]]
+		logo = "perspective.jpg"
+		alt = "партнёр Перспектива кофе логотип"
+		#link = "#"
 		
 		[[params.partners.list]]
 		logo = "yummy.svg"
 		alt = "партнёр Yummy кафе логотип"
+		#link = "#"
+		
+		[[params.partners.list]]
+		logo = "Coffeecake.jpg"
+		alt = "партнёр Coffeecake сеть кофеен на колёсах логотип"
 		#link = "#"
 		
 	    
