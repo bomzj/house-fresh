@@ -55,6 +55,7 @@ category:
     itemWeight:
     itemPrice: 5.28
   - itemTitle: Обед №5
+    itemType: lunch
     itemImg: /catalog/lunch/обед 5.jpg
     itemImgAlt: Комплексный обед номер 5 | ХаусФреш
     itemIngredients: 

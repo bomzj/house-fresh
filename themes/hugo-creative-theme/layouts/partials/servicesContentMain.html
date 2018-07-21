@@ -55,6 +55,9 @@
 										{{if .itemIngredients}}
 											<p itemprop="description" class="text-muted ingredients">{{.itemIngredients}}</p>
 										{{end}}
+										{{if eq .itemType "cake"}}
+											<p class="text-muted text-small-centered">*Торт продаётся разрезанным на 12 порций.</p>
+										{{end}}
 										
 										
 										<div itemprop="description" class="row lunch-item">
@@ -69,6 +72,11 @@
 											{{end}}
 											{{if .side}}
 												<p class="text-muted">{{.side}}</p>
+											{{end}}
+										</div>
+										<div class="row lunch-item-bread">
+											{{if eq .itemType "lunch"}}
+												<p class="text-muted">*Закажите вкусный <a href="/production/#bread" title="Свежий хлеб, багеты, чиабатта, булочки">ХЛЕБУШЕК</a> к обеду.</p>
 											{{end}}
 										</div>
 										

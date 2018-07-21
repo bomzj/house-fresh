@@ -94,6 +94,10 @@ body {
 	text-align: center;
 }
 
+.modal-content .text-small-centered {
+	font-size: 0.85em;
+}
+
 
 .catalog-item {
 	border-style: solid;
@@ -117,6 +121,10 @@ body {
 	font-size: 1.1em;
 }
 
+.lunch-item-bread {
+	text-align: left;
+	font-size: 0.9em;
+}
 
 .catalog-item-main-info {
 	padding: 15px;
