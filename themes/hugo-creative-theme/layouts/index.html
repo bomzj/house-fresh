@@ -30,7 +30,7 @@
             {{ partial "contact.html" . }}
         {{ end }}
 		
-        {{ partial "js.html" . }}
+        <script src="{{ "js/bundle.js" | absURL }}"></script>
 
         {{ template "_internal/google_analytics.html" . }}
     </body>

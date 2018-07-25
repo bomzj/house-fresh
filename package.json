@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "housefresh.by",
+  "private": true,
+  "scripts": {
+    "start": "echo keke",
+    "webpack": "webpack",
+	"build": "webpack && hugo"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "webpack": "^4.0.0",
+    "webpack-glob": "^2.0.2",
+    "ts-loader": "^4.0.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack-cli": "^2.0.9"
+  }
+}

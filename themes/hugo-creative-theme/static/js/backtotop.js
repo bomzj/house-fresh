@@ -1,6 +1,8 @@
-window.onscroll = function() {scrollFunction()};
+import $ from "./jquery";
 
-function scrollFunction() {
+window.onscroll = function () {
+	if (document.location.pathname == "/") return;
+		
     if (document.body.scrollTop > $(window).height() + 60 || document.documentElement.scrollTop > $(window).height() + 60) {
         $('#back-to-top-btn').fadeIn();
 		document.getElementById("back-to-top-btn").style.display = "block";
