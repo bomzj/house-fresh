@@ -1,0 +1,22 @@
+backend:
+  #name: bitbucket
+  #repo: bomzj/house-fresh # Path to your Bitbucket repository
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img" # The src attribute for uploaded media will begin with /images/uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "production"
+    label: "Production"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "production.md"
+        label: "Production.md"
+        file: "content/production.md"
+        description: "Housefresh products"
+        fields:
+          - {label: "Page title", name: "sitetitle", widget: "string"}
