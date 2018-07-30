@@ -16,9 +16,9 @@
 		</div>
 	</div>
     <div class="container">
-		<div class="row">
+		<div class="row partnersList">
 		  {{ range .Site.Params.partners.list }}
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 			  {{ $url := printf "img/logos/%s" .logo }}
 			  {{ if .link }}
 				<a href="{{ .link }}">
