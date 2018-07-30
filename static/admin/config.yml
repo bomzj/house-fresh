@@ -1,22 +1,41 @@
 backend:
-  #name: bitbucket
-  #repo: bomzj/house-fresh # Path to your Bitbucket repository#
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: bitbucket
+  repo: bomzj/house-fresh # Path to your Bitbucket repository#
+  #name: git-gateway
+  #branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "static/img" # Media files will be stored in the repo under static/img
-#public_folder: "static/img" # The src attribute for uploaded media will begin with /img
+public_folder: "static/img" # The src attribute for uploaded media will begin with /img
 
 collections: # A list of collections the CMS should be able to edit
   - name: "production"
-    label: "Production"
+    label: "Страницы"
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     files:
       - name: "production.md"
-        label: "Production.md"
+        label: "Продукция"
         file: "content/production.md"
         description: "Housefresh products"
         fields:
-          - {label: "Page title", name: "sitetitle", widget: "string"}
+          - {label: "Page title", name: "title", widget: "string"}
+          - {label: "Meta title", name: "sitetitle", widget: "string"}
+          - {label: "Meta description", name: "metadescription", widget: "string"}
+          - label: "Категории"
+            name: "category"
+            widget: "list"
+            fields:
+              - {label: "Название", name: "categoryTitle", widget: "string"}
+              - {label: "Условия хранения", name: "issueDate", widget: "string"}
+              - label: "Продукты"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Название", name: "itemTitle", widget: "string"}
+                  - {label: "Подзаголовок", name: "itemSubTitle", widget: "string"}
+                  - {label: "Картинка", name: "itemImg", widget: "image"}
+                  - {label: "Картинка описание", name: "itemImgAlt", widget: "string"}
+                  - {label: "Игридиенты", name: "itemIngredients", widget: "text"}
+                  - {label: "Вес", name: "itemWeight", widget: "string"}
+                  - {label: "Цена", name: "itemPrice", widget: "string"}
