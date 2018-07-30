@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "list"
             fields:
               - {label: "Название", name: "categoryTitle", widget: "string"}
-              - {label: "Условия хранения", name: "issueDate", widget: "string"}
+              - {label: "Условия хранения", name: "issueDate", widget: "text"}
               - label: "Продукты"
                 name: "items"
                 widget: "list"

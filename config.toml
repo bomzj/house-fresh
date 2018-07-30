@@ -2,7 +2,6 @@ baseurl = "https://housefresh.by/"
 languageCode = "ru"
 DefaultContentLanguage = "ru"
 title = "Продукты питания оптом в Минске: хлеб, сэндвичи, торты, выпечка, комплексные обеды | ХаусФреш"
-theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 [params]

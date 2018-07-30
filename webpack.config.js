@@ -3,8 +3,8 @@ const path = require('path');
 const glob = require('glob');
 
 module.exports = {
-    mode: 'development',
-    entry: "./themes/hugo-creative-theme/static/js/main.js",//glob.sync('./themes/hugo-creative-theme/static/js/*.js'),
+    mode: 'production',
+    entry: "./static/js/main.js",//glob.sync('./themes/hugo-creative-theme/static/js/*.js'),
     output: {
         path: path.resolve(__dirname, './static/js/'),
         filename: 'bundle.js'
