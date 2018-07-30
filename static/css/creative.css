@@ -383,6 +383,7 @@ header .header-content .header-content-inner p {
     margin-top: 40px;
 }
 
+#services .services-item .services-link .services-hover .services-hover-content h2,
 #services .services-item .services-link .services-hover .services-hover-content h3,
 #services .services-item .services-link .services-hover .services-hover-content h4 {
     margin: 0;
@@ -431,6 +432,8 @@ and (max-width : 767px) {
 		font-size: 3em;
 		font-weight: 400;
     }
+	
+	
 	
 	#services .services-item .services-link .services-hover .prod {
 		position: absolute;
