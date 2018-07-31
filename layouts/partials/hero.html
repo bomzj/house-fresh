@@ -22,7 +22,7 @@
                 <p itemprop="description">{{ . | markdownify }}</p>
             {{ end }}
             {{ if and .Site.Params.hero.buttonText .Site.Params.hero.buttonTitle }}
-                <a href="{{.Site.Params.hero.ButtonUrl | absURL}}" class="btn btn-primary btn-xl page-scroll" title="{{.Site.Params.hero.buttonTitle}}">{{ .Site.Params.hero.buttonText }}</a>
+                <a href="{{.Site.Params.navigation.links.catalogUrl | absURL}}" class="btn btn-primary btn-xl page-scroll" title="{{.Site.Params.hero.buttonTitle}}">{{ .Site.Params.hero.buttonText }}</a>
             {{ end }}
         </div>
     </div>
