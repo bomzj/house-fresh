@@ -9,20 +9,15 @@
 				{{ with .Params.subtitle }}
 					<h3>{{ . }}</h3>
 				{{ end }}
-				{{if eq .Params.title "Обеды"}}
-					<h3> Приходите покушать к нам в <strong>Обед Буфет</strong> по адресу </h3>
-					<h3>пр. Жукова, д.44 (ТЦ АУТЛЕТО), второй этаж. </h3>
-					<h3>Или закажите обед с доставкой в офис со скидкой <b class="text-primary">15%</b> !</h3>
-					<p class="text-center">Читайте <a href="/delivery" title="Условия доставки | ХаусФреш">условия доставки</a>.</p>
-				{{end}}
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
 				{{ if .Description }}
-					<h4 class="text-center">{{ .Description  | markdownify  }}</h4>
-					<p class="text-muted text-center"><strong>{{.Params.subdescription}}</strong></p>
-					<hr class="star-primary">
+					<h3 class="text-center">{{ .Description  | markdownify  }}</h3>
+					<h3 class="text-center">{{ .Params.subdescription1  | markdownify }}</h3>
+					<h3 class="text-center">{{ .Params.subdescription2  | markdownify }}</h3>
+					<p class="text-center">{{ .Params.subdescription3  | markdownify}}</p>
 				{{ end }}
 			</div>
 		</div>
