@@ -85,7 +85,7 @@
 										</div>
 										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weightAndPrice">
 											{{if .itemWeight}}
-												<h3 class="catalog-item-weight text-muted">{{.itemWeight}}</h3>
+												<h3 class="catalog-item-weight text-muted">{{.itemWeight}} г</h3>
 											{{end}}
 											{{if .itemPrice}}
 												<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="catalog-item-price">{{.itemPrice}} р</h3>
@@ -95,7 +95,7 @@
 									</div>
 								
 								{{else}}
-									<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+									<div class="col-md-3">
 										<h3 itemprop="name" class="catalog-item-name">{{ .itemTitle }}</h3>
 										{{if .itemSubTitle}}
 											<h5 class="text-muted-italic catalog-item-itemSubTitle">{{ .itemSubTitle }}</h5>
@@ -103,7 +103,7 @@
 										<hr class="gray">
 									</div>
 									
-									<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+									<div class="col-md-9">
 									{{range .menuItems}}
 										<div itemprop="description" class="row lunch-item">
 											{{if .menuItemTitle}}
@@ -112,10 +112,10 @@
 												<p class="text-muted-italic text-small-centered">{{.menuItemIngredients}}</p>
 											</div>
 											<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-												<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}</h3>
+												<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}г</h3>
 											</div>
 											<div class="col-xs-12 col-sm-2 col-md-1 col-lg-1">
-												<h3 class="menu-item-price">{{.menuItemPrice}}</h3>
+												<h3 class="menu-item-price">{{.menuItemPrice}}р</h3>
 											</div>
 											<div class="col-xs-12"><p>  </p></div>
 											{{end}}
