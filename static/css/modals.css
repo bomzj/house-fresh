@@ -169,6 +169,13 @@ body {
 	text-align: center;
 }
 
+.delivery-description {
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 1.5;
+
+}
+
 
 .back-to-top {
 	display: none;
@@ -223,6 +230,13 @@ body {
 		font-size: 1em;
 		
 	}
+	
+	.delivery-description {
+		padding-left: 50px;
+		padding-right: 50px;
+		font-size: 1.2em;
+		line-height: 1.7;
+	}
 }
 
 @media(max-width:767px) {
@@ -240,5 +254,10 @@ body {
 	
 	.text-nomargin {
 		margin-top: 10px;
+	}
+	
+	.delivery-description {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
