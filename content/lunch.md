@@ -1,7 +1,5 @@
 ---
 title: "Обеды"
-downloadButton: false
-contactButton: true
 description: "Приходите покушать к нам в <strong>Обед Буфет</strong> по адресу"
 subdescription1: "пр. Жукова, д.44 (ТЦ АУТЛЕТО), второй этаж."
 subdescription2: "Или закажите обед с доставкой в офис со скидкой <b class='text-primary'>15%</b> !"

@@ -2,7 +2,6 @@
 title: "Условия доставки и оплаты"
 description: ""
 subdescription: ""
-contactButton: true
 metadescription: "Условия доставки и оплаты ХаусФреш, Минск Беларусь"
 sitetitle: "Доставка и оплата | ХаусФреш"
 ---

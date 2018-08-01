@@ -10,7 +10,6 @@ googleAnalytics = ""
 	# information about you and your website.
 	name = "ХаусФреш"
 	keywords = "продукты питания оптом, комплексные обеды, обеденное меню на неделю, доставка обедов в офис"
-
 	# The path must be relative to the static folder
 	favicon = "img/houseFreshLogo.png"
 
@@ -22,9 +21,6 @@ googleAnalytics = ""
 		title = "ХаусФреш: продукты питания оптом, доставка готовых обедов. Минск"
 
 		[params.navigation.links]
-			#about     = "О нас"
-			#aboutTitle = "О компании ХаусФреш"
-			aboutUrl = "/#about"
 			catalog = "Продукция"
 			catalogTitle = "Сэндвичи, булочки, чиабатта, салаты, выпечка, торты: фото, цены, описание | ХаусФреш"
 			catalogUrl = "/production/"
@@ -61,9 +57,6 @@ googleAnalytics = ""
 	[params.services]
 		#headline    = "К вашим услугам"
 		#description = "[ХаусФреш](/) предлагает ... "
-	[params.services.downloadButton]
-			text = "Скачать каталог"
-			link = "/files/HouseFresh.pdf"
 	[params.services.contactButton]
 			text = "Связаться"
 			link = "/#contact"
@@ -99,22 +92,11 @@ googleAnalytics = ""
 		  url = "/delivery/"
 		  atitle = "Доставка продуктов питания | ХаусФреш Беларусь"
 		
-    # Aside section
-	[params.aside]
-		headline = "Каталог продукции в формате PDF"
-
-		[params.aside.button]
-			text = "Скачать"
-			link = "/files/HouseFresh.pdf"
-			title = "Каталог продукции ХаусФреш: фото, описание, цены"
-	
 	
 	# Partners section
 	[params.partners]
 		headline    = "Нам доверяют"
 		description = " "
-		
-		
 		
 		[[params.partners.list]]
 		logo = "perspective.jpg"
