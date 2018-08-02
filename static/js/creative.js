@@ -36,6 +36,14 @@
             maxFontSize: '65px'
         }
     );
+	
+	//Fit Text for Services section
+	$("h2.service-title").fitText(
+        1.2, {
+            minFontSize: '35px',
+            maxFontSize: '65px'
+        }
+    );
 
     // Offset for Main Navigation
     $('#mainNav').affix({
