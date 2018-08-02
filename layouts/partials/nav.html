@@ -16,11 +16,6 @@
 		{{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
-                    <li>
-                        <a  href="{{.Site.Params.navigation.links.aboutUrl}}" title="{{.Site.Params.navigation.links.aboutTitle}}"> {{ .Site.Params.navigation.links.about }} </a>
-                    </li>
-                {{ end }}
                 {{ if .Site.Params.navigation.links.catalog }}
                     <li>
                         <a href="{{.Site.Params.navigation.links.catalogUrl}}"  title="{{.Site.Params.navigation.links.catalogTitle}}">{{ .Site.Params.navigation.links.catalog }}</a>
@@ -30,11 +25,6 @@
                     <li>
                         <a  href="{{.Site.Params.navigation.links.lunchUrl}}" title="{{.Site.Params.navigation.links.lunchTitle}}">{{ .Site.Params.navigation.links.lunch }}</a>
                     </li>
-                {{ end }}
-                {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
-                <li>
-                    <a href="{{.Site.Params.navigation.links.locationUrl}}" title="{{.Site.Params.navigation.links.locationTitle}}">{{ .Site.Params.navigation.links.location }}</a>
-                </li>
                 {{ end }}
 				{{ if .Site.Params.navigation.links.delivery }}
                 <li>

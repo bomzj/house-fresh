@@ -1,6 +1,7 @@
 {{ "<!-- Service page -->" | safeHTML }}
-<div class="aside bg-bread-dark-small">
-	<div class="modal-content">
+<div class="aside">
+	<div class="nav-stripe"></div>
+	<div class="content">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center text-dark">
 				{{ with .Title }}
@@ -51,7 +52,7 @@
 										<div class="catalog-item-main-info">
 											<h3 itemprop="name" class="catalog-item-name">{{ .itemTitle }}</h3>
 											{{if .itemSubTitle}}
-												<h5 class="text-muted-italic catalog-item-itemSubTitle">{{ .itemSubTitle }}</h5>
+												<h5 class="text-muted-italic catalog-item-subTitle">{{ .itemSubTitle }}</h5>
 											{{end}}
 											
 											<hr class="gray">
@@ -60,7 +61,7 @@
 												<p itemprop="description" class="text-muted ingredients">{{.itemIngredients}}</p>
 											{{end}}
 											{{if eq .itemType "cake"}}
-												<p class="text-muted text-small-centered">*Торт продаётся разрезанным на 12 порций.</p>
+												<p class="text-muted text-small-left">*Торт продаётся разрезанным на 12 порций.</p>
 											{{end}}
 											
 											<div itemprop="description" class="row lunch-item">
@@ -83,12 +84,12 @@
 												{{end}}
 											</div>
 										</div>
-										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weightAndPrice">
+										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weight-price-section">
 											{{if .itemWeight}}
-												<h3 class="catalog-item-weight text-muted">{{.itemWeight}} г</h3>
+												<h3 class="catalog-item-weight text-muted">{{.itemWeight}}г</h3>
 											{{end}}
 											{{if .itemPrice}}
-												<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="catalog-item-price">{{.itemPrice}} р</h3>
+												<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="catalog-item-price">{{.itemPrice}}р</h3>
 											{{end}}
 											<meta itemprop="priceCurrency" content="BYN" />
 										</div>
@@ -109,7 +110,7 @@
 											{{if .menuItemTitle}}
 											<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
 												<p class="text-muted text-nomargin">{{.menuItemTitle}}</p>
-												<p class="text-muted-italic text-small-centered">{{.menuItemIngredients}}</p>
+												<p class="text-muted-italic text-small-left">{{.menuItemIngredients}}</p>
 											</div>
 											<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
 												<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}г</h3>
@@ -130,7 +131,7 @@
 					</div>
 					
 					{{ if .issueDate }}
-						<p class="text-muted text-small">{{ .issueDate | markdownify}}</p>
+						<p class="text-muted text-small-center">{{ .issueDate | markdownify}}</p>
 					{{ end }}
 				</div>
 				

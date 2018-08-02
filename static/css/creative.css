@@ -14,6 +14,10 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
+.img-centered {
+    margin: 0 auto;
+}
+
 hr {
     max-width: 50px;
     border-color: #6fac37;
@@ -72,7 +76,6 @@ p.contact {
     line-height: 1;
 }
 
-
 i {
 	margin-bottom: 15px;
 }
@@ -81,45 +84,12 @@ i {
     background-color: #6fac37;
 }
 
-.bg-secondary {
-	background-color: #88776f;
-}
-
 .bg-light-gray {
     background-color: #f7f7f7;
 }
 
 .bg-dark {
-	color: #fff;
-    background-color: #222;
-}
-
-.bg-bread{
-	background-image: url(../img/bg-bread.svg);
-	background-repeat: 100% 100%;
-}
-
-.bg-bread-primary {
-	background-color: #6fac37;
-	background-image: url(../img/bg-bread-white.svg);
-	background-repeat: 100% 100%;
-}
-
-.bg-bread-primary-small {
-	background-color: #6fac37;
-	background-image: url(../img/bg-bread-white.svg);
-	background-repeat: 50% 50%;
-}
-
-.bg-bread-dark {
 	background-color: #222;
-	background-image: url(../img/bg-bread-white.svg);
-	background-repeat: 100% 100%;
-}
-
-.bg-bread-dark-small {
-	background-color: #222;
-	background-repeat: 50% 50%;
 }
 
 .bg-border {
@@ -136,8 +106,6 @@ section {
     padding: 100px 0;
 }
 
-
-
 aside {
     padding: 50px 0;
 }
@@ -145,7 +113,6 @@ aside {
 aside.footer{
     padding: 20px 0 20px 0;
 }
-
 
 .no-padding {
     padding: 0;
@@ -453,38 +420,6 @@ span.copyright {
 	line-height: 16px;
 }
 
-.label {
-  display: inline;
-  padding: .2em .10em .3em;
-  font-size: 75%;
-  font-weight: bold;
-  line-height: 3;
-  color: #fff;
-  text-align: center;
-  
-}
-
-a.label:hover,
-a.label:focus {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-.label:empty {
-  display: none;
-}
-.btn .label {
-  position: relative;
-  top: -1px;
-}
-
-.label-primary {
-  background-color: #6fac37;
-}
-.label-primary[href]:hover,
-.label-primary[href]:focus {
-  background-color: #6fac37;
-}
 
 .call-to-action h2 {
     margin: 0 auto 20px;
@@ -563,10 +498,6 @@ fieldset[disabled] .btn-default.active {
     background-color: #fff;
 }
 
-.btn-default .badge {
-    color: #fff;
-    background-color: #222;
-}
 
 .btn-primary {
     border-color: #6fac37;
