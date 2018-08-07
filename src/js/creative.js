@@ -4,8 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- import { WOW } from './wow.min.js';
-
 (function($) {
     "use strict"; // Start of use strict
 
@@ -51,11 +49,6 @@
             top: 100
         }
     })
-
-    // Initialize WOW.js Scrolling Animations
-    new WOW({
-		live: false
-	}).init();
 
 })(jQuery); // End of use strict
 
