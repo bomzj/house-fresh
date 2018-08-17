@@ -99,20 +99,6 @@ category:
   issueDate: "Срок хранения и реализации: охлажденные- 48 часов, замороженные - при t°при -18°C- 30 суток, после разморозки - 48 часов"
   categoryId: bread
   items:
-  - itemTitle: Булочка для гамбургеров «Французская» светлая
-    itemSubTitle: охлаждённая/замороженная
-    itemImg: /img/catalog/bread/для гамбургеров светлая.jpg
-    itemImgAlt: Булочка для гамбургеров «Французская» светлая | ХаусФреш
-    itemIngredients: Мука пшеничная высший сорт, сахар, соль, дрожжи, маргарин, сухое молоко, вода, кунжут 
-    itemWeight: 82
-    itemPrice: 0.48
-  - itemTitle: Булочка для гамбургеров «Французская» тёмная
-    itemSubTitle: охлаждённая/замороженная
-    itemImg: /img/catalog/bread/для гамбургеров тёмная.jpg
-    itemImgAlt: Булочка для гамбургеров «Французская» тёмная | ХаусФреш
-    itemIngredients: Мука пшеничная высший сорт, семена подсолнуха, солод темный, вода, сахар, соль, дрожжи, овсяные хлопья, отруби пшеничные 
-    itemWeight: 82
-    itemPrice: 0.48
   - itemTitle: Булочка «Французская» светлая
     itemSubTitle: охлаждённая/замороженная
     itemImg: /img/catalog/bread/булочка французская светлая.jpg
@@ -333,6 +319,13 @@ category:
     itemIngredients: Мука пшеничная высшего сорта, маргарин, соль, сахар-песок, дрожжи прессованные, джем 
     itemWeight: 75
     itemPrice: 0.78
+  - itemTitle: Слойка с сыром
+    itemSubTitle: охлаждённая/замороженная
+    itemImg: /img/catalog/bakery/слойка с сыром.jpg
+    itemImgAlt: Слойка с сыром | ХаусФреш
+    itemIngredients: Мука пшеничная высшего сорта, маргарин, соль, дрожжи прессованные, сыр 
+    itemWeight: 75
+    itemPrice: 0.96
   - itemTitle: Круассан с шоколадом 
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/bakery/круассан с шоколадом.jpg
@@ -368,48 +361,96 @@ category:
     itemIngredients: Салат «Айсберг», сыр твердый, отварное филе куриное, томаты свежие, сухарики, яйцо куриное, соевый соус, майонез
     itemWeight: 200
     itemPrice: 2.82
+  - itemTitle: Императорский
+    itemImg: /img/catalog/salads/императорский.jpg
+    itemImgAlt: Салат Императорский | ХаусФреш
+    itemIngredients: Салат «Айсберг», сыр твердый, отварное филе куриное, томаты свежие, сухарики, яйцо куриное, соевый соус, майонез
+    itemWeight: 150
+    itemPrice: 2.10
   - itemTitle: Под шубой
     itemImg: /img/catalog/salads/сельдь под шубой.jpg
     itemImgAlt: Салат Под шубой | ХаусФреш
     itemIngredients: Сельдь соленая (филе), картофель, свекла, морковь, яйцо куриное, лук репчатый, капуста пекинская, майонез
     itemWeight: 200
     itemPrice: 2.82
+  - itemTitle: Под шубой
+    itemImg: /img/catalog/salads/сельдь под шубой.jpg
+    itemImgAlt: Салат Под шубой | ХаусФреш
+    itemIngredients: Сельдь соленая (филе), картофель, свекла, морковь, яйцо куриное, лук репчатый, капуста пекинская, майонез
+    itemWeight: 150
+    itemPrice: 1.80
   - itemTitle: Стрелы амура
     itemImg: /img/catalog/salads/стрелы амура.jpg
     itemImgAlt: Салат Стрелы амура | ХаусФреш
     itemIngredients: Крабовые палочки, кукуруза консервированная, капуста пекинская, яйцо куриное, огурец консервированный, майонез, соевый соус
     itemWeight: 200
     itemPrice: 2.70
+  - itemTitle: Стрелы амура
+    itemImg: /img/catalog/salads/стрелы амура.jpg
+    itemImgAlt: Салат Стрелы амура | ХаусФреш
+    itemIngredients: Крабовые палочки, кукуруза консервированная, капуста пекинская, яйцо куриное, огурец консервированный, майонез, соевый соус
+    itemWeight: 150
+    itemPrice: 2.10
   - itemTitle: Оливье классический
     itemImg: /img/catalog/salads/канделябр.jpg
     itemImgAlt: Салат Оливье классический | ХаусФреш
     itemIngredients: Филе куриное, картофель, морковь, горошек консервированный, огурец маринованный, капуста пекинская, яйцо куриное, майонез
     itemWeight: 200
     itemPrice: 2.70
+  - itemTitle: Оливье классический
+    itemImg: /img/catalog/salads/канделябр.jpg
+    itemImgAlt: Салат Оливье классический | ХаусФреш
+    itemIngredients: Филе куриное, картофель, морковь, горошек консервированный, огурец маринованный, капуста пекинская, яйцо куриное, майонез
+    itemWeight: 150
+    itemPrice: 2.10
   - itemTitle: Лесная иллюзия
     itemImg: /img/catalog/salads/лесная иллюзия.jpg
     itemImgAlt: Салат Лесная иллюзия | ХаусФреш
     itemIngredients: Ветчина куриная, шампиньоны маринованные, морковь, картофель, огурец маринованный, капуста пекинская, яйцо куриное, майонез, кетчуп
     itemWeight: 200
     itemPrice: 2.70
+  - itemTitle: Лесная иллюзия
+    itemImg: /img/catalog/salads/лесная иллюзия.jpg
+    itemImgAlt: Салат Лесная иллюзия | ХаусФреш
+    itemIngredients: Ветчина куриная, шампиньоны маринованные, морковь, картофель, огурец маринованный, капуста пекинская, яйцо куриное, майонез, кетчуп
+    itemWeight: 150
+    itemPrice: 2.10
   - itemTitle: Бонапарт
     itemImg: /img/catalog/salads/бонапарт.jpg
     itemImgAlt: Салат Бонапарт | ХаусФреш
     itemIngredients: Капуста краснокочанная, томаты свежие, огурцы свежие, капуста пекинская, горошек консерви-рованный, кукуруза консервиро-ванная, лук зеленый(перо), майонез, горчица французская
     itemWeight: 200
     itemPrice: 2.70
+  - itemTitle: Бонапарт
+    itemImg: /img/catalog/salads/бонапарт.jpg
+    itemImgAlt: Салат Бонапарт | ХаусФреш
+    itemIngredients: Капуста краснокочанная, томаты свежие, огурцы свежие, капуста пекинская, горошек консерви-рованный, кукуруза консервиро-ванная, лук зеленый(перо), майонез, горчица французская
+    itemWeight: 150
+    itemPrice: 2.10
   - itemTitle: Мексиканский
     itemImg: /img/catalog/salads/мексиканский.jpg
     itemImgAlt: Салат Мексиканский | ХаусФреш
     itemIngredients: Филе куриное, сыр Фета, огурцы свежие, томаты свежие, фасоль консервированная, сухарики, оливки, соевый соус, масло растительное, лист салата
     itemWeight: 200
     itemPrice: 2.82
+  - itemTitle: Мексиканский
+    itemImg: /img/catalog/salads/мексиканский.jpg
+    itemImgAlt: Салат Мексиканский | ХаусФреш
+    itemIngredients: Филе куриное, сыр Фета, огурцы свежие, томаты свежие, фасоль консервированная, сухарики, оливки, соевый соус, масло растительное, лист салата
+    itemWeight: 150
+    itemPrice: 2.10
   - itemTitle: Венецианский
     itemImg: /img/catalog/salads/венецианский.jpg
     itemImgAlt: Салат Венецианский | ХаусФреш
     itemIngredients: Ветчина, огурец свежий, редис свежий, томаты свежие, морковь свежая, укроп свежий, петрушка свежая, яйцо куриное, масло растительное, сахар, соль, лимон (сок), соевый соус
     itemWeight: 200
     itemPrice: 2.82
+  - itemTitle: Венецианский
+    itemImg: /img/catalog/salads/венецианский.jpg
+    itemImgAlt: Салат Венецианский | ХаусФреш
+    itemIngredients: Ветчина, огурец свежий, редис свежий, томаты свежие, морковь свежая, укроп свежий, петрушка свежая, яйцо куриное, масло растительное, сахар, соль, лимон (сок), соевый соус
+    itemWeight: 150
+    itemPrice: 2.10
 - categoryTitle: Комплексные обеды 
   issueDate: 
   categoryId: lunch  
@@ -424,7 +465,7 @@ category:
     meat: Котлета домашняя (свинина, говядина) 100г
     side: Пюре картофельное 150г
     itemWeight:
-    itemPrice: 5.52
+    itemPrice: 5.86
   - itemTitle: Обед №2
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 2.jpg
@@ -446,7 +487,7 @@ category:
     meat: Бифштекс «Смак» (курица) 95г
     side: Гречка отварная 150г
     itemWeight:	
-    itemPrice: 5.10
+    itemPrice: 5.40
   - itemTitle: Обед №4
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 4.jpg
@@ -457,7 +498,7 @@ category:
     meat: Колобки «Полесские» (свинина, говядина) 140г
     side: Рис отварной 150г
     itemWeight:
-    itemPrice: 5.28
+    itemPrice: 5.88
   - itemTitle: Обед №5
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 5.jpg
@@ -468,5 +509,5 @@ category:
     meat: Птица запеченная с помидорами 100г
     side: Картофель жаренный 150г
     itemWeight:
-    itemPrice: 5.16
+    itemPrice: 5.46
 ---
