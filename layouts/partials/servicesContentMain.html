@@ -3,7 +3,7 @@
 	<div class="nav-stripe"></div>
 	<div class="content">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center text-dark">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
 				{{ with .Title }}
 					<h1>{{ . }}</h1>
 				{{ end }}
@@ -13,8 +13,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1 text-center text-dark">
-				{{ if .Description }}
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				{{ if .Description}}
 					<h3 class="text-center">{{ .Description  | markdownify  }}</h3>
 					<h3 class="text-center">{{ .Params.subdescription1  | markdownify }}</h3>
 					<h3 class="text-center">{{ .Params.subdescription2  | markdownify }}</h3>
@@ -26,7 +26,7 @@
 			{{ range .Params.category }}
 				<div class="row" >
 					{{if .categoryId}}
-					<div class="col-lg-10 col-lg-offset-1 text-center text-dark" id="{{.categoryId}}">
+					<div class="col-lg-10 col-lg-offset-1 text-center" id="{{.categoryId}}">
 						{{ with .categoryTitle }}
 							<h2 class="text-primary">{{ . }}</h2>
 						{{ end }}
@@ -89,9 +89,17 @@
 												<h3 class="catalog-item-weight text-muted">{{.itemWeight}}г</h3>
 											{{end}}
 											{{if .itemPrice}}
-												<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="catalog-item-price">{{.itemPrice}}р</h3>
+												<div class="catalog-item-price">
+													<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="">{{.itemPrice}}р</h3>
+													<div class="btn btn-primary btn-add-to-cart" title="Добавить в корзину">
+														<i class="fa fa-cart-arrow-down fa-2x"></i>
+													</div>
+												</div>
 											{{end}}
 											<meta itemprop="priceCurrency" content="BYN" />
+										</div>
+										<div>
+											
 										</div>
 									</div>
 								
@@ -107,19 +115,20 @@
 									<div class="col-md-9">
 									{{range .menuItems}}
 										<div itemprop="description" class="row lunch-item">
-											{{if .menuItemTitle}}
-											<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+											<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
 												<p class="text-muted text-nomargin">{{.menuItemTitle}}</p>
 												<p class="text-muted-italic text-small-left">{{.menuItemIngredients}}</p>
 											</div>
-											<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+											<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
 												<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}г</h3>
-											</div>
-											<div class="col-xs-12 col-sm-2 col-md-1 col-lg-1">
-												<h3 class="menu-item-price">{{.menuItemPrice}}р</h3>
+												<div class="menu-item-price-section">
+													<h3 class="menu-item-price">{{.menuItemPrice}}р</h3>
+													<div class="btn btn-primary btn-add-to-cart" title="Добавить в корзину">
+														<i class="fa fa-cart-arrow-down fa-2x"></i>
+													</div>
+												</div>
 											</div>
 											<div class="col-xs-12"><p>  </p></div>
-											{{end}}
 										</div>
 									{{end}}
 									</div>
@@ -144,9 +153,18 @@
 			</div>
 		</div>
 		
+		{{if eq .Title "Оформление заказа"}}
+		<div class="catalog-footer">
+			<a href="/thankyou/" class="btn btn-primary btn-xl" title="Отправить">Отправить заказ</a>
+		</div>
+		{{else if eq .Title "Спасибо за заказ"}}
+		<div class="catalog-footer">
+		</div>
+		{{else}}
 		<div class="catalog-footer">
 			<a href="{{ .Site.Params.services.contactButton.link }}" class="btn btn-primary btn-xl wow tada" title="контактная информация ХаусФреш">{{ .Site.Params.services.contactButton.text }}</a>
 		</div>
+		{{end}}
 	</div>
 	
 	<div class="back-to-top" id="back-to-top-btn">

@@ -31,8 +31,11 @@ googleAnalytics = ""
 			deliveryTitle = "Условия доставки | ХаусФреш"
 			deliveryUrl = "/delivery/"
 			contact   = "Контакты"
-			contactTitle = "Контакты ХаусФреш"
+			contactTitle = "Контакты | ХаусФреш"
 			contactUrl = "/#contact"
+			cart   = "Корзина"
+			cartTitle = "Перейти в корзину | ХаусФреш"
+			cartUrl = "/#cart-modal"
 
 
 	# Hero section

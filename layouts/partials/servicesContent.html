@@ -4,10 +4,8 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-        {{ if or .Site.Params.navigation.links.catalog .Site.Params.navigation.links.lunch .Site.Params.navigation.links.delivery .Site.Params.navigation.links.contact }}
-            {{ partial "nav.html" . }}
-        {{ end }}
 		
+		{{ partial "nav.html" . }}
 		{{partial "servicesContentMain.html" .}}
 		
         <script src="{{ "js/bundle.js" | absURL }}"></script>

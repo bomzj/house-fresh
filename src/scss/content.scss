@@ -113,6 +113,11 @@ body {
 	font-size: 1.1em;
 }
 
+.lunch-item p.text-nomargin {
+	margin-top: 20px;
+}
+    
+
 .lunch-item-bread {
 	text-align: left;
 	font-size: 0.9em;
@@ -128,11 +133,35 @@ body {
 	
 	position: absolute;
 	bottom: 15px;
-	right: 30px;
+	right: 20px;
+	
+	display: flex;
+}
+
+.catalog-item-price i {
+	margin: auto;
+}
+
+.catalog-item-price .btn-add-to-cart {
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
 .menu-item-price {
 	color: #ee4b28;
+}
+
+.menu-item-price-section {
+	position: absolute;
+    right: -10px;
+    display: flex;
+	
+	margin-top:-55px;
+}
+
+.menu-item-price-section .btn-add-to-cart {
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
 .catalog-item-weight {
@@ -224,10 +253,12 @@ body {
 }
 
 @media(max-width:767px) {
+	.menu-item-price-section {
+		margin-top:-35px;
+	}
+	
 	.menu-item-price {
-		position: absolute;
-		bottom: -20px;
-		right: 30px;
+		
 	}
 	
 	.menu-item-weight {
@@ -239,6 +270,7 @@ body {
 	.text-nomargin {
 		margin-top: 10px;
 	}
+	
 	
 	.delivery-description {
 		padding-left: 0px;

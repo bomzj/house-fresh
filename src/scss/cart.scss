@@ -1,0 +1,139 @@
+.btn-add-to-cart {
+    width: 50px;
+    height: 50px;
+    padding: 10px 0px;
+    border-radius: 50%;
+}
+
+.btn-open-cart:focus, 
+.btn-open-cart:active {
+   outline: none !important;
+}
+
+
+.btn-open-cart i{
+	margin: auto;
+    margin-top: -8px;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.cart-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.cart-modal .modal-content .row{
+	margin: 20px;
+}
+
+.cart-modal .modal-content h3 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.cart-modal .modal-content h2 {
+    margin: 0;
+    font-size: 4em;
+}
+
+
+.cart-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.cart-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.cart-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cart-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.cart-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.cart-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.cart-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.form-control:focus {
+  border-color: #6fac37;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(111, 172, 55, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(111, 172, 55, .6);
+}
+
+.user-info-input {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+@media(max-width:992px) {
+	.cart-modal .modal-content .row {
+		margin: 5px;
+	}
+	
+	
+	.cart-modal .modal-content h3 {
+		margin: 0;
+		font-size: 2em;
+	}
+	
+	.cart-modal .modal-content h2 {
+		margin: 0;
+		font-size: 35px;
+	}
+	
+	.user-info-input {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+
