@@ -14,4 +14,3 @@ class A
 {
 	keke(){ console.log(123); }
 }
-
