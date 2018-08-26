@@ -8,8 +8,8 @@ category:
   categoryId: sandwich
   items:
   - itemTitle: Сэндвич с ветчиной на светлом багете
-    itemCooledID: 0031
-    itemFrozenID: 0032	
+    itemCooledID: "0031"
+    itemFrozenID: "0032"	
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/1.jpg
     itemImgAlt: Сэндвич запеченный с ветчиной | ХаусФреш
@@ -17,8 +17,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич с ветчиной на тёмном багете
-    itemCooledID: 0033
-    itemFrozenID: 0034	
+    itemCooledID: "0033"
+    itemFrozenID: "0034"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/1.jpg
     itemImgAlt: Сэндвич запеченный с ветчиной | ХаусФреш
@@ -26,8 +26,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич с говядиной на светлом багете
-    itemCooledID: 0027
-    itemFrozenID: 0028
+    itemCooledID: "0027"
+    itemFrozenID: "0028"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/2.jpg
     itemImgAlt: Сэндвич запеченный с говядиной | ХаусФреш
@@ -35,8 +35,8 @@ category:
     itemWeight: 250
     itemPrice: 2.94
   - itemTitle: Сэндвич с говядиной на тёмном багете
-    itemCooledID: 0029
-    itemFrozenID: 0030
+    itemCooledID: "0029"
+    itemFrozenID: "0030"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/2.jpg
     itemImgAlt: Сэндвич запеченный с говядиной | ХаусФреш
@@ -44,8 +44,8 @@ category:
     itemWeight: 250
     itemPrice: 2.94
   - itemTitle: Сэндвич с салями на светлом багете
-    itemCooledID: 0023
-    itemFrozenID: 0024
+    itemCooledID: "0023"
+    itemFrozenID: "0024"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/3.jpg
     itemImgAlt: Сэндвич запеченный с салями | ХаусФреш
@@ -53,8 +53,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич с салями на тёмном багете
-    itemCooledID: 0025
-    itemFrozenID: 0026
+    itemCooledID: "0025"
+    itemFrozenID: "0026"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/3.jpg
     itemImgAlt: Сэндвич запеченный с салями | ХаусФреш
@@ -62,8 +62,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич с курицей на светлом багете
-    itemCooledID: 0019
-    itemFrozenID: 0020
+    itemCooledID: "0019"
+    itemFrozenID: "0020"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/4.jpg
     itemImgAlt: Сэндвич запеченный с курицей | ХаусФреш
@@ -71,8 +71,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич с курицей на тёмном багете
-    itemCooledID: 0021
-    itemFrozenID: 0022
+    itemCooledID: "0021"
+    itemFrozenID: "0022"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/4.jpg
     itemImgAlt: Сэндвич запеченный с курицей | ХаусФреш
@@ -80,8 +80,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич «Нежная курочка» на светлом багете
-    itemCooledID: 0082
-    itemFrozenID: 0083
+    itemCooledID: "0082"
+    itemFrozenID: "0083"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Нежная курочка | ХаусФреш
@@ -89,8 +89,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич «Нежная курочка» на тёмном багете
-    itemCooledID: 0094
-    itemFrozenID: 0095
+    itemCooledID: "0094"
+    itemFrozenID: "0095"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Нежная курочка | ХаусФреш
@@ -98,8 +98,8 @@ category:
     itemWeight: 250
     itemPrice: 2.82
   - itemTitle: Сэндвич «Калифорния» на светлом багете
-    itemCooledID: 0084
-    itemFrozenID: 0085
+    itemCooledID: "0084"
+    itemFrozenID: "0085"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Калифорния | ХаусФреш
@@ -107,8 +107,8 @@ category:
     itemWeight: 250
     itemPrice: 4.80
   - itemTitle: Сэндвич «Калифорния» на тёмном багете
-    itemCooledID: 0096
-    itemFrozenID: 0097
+    itemCooledID: "0096"
+    itemFrozenID: "0097"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Калифорния | ХаусФреш
@@ -116,8 +116,8 @@ category:
     itemWeight: 250
     itemPrice: 4.80
   - itemTitle: Сэндвич «Пикантный» на светлом багете
-    itemCooledID: 0086
-    itemFrozenID: 0087
+    itemCooledID: "0086"
+    itemFrozenID: "0087"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Пикантный | ХаусФреш
@@ -125,8 +125,8 @@ category:
     itemWeight: 250
     itemPrice: 2.94
   - itemTitle: Сэндвич «Пикантный» на тёмном багете
-    itemCooledID: 0098
-    itemFrozenID: 0099
+    itemCooledID: "0098"
+    itemFrozenID: "0099"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Пикантный | ХаусФреш
@@ -134,8 +134,8 @@ category:
     itemWeight: 250
     itemPrice: 2.94
   - itemTitle: Сэндвич «Охотничий» на светлом багете
-    itemCooledID: 0067
-    itemFrozenID: 0068
+    itemCooledID: "0067"
+    itemFrozenID: "0068"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Охотничий | ХаусФреш
@@ -143,8 +143,8 @@ category:
     itemWeight: 250
     itemPrice: 2.94
   - itemTitle: Сэндвич «Охотничий» на тёмном багете
-    itemCooledID: 0092
-    itemFrozenID: 0093
+    itemCooledID: "0092"
+    itemFrozenID: "0093"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/sandwich/9.jpg
     itemImgAlt: Сэндвич запеченный Охотничий | ХаусФреш
@@ -156,8 +156,8 @@ category:
   categoryId: fr-baguette
   items:
   - itemTitle: Фаршированный курицей и грибами на светлом багете
-    itemCooledID: 0015
-    itemFrozenID: 0016
+    itemCooledID: "0015"
+    itemFrozenID: "0016"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/fr-baguette/фарш багет курица грибы на светлом багете.jpg
     itemImgAlt: Французский мини багет запеченный фаршированный курицей и грибами на светлом багете | ХаусФреш
@@ -165,8 +165,8 @@ category:
     itemWeight: 185
     itemPrice: 2.64
   - itemTitle: Фаршированный курицей и грибами на тёмном багете
-    itemCooledID: 0017
-    itemFrozenID: 0018
+    itemCooledID: "0017"
+    itemFrozenID: "0018"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/fr-baguette/фарш багет курица грибы на тёмном багете.jpg
     itemImgAlt: Французский мини багет запеченный фаршированный курицей и грибами на тёмном багете | ХаусФреш
@@ -174,8 +174,8 @@ category:
     itemWeight: 185
     itemPrice: 2.64
   - itemTitle: С начинкой из ветчины и сыра на светлом багете
-    itemCooledID: 0011
-    itemFrozenID: 0012
+    itemCooledID: "0011"
+    itemFrozenID: "0012"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/fr-baguette/фарш багет ветчина сыр на светлом багете.jpg
     itemImgAlt: Французский мини багет запеченный с начинкой из ветчины и сыра на светлом багете | ХаусФреш
@@ -183,8 +183,8 @@ category:
     itemWeight: 185
     itemPrice: 2.64
   - itemTitle: С начинкой из ветчины и сыра на тёмном багете
-    itemCooledID: 0013
-    itemFrozenID: 0014
+    itemCooledID: "0013"
+    itemFrozenID: "0014"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/fr-baguette/фарш багет ветчина сыр на тёмном багете.jpg
     itemImgAlt: Французский мини багет запеченный с начинкой из ветчины и сыра на тёмном багете | ХаусФреш
@@ -196,8 +196,8 @@ category:
   categoryId: bread
   items:
   - itemTitle: Булочка «Французская» светлая
-    itemCooledID: 0078
-    itemFrozenID: 0079
+    itemCooledID: "0078"
+    itemFrozenID: "0079"
     itemSubTitle: охлаждённая/замороженная
     itemImg: /img/catalog/bread/булочка французская светлая.jpg
     itemImgAlt: Булочка «Французская» светлая | ХаусФреш
@@ -205,8 +205,8 @@ category:
     itemWeight: 50
     itemPrice: 0.30
   - itemTitle: Булочка «Французская» тёмная с посыпкой
-    itemCooledID: 0080
-    itemFrozenID: 0081
+    itemCooledID: "0080"
+    itemFrozenID: "0081"
     itemSubTitle: охлаждённая/замороженная
     itemImg: /img/catalog/bread/булочка французская тёмная.jpg
     itemImgAlt: Булочка «Французская» тёмная | ХаусФреш
@@ -214,8 +214,8 @@ category:
     itemWeight: 50
     itemPrice: 0.30
   - itemTitle: Чиабатта темный
-    itemCooledID: 0090
-    itemFrozenID: 0091
+    itemCooledID: "0090"
+    itemFrozenID: "0091"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/bread/чиабата темный.jpg
     itemImgAlt: Чиабатта тёмный | ХаусФреш
@@ -223,8 +223,8 @@ category:
     itemWeight: 150
     itemPrice: 0.72
   - itemTitle: Чиабатта темный
-    itemCooledID: 0075
-    itemFrozenID: 0076
+    itemCooledID: "0075"
+    itemFrozenID: "0076"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/bread/чиабата темный.jpg
     itemImgAlt: Чиабатта тёмный | ХаусФреш
@@ -232,8 +232,8 @@ category:
     itemWeight: 250
     itemPrice: 1.38
   - itemTitle: Чиабатта светлый
-    itemCooledID: 0088
-    itemFrozenID: 0089  
+    itemCooledID: "0088"
+    itemFrozenID: "0089"  
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/bread/чиабата светлый.jpg
     itemImgAlt: Чиабатта светлый | ХаусФреш
@@ -241,8 +241,8 @@ category:
     itemWeight: 150
     itemPrice: 0.66
   - itemTitle: Чиабатта светлый
-    itemCooledID: 0073
-    itemFrozenID: 0074  
+    itemCooledID: "0073"
+    itemFrozenID: "0074" 
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/bread/чиабата светлый.jpg
     itemImgAlt: Чиабатта светлый | ХаусФреш
@@ -254,8 +254,8 @@ category:
   categoryId: baguette
   items:
   - itemTitle: «Белый» с кунжутом
-    itemCooledID: 0001
-    itemFrozenID: 0002
+    itemCooledID: "0001"
+    itemFrozenID: "0002"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/baguette/белый с кунжутом.jpg
     itemImgAlt: Багет белый с кунжутом | ХаусФреш
@@ -263,8 +263,8 @@ category:
     itemWeight: 170
     itemPrice: 0.84
   - itemTitle: «Прованский» темный
-    itemCooledID: 0003
-    itemFrozenID: 0004
+    itemCooledID: "0003"
+    itemFrozenID: "0004"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/baguette/прованский тёмный.jpg
     itemImgAlt: Багет прованский тёмный | ХаусФреш
@@ -272,8 +272,8 @@ category:
     itemWeight: 180
     itemPrice: 0.72
   - itemTitle: «Фитнес» с морковью
-    itemCooledID: 0009
-    itemFrozenID: 0010
+    itemCooledID: "0009"
+    itemFrozenID: "0010"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/baguette/фитнес с морковью.jpg
     itemImgAlt: Багет фитнес с морковью | ХаусФреш
@@ -281,8 +281,8 @@ category:
     itemWeight: 220
     itemPrice: 0.72
   - itemTitle: «Зеленый» со шпинатом 
-    itemCooledID: 0007
-    itemFrozenID: 0008
+    itemCooledID: "0007"
+    itemFrozenID: "0008"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/baguette/зелёный со шпинатом.jpg
     itemImgAlt: Багет зелёный со шпинатом | ХаусФреш
@@ -290,8 +290,8 @@ category:
     itemWeight: 180
     itemPrice: 0.84
   - itemTitle: «Красный» с паприкой 
-    itemCooledID: 0005
-    itemFrozenID: 0006
+    itemCooledID: "0005"
+    itemFrozenID: "0006"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/baguette/красный с паприкой.jpg
     itemImgAlt: Багет красный с паприкой | ХаусФреш
@@ -303,8 +303,8 @@ category:
   categoryId: cake
   items:
   - itemTitle: Фруктовый
-    itemCooledID: 0043
-    itemFrozenID: 0044
+    itemCooledID: "0043"
+    itemFrozenID: "0044"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/фруктовый.jpg
@@ -313,8 +313,8 @@ category:
     itemWeight: 1200
     itemPrice: 18.60
   - itemTitle: Морковный
-    itemCooledID: 0053
-    itemFrozenID: 0054
+    itemCooledID: "0053"
+    itemFrozenID: "0054"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/морковный.jpg
@@ -323,8 +323,8 @@ category:
     itemWeight: 1200
     itemPrice: 18.24
   - itemTitle: Три шоколада
-    itemCooledID: 0049
-    itemFrozenID: 0050
+    itemCooledID: "0049"
+    itemFrozenID: "0050"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/3 шоколада.jpg
@@ -333,8 +333,8 @@ category:
     itemWeight: 1200
     itemPrice: 18.24
   - itemTitle: Зеленый чай с белым шоколадом
-    itemCooledID: 0051
-    itemFrozenID: 0052
+    itemCooledID: "0051"
+    itemFrozenID: "0052"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/зеленый чай.jpg
@@ -343,8 +343,8 @@ category:
     itemWeight: 1200
     itemPrice: 18.24
   - itemTitle: Шоколадный Брауни
-    itemCooledID: 0065
-    itemFrozenID: 0066
+    itemCooledID: "0065"
+    itemFrozenID: "0066"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/шокол брауни.jpg
@@ -353,8 +353,8 @@ category:
     itemWeight: 1000
     itemPrice: 16.20
   - itemTitle: Ореховый «Сара Бернар»
-    itemCooledID: 0055
-    itemFrozenID: 0056
+    itemCooledID: "0055"
+    itemFrozenID: "0056"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/ореховый.jpg
@@ -363,8 +363,8 @@ category:
     itemWeight: 1200
     itemPrice: 18.60
   - itemTitle: Наполеон
-    itemCooledID: 0057
-    itemFrozenID: 0058
+    itemCooledID: "0057"
+    itemFrozenID: "0058"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/наполеон.jpg
@@ -373,8 +373,8 @@ category:
     itemWeight: 1200
     itemPrice: 14.04
   - itemTitle: Медовик
-    itemCooledID: 0059
-    itemFrozenID: 0060
+    itemCooledID: "0059"
+    itemFrozenID: "0060"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/медовик.jpg
@@ -383,8 +383,8 @@ category:
     itemWeight: 1000
     itemPrice: 13.20
   - itemTitle: Тирамису
-    itemCooledID: 0039
-    itemFrozenID: 0040
+    itemCooledID: "0039"
+    itemFrozenID: "0040"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/тирамису.jpg
@@ -393,8 +393,8 @@ category:
     itemWeight: 1200
     itemPrice: 17.40
   - itemTitle: Чизкейк классический
-    itemCooledID: 0047
-    itemFrozenID: 0048
+    itemCooledID: "0047"
+    itemFrozenID: "0048"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/чизкейк классич.jpg
@@ -403,8 +403,8 @@ category:
     itemWeight: 1200
     itemPrice: 14.64
   - itemTitle: Чизкейк шоколадный
-    itemCooledID: 0063
-    itemFrozenID: 0064
+    itemCooledID: "0063"
+    itemFrozenID: "0064"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/чизкейк шоколад.jpg
@@ -413,8 +413,8 @@ category:
     itemWeight: 1200
     itemPrice: 18.60
   - itemTitle: Творожный
-    itemCooledID: 0061
-    itemFrozenID: 0062
+    itemCooledID: "0061"
+    itemFrozenID: "0062"
     itemType: cake
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/творожный.jpg
@@ -423,8 +423,8 @@ category:
     itemWeight: 1200
     itemPrice: 16.80
   - itemTitle: Фруктово-ягодный в стакане
-    itemCooledID: 0045
-    itemFrozenID: 0046
+    itemCooledID: "0045"
+    itemFrozenID: "0046"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/фруктово-ягодный в стакане.jpg
     itemImgAlt: Торт фруктово-ягодный в стакане | ХаусФреш
@@ -432,8 +432,8 @@ category:
     itemWeight: 160
     itemPrice: 2.40
   - itemTitle: Тирамису в стакане
-    itemCooledID: 0041
-    itemFrozenID: 0042
+    itemCooledID: "0041"
+    itemFrozenID: "0042"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/cake/тирамису в стакане.jpg
     itemImgAlt: Торт Тирамису в стакане | ХаусФреш
@@ -445,7 +445,7 @@ category:
   categoryId: bakery
   items:
   - itemTitle: Трубочка со сгущёнкой
-    itemCooledID: 0187
+    itemCooledID: "0187"
     itemSubTitle: охлаждённая
     itemImg: /img/catalog/bakery/трубочка со сгущёнкой.jpg
     itemImgAlt: Трубочка со сгущёнкой | ХаусФреш
@@ -453,8 +453,8 @@ category:
     itemWeight: 100
     itemPrice: 1.08
   - itemTitle: Слойка с грушей
-    itemCooledID: 0188
-    itemFrozenID: 0189
+    itemCooledID: "0188"
+    itemFrozenID: "0189"
     itemSubTitle: охлаждённая/замороженная
     itemImg: /img/catalog/bakery/слойка с грушей.jpg
     itemImgAlt: Слойка с грушей | ХаусФреш
@@ -462,8 +462,8 @@ category:
     itemWeight: 75
     itemPrice: 0.78
   - itemTitle: Слойка с вишней
-    itemCooledID: 0190
-    itemFrozenID: 0191
+    itemCooledID: "0190"
+    itemFrozenID: "0191"
     itemSubTitle: охлаждённая/замороженная
     itemImg: /img/catalog/bakery/слойка с вишней.jpg
     itemImgAlt: Слойка с вишней | ХаусФреш
@@ -471,8 +471,8 @@ category:
     itemWeight: 75
     itemPrice: 0.78
   - itemTitle: Слойка с сыром
-    itemCooledID: 0261
-    itemFrozenID: 0262
+    itemCooledID: "0261"
+    itemFrozenID: "0262"
     itemSubTitle: охлаждённая/замороженная
     itemImg: /img/catalog/bakery/слойка с сыром.jpg
     itemImgAlt: Слойка с сыром | ХаусФреш
@@ -480,8 +480,8 @@ category:
     itemWeight: 75
     itemPrice: 0.96
   - itemTitle: Круассан с шоколадом 
-    itemCooledID: 0192
-    itemFrozenID: 0193
+    itemCooledID: "0192"
+    itemFrozenID: "0193"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/bakery/круассан с шоколадом.jpg
     itemImgAlt: Круассан с шоколадом | ХаусФреш
@@ -493,8 +493,8 @@ category:
   categoryId: maffin
   items:
   - itemTitle: Маффин классический
-    itemCooledID: 0035
-    itemFrozenID: 0036
+    itemCooledID: "0035"
+    itemFrozenID: "0036"
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/maffin/маффин классич.jpg
     itemImgAlt: Маффин классический | ХаусФреш
@@ -502,8 +502,8 @@ category:
     itemWeight: 100
     itemPrice: 1.44
   - itemTitle: Маффин шоколадный
-    itemCooledID: 0037
-    itemFrozenID: 0038  
+    itemCooledID: "0037"
+    itemFrozenID: "0038"  
     itemSubTitle: охлаждённый/замороженный
     itemImg: /img/catalog/maffin/маффин шокол.jpg
     itemImgAlt: Маффин шоколадный | ХаусФреш
@@ -515,112 +515,112 @@ category:
   categoryId: salads
   items:
   - itemTitle: Императорский
-    itemCooledID: 0253
+    itemCooledID: "0253"
     itemImg: /img/catalog/salads/императорский.jpg
     itemImgAlt: Салат Императорский | ХаусФреш
     itemIngredients: Салат «Айсберг», сыр твердый, отварное филе куриное, томаты свежие, сухарики, яйцо куриное, соевый соус, майонез
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Императорский
-    itemCooledID: 0294
+    itemCooledID: "0294"
     itemImg: /img/catalog/salads/императорский.jpg
     itemImgAlt: Салат Императорский | ХаусФреш
     itemIngredients: Салат «Айсберг», сыр твердый, отварное филе куриное, томаты свежие, сухарики, яйцо куриное, соевый соус, майонез
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Под шубой
-    itemCooledID: 0254
+    itemCooledID: "0254"
     itemImg: /img/catalog/salads/сельдь под шубой.jpg
     itemImgAlt: Салат Под шубой | ХаусФреш
     itemIngredients: Сельдь соленая (филе), картофель, свекла, морковь, яйцо куриное, лук репчатый, капуста пекинская, майонез
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Под шубой
-    itemCooledID: 0272
+    itemCooledID: "0272"
     itemImg: /img/catalog/salads/сельдь под шубой.jpg
     itemImgAlt: Салат Под шубой | ХаусФреш
     itemIngredients: Сельдь соленая (филе), картофель, свекла, морковь, яйцо куриное, лук репчатый, капуста пекинская, майонез
     itemWeight: 150
     itemPrice: 1.80
   - itemTitle: Стрелы амура
-    itemCooledID: 0255
+    itemCooledID: "0255"
     itemImg: /img/catalog/salads/стрелы амура.jpg
     itemImgAlt: Салат Стрелы амура | ХаусФреш
     itemIngredients: Крабовые палочки, кукуруза консервированная, капуста пекинская, яйцо куриное, огурец консервированный, майонез, соевый соус
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Стрелы амура
-    itemCooledID: 0293
+    itemCooledID: "0293"
     itemImg: /img/catalog/salads/стрелы амура.jpg
     itemImgAlt: Салат Стрелы амура | ХаусФреш
     itemIngredients: Крабовые палочки, кукуруза консервированная, капуста пекинская, яйцо куриное, огурец консервированный, майонез, соевый соус
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Оливье классический
-    itemCooledID: 0256
+    itemCooledID: "0256"
     itemImg: /img/catalog/salads/канделябр.jpg
     itemImgAlt: Салат Оливье классический | ХаусФреш
     itemIngredients: Филе куриное, картофель, морковь, горошек консервированный, огурец маринованный, капуста пекинская, яйцо куриное, майонез
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Оливье классический
-    itemCooledID: 0291
+    itemCooledID: "0291"
     itemImg: /img/catalog/salads/канделябр.jpg
     itemImgAlt: Салат Оливье классический | ХаусФреш
     itemIngredients: Филе куриное, картофель, морковь, горошек консервированный, огурец маринованный, капуста пекинская, яйцо куриное, майонез
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Лесная иллюзия
-    itemCooledID: 0257
+    itemCooledID: "0257"
     itemImg: /img/catalog/salads/лесная иллюзия.jpg
     itemImgAlt: Салат Лесная иллюзия | ХаусФреш
     itemIngredients: Ветчина куриная, шампиньоны маринованные, морковь, картофель, огурец маринованный, капуста пекинская, яйцо куриное, майонез, кетчуп
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Лесная иллюзия
-    itemCooledID: 0290
+    itemCooledID: "0290"
     itemImg: /img/catalog/salads/лесная иллюзия.jpg
     itemImgAlt: Салат Лесная иллюзия | ХаусФреш
     itemIngredients: Ветчина куриная, шампиньоны маринованные, морковь, картофель, огурец маринованный, капуста пекинская, яйцо куриное, майонез, кетчуп
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Бонапарт
-    itemCooledID: 0258
+    itemCooledID: "0258"
     itemImg: /img/catalog/salads/бонапарт.jpg
     itemImgAlt: Салат Бонапарт | ХаусФреш
     itemIngredients: Капуста краснокочанная, томаты свежие, огурцы свежие, капуста пекинская, горошек консерви-рованный, кукуруза консервиро-ванная, лук зеленый(перо), майонез, горчица французская
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Бонапарт
-    itemCooledID: 0273
+    itemCooledID: "0273"
     itemImg: /img/catalog/salads/бонапарт.jpg
     itemImgAlt: Салат Бонапарт | ХаусФреш
     itemIngredients: Капуста краснокочанная, томаты свежие, огурцы свежие, капуста пекинская, горошек консерви-рованный, кукуруза консервиро-ванная, лук зеленый(перо), майонез, горчица французская
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Мексиканский с фасолью
-    itemCooledID: 0259
+    itemCooledID: "0259"
     itemImg: /img/catalog/salads/мексиканский.jpg
     itemImgAlt: Салат Мексиканский | ХаусФреш
     itemIngredients: Филе куриное, сыр Фета, огурцы свежие, томаты свежие, фасоль консервированная, сухарики, оливки, соевый соус, масло растительное, лист салата
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Мексиканский с фасолью
-    itemCooledID: 0292
+    itemCooledID: "0292"
     itemImg: /img/catalog/salads/мексиканский.jpg
     itemImgAlt: Салат Мексиканский | ХаусФреш
     itemIngredients: Филе куриное, сыр Фета, огурцы свежие, томаты свежие, фасоль консервированная, сухарики, оливки, соевый соус, масло растительное, лист салата
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Венецианский
-    itemCooledID: 0260
+    itemCooledID: "0260"
     itemImg: /img/catalog/salads/венецианский.jpg
     itemImgAlt: Салат Венецианский | ХаусФреш
     itemIngredients: Ветчина, огурец свежий, редис свежий, томаты свежие, морковь свежая, укроп свежий, петрушка свежая, яйцо куриное, масло растительное, сахар, соль, лимон (сок), соевый соус
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Венецианский
-    itemCooledID: 0274
+    itemCooledID: "0274"
     itemImg: /img/catalog/salads/венецианский.jpg
     itemImgAlt: Салат Венецианский | ХаусФреш
     itemIngredients: Ветчина, огурец свежий, редис свежий, томаты свежие, морковь свежая, укроп свежий, петрушка свежая, яйцо куриное, масло растительное, сахар, соль, лимон (сок), соевый соус
@@ -631,7 +631,7 @@ category:
   categoryId: lunch  
   items:
   - itemTitle: Обед №1
-    itemCooledID: 0263
+    itemCooledID: "0263"
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 1.jpg
     itemImgAlt: Комплексный обед номер 1 | ХаусФреш
@@ -643,7 +643,7 @@ category:
     itemWeight:
     itemPrice: 5.86
   - itemTitle: Обед №2
-    itemCooledID: 0264
+    itemCooledID: "0264"
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 2.jpg
     itemImgAlt: Комплексный обед номер 2 | ХаусФреш
@@ -655,7 +655,7 @@ category:
     itemWeight:
     itemPrice: 5.34
   - itemTitle: Обед №3
-    itemCooledID: 0265
+    itemCooledID: "0265"
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 3.jpg
     itemImgAlt: Комплексный обед номер 3 | ХаусФреш
@@ -667,7 +667,7 @@ category:
     itemWeight:	
     itemPrice: 5.40
   - itemTitle: Обед №4
-    itemCooledID: 0266
+    itemCooledID: "0266"
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 4.jpg
     itemImgAlt: Комплексный обед номер 4 | ХаусФреш
@@ -679,7 +679,7 @@ category:
     itemWeight:
     itemPrice: 5.88
   - itemTitle: Обед №5
-    itemCooledID: 0267
+    itemCooledID: "0267"
     itemType: lunch
     itemImg: /img/catalog/lunch/обед 5.jpg
     itemImgAlt: Комплексный обед номер 5 | ХаусФреш
