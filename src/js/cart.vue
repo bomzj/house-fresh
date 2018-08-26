@@ -44,7 +44,7 @@
 						<h4 class="cart-item-text cart-item-price">{{ getItemFullPrice(item) }} р</h4>
 					</div>	
 					<div class="col-xs-1">
-						<button type="button" class="btn btn-default" @click="removeItem(item.id)">
+						<button type="button" class="btn btn-default" @click="removeItem(item)">
 							<i class="fa fa-remove fa-2x text-muted"></i>
 						</button>
 					</div>
