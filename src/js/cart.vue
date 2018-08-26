@@ -15,15 +15,15 @@
         </div>
         <div class="container">
             
-			<div class="row text-center">
-				<h3 class="text-primary">Выбранные товары</h3>
+			<div class="row items-in-cart-block">
+				<h3 class="text-primary text-center">Выбранные товары</h3>
 				
 				<div class="item-in-cart" v-for="item in items">
-					<div class="hidden-xs hidden-ms col-md-3 col-lg-3">
+					<div class="hidden-xs hidden-ms col-md-2 col-lg-2">
 						<img :src="item.imageUrl" class="img-responsive cart-item-img" alt="">
 					</div>
 					<div class="col-xs-5 col-sm-5 col-md-4 col-lg-5">
-						<h4 class="cart-item-text text-left">{{ item.title }}</h4>
+						<h4 class="cart-item-text text-left">{{ item.title }} ({{item.weight}} гр) </h4>
 					</div>
 					<div class="col-xs-5 col-sm-5 col-md-3 col-lg-2">
 						<div class="input-group">
@@ -40,7 +40,7 @@
 							</span>
 						</div>
 					</div>
-					<div class="col-xs-1">
+					<div class="col-xs-2">
 						<h4 class="cart-item-text cart-item-price">{{ getItemFullPrice(item) }} р</h4>
 					</div>	
 					<div class="col-xs-1">
@@ -53,13 +53,14 @@
 				<hr class="gray">
 			
 				<div class="row text-left">
-					<h4>Итоговая сумма к оплате: {{ getTotalPrice() }}</h4>
+					<h4 class="total-price-text">Итоговая сумма к оплате с НДС: </h4>
+					<h4 class="total-price cart-item-price">  {{ getTotalPrice() }} р</h4>
 				</div>
 				
 			</div>
 			
-			<div class="text-center">
-				<h3 class="text-primary">Введите Ваши данные</h3>
+			<div class="row personal-info-block">
+				<h3 class="text-primary text-center">Введите Ваши данные</h3>
 				<form>
 					<div class="form-group user-info-input">
 						<input type="text" class="form-control input-lg" placeholder="Ваше имя*">
@@ -95,14 +96,16 @@
 					imageUrl: "/img/catalog/sandwich/1.jpg",
 					title: "Сэндвич с ветчиной",
 					count: 1,
-					price: 2.32
+					price: 2.32,
+					weight: 250
 				},
 				{
 					id: 2,
 					imageUrl: "/img/catalog/sandwich/1.jpg",
 					title: "Фаршированный мини-багет с курицей и грибами",
 					count: 1,
-					price: 2.32
+					price: 2.32,
+					weight: 250
 				}]
 			};
         },

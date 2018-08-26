@@ -41,7 +41,7 @@ body {
 }
 
 .cart-modal .modal-content .row{
-	margin: 20px;
+	margin: 20px 20px 50px 20px;
 }
 
 .cart-modal .modal-content h3 {
@@ -156,6 +156,14 @@ body {
 	font-size: 20px;
 }
 
+.total-price {
+	float: right;
+}
+
+.total-price-text {
+	float: left;
+}
+
 
 @media(min-width:768px) {
 	
@@ -177,7 +185,7 @@ body {
 
 @media(max-width:992px) {
 	.cart-modal .modal-content .row {
-		margin: 5px;
+		margin: 5px 5px 50px 5px;
 	}
 	
 	
@@ -216,7 +224,12 @@ body {
 		margin-bottom: 20px;
 		margin-top: 20px;
 	}
-   
+	
+	.items-in-cart-block .input-number {
+		font-size: 15px;
+		height: 35px;
+	}
+	
 }
 
 
