@@ -149,9 +149,6 @@ body {
 .item-in-cart {
 	display: flex;
 	align-items: center;
-	
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 .cart-item-price {
@@ -209,6 +206,15 @@ body {
 	
 	.cart-item-img {
 		display: none;
+	}
+	
+	.item-in-cart i{
+		font-size: 15px;
+	}
+	
+	.item-in-cart {
+		margin-bottom: 20px;
+		margin-top: 20px;
 	}
    
 }
