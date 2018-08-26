@@ -2,25 +2,32 @@ const webpack = require('webpack'); //to access built-in plugins
 const path = require('path');
 const glob = require('glob');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
-    mode: 'production',
-	//mode: 'development',
+    //mode: 'production',
+	mode: 'development',
+	devtool: 'source-map',
     entry: "./src/js/main.js",//glob.sync('./themes/hugo-creative-theme/static/js/*.js'),
     output: {
         path: path.resolve(__dirname, './static/js/'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+		libraryTarget: 'umd'
     },
-    // resolve: {
-        // extensions: ['.ts', '.js']
-    // },
+	
     module: {
         rules: [
 		{ 
 			test: /\.js$/,
+			//loader: "babel-loader"
 			use: {
-			  loader: "babel-loader",
-			  options: { presets: ["es2015"] }
+				loader: "babel-loader",
+				options: {
+					presets: ["es2015"]
+				}
+				// options: {  
+					// sourceMap: true
+				// }
 			}
 		},
 		{
@@ -44,7 +51,12 @@ module.exports = {
 					}
 				}
             ]
-		}]
+		},
+		{
+			test: /\.vue$/,
+			loader: 'vue-loader',
+		}
+		]
 	},
     plugins: [
 		// For bootstrap.js during compilation
@@ -55,6 +67,7 @@ module.exports = {
 		}),
 		new MiniCssExtractPlugin({
 		  filename: "../css/[name].css"
-		})
+		}),
+		new VueLoaderPlugin()
     ]
 };

@@ -1,0 +1,120 @@
+﻿<template>
+<div>
+	<span class="navbar-cart">
+		<a href="/#cart-modal" class="btn-open-cart" data-toggle="modal"><i class="fa fa-shopping-cart fa-2x"> </i>
+			<span class="cart-items-count">10</span>
+		 </a>
+	</span>
+
+	<div class="cart-modal modal fade" id="cart-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				
+				<div class="row text-center">
+					<h3 class="text-primary">Список покупок</h3>
+					
+					<div class="row item-in-cart">
+						<div class="hidden-xs hidden-ms col-md-3 col-lg-3">
+							<img src="/img/catalog/sandwich/1.jpg" class="img-responsive cart-item-img" alt="">
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-3 col-lg-4">
+							<h4 class="cart-item-text">Сэндвич с ветчиной</h4>
+						</div>
+						<div class="col-xs-5 col-sm-5 col-md-3 col-lg-2">
+							<div class="input-group">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" disabled="disabled" data-type="minus" >
+									  <i class="fa fa-minus"></i>
+									</button>
+								</span>
+								<input type="text"  class="form-control input-lg input-number" value="1" min="1" max="10">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" data-type="plus" >
+									  <i class="fa fa-plus"></i>
+									</button>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<h4 class="cart-item-text cart-item-price">2.82р.</h4>
+						</div>	
+						<div class="col-xs-1">
+							<i class="fa fa-times fa-2x text-muted"> </i>
+						</div>
+					</div>
+					
+					<div class="row item-in-cart">
+						<div class="hidden-xs hidden-ms col-md-3 col-lg-3">
+							<img src="/img/catalog/sandwich/1.jpg" class="img-responsive cart-item-img" alt="">
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-3 col-lg-4">
+							<h4 class="cart-item-text">Фаршированный мини-багет с курицей и грибами</h4>
+						</div>
+						<div class="col-xs-5 col-sm-5 col-md-3 col-lg-2">
+							<div class="input-group">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" disabled="disabled" data-type="minus" >
+									  <i class="fa fa-minus"></i>
+									</button>
+								</span>
+								<input type="text"  class="form-control input-lg input-number" value="1" min="1" max="10">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" data-type="plus" >
+									  <i class="fa fa-plus"></i>
+									</button>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<h4 class="cart-item-text cart-item-price">2.82р.</h4>
+						</div>	
+						<div class="col-xs-1">
+							<i class="fa fa-times fa-2x text-muted"> </i>
+						</div>
+					</div>
+					
+				</div>
+				<br>
+				<div class="row text-center">
+					<h3 class="text-primary">Введите свои данные</h3>
+					<form>
+						<div class="form-group user-info-input">
+							<input type="text" class="form-control input-lg" placeholder="Ваше имя*">
+						</div>
+						<div class="form-group user-info-input">
+							<input type="phone" class="form-control input-lg" placeholder="Контактный телефон*">
+						</div>
+						<div class="form-group user-info-input">
+							<input type="text" class="form-control input-lg" placeholder="Адрес доставки*">
+						</div>
+						
+					<p>Наши менеджеры свяжутся с Вами в течение 20 минут для подтверждения заказа. Если Вы не получили от нас звонок, пожалуйста, перезвоните нам по указанным телефонам.</p>
+					<div class="row" type="submit">
+						<a href="/" class="btn btn-primary btn-xl" title="Оформить заказ">Заказать</a>
+					</div>
+					
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+</template>
+
+<script>
+	let x = 1;
+	console.log(x);
+    export default {
+        data: function () {
+            return {
+                greeting: "Hello Zayac!"
+            };
+        }
+    }
+</script>
