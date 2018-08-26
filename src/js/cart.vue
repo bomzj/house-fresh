@@ -136,7 +136,7 @@
 			},
 			preventInvalidCountInput: function (event) {
                 var value = parseInt(event.target.value);
-                var isValid = value >= 1 && value <= 999;
+                var isValid = value >= 1 && value <= 999 && Math.floor(event.target.value) == value;
                 
                 if (!isValid) {
                     // reset to previous value
