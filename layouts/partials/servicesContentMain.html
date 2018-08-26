@@ -64,6 +64,13 @@
 												<p class="text-muted text-small-left">*Торт продаётся разрезанным на 12 порций.</p>
 											{{end}}
 											
+											{{if and .itemCooledID .itemFrozenID}}
+												<select class="form-control input-lg">
+													<option value="{{.itemCooledID}}">охлаждённый</option>
+													<option value="{{.itemFrozenID}}">замороженный</option>
+												</select>
+											{{end}}
+											
 											<div itemprop="description" class="row lunch-item">
 												{{if .salad}}
 													<p class="text-muted">{{.salad}}</p>
