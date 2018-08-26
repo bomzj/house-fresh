@@ -8,9 +8,6 @@ import './backtotop';
 import Vue from 'vue';  
 import Cart from './cart.vue';
 
+// Make Cart available globally for Add To Cart functionality
 window.cart = new Vue({el: 'cart', render: h => h(Cart) }).$children[0];
-
-class A 
-{
-	keke(){ console.log(123); }
-}
+window.cart.loadState();

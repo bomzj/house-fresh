@@ -93,6 +93,15 @@
 				items:[]
 			};
         },
+		// Track any kind of cart items changes and save to local storage
+		watch: {
+            items: {
+                handler: function (val, oldVal) {
+                    this.saveState();
+                },
+                deep: true
+            }
+        },
 		methods: {
 			addItem: function(item, count) {
 				var foundItem = this.items.filter(i => i.id == item.id)[0];
@@ -140,7 +149,17 @@
 			selectAllText: function (event) {
                 // event.target.select() is not working on Mobile Safari
                 event.target.setSelectionRange(0, event.target.value.length);
-            }
+            },
+			saveState: function () {
+				var json = JSON.stringify(this.items);
+				localStorage.setItem("Cart", json);
+			},
+			loadState: function () {
+				var json = localStorage.getItem("Cart");
+				if (json) {
+					this.items = JSON.parse(json);
+				}
+			}
 		}
     }
 </script>
