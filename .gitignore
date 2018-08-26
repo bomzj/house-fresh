@@ -4,3 +4,5 @@ hugo.exe
 /static/js/bundle.js
 /static/css/main.css
 package-lock.json
+**.js.map
+**.css.map
