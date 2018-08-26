@@ -8,7 +8,7 @@ import './backtotop';
 import Vue from 'vue';  
 import Cart from './cart.vue';
 
-new Vue({el: 'cart', render: h => h(Cart) });
+window.cart = new Vue({el: 'cart', render: h => h(Cart) }).$children[0];
 
 class A 
 {

@@ -23,7 +23,7 @@
 						<img :src="item.imageUrl" class="img-responsive cart-item-img" alt="">
 					</div>
 					<div class="col-xs-5 col-sm-5 col-md-4 col-lg-5">
-						<h4 class="cart-item-text text-left">{{ item.title }} ({{item.weight}} гр) </h4>
+						<h4 class="cart-item-text text-left">{{ item.title }} ({{ item.weight }} гр, {{ item.temperatureState }}) </h4>
 					</div>
 					<div class="col-xs-5 col-sm-5 col-md-3 col-lg-2">
 						<div class="input-group">
@@ -90,28 +90,12 @@
     export default {
         data: function () {
             return {
-				items:[
-				{
-					id: 1,
-					imageUrl: "/img/catalog/sandwich/1.jpg",
-					title: "Сэндвич с ветчиной",
-					count: 1,
-					price: 2.32,
-					weight: 250
-				},
-				{
-					id: 2,
-					imageUrl: "/img/catalog/sandwich/1.jpg",
-					title: "Фаршированный мини-багет с курицей и грибами",
-					count: 1,
-					price: 2.32,
-					weight: 250
-				}]
+				items:[]
 			};
         },
 		methods: {
 			addItem: function(item, count) {
-				var foundItem = this.items.filter(i => i.id == item.id);
+				var foundItem = this.items.filter(i => i.id == item.id)[0];
 				if (foundItem) {
 					foundItem.count += count || 1;
 				}

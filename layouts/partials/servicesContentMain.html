@@ -63,13 +63,11 @@
 											{{if eq .itemType "cake"}}
 												<p class="text-muted text-small-left">*Торт продаётся разрезанным на 12 порций.</p>
 											{{end}}
-											
-											{{if and .itemCooledID .itemFrozenID}}
-												<select class="form-control input-lg">
-													<option value="{{.itemCooledID}}">охлаждённый</option>
-													<option value="{{.itemFrozenID}}">замороженный</option>
-												</select>
-											{{end}}
+										
+											<select class="form-control input-lg" style="display:{{ if not .itemFrozenID }}none{{end}}">
+												<option value="{{.itemCooledID}}">охлаждённый</option>
+												<option value="{{.itemFrozenID}}">замороженный</option>
+											</select>
 											
 											<div itemprop="description" class="row lunch-item">
 												{{if .salad}}
@@ -98,9 +96,16 @@
 											{{if .itemPrice}}
 												<div class="catalog-item-price">
 													<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="">{{.itemPrice}}р</h3>
-													<div class="btn btn-primary btn-add-to-cart" title="Добавить в корзину">
+													<button class="btn btn-primary btn-add-to-cart" title="Добавить в корзину" 
+														onclick="cart.addItem({ 
+															imageUrl: '{{.itemImg}}', 
+															title: '{{.itemTitle}}', 
+															temperatureState: this.closest('.catalog-item').querySelector('select').selectedOptions[0].text, 
+															price: {{.itemPrice}},
+															weight: {{.itemWeight}},
+															id: this.closest('.catalog-item').querySelector('select').value  })">
 														<i class="fa fa-cart-arrow-down fa-2x"></i>
-													</div>
+													</button>
 												</div>
 											{{end}}
 											<meta itemprop="priceCurrency" content="BYN" />
@@ -130,9 +135,9 @@
 												<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}г</h3>
 												<div class="menu-item-price-section">
 													<h3 class="menu-item-price">{{.menuItemPrice}}р</h3>
-													<div class="btn btn-primary btn-add-to-cart" title="Добавить в корзину">
+													<button class="btn btn-primary btn-add-to-cart" title="Добавить в корзину">
 														<i class="fa fa-cart-arrow-down fa-2x"></i>
-													</div>
+													</button>
 												</div>
 											</div>
 											<div class="col-xs-12"><p>  </p></div>
