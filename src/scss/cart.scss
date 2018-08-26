@@ -37,7 +37,7 @@ body {
 }
 
 .cart-modal .modal-content .row{
-	margin: 20px 20px 50px 20px;
+	margin: 10px 10px 50px 10px;
 }
 
 .cart-modal .modal-content h3 {
@@ -147,17 +147,32 @@ body {
 	align-items: center;
 }
 
+.item-main-info {
+	display: flex;
+	align-items: center;
+}
+
+.item-count-info{
+	display: flex;
+	align-items: center;
+}
+
 .cart-item-price {
 	color: #ee4b28;
 	font-size: 20px;
-}
-
-.total-price {
 	float: right;
 }
 
-.total-price-text {
+
+.total-price-text{
+	font-size: 20px;
 	float: left;
+	margin-right: 15px;
+}
+
+.total-price {
+	color: #ee4b28;
+	font-size: 20px;
 }
 
 
@@ -184,9 +199,22 @@ body {
     .navbar-default.affix .navbar-cart>a:focus:hover {
         color: #6fac37;
     }
-	
-
 }
+
+@media(max-width:768px) {
+	
+	.navbar-default .navbar-cart >a,
+	.navbar-default .navbar-cart>a:focus {
+		color: #222;
+	}
+
+	.navbar-default .navbar-cart >a:hover,
+	.navbar-default .navbar-cart>a:focus:hover {
+		color: #6fac37;
+	}
+    
+}
+
 
 @media(max-width:992px) {
 	.cart-modal .modal-content .row {
@@ -214,7 +242,7 @@ body {
 	}
    
     .cart-item-text {
-		font-size: 13px;
+		font-size: 17px;
 	}
 	
 	.cart-item-img {
@@ -230,22 +258,18 @@ body {
 		margin-top: 20px;
 	}
 	
+	.item-in-cart {
+		display: block;
+	}
+	
 	.items-in-cart-block .input-number {
 		font-size: 15px;
 		height: 35px;
 	}
 	
-	
-	.navbar-default .navbar-cart >a,
-	.navbar-default .navbar-cart>a:focus {
-		color: #222;
+	.item-in-cart .text-muted-italic{
+		font-size: 13px;
 	}
-
-	.navbar-default .navbar-cart >a:hover,
-	.navbar-default .navbar-cart>a:focus:hover {
-		color: #6fac37;
-	}
-	
 	
 }
 

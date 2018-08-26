@@ -18,43 +18,50 @@
 			<div class="row items-in-cart-block">
 				<h3 class="text-primary text-center">Выбранные товары</h3>
 				
-				<div class="item-in-cart" v-for="item in items">
-					<div class="hidden-xs hidden-ms col-md-2 col-lg-2">
-						<img :src="item.imageUrl" class="img-responsive cart-item-img" alt="">
-					</div>
-					<div class="col-xs-5 col-sm-5 col-md-4 col-lg-5">
-						<h4 class="cart-item-text text-left">{{ item.title }} ({{ item.weight }} гр, {{ item.temperatureState }}) </h4>
-					</div>
-					<div class="col-xs-5 col-sm-5 col-md-3 col-lg-2">
-						<div class="input-group">
-							<span class="input-group-btn">
-								<button class="btn btn-default" :disabled="item.count <= 1" @click="removeItem(item, 1)">
-								  <i class="fa fa-minus"></i>
-								</button>
-							</span>
-							<input class="form-control input-lg input-number" v-model.number="item.count" @input="preventInvalidCountInput" @click="selectAllText">
-							<span class="input-group-btn">
-								<button class="btn btn-default" @click="addItem(item, 1)">
-								  <i class="fa fa-plus"></i>
-								</button>
-							</span>
+				<div class="row item-in-cart" v-for="item in items">
+					
+					<div class="item-main-info col-xs-12 col-sm-12 col-md-7 col-lg-8">
+						<div class="hidden-xs hidden-ms col-md-4 col-lg-4">
+							<img :src="item.imageUrl" class="img-responsive cart-item-img" alt="">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+							<h4 class="cart-item-text text-left">{{ item.title }}</h4>
+							<h5 class="text-muted-italic text-left">({{ item.weight }} гр, {{ item.temperatureState }})</h5>
 						</div>
 					</div>
-					<div class="col-xs-2">
-						<h4 class="cart-item-text cart-item-price">{{ getItemFullPrice(item) }} р</h4>
-					</div>	
-					<div class="col-xs-1">
-						<button type="button" class="btn btn-default" @click="removeItem(item)">
-							<i class="fa fa-remove fa-2x text-muted"></i>
-						</button>
+					
+					<div class="item-count-info col-xs-12 col-sm-12 col-md-5 col-lg-4">
+						<div class="col-xs-6 col-sm-4 col-md-6 col-lg-6">
+							<div class="input-group">
+								<span class="input-group-btn">
+									<button class="btn btn-default" :disabled="item.count <= 1" @click="removeItem(item, 1)">
+									  <i class="fa fa-minus"></i>
+									</button>
+								</span>
+								<input class="form-control input-lg input-number" v-model.number="item.count" @input="preventInvalidCountInput" @click="selectAllText">
+								<span class="input-group-btn">
+									<button class="btn btn-default" @click="addItem(item, 1)">
+									  <i class="fa fa-plus"></i>
+									</button>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-4 col-sm-6 col-md-5 col-lg-5">
+							<h4 class="cart-item-text cart-item-price">{{ getItemFullPrice(item) }} р</h4>
+						</div>	
+						<div class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+							<button type="button" class="btn btn-default" @click="removeItem(item)">
+								<i class="fa fa-remove fa-2x text-muted"></i>
+							</button>
+						</div>
 					</div>
 				</div>
 								
 				<hr class="gray">
 			
 				<div class="row text-left">
-					<h4 class="total-price-text">Итоговая сумма к оплате с НДС: </h4>
-					<h4 class="total-price cart-item-price">  {{ getTotalPrice() }} р</h4>
+					<h4 class="total-price-text">Итоговая сумма к оплате: </h4>
+					<h4 class="total-price">  {{ getTotalPrice() }} р</h4>
 				</div>
 				
 			</div>
