@@ -4,7 +4,9 @@
 		{{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
         <div class="navbar-header">
             <span class="navbar-cart">
-				 <a href="{{.Site.Params.navigation.links.cartUrl}}" title="{{.Site.Params.navigation.links.cartTitle}}" class="btn-open-cart" data-toggle="modal"><i class="fa fa-shopping-cart fa-2x"> </i></a>
+				 <a href="{{.Site.Params.navigation.links.cartUrl}}" title="{{.Site.Params.navigation.links.cartTitle}}" class="btn-open-cart" data-toggle="modal"><i class="fa fa-shopping-cart fa-2x"> </i>
+					<span class="cart-items-count">10</span>
+				 </a>
 			</span>
 
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
