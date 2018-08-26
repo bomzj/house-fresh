@@ -1,10 +1,10 @@
 ﻿<template>
 <div>
-<span class="navbar-cart">
+<div class="navbar-cart">
 	<a href="/#cart-modal" class="btn-open-cart" data-toggle="modal"><i class="fa fa-shopping-cart fa-2x"> </i>
 		<span class="cart-items-count" v-if="items.length">{{ items.length }}</span>
 	 </a>
-</span>
+</div>
 
 <div class="cart-modal modal fade" id="cart-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
