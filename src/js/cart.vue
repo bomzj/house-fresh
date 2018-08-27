@@ -13,11 +13,10 @@
                 <div class="rl"></div>
             </div>
         </div>
-        <div class="container">
+		<h3 class="text-primary text-center">{{ items.length ? 'Выбранные товары': 'Ваша корзина пуста' }}</h3>
+        <div class="container" v-show="items.length">
             
 			<div class="row items-in-cart-block">
-				<h3 class="text-primary text-center">Выбранные товары</h3>
-				
 				<div v-for="item in items">
 					<div class="row item-in-cart" >
 						<div class="item-main-info col-xs-12 col-sm-12 col-md-7 col-lg-8">
@@ -185,9 +184,6 @@
 				return this.orderForm.name && 
 					this.orderForm.phone && 
 					this.orderForm.address;
-			},
-			validateOrderForm: function (e) {
-				
 			}
 		}
     }
