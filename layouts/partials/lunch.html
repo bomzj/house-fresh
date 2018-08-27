@@ -1,0 +1,100 @@
+{{ "<!-- Lunch page -->" | safeHTML }}
+<div class="aside">
+	<div class="nav-stripe"></div>
+	<div class="content">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				{{ with .Title }}
+					<h1>{{ . }}</h1>
+				{{ end }}
+				{{ with .Params.subtitle }}
+					<h3>{{ . }}</h3>
+				{{ end }}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				{{ if .Description}}
+					<h3 class="text-center">{{ .Description  | markdownify  }}</h3>
+					<h3 class="text-center">{{ .Params.subdescription1  | markdownify }}</h3>
+					<h3 class="text-center">{{ .Params.subdescription2  | markdownify }}</h3>
+					<p class="text-center">{{ .Params.subdescription3  | markdownify}}</p>
+				{{ end }}
+			</div>
+		</div>
+		<div class="row">
+			{{ range .Params.category }}
+				<div class="row" >
+					{{if .categoryId}}
+					<div class="col-lg-10 col-lg-offset-1 text-center" id="{{.categoryId}}">
+						{{ with .categoryTitle }}
+							<h2 class="text-primary">{{ . }}</h2>
+						{{ end }}
+						{{if .categorySubTitle}}
+							<h4>{{.categorySubTitle}}</h4>
+						{{end}}
+					</div>
+					{{end}}
+				</div>
+				<div class="row bottom-padding">
+					<div class="row">
+					{{range .items}}
+						<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >
+							<div class="col-md-3">
+								<h3 itemprop="name" class="catalog-item-name">{{ .itemTitle }}</h3>
+								{{if .itemSubTitle}}
+									<h5 class="text-muted-italic catalog-item-itemSubTitle">{{ .itemSubTitle }}</h5>
+								{{end}}
+								<hr class="gray">
+							</div>
+							
+							<div class="col-md-9">
+							{{range .menuItems}}
+								<div itemprop="description" class="row lunch-item">
+									<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+										<p class="text-muted text-nomargin">{{.menuItemTitle}}</p>
+										<p class="text-muted-italic text-small-left">{{.menuItemIngredients}}</p>
+									</div>
+									<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+										<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}г</h3>
+										<div class="menu-item-price-section">
+											<h3 class="menu-item-price">{{.menuItemPrice}}р</h3>
+											<button class="btn btn-primary btn-add-to-cart" title="Добавить в корзину"
+												onclick="cart.addItem({ 
+													title: '{{.menuItemTitle}}', 
+													price: {{.menuItemPrice}},
+													weight: {{.menuItemWeight}},
+													id: '{{.menuItemID}}'
+													})">
+												<i class="fa fa-cart-arrow-down fa-2x"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							{{end}}
+							</div>
+						</div>
+					{{end}}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+		
+		<div class="catalog-footer">
+			<a href="{{ .Site.Params.services.contactButton.link }}" class="btn btn-primary btn-xl wow tada" title="контактная информация ХаусФреш">{{ .Site.Params.services.contactButton.text }}</a>
+		</div>
+	</div>
+	
+	<div class="back-to-top" id="back-to-top-btn">
+		<a href="#page-top" class="page-scroll">
+			<i class="fa fa-chevron-up fa-1x"></i>
+		</a>
+	</div>
+	
+</div>
+
+
+
+
+
+

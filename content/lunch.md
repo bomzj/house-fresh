@@ -1,4 +1,5 @@
 ---
+layout: lunch
 title: "Обеды"
 description: "Приходите покушать к нам в <strong>Обед Буфет</strong> по адресу"
 subdescription1: "пр. Жукова, д.44 (ТЦ АУТЛЕТО), второй этаж."
