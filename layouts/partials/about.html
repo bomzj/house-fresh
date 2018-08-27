@@ -17,7 +17,7 @@
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
                 {{ if and .Site.Params.about.buttonText .Site.Params.about.buttonTitle }}
-                    <a href="#contact" title="{{.Site.Params.about.buttonTitle}}" class="btn btn-default btn-xl wow tada page-scroll">{{ .Site.Params.about.buttonText }}</a>
+                    <a href="#contact" title="{{.Site.Params.about.buttonTitle}}" class="btn btn-secondary btn-xl page-scroll">{{ .Site.Params.about.buttonText }}</a>
                 {{ end }}
             </div>
         </div>
