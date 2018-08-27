@@ -71,21 +71,21 @@
 			
 			<div class="row personal-info-block">
 				<h3 class="text-primary text-center">Введите Ваши данные</h3>
-				<form>
+				<form @submit.prevent="onOrderFormSubmit">
 					<div class="form-group user-info-input">
-						<input type="text" class="form-control input-lg" placeholder="Ваше имя*">
+						<input type="text" class="form-control input-lg" placeholder="Ваше имя*" v-model="orderForm.name">
 					</div>
 					<div class="form-group user-info-input">
-						<input type="phone" class="form-control input-lg" placeholder="Контактный телефон*">
+						<input type="phone" class="form-control input-lg" placeholder="Контактный телефон*" v-model="orderForm.phone">
 					</div>
 					<div class="form-group user-info-input">
-						<input type="text" class="form-control input-lg" placeholder="Адрес доставки*">
+						<input type="text" class="form-control input-lg" placeholder="Адрес доставки*" v-model="orderForm.address">
 					</div>
 					
 					<p class="text-muted">Наши менеджеры свяжутся с Вами в течение 20 минут для подтверждения заказа. Если Вы не получили от нас звонок, пожалуйста, перезвоните нам по указанным в контактах телефонам.</p>
 					
-					<div class="row" type="submit">
-						<a href="/" class="btn btn-primary btn-xl" title="Оформить заказ">Заказать</a>
+					<div class="row">
+						<button class="btn btn-primary btn-xl" title="Заказать" :disabled="!isOrderFormValid()">Заказать</button>
 					</div>
 				</form>
 			</div>
@@ -100,7 +100,13 @@
     export default {
         data: function () {
             return {
-				items:[]
+				items:[],
+				orderForm: {
+					name: '',
+					phone: '',
+					email: '',
+					address: ''
+				}
 			};
         },
 		// Track any kind of cart items changes and save to local storage
@@ -169,6 +175,19 @@
 				if (json) {
 					this.items = JSON.parse(json);
 				}
+			},
+			onOrderFormSubmit: function () {
+				if (!this.isOrderFormValid()) return;
+				
+				
+			},
+			isOrderFormValid: function () {
+				return this.orderForm.name && 
+					this.orderForm.phone && 
+					this.orderForm.address;
+			},
+			validateOrderForm: function (e) {
+				
 			}
 		}
     }
