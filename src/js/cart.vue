@@ -25,7 +25,7 @@
 							</div>
 							<div class="col-xs-6 col-sm-8 col-md-8 col-lg-8">
 								<h4 class="cart-item-text text-left">{{ item.title }}</h4>
-								<h5 class="text-muted-italic text-left">({{ item.weight }} гр, {{ item.temperatureState }})</h5>
+								<h5 class="text-muted-italic text-left" v-if="shouldSubTitleShow(item)">({{ item.weight }} гр, {{ item.temperatureState }})</h5>
 							</div>
 						</div>
 						<div class="item-count-info col-xs-12 col-sm-12 col-md-5 col-lg-4">
@@ -174,6 +174,9 @@
 				if (json) {
 					this.items = JSON.parse(json);
 				}
+			},
+			shouldSubTitleShow: function(item) {
+				return item.type != "lunch";
 			},
 			onOrderFormSubmit: function () {
 				if (!this.isOrderFormValid()) return;
