@@ -24,9 +24,9 @@
 		</div>
 		<div class="row">
 			{{ range .Params.category }}
-				<div class="row">
+				<div class="row top-padding" id="{{.categoryId}}">
 					{{if .categoryId}}
-					<div class="col-lg-10 col-lg-offset-1 text-center" id="{{.categoryId}}">
+					<div class="col-lg-10 col-lg-offset-1 text-center" >
 						{{ with .categoryTitle }}
 							<h2 class="text-primary">{{ . }}</h2>
 						{{ end }}
@@ -36,7 +36,7 @@
 					</div>
 					{{end}}
 				</div>
-				<div class="row bottom-padding">
+				<div class="row">
 					<div class="row">
 					{{range .items}}
 						<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >

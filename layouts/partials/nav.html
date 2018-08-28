@@ -21,9 +21,22 @@
 			<ul class="nav navbar-nav navbar-right" >
                 {{ if .Site.Params.navigation.links.catalog }}
                     <li>
-                        <a href="{{.Site.Params.navigation.links.catalogUrl}}"  title="{{.Site.Params.navigation.links.catalogTitle}}">{{ .Site.Params.navigation.links.catalog }}</a>
-                    </li>
+						<a title="{{.Site.Params.navigation.links.catalogTitle}}" href="{{.Site.Params.navigation.links.catalogUrl}}">{{ .Site.Params.navigation.links.catalog }}</a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="/production/#sandwich">Сэндвичи</a></li>
+						  <li><a href="/production/#fr-baguette">Мини багеты</a></li>
+						  <li><a href="/production/#bread">Хлеб</a></li>
+						  <li><a href="/production/#cake">Торты и выпечка</a></li>
+						  <li><a href="/production/#salads">Салаты</a></li>
+						  <li><a href="/production/#lunch">Комплексные обеды</a></li>
+						</ul>
+					</li>
                 {{ end }}
+				
+				
 				{{ if .Site.Params.navigation.links.lunch }}
                     <li>
                         <a  href="{{.Site.Params.navigation.links.lunchUrl}}" title="{{.Site.Params.navigation.links.lunchTitle}}">{{ .Site.Params.navigation.links.lunch }}</a>
