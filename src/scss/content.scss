@@ -12,6 +12,10 @@ body {
 	padding: 50px 0 0 0;
 }
 
+.product-category-selector {
+	cursor: pointer;
+}
+
 .content {
 	padding: 30px 0 50px;
     min-height: 100%;
@@ -133,9 +137,22 @@ body {
 }
     
 
+.complex-lunch-item {
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.complex-lunch-item p.text-nomargin {
+	margin-top: 20px;
+}
+	
 .lunch-item-bread {
 	text-align: left;
 	font-size: 0.9em;
+}
+
+.temperatureState-input {
+	cursor: pointer;
 }
 
 .weight-price-section {
@@ -240,6 +257,11 @@ body {
 		padding-bottom: 20px;
 	}
 	
+	.content .row .complex-lunch-item {
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	
 	.catalog-item {
 		display: block;
 	}
@@ -261,7 +283,11 @@ body {
 	.lunch-item p{
 		text-align: left;
 		font-size: 1em;
-		
+	}
+	
+	.complex-lunch-item p{
+		text-align: left;
+		font-size: 1em;
 	}
 	
 	.delivery-description {
