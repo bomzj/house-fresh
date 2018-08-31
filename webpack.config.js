@@ -14,6 +14,12 @@ module.exports = {
         filename: 'bundle.js',
 		libraryTarget: 'umd'
     },
+	resolve: {
+		alias: {
+			// full vue version = vue + vue template compiler
+			vue: 'vue/dist/vue.js'
+		}
+	},
     module: {
         rules: [
 		{ 

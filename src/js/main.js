@@ -8,11 +8,12 @@ import './backtotop';
 import Vue from 'vue';  
 import Cart from './cart.vue';
 
-// Make Cart available globally for Add To Cart functionality
-window.cart = new Vue({el: 'cart', render: h => h(Cart) }).$children[0];
+var cartVM = new Vue({
+	el: 'cart',
+	components: {
+		Cart
+    }
+});
 
-// class A{
-	// doit() {
-		// console.log(1234);
-	// }
-// }
+// Make Cart available globally for Add To Cart functionality
+window.cart = cartVM.$children[0];

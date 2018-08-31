@@ -99,6 +99,7 @@
 import OrderEmailTemplate from './orderEmailTemplate';
 
 export default {
+	props: ['email'],
 	data: function () {
 		return {
 			items:[],
@@ -190,9 +191,6 @@ export default {
 			var xhr = new XMLHttpRequest();
 			xhr.open("POST", 'https://api.elasticemail.com/v2/email/send', true);
 
-			//Send the proper header information along with the request
-			//xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
 			xhr.onreadystatechange = function() {//Call a function when the state changes.
 				if(this.readyState == XMLHttpRequest.DONE && this.status == 200) {
 					// Request finished. Do processing here.
@@ -201,11 +199,9 @@ export default {
 			
 			var formData = new FormData();
 			formData.append('apikey', '7c848836-860e-4b4e-8909-a0c0fea20173'),
-			formData.append('subject', 'Заказ из housefresh.by'),
-			//formData.append('from', 'bomzj@yopmail.com');
-			formData.append('to', 'maksim@brainjocks.com');
-			formData.append('from', 'maksim@brainjocks.com');
-			//formData.append('to', 'sidorenco01@mail.ru');
+			formData.append('subject', 'Заказ с housefresh.by'),
+			formData.append('to', this.email);
+			formData.append('from', this.email);
 			var emailHtml = this.buildOrderEmailHtml();
 			formData.append('bodyHtml', emailHtml);
 			formData.append('isTransactional', 'true');
