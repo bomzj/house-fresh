@@ -96,98 +96,137 @@
 </template>
 
 <script>
-    export default {
-        data: function () {
-            return {
-				items:[],
-				orderForm: {
-					name: '',
-					phone: '',
-					email: '',
-					address: ''
-				}
-			};
-        },
-		// Track any kind of cart items changes and save to local storage
-		watch: {
-            items: {
-                handler: function (val, oldVal) {
-                    this.saveState();
-                },
-                deep: true
-            }
-        },
-		methods: {
-			addItem: function(item, count) {
-				var foundItem = this.items.filter(i => i.id == item.id)[0];
-				if (foundItem) {
-					foundItem.count += count || 1;
-				}
-				else {
-					item.count = count || 1;
-					this.items.push(item);
-				}
-			},
-			removeItem: function(item, count) {
-				var index = this.items.indexOf(item);
-				
-				if (!count || count >= item.count) {
-					this.items.splice(index, 1);
-				}
-				else {
-					this.items[index].count -= count;
-				}
-			},
-			getItemFullPrice: function(item) {
-				var fullPrice = item.price * item.count;
-				return Math.round(fullPrice * 100) / 100;
-			},
-			getTotalPrice: function() {
-				var totalPrice = 0;
-				for (var i = 0; i < this.items.length; i++) {
-					totalPrice = Math.round((totalPrice + this.getItemFullPrice(this.items[i])) * 100) / 100;
-				}
-				return totalPrice;
-			},
-			preventInvalidCountInput: function (event) {
-                var value = parseInt(event.target.value);
-                var isValid = value >= 1 && value <= 999 && Math.floor(event.target.value) == value;
-                
-                if (!isValid) {
-                    // reset to previous value
-                    var resetEvent = document.createEvent('Event');
-                    resetEvent.initEvent('input', true, true);
-                    event.target.value = event.target._value;
-                    event.target.dispatchEvent(resetEvent);
-                }
-            },
-			selectAllText: function (event) {
-                // event.target.select() is not working on Mobile Safari
-                event.target.setSelectionRange(0, event.target.value.length);
-            },
-			saveState: function () {
-				var json = JSON.stringify(this.items);
-				localStorage.setItem("Cart", json);
-			},
-			loadState: function () {
-				var json = localStorage.getItem("Cart");
-				if (json) {
-					this.items = JSON.parse(json);
-				}
-			},
-			shouldSubTitleShow: function(item) {
-				return item.type != "lunch";
-			},
-			onOrderFormSubmit: function () {
-				if (!this.isOrderFormValid()) return;
-				
-				
-			},
-			isOrderFormValid: function () {
-				return this.orderForm.name && 
-					this.orderForm.phone && 
-					this.orderForm.address;
+import OrderEmailTemplate from './orderEmailTemplate';
+
+export default {
+	data: function () {
+		return {
+			items:[],
+			orderForm: {
+				name: '',
+				phone: '',
+				email: '',
+				address: ''
 			}
+		};
+	},
+	// Track any kind of cart items changes and save to local storage
+	watch: {
+		items: {
+			handler: function (val, oldVal) {
+				this.saveState();
+			},
+			deep: true
 		}
-    }
+	},
+	created: function() {
+		// load cart state from local storage
+		this.loadState();
+	},
+	methods: {
+		addItem: function(item, count) {
+			var foundItem = this.items.filter(i => i.id == item.id)[0];
+			if (foundItem) {
+				foundItem.count += count || 1;
+			}
+			else {
+				item.count = count || 1;
+				this.items.push(item);
+			}
+		},
+		removeItem: function(item, count) {
+			var index = this.items.indexOf(item);
+			
+			if (!count || count >= item.count) {
+				this.items.splice(index, 1);
+			}
+			else {
+				this.items[index].count -= count;
+			}
+		},
+		getItemFullPrice: function(item) {
+			var fullPrice = item.price * item.count;
+			return Math.round(fullPrice * 100) / 100;
+		},
+		getTotalPrice: function() {
+			var totalPrice = 0;
+			for (var i = 0; i < this.items.length; i++) {
+				totalPrice = Math.round((totalPrice + this.getItemFullPrice(this.items[i])) * 100) / 100;
+			}
+			return totalPrice;
+		},
+		preventInvalidCountInput: function (event) {
+			var value = parseInt(event.target.value);
+			var isValid = value >= 1 && value <= 999 && Math.floor(event.target.value) == value;
+			
+			if (!isValid) {
+				// reset to previous value
+				var resetEvent = document.createEvent('Event');
+				resetEvent.initEvent('input', true, true);
+				event.target.value = event.target._value;
+				event.target.dispatchEvent(resetEvent);
+			}
+		},
+		selectAllText: function (event) {
+			// event.target.select() is not working on Mobile Safari
+			event.target.setSelectionRange(0, event.target.value.length);
+		},
+		saveState: function () {
+			var json = JSON.stringify(this.items);
+			localStorage.setItem("Cart", json);
+		},
+		loadState: function () {
+			var json = localStorage.getItem("Cart");
+			if (json) {
+				this.items = JSON.parse(json);
+			}
+		},
+		shouldSubTitleShow: function(item) {
+			return item.type != "lunch";
+		},
+		onOrderFormSubmit: function () {
+			if (!this.isOrderFormValid()) return;
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", 'https://api.elasticemail.com/v2/email/send', true);
+
+			//Send the proper header information along with the request
+			//xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+			xhr.onreadystatechange = function() {//Call a function when the state changes.
+				if(this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+					// Request finished. Do processing here.
+				}
+			}
+			
+			var formData = new FormData();
+			formData.append('apikey', '7c848836-860e-4b4e-8909-a0c0fea20173'),
+			formData.append('subject', 'Заказ из housefresh.by'),
+			//formData.append('from', 'bomzj@yopmail.com');
+			formData.append('to', 'maksim@brainjocks.com');
+			formData.append('from', 'maksim@brainjocks.com');
+			//formData.append('to', 'sidorenco01@mail.ru');
+			var emailHtml = this.buildOrderEmailHtml();
+			formData.append('bodyHtml', emailHtml);
+			formData.append('isTransactional', 'true');
+			
+			xhr.send(formData); 
+		},
+		isOrderFormValid: function () {
+			return this.orderForm.name && 
+				this.orderForm.phone && 
+				this.orderForm.address;
+		},
+		buildOrderEmailHtml: function() {
+			var data = {
+				items: this.items,
+				orderForm: this.orderForm,
+				getItemFullPrice: this.getItemFullPrice,
+				getTotalPrice: this.getTotalPrice,
+				shouldSubTitleShow: this.shouldSubTitleShow
+			};
+			return OrderEmailTemplate(data);
+		}
+	}
+}
 </script>

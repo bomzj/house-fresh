@@ -14,7 +14,6 @@ module.exports = {
         filename: 'bundle.js',
 		libraryTarget: 'umd'
     },
-	
     module: {
         rules: [
 		{ 
@@ -23,7 +22,7 @@ module.exports = {
 			use: {
 				loader: "babel-loader",
 				options: {
-					presets: ["es2015"]
+					presets: ["env"],
 				}
 				// options: {  
 					// sourceMap: true
