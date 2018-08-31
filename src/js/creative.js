@@ -48,7 +48,11 @@
         offset: {
             top: 100
         }
-    })
+    });
+	
+	$(".lunch-item").click(function(){
+		$(this).toggleClass("selected").siblings().removeClass("selected");;
+	})
 
 })(jQuery); // End of use strict
 

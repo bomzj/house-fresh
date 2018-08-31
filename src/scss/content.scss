@@ -112,9 +112,20 @@ body {
 	padding: 15px;
 }
 
+.dayOfWeek-block {
+	display: none;
+}
+
 .lunch-item {
 	text-align: left;
 	font-size: 1.1em;
+	border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.lunch-item.selected {
+	border-color: #6fac37;
+    border-radius: 6px;
 }
 
 .lunch-item p.text-nomargin {
@@ -157,7 +168,7 @@ body {
 
 .menu-item-price-section {
 	position: absolute;
-    right: -10px;
+    right: 10px;
     display: flex;
 	
 	margin-top:-55px;
@@ -225,7 +236,8 @@ body {
 	}
 	
 	.content .row .lunch-item {
-		margin-bottom: 35px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
 	}
 	
 	.catalog-item {
@@ -285,5 +297,8 @@ body {
 		padding-right: 0px;
 	}
 	
+	.lunch-item.selected {
+		padding-bottom: 35px;
+	}
 	
 }

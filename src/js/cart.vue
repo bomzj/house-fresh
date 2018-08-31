@@ -13,7 +13,7 @@
                 <div class="rl"></div>
             </div>
         </div>
-		<h3 class="text-primary text-center">{{ items.length ? 'Выбранные товары': 'Ваша корзина пуста' }}</h3>
+		<h3 class="text-primary text-center">{{ items.length ? 'Выбранные позиции': 'Ваша корзина пуста' }}</h3>
         <div class="container" v-show="items.length">
             
 			<div class="row items-in-cart-block">
