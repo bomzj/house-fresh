@@ -108,7 +108,7 @@ return `
 						</td>
 						<td>
 							<h5>${item.title}</h5>
-							<h6>${shouldSubTitleShow(item) ? `(${item.weight} гр, ${item.temperatureState})` : ''}</h6>
+							<h6>${data.shouldSubTitleShow(item) ? `(${item.weight} гр, ${item.temperatureState})` : ''}</h6>
 						</td>
 						<td>
 							<span>${item.count}</span>

@@ -42,7 +42,7 @@
 						<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
 								<div itemprop="image" class="img">
-									<img src="{{ .itemImg }}" class="img-responsive" alt="{{ .itemImgAlt}}">
+									<img src="{{.itemImg | absURL}}" class="img-responsive" alt="{{ .itemImgAlt}}">
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
