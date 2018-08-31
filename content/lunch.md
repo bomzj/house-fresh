@@ -14,21 +14,21 @@ daysOfWeek:
   categories:
   - categoryTitle: Салаты
     menuItems:
-    - menuItemTitle: Салат–коктейль «Мимоза»
+    - menuItemTitle: Салат «Белорусский»
       menuItemID: 21	
-      menuItemIngredients: консерва рыбная, сыр, яйцо, майонез
+      menuItemIngredients: грибы, печень отварная, огурец марин., яйцо, майонез
       menuItemWeight: 150
-      menuItemPrice: 3.15
-    - menuItemTitle: Салат из белокочанной капусты со свеклой и морковью
+      menuItemPrice: 2.60
+    - menuItemTitle: Салат «Верасень»
       menuItemID: 22
-      menuItemIngredients: капуста, свекла, морковь, заправка
+      menuItemIngredients: овощи отв., овощи маринован., грибы, зеленый гор. майонез
       menuItemWeight: 150
-      menuItemPrice: 1.50
-    - menuItemTitle: Салат-коктейль  «Вянок»
+      menuItemPrice: 2.20
+    - menuItemTitle: Салат «Любительский»
       menuItemID: 23
-      menuItemIngredients: ветчина, чернослив, огурец яйцо, майонез
+      menuItemIngredients: печень трески, картофель отварной, лук, горош.конс, майонез
       menuItemWeight: 150
-      menuItemPrice: 3.15
+      menuItemPrice: 2.95
   - categoryTitle: Супы
     menuItems:  
     - menuItemTitle: Суп с крупой перловой
@@ -48,16 +48,16 @@ daysOfWeek:
       menuItemIngredients: свинина, специи
       menuItemWeight: 75
       menuItemPrice: 4.20
-    - menuItemTitle: Зразы по-слуцки
+    - menuItemTitle: Жаркое по-лидски
       menuItemID: 27
-      menuItemIngredients: свинина, говядина, специи
-      menuItemWeight: 125/50
-      menuItemPrice: 3.40
-    - menuItemTitle: Бифштекс из говядины
+      menuItemIngredients: свинина, овощи тушенные, специи
+      menuItemWeight: 270
+      menuItemPrice: 3.65
+    - menuItemTitle: Котлета «Свитязь» (натуральная)
       menuItemID: 28
-      menuItemIngredients: говядина рубленая, специи
-      menuItemWeight: 100
-      menuItemPrice: 3.45
+      menuItemIngredients: говядина, специи
+      menuItemWeight: 120
+      menuItemPrice: 3.15
   - categoryTitle: Гарниры
     menuItems:
     - menuItemTitle: Картофель, запеченный с окороком и грибами
@@ -65,11 +65,11 @@ daysOfWeek:
       menuItemIngredients: 
       menuItemWeight: 150
       menuItemPrice: 1.65
-    - menuItemTitle: Каша перловая рассыпчатая
+    - menuItemTitle: Свекла тушенная в сметане
       menuItemID: 30
       menuItemIngredients: 
       menuItemWeight: 150
-      menuItemPrice: 0.90
+      menuItemPrice: 1.30
   - categoryTitle: Хлеб
     menuItems:
     - menuItemTitle: Хлеб белый
@@ -88,28 +88,28 @@ daysOfWeek:
   categories:
   - categoryTitle: Салаты
     menuItems:
-    - menuItemTitle: Салат-коктейль с ветчиной и сыром
+    - menuItemTitle: Салат «Оригинальный»
       menuItemID: 31
-      menuItemIngredients: ветчина, овощи, сыр, майонез
+      menuItemIngredients: морковь, маринованный огурец, яйцо сыр, майонез, кетчуп
       menuItemWeight: 150
-      menuItemPrice: 2.45
-    - menuItemTitle: Салат «Слоеный»
+      menuItemPrice: 2.65
+    - menuItemTitle: Салат  из сыра и моркови
       menuItemID: 32
-      menuItemIngredients: овощи свежие, яйцо, сыр, майонез
+      menuItemIngredients: сыр, морковь, огурец свеж., майонез
       menuItemWeight: 150
-      menuItemPrice: 2.60
-    - menuItemTitle: Винегрет с сельдью
+      menuItemPrice: 1.90
+    - menuItemTitle: Салат «Немига»
       menuItemID: 33
-      menuItemIngredients: овощи отварные, овощи маринованные, сельдь филе, заправка
+      menuItemIngredients: филе хека отварное, овощи, майонез
       menuItemWeight: 150
-      menuItemPrice: 2.40
+      menuItemPrice: 3.15
   - categoryTitle: Супы
     menuItems:  
-    - menuItemTitle: Рассольник Ленинградский
+    - menuItemTitle: Щи ленивые с грибами
       menuItemID: 34
       menuItemIngredients: 
       menuItemWeight: 250/20
-      menuItemPrice: 2.15
+      menuItemPrice: 1.85
     - menuItemTitle: Суп гороховый с беконом
       menuItemID: 35
       menuItemIngredients: 
@@ -117,15 +117,15 @@ daysOfWeek:
       menuItemPrice: 2.45
   - categoryTitle: Вторые блюда
     menuItems:
-    - menuItemTitle: Плов со свининой
+    - menuItemTitle: Зразы донские
       menuItemID: 36
-      menuItemIngredients: свинина, рис, овощи
-      menuItemWeight: 250
-      menuItemPrice: 3.80
-    - menuItemTitle: Эскалоп с помидорами
+      menuItemIngredients: филе хека, специи
+      menuItemWeight: 110
+      menuItemPrice: 3.20
+    - menuItemTitle: Птица по-ашхабадски
       menuItemID: 37
-      menuItemIngredients: свинина, помидор, специи
-      menuItemWeight: 130
+      menuItemIngredients: птица, овощи, специи
+      menuItemWeight: 300
       menuItemPrice: 3.65
     - menuItemTitle: Шницель рыбный натуральный
       menuItemID: 38
@@ -134,16 +134,16 @@ daysOfWeek:
       menuItemPrice: 3.15
   - categoryTitle: Гарниры
     menuItems:
-    - menuItemTitle: Картофельное пюре
+    - menuItemTitle: Морковь тушенная в сметанном соусе
       menuItemID: 39
       menuItemIngredients: 
       menuItemWeight: 150
-      menuItemPrice: 0.95
-    - menuItemTitle: Капуста, тушенная с грибами
+      menuItemPrice: 1.65
+    - menuItemTitle: Каша гречневая рассыпчатая
       menuItemID: 40
       menuItemIngredients: 
       menuItemWeight: 150
-      menuItemPrice: 1.45
+      menuItemPrice: 0.85
   - categoryTitle: Хлеб
     menuItems:
     - menuItemTitle: Хлеб белый
