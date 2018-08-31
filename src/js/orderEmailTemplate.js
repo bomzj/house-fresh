@@ -81,7 +81,7 @@ return `
             <span>${data.orderForm.phone}</span>
         </div>
         <div class="row">
-            <label>Адрес:</label>
+            <label>Адрес доставки:</label>
             <span>${data.orderForm.address}</span>
         </div>
     </div>
@@ -94,7 +94,7 @@ return `
                     <th>Картинка</th>
                     <th>Название</th>
                     <th>Количество</th>
-					<th>Цена</th>
+					<th>Стоимость</th>
                 </tr>
             </thead>
             <tbody>
@@ -104,11 +104,11 @@ return `
 							<span>${item.id}</span>
 						</td>
 						<td>
-							<img src="${item.imageUrl}" />
+							<img src="${item.imageUrl}" width="100" />
 						</td>
 						<td>
 							<h5>${item.title}</h5>
-							<h6>${data.shouldSubTitleShow(item) ? `(${item.weight} гр, ${item.temperatureState})` : ''}</h6>
+							<p>${data.shouldSubTitleShow(item) ? `(${item.weight} гр, ${item.temperatureState})` : ''}</p>
 						</td>
 						<td>
 							<span>${item.count}</span>
