@@ -70,7 +70,7 @@
 			
 			<div class="row personal-info-block">
 				<h3 class="text-primary text-center">Введите Ваши данные</h3>
-				<form @submit.prevent="onOrderFormSubmit">
+				<form @submit.prevent="submitOrder">
 					<div class="form-group user-info-input">
 						<input type="text" class="form-control input-lg" placeholder="Ваше имя*" v-model="orderForm.name">
 					</div>
@@ -92,11 +92,22 @@
         </div>
     </div>
 </div>
+<transition name="fade">
+	<div class="alert alert-success" v-show="isSuccessAlertShowing" @click="isSuccessAlertShowing = false">
+		<strong>Заказ отправлен!</strong> Мы свяжемся с Вами для подтверждения заказа.
+	</div>	
+</transition>
+<transition name="fade">
+	<div class="alert alert-danger" v-show="isErrorAlertShowing" @click="isErrorAlertShowing = false">
+		<strong>Произошла ошибка!</strong> Попробуйте отправить заказ еще раз или перезвоните нам.
+	</div>
+</transition>
 </div>
 </template>
 
 <script>
 import OrderEmailTemplate from './orderEmailTemplate';
+import $ from './jquery';
 
 export default {
 	props: ['email'],
@@ -108,7 +119,9 @@ export default {
 				phone: '',
 				email: '',
 				address: ''
-			}
+			},
+			isSuccessAlertShowing: false,
+			isErrorAlertShowing: false
 		};
 	},
 	// Track any kind of cart items changes and save to local storage
@@ -185,17 +198,11 @@ export default {
 		shouldSubTitleShow: function(item) {
 			return item.type != "lunch";
 		},
-		onOrderFormSubmit: function () {
+		submitOrder: function () {
 			if (!this.isOrderFormValid()) return;
 			
 			var xhr = new XMLHttpRequest();
-			xhr.open("POST", 'https://api.elasticemail.com/v2/email/send', true);
-
-			xhr.onreadystatechange = function() {//Call a function when the state changes.
-				if(this.readyState == XMLHttpRequest.DONE && this.status == 200) {
-					// Request finished. Do processing here.
-				}
-			}
+			
 			
 			var formData = new FormData();
 			formData.append('apikey', '7c848836-860e-4b4e-8909-a0c0fea20173'),
@@ -205,6 +212,28 @@ export default {
 			var emailHtml = this.buildOrderEmailHtml();
 			formData.append('bodyHtml', emailHtml);
 			formData.append('isTransactional', 'true');
+						
+			xhr.open("POST", 'https://api.elasticemail.com/v2/email/send', true);
+			
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState != XMLHttpRequest.DONE) return;
+				
+				var result = xhr.response ? JSON.parse(xhr.response) : {};
+				if (result.success) {
+					// Clear the cart
+					this.items = [];
+					
+					// Close modal
+					$('.cart-modal').modal('hide');
+					
+					// Display Success message for 3 seconds
+					this.isSuccessAlertShowing = true;
+					setTimeout(() => { this.isSuccessAlertShowing = false }, 5000);
+				}
+				else {
+					this.showErrorAlert();
+				}
+			}.bind(this);
 			
 			xhr.send(formData); 
 		},
@@ -222,6 +251,10 @@ export default {
 				shouldSubTitleShow: this.shouldSubTitleShow
 			};
 			return OrderEmailTemplate(data);
+		},
+		showErrorAlert: function() {
+			this.isErrorAlertShowing = true;
+			setTimeout(() => { this.isErrorAlertShowing = false }, 5000);
 		}
 	}
 }

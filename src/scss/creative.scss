@@ -481,3 +481,26 @@ body {
     overflow: visible;
     position: relative;
 }
+
+.alert {
+	position: fixed;
+	font-size: 20px;
+    width: 100%;
+    z-index: 9999;
+    border-radius: 0;
+	top: 0;
+    left: 0;
+}
+
+/* Transition animation for alerts  */
+.fade-leave-active {
+  transition: opacity 1s;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter {
+  opacity: 1;
+}
