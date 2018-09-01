@@ -10,7 +10,8 @@ sitetitle: "Комплексные обеды, Кейтеринг, Органи�
 daysOfWeek:
 - dayTitle: Понедельник
   date: 3 сентября
-  actualFrom: "2018-09-02 11:00:00"
+  validFromOrderDate: "2018-08-31 11:00:00"
+  validToOrderDate: "2018-09-03 10:59:59"
   categories:
   - categoryTitle: Салаты
     menuItems:
@@ -84,7 +85,8 @@ daysOfWeek:
       menuItemPrice: 0.10
 - dayTitle: Вторник
   date: 4 сентября 
-  actualFrom: "2018-09-03 11:00:00"
+  validFromOrderDate: "2018-09-03 11:00:00"
+  validToOrderDate: "2018-09-04 10:59:59"
   categories:
   - categoryTitle: Салаты
     menuItems:
@@ -158,7 +160,8 @@ daysOfWeek:
       menuItemPrice: 0.10
 - dayTitle: Среда
   date: 5 сентября
-  actualFrom: "2018-09-04 11:00:00"
+  validFromOrderDate: "2018-09-04 11:00:00"
+  validToOrderDate: "2018-09-05 10:59:59"
   categories:
   - categoryTitle: Салаты
     menuItems:
@@ -232,7 +235,8 @@ daysOfWeek:
       menuItemPrice: 0.10
 - dayTitle: Четверг
   date: 6 сентября
-  actualFrom: "2018-09-05 11:00:00"
+  validFromOrderDate: "2018-09-05 11:00:00"
+  validToOrderDate: "2018-09-06 10:59:59"
   categories:
   - categoryTitle: Салаты
     menuItems:
@@ -306,7 +310,8 @@ daysOfWeek:
       menuItemPrice: 0.10
 - dayTitle: Пятница
   date: 7 сентября
-  actualFrom: "2018-09-06 11:00:00"
+  validFromOrderDate: "2018-09-06 11:00:00"
+  validToOrderDate: "2018-09-07 10:59:59"
   categories:
   - categoryTitle: Салаты
     menuItems:
