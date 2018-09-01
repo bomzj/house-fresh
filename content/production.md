@@ -14,7 +14,7 @@ category:
     itemCooledID: "0031"
     itemFrozenID: "0032"	
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/1.jpg
+    itemImg: img/catalog/sandwich/сэндвич с ветчиной.jpg
     itemImgAlt: Сэндвич запеченный с ветчиной | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Сулугуни, сыр плавленый, ветчина к/в, огурец свежий, помидор свежий, салат "Айсберг", майонез.
     itemWeight: 250
@@ -23,7 +23,7 @@ category:
     itemCooledID: "0033"
     itemFrozenID: "0034"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/1.jpg
+    itemImg: img/catalog/sandwich/сэндвич с ветчиной.jpg
     itemImgAlt: Сэндвич запеченный с ветчиной | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Сулугуни, сыр плавленый, ветчина к/в, огурец свежий, помидор свежий, салат "Айсберг", майонез.
     itemWeight: 250
@@ -32,7 +32,7 @@ category:
     itemCooledID: "0027"
     itemFrozenID: "0028"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/2.jpg
+    itemImg: img/catalog/sandwich/сэндвич с говядиной.jpg
     itemImgAlt: Сэндвич запеченный с говядиной | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Голландский, сыр плавленый, огурец свежий, помидор свежий, капуста пряная, майонез, кетчуп, говядина к/в.
     itemWeight: 250
@@ -41,7 +41,7 @@ category:
     itemCooledID: "0029"
     itemFrozenID: "0030"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/2.jpg
+    itemImg: img/catalog/sandwich/сэндвич с говядиной.jpg
     itemImgAlt: Сэндвич запеченный с говядиной | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Голландский, сыр плавленый, огурец свежий, помидор свежий, капуста пряная, майонез, кетчуп, говядина к/в.
     itemWeight: 250
@@ -50,7 +50,7 @@ category:
     itemCooledID: "0023"
     itemFrozenID: "0024"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/3.jpg
+    itemImg: img/catalog/sandwich/сэндвич с салями.jpg
     itemImgAlt: Сэндвич запеченный с салями | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Голландский твёрдый, колбаса салями с/к, капуста пекинская, огурцы маринованные, морковь по-корейски, майонез, сыр плавленый, лук красный.
     itemWeight: 250
@@ -59,7 +59,7 @@ category:
     itemCooledID: "0025"
     itemFrozenID: "0026"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/3.jpg
+    itemImg: img/catalog/sandwich/сэндвич с салями.jpg
     itemImgAlt: Сэндвич запеченный с салями | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Голландский твёрдый, колбаса салями с/к, капуста пекинская, огурцы маринованные, морковь по-корейски, майонез, сыр плавленый, лук красный.
     itemWeight: 250
@@ -68,7 +68,7 @@ category:
     itemCooledID: "0019"
     itemFrozenID: "0020"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/4.jpg
+    itemImg: img/catalog/sandwich/сэндвич с курицей.jpg
     itemImgAlt: Сэндвич запеченный с курицей | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Голландский, сыр плавленый, огурец свежий, лист салата «Айсберг», кукуруза консервированная, соус «Чесночный», рулет куриный.
     itemWeight: 250
@@ -77,7 +77,7 @@ category:
     itemCooledID: "0021"
     itemFrozenID: "0022"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/4.jpg
+    itemImg: img/catalog/sandwich/сэндвич с курицей.jpg
     itemImgAlt: Сэндвич запеченный с курицей | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Голландский, сыр плавленый, огурец свежий, лист салата «Айсберг», кукуруза консервированная, соус «Чесночный», рулет куриный.
     itemWeight: 250
@@ -86,7 +86,7 @@ category:
     itemCooledID: "0082"
     itemFrozenID: "0083"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Нежная курочка | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Голландский твердый, ветчина куриная, капуста «Пекинская», перец болгарский свежий, оливки б/к, сыр плавленый, майонез, укроп.
     itemWeight: 250
@@ -95,7 +95,7 @@ category:
     itemCooledID: "0094"
     itemFrozenID: "0095"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Нежная курочка | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Голландский твердый, ветчина куриная, капуста «Пекинская», перец болгарский свежий, оливки б/к, сыр плавленый, майонез, укроп.
     itemWeight: 250
@@ -104,7 +104,7 @@ category:
     itemCooledID: "0084"
     itemFrozenID: "0085"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Калифорния | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, форель или семга сл/сол., сыр твердый, сыр плавленый, томаты свежие, салат «Айсберг», майонез, соус «Песто».
     itemWeight: 250
@@ -113,7 +113,7 @@ category:
     itemCooledID: "0096"
     itemFrozenID: "0097"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Калифорния | ХаусФреш
     itemIngredients: Багет «Прованский» темный, форель или семга сл/сол., сыр твердый, сыр плавленый, томаты свежие, салат «Айсберг», майонез, соус «Песто».
     itemWeight: 250
@@ -122,7 +122,7 @@ category:
     itemCooledID: "0086"
     itemFrozenID: "0087"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Пикантный | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Голландский твердый, грудка куриная копченая, капуста «Пекинская», огурцы маринованные, соус «Песто», майонез, имбирь маринованный.
     itemWeight: 250
@@ -131,7 +131,7 @@ category:
     itemCooledID: "0098"
     itemFrozenID: "0099"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Пикантный | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Голландский твердый, грудка куриная копченая, капуста «Пекинская», огурцы маринованные, соус «Песто», майонез, имбирь маринованный.
     itemWeight: 250
@@ -140,7 +140,7 @@ category:
     itemCooledID: "0067"
     itemFrozenID: "0068"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Охотничий | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, сыр Голландский твердый, сыр плавленый, капуста «Пекинская», томаты свежие, перец болгарский свежий, майонез, соус «Чесночный», колбаски «Охотничьи».
     itemWeight: 250
@@ -149,7 +149,7 @@ category:
     itemCooledID: "0092"
     itemFrozenID: "0093"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/sandwich/9.jpg
+    itemImg: img/catalog/sandwich/сэндвич.jpg
     itemImgAlt: Сэндвич запеченный Охотничий | ХаусФреш
     itemIngredients: Багет «Прованский» темный, сыр Голландский твердый, сыр плавленый, капуста «Пекинская», томаты свежие, перец болгарский свежий, майонез, соус «Чесночный», колбаски «Охотничьи».
     itemWeight: 250
@@ -162,7 +162,7 @@ category:
     itemCooledID: "0015"
     itemFrozenID: "0016"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/fr-baguette/фарш багет курица грибы на светлом багете.jpg
+    itemImg: img/catalog/fr-baguette/фаршированный багет курица грибы на светлом багете.jpg
     itemImgAlt: Французский мини багет запеченный фаршированный курицей и грибами на светлом багете | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, филе куриное, шампиньоны маринованные, сыр «Голландский», лук репчатый, петрушка свежая, горчица, майонез, масло растительное. 
     itemWeight: 185
@@ -171,7 +171,7 @@ category:
     itemCooledID: "0017"
     itemFrozenID: "0018"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/fr-baguette/фарш багет курица грибы на тёмном багете.jpg
+    itemImg: img/catalog/fr-baguette/фаршированный багет курица грибы на тёмном багете.jpg
     itemImgAlt: Французский мини багет запеченный фаршированный курицей и грибами на тёмном багете | ХаусФреш
     itemIngredients: Багет «Прованский» темный, филе куриное, шампиньоны маринованные, сыр «Голландский», лук репчатый, петрушка свежая, горчица, майонез, масло растительное. 
     itemWeight: 185
@@ -180,7 +180,7 @@ category:
     itemCooledID: "0011"
     itemFrozenID: "0012"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/fr-baguette/фарш багет ветчина сыр на светлом багете.jpg
+    itemImg: img/catalog/fr-baguette/фаршированный багет ветчина сыр на светлом багете.jpg
     itemImgAlt: Французский мини багет запеченный с начинкой из ветчины и сыра на светлом багете | ХаусФреш
     itemIngredients: Багет «Белый» с кунжутом, ветчина копчёно-варёная, огурец маринованный, томаты свежие, сыр, майонез, кетчуп, петрушка свежая. 
     itemWeight: 185
@@ -189,7 +189,7 @@ category:
     itemCooledID: "0013"
     itemFrozenID: "0014"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/fr-baguette/фарш багет ветчина сыр на тёмном багете.jpg
+    itemImg: img/catalog/fr-baguette/фаршированный багет ветчина сыр на тёмном багете.jpg
     itemImgAlt: Французский мини багет запеченный с начинкой из ветчины и сыра на тёмном багете | ХаусФреш
     itemIngredients: Багет «Прованский» темный, ветчина копчёно-варёная, огурец маринованный, томаты свежие, сыр, майонез, кетчуп, петрушка свежая.  
     itemWeight: 185	
@@ -260,7 +260,7 @@ category:
     itemCooledID: "0001"
     itemFrozenID: "0002"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/baguette/белый с кунжутом.jpg
+    itemImg: img/catalog/baguette/багет белый с кунжутом.jpg
     itemImgAlt: Багет белый с кунжутом | ХаусФреш
     itemIngredients: Мука, сахар, соль, дрожжи, мегостабил (улучшитель), маргарин, сухое молоко, вода, кунжут 
     itemWeight: 170
@@ -269,7 +269,7 @@ category:
     itemCooledID: "0003"
     itemFrozenID: "0004"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/baguette/прованский тёмный.jpg
+    itemImg: img/catalog/baguette/багет прованский тёмный.jpg
     itemImgAlt: Багет прованский тёмный | ХаусФреш
     itemIngredients: Мука, семена подсолнуха, солод темный, вода, мегостабил (улучшитель), сахар, соль, дрожжи, овсяные хлопья, отруби пшеничные 
     itemWeight: 180
@@ -278,7 +278,7 @@ category:
     itemCooledID: "0009"
     itemFrozenID: "0010"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/baguette/фитнес с морковью.jpg
+    itemImg: img/catalog/baguette/багет фитнес с морковью.jpg
     itemImgAlt: Багет фитнес с морковью | ХаусФреш
     itemIngredients: Мука, отруби пшеничные, кунжут, вода, мегостабил (улучшитель), клейковина, дрожжи, сахар, соль, солод светлый, солод темный, морковь свежая 
     itemWeight: 220
@@ -287,7 +287,7 @@ category:
     itemCooledID: "0007"
     itemFrozenID: "0008"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/baguette/зелёный со шпинатом.jpg
+    itemImg: img/catalog/baguette/багет зелёный со шпинатом.jpg
     itemImgAlt: Багет зелёный со шпинатом | ХаусФреш
     itemIngredients: Мука, сахар, соль, дрожжи, мегостабил (улучшитель), маргарин, сухое молоко, вода, шпинат замороженный 
     itemWeight: 180
@@ -296,7 +296,7 @@ category:
     itemCooledID: "0005"
     itemFrozenID: "0006"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/baguette/красный с паприкой.jpg
+    itemImg: img/catalog/baguette/багет красный с паприкой.jpg
     itemImgAlt: Багет красный с паприкой | ХаусФреш
     itemIngredients: Мука, сахар, соль, дрожжи, мегостабил (улучшитель), маргарин, сухое молоко, вода, паприка молотая(пряность) 
     itemWeight: 185
@@ -499,7 +499,7 @@ category:
     itemCooledID: "0035"
     itemFrozenID: "0036"
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/maffin/маффин классич.jpg
+    itemImg: img/catalog/maffin/маффин классический.jpg
     itemImgAlt: Маффин классический | ХаусФреш
     itemIngredients: Мука пшеничная высший сорт, сахар-песок, масло растительное, яйца куриные пищевые, вода питьевая, смесь Королевский ванильный маффин 
     itemWeight: 100
@@ -508,7 +508,7 @@ category:
     itemCooledID: "0037"
     itemFrozenID: "0038"  
     itemSubTitle: охлаждённый/замороженный
-    itemImg: img/catalog/maffin/маффин шокол.jpg
+    itemImg: img/catalog/maffin/маффин шоколадный.jpg
     itemImgAlt: Маффин шоколадный | ХаусФреш
     itemIngredients: Мука пшеничная высший сорт, масло растительное, сахар-песок, яйца куриные пищевые, вода питьевая, смесь Королевский шоко-маффин 
     itemWeight: 100
@@ -519,112 +519,112 @@ category:
   items:
   - itemTitle: Салат «Императорский»
     itemCooledID: "0253"
-    itemImg: img/catalog/salads/императорский.jpg
+    itemImg: img/catalog/salads/салат императорский.jpg
     itemImgAlt: Салат Императорский | ХаусФреш
     itemIngredients: Салат «Айсберг», сыр твердый, отварное филе куриное, томаты свежие, сухарики, яйцо куриное, соевый соус, майонез
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Салат «Императорский»
     itemCooledID: "0294"
-    itemImg: img/catalog/salads/императорский.jpg
+    itemImg: img/catalog/salads/салат императорский.jpg
     itemImgAlt: Салат Императорский | ХаусФреш
     itemIngredients: Салат «Айсберг», сыр твердый, отварное филе куриное, томаты свежие, сухарики, яйцо куриное, соевый соус, майонез
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Салат «Под шубой»
     itemCooledID: "0254"
-    itemImg: img/catalog/salads/сельдь под шубой.jpg
+    itemImg: img/catalog/salads/салат сельдь под шубой.jpg
     itemImgAlt: Салат Под шубой | ХаусФреш
     itemIngredients: Сельдь соленая (филе), картофель, свекла, морковь, яйцо куриное, лук репчатый, капуста пекинская, майонез
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Салат «Под шубой»
     itemCooledID: "0272"
-    itemImg: img/catalog/salads/сельдь под шубой.jpg
+    itemImg: img/catalog/salads/салат сельдь под шубой.jpg
     itemImgAlt: Салат Под шубой | ХаусФреш
     itemIngredients: Сельдь соленая (филе), картофель, свекла, морковь, яйцо куриное, лук репчатый, капуста пекинская, майонез
     itemWeight: 150
     itemPrice: 1.80
   - itemTitle: Салат «Стрелы амура»
     itemCooledID: "0255"
-    itemImg: img/catalog/salads/стрелы амура.jpg
+    itemImg: img/catalog/salads/салат стрелы амура.jpg
     itemImgAlt: Салат Стрелы амура | ХаусФреш
     itemIngredients: Крабовые палочки, кукуруза консервированная, капуста пекинская, яйцо куриное, огурец консервированный, майонез, соевый соус
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Салат «Стрелы амура»
     itemCooledID: "0293"
-    itemImg: img/catalog/salads/стрелы амура.jpg
+    itemImg: img/catalog/salads/салат стрелы амура.jpg
     itemImgAlt: Салат Стрелы амура | ХаусФреш
     itemIngredients: Крабовые палочки, кукуруза консервированная, капуста пекинская, яйцо куриное, огурец консервированный, майонез, соевый соус
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Салат «Оливье классический»
     itemCooledID: "0256"
-    itemImg: img/catalog/salads/канделябр.jpg
+    itemImg: img/catalog/salads/салат канделябр.jpg
     itemImgAlt: Салат Оливье классический | ХаусФреш
     itemIngredients: Филе куриное, картофель, морковь, горошек консервированный, огурец маринованный, капуста пекинская, яйцо куриное, майонез
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Салат «Оливье классический»
     itemCooledID: "0291"
-    itemImg: img/catalog/salads/канделябр.jpg
+    itemImg: img/catalog/salads/салат канделябр.jpg
     itemImgAlt: Салат Оливье классический | ХаусФреш
     itemIngredients: Филе куриное, картофель, морковь, горошек консервированный, огурец маринованный, капуста пекинская, яйцо куриное, майонез
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Салат «Лесная иллюзия»
     itemCooledID: "0257"
-    itemImg: img/catalog/salads/лесная иллюзия.jpg
+    itemImg: img/catalog/salads/салат лесная иллюзия.jpg
     itemImgAlt: Салат Лесная иллюзия | ХаусФреш
     itemIngredients: Ветчина куриная, шампиньоны маринованные, морковь, картофель, огурец маринованный, капуста пекинская, яйцо куриное, майонез, кетчуп
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Салат «Лесная иллюзия»
     itemCooledID: "0290"
-    itemImg: img/catalog/salads/лесная иллюзия.jpg
+    itemImg: img/catalog/salads/салат лесная иллюзия.jpg
     itemImgAlt: Салат Лесная иллюзия | ХаусФреш
     itemIngredients: Ветчина куриная, шампиньоны маринованные, морковь, картофель, огурец маринованный, капуста пекинская, яйцо куриное, майонез, кетчуп
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Салат «Бонапарт»
     itemCooledID: "0258"
-    itemImg: img/catalog/salads/бонапарт.jpg
+    itemImg: img/catalog/salads/салат бонапарт.jpg
     itemImgAlt: Салат Бонапарт | ХаусФреш
     itemIngredients: Капуста краснокочанная, томаты свежие, огурцы свежие, капуста пекинская, горошек консерви-рованный, кукуруза консервиро-ванная, лук зеленый(перо), майонез, горчица французская
     itemWeight: 200
     itemPrice: 2.70
   - itemTitle: Салат «Бонапарт»
     itemCooledID: "0273"
-    itemImg: img/catalog/salads/бонапарт.jpg
+    itemImg: img/catalog/salads/салат бонапарт.jpg
     itemImgAlt: Салат Бонапарт | ХаусФреш
     itemIngredients: Капуста краснокочанная, томаты свежие, огурцы свежие, капуста пекинская, горошек консерви-рованный, кукуруза консервиро-ванная, лук зеленый(перо), майонез, горчица французская
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Салат «Мексиканский с фасолью»
     itemCooledID: "0259"
-    itemImg: img/catalog/salads/мексиканский.jpg
+    itemImg: img/catalog/salads/салат мексиканский.jpg
     itemImgAlt: Салат Мексиканский | ХаусФреш
     itemIngredients: Филе куриное, сыр Фета, огурцы свежие, томаты свежие, фасоль консервированная, сухарики, оливки, соевый соус, масло растительное, лист салата
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Салат «Мексиканский с фасолью»
     itemCooledID: "0292"
-    itemImg: img/catalog/salads/мексиканский.jpg
+    itemImg: img/catalog/salads/салат мексиканский.jpg
     itemImgAlt: Салат Мексиканский | ХаусФреш
     itemIngredients: Филе куриное, сыр Фета, огурцы свежие, томаты свежие, фасоль консервированная, сухарики, оливки, соевый соус, масло растительное, лист салата
     itemWeight: 150
     itemPrice: 2.10
   - itemTitle: Салат «Венецианский»
     itemCooledID: "0260"
-    itemImg: img/catalog/salads/венецианский.jpg
+    itemImg: img/catalog/salads/салат венецианский.jpg
     itemImgAlt: Салат Венецианский | ХаусФреш
     itemIngredients: Ветчина, огурец свежий, редис свежий, томаты свежие, морковь свежая, укроп свежий, петрушка свежая, яйцо куриное, масло растительное, сахар, соль, лимон (сок), соевый соус
     itemWeight: 200
     itemPrice: 2.82
   - itemTitle: Салат «Венецианский»
     itemCooledID: "0274"
-    itemImg: img/catalog/salads/венецианский.jpg
+    itemImg: img/catalog/salads/салат венецианский.jpg
     itemImgAlt: Салат Венецианский | ХаусФреш
     itemIngredients: Ветчина, огурец свежий, редис свежий, томаты свежие, морковь свежая, укроп свежий, петрушка свежая, яйцо куриное, масло растительное, сахар, соль, лимон (сок), соевый соус
     itemWeight: 150
@@ -636,7 +636,7 @@ category:
   - itemTitle: Обед №1
     itemCooledID: "0263"
     itemType: lunch
-    itemImg: img/catalog/lunch/обед 1.jpg
+    itemImg: img/catalog/lunch/комплексный обед 1.jpg
     itemImgAlt: Комплексный обед номер 1 | ХаусФреш
     itemIngredients: 
     salad: Салат «Оливье классический» 150г
@@ -648,7 +648,7 @@ category:
   - itemTitle: Обед №2
     itemCooledID: "0264"
     itemType: lunch
-    itemImg: img/catalog/lunch/обед 2.jpg
+    itemImg: img/catalog/lunch/комплексный обед 2.jpg
     itemImgAlt: Комплексный обед номер 2 | ХаусФреш
     itemIngredients: 
     salad: Салат «Венецианский» 150г
@@ -660,7 +660,7 @@ category:
   - itemTitle: Обед №3
     itemCooledID: "0265"
     itemType: lunch
-    itemImg: img/catalog/lunch/обед 3.jpg
+    itemImg: img/catalog/lunch/комплексный обед 3.jpg
     itemImgAlt: Комплексный обед номер 3 | ХаусФреш
     itemIngredients: 
     salad: Салат «Под шубой» 150г
@@ -672,7 +672,7 @@ category:
   - itemTitle: Обед №4
     itemCooledID: "0266"
     itemType: lunch
-    itemImg: img/catalog/lunch/обед 4.jpg
+    itemImg: img/catalog/lunch/комплексный обед 4.jpg
     itemImgAlt: Комплексный обед номер 4 | ХаусФреш
     itemIngredients: 
     salad: Салат «Бонапарт» 150г
@@ -684,7 +684,7 @@ category:
   - itemTitle: Обед №5
     itemCooledID: "0267"
     itemType: lunch
-    itemImg: img/catalog/lunch/обед 5.jpg
+    itemImg: img/catalog/lunch/комплексный обед 5.jpg
     itemImgAlt: Комплексный обед номер 5 | ХаусФреш
     itemIngredients: 
     salad: Салат «Лесная иллюзия» 150г
