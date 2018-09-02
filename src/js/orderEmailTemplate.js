@@ -1,5 +1,5 @@
 export default function(data) {
-return `
+	return `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
@@ -101,14 +101,14 @@ return `
 				${data.items.map(item => `
 					<tr>
 						<td>
-							<span>${item.id}</span>
+							<span>${item.type != 'customLunch' ? item.id : '-'}</span>
 						</td>
 						<td>
 							<img src="${item.imageUrl}" width="100" />
 						</td>
 						<td>
 							<h5>${item.title}</h5>
-							<p>${data.shouldSubTitleShow(item) ? `(${item.weight} гр, ${item.temperatureState})` : ''}</p>
+							<p>${data.getItemDescription(item)}</p>
 						</td>
 						<td>
 							<span>${item.count}</span>

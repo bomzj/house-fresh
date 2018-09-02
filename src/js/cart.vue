@@ -25,7 +25,7 @@
 							</div>
 							<div class="col-xs-6 col-sm-8 col-md-8 col-lg-8">
 								<h4 class="cart-item-text text-left">{{ item.title }}</h4>
-								<h5 class="text-muted-italic text-left" v-if="shouldSubTitleShow(item)">({{ item.weight }} гр, {{ item.temperatureState }})</h5>
+								<h5 class="text-muted-italic text-left">{{ getItemDescription(item) }}</h5>
 							</div>
 						</div>
 						<div class="item-count-info col-xs-12 col-sm-12 col-md-5 col-lg-4">
@@ -111,7 +111,7 @@ import $ from './jquery';
 
 export default {
 	props: ['email'],
-	data: function () {
+	data() {
 		return {
 			items:[],
 			orderForm: {
@@ -127,18 +127,18 @@ export default {
 	// Track any kind of cart items changes and save to local storage
 	watch: {
 		items: {
-			handler: function (val, oldVal) {
+			handler (val, oldVal) {
 				this.saveState();
 			},
 			deep: true
 		}
 	},
-	created: function() {
+	created() {
 		// load cart state from local storage
 		this.loadState();
 	},
 	methods: {
-		addItem: function(item, count) {
+		addItem(item, count) {
 			var foundItem = this.items.filter(i => i.id == item.id)[0];
 			if (foundItem) {
 				foundItem.count += count || 1;
@@ -148,7 +148,7 @@ export default {
 				this.items.push(item);
 			}
 		},
-		removeItem: function(item, count) {
+		removeItem(item, count) {
 			var index = this.items.indexOf(item);
 			
 			if (!count || count >= item.count) {
@@ -158,18 +158,18 @@ export default {
 				this.items[index].count -= count;
 			}
 		},
-		getItemFullPrice: function(item) {
+		getItemFullPrice(item) {
 			var fullPrice = item.price * item.count;
 			return Math.round(fullPrice * 100) / 100;
 		},
-		getTotalPrice: function() {
+		getTotalPrice() {
 			var totalPrice = 0;
 			for (var i = 0; i < this.items.length; i++) {
 				totalPrice = Math.round((totalPrice + this.getItemFullPrice(this.items[i])) * 100) / 100;
 			}
 			return totalPrice;
 		},
-		preventInvalidCountInput: function (event) {
+		preventInvalidCountInput(event) {
 			var value = parseInt(event.target.value);
 			var isValid = value >= 1 && value <= 999 && Math.floor(event.target.value) == value;
 			
@@ -181,24 +181,36 @@ export default {
 				event.target.dispatchEvent(resetEvent);
 			}
 		},
-		selectAllText: function (event) {
+		selectAllText(event) {
 			// event.target.select() is not working on Mobile Safari
 			event.target.setSelectionRange(0, event.target.value.length);
 		},
-		saveState: function () {
+		saveState() {
 			var json = JSON.stringify(this.items);
 			localStorage.setItem("Cart", json);
 		},
-		loadState: function () {
+		loadState() {
 			var json = localStorage.getItem("Cart");
 			if (json) {
 				this.items = JSON.parse(json);
 			}
 		},
-		shouldSubTitleShow: function(item) {
-			return item.type != "lunch";
+		getItemDescription(item) {
+			var description = '';
+			
+			if (item.type == "lunch") {
+				// No description for lunches
+			}
+			else if (item.type == "customLunch") {
+				description = item.items.map(i => i.title).join(', ');
+			}
+			else {
+				description = `${item.weight} гр, ${item.temperatureState}`;
+			}
+			
+			return description;
 		},
-		submitOrder: function () {
+		submitOrder() {
 			if (!this.isOrderFormValid()) return;
 			
 			var xhr = new XMLHttpRequest();
@@ -237,22 +249,22 @@ export default {
 			
 			xhr.send(formData); 
 		},
-		isOrderFormValid: function () {
+		isOrderFormValid() {
 			return this.orderForm.name && 
 				this.orderForm.phone && 
 				this.orderForm.address;
 		},
-		buildOrderEmailHtml: function() {
+		buildOrderEmailHtml() {
 			var data = {
 				items: this.items,
 				orderForm: this.orderForm,
 				getItemFullPrice: this.getItemFullPrice,
 				getTotalPrice: this.getTotalPrice,
-				shouldSubTitleShow: this.shouldSubTitleShow
+				getItemDescription: this.getItemDescription
 			};
 			return OrderEmailTemplate(data);
 		},
-		showErrorAlert: function() {
+		showErrorAlert() {
 			this.isErrorAlertShowing = true;
 			setTimeout(() => { this.isErrorAlertShowing = false }, 5000);
 		}
