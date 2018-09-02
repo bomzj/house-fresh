@@ -80,9 +80,6 @@
 					<div class="form-group user-info-input">
 						<input type="text" class="form-control input-lg" placeholder="Адрес доставки*" v-model="orderForm.address">
 					</div>
-					
-					<p class="text-muted">Наши менеджеры свяжутся с Вами в течение 20 минут для подтверждения заказа. Если Вы не получили от нас звонок, пожалуйста, перезвоните нам по указанным в контактах телефонам.</p>
-					
 					<div class="row">
 						<button class="btn btn-primary btn-xl" title="Заказать" :disabled="!isOrderFormValid()">Заказать</button>
 					</div>
