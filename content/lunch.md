@@ -81,12 +81,12 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
-    - title: Хлеб белый*2x
+    - title: Хлеб белый (2 порции)
       id: 3333
       ingredients: 
       weight: 80
       price: 0.20
-    - title: Хлеб тёмный*2x
+    - title: Хлеб тёмный (2 порции)
       id: 4444    
       ingredients: 
       weight: 80
@@ -166,12 +166,12 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
-    - title: Хлеб белый*2x
+    - title: Хлеб белый (2 порции)
       id: 3333
       ingredients: 
       weight: 80
       price: 0.20
-    - title: Хлеб тёмный*2x
+    - title: Хлеб тёмный (2 порции)
       id: 4444    
       ingredients: 
       weight: 80
@@ -251,12 +251,12 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
-    - title: Хлеб белый*2x
+    - title: Хлеб белый (2 порции)
       id: 3333
       ingredients: 
       weight: 80
       price: 0.20
-    - title: Хлеб тёмный*2x
+    - title: Хлеб тёмный (2 порции)
       id: 4444    
       ingredients: 
       weight: 80
@@ -336,12 +336,12 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
-    - title: Хлеб белый*2x
+    - title: Хлеб белый (2 порции)
       id: 3333
       ingredients: 
       weight: 80
       price: 0.20
-    - title: Хлеб тёмный*2x
+    - title: Хлеб тёмный (2 порции)
       id: 4444    
       ingredients: 
       weight: 80
@@ -421,12 +421,12 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
-    - title: Хлеб белый*2x
+    - title: Хлеб белый (2 порции)
       id: 3333
       ingredients: 
       weight: 80
       price: 0.20
-    - title: Хлеб тёмный*2x
+    - title: Хлеб тёмный (2 порции)
       id: 4444    
       ingredients: 
       weight: 80
