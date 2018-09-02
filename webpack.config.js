@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
-    //mode: 'production',
-	mode: 'development',
+    mode: 'production',
+	//mode: 'development',
 	devtool: 'source-map',
     entry: "./src/js/main.js",//glob.sync('./themes/hugo-creative-theme/static/js/*.js'),
     output: {
