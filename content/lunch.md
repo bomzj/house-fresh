@@ -7,382 +7,382 @@ subdescription2: "Или составьте свой обед с доставк�
 subdescription3: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
 metadescription: "ХаусФреш | Комплексные обеды, Меню на неделю, Организация питания на предприятиях, Организация питания на выездных мероприятиях | Минск, Беларусь"
 sitetitle: "Комплексные обеды, Кейтеринг, Организация питания | ХаусФреш"
-daysOfWeek:
-- dayTitle: Понедельник
-  date: 3 сентября
+weekMenu:
+- weekDay: Понедельник
+  day: 3 сентября
   validFromOrderDate: "2018-08-31 11:00:00"
   validToOrderDate: "2018-09-03 10:59:59"
-  categories:
-  - categoryTitle: Салаты
-    menuItems:
-    - menuItemTitle: Салат «Белорусский»
-      menuItemID: 21	
-      menuItemIngredients: грибы, печень отварная, огурец марин., яйцо, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.60
-    - menuItemTitle: Салат «Верасень»
-      menuItemID: 22
-      menuItemIngredients: овощи отв., овощи маринован., грибы, зеленый гор. майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.20
-    - menuItemTitle: Салат «Любительский»
-      menuItemID: 23
-      menuItemIngredients: печень трески, картофель отварной, лук, горош.конс, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.95
-  - categoryTitle: Супы
-    menuItems:  
-    - menuItemTitle: Суп с крупой перловой
-      menuItemID: 24
-      menuItemIngredients: 
-      menuItemWeight: 250
-      menuItemPrice: 1.70
-    - menuItemTitle: Борщ Украинский
-      menuItemID: 25
-      menuItemIngredients: 
-      menuItemWeight: 250/20
-      menuItemPrice: 1.95
-  - categoryTitle: Вторые блюда
-    menuItems:
-    - menuItemTitle: Свинина «Аппетитная»
-      menuItemID: 26
-      menuItemIngredients: свинина, специи
-      menuItemWeight: 75
-      menuItemPrice: 4.20
-    - menuItemTitle: Жаркое по-лидски
-      menuItemID: 27
-      menuItemIngredients: свинина, овощи тушенные, специи
-      menuItemWeight: 270
-      menuItemPrice: 3.65
-    - menuItemTitle: Котлета «Свитязь» (натуральная)
-      menuItemID: 28
-      menuItemIngredients: говядина, специи
-      menuItemWeight: 120
-      menuItemPrice: 3.15
-  - categoryTitle: Гарниры
-    menuItems:
-    - menuItemTitle: Картофель, запеченный с окороком и грибами
-      menuItemID: 29
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.65
-    - menuItemTitle: Свекла тушенная в сметане
-      menuItemID: 30
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.30
-  - categoryTitle: Хлеб
-    menuItems:
-    - menuItemTitle: Хлеб белый
-      menuItemID: 1111
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-    - menuItemTitle: Хлеб тёмный
-      menuItemID: 2222    
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-- dayTitle: Вторник
-  date: 4 сентября 
+  courses:
+  - title: Салаты
+    items:
+    - title: Салат «Белорусский»
+      id: 21	
+      ingredients: грибы, печень отварная, огурец марин., яйцо, майонез
+      weight: 150
+      price: 2.60
+    - title: Салат «Верасень»
+      id: 22
+      ingredients: овощи отв., овощи маринован., грибы, зеленый гор. майонез
+      weight: 150
+      price: 2.20
+    - title: Салат «Любительский»
+      id: 23
+      ingredients: печень трески, картофель отварной, лук, горош.конс, майонез
+      weight: 150
+      price: 2.95
+  - title: Супы
+    items:  
+    - title: Суп с крупой перловой
+      id: 24
+      ingredients: 
+      weight: 250
+      price: 1.70
+    - title: Борщ Украинский
+      id: 25
+      ingredients: 
+      weight: 250/20
+      price: 1.95
+  - title: Вторые блюда
+    items:
+    - title: Свинина «Аппетитная»
+      id: 26
+      ingredients: свинина, специи
+      weight: 75
+      price: 4.20
+    - title: Жаркое по-лидски
+      id: 27
+      ingredients: свинина, овощи тушенные, специи
+      weight: 270
+      price: 3.65
+    - title: Котлета «Свитязь» (натуральная)
+      id: 28
+      ingredients: говядина, специи
+      weight: 120
+      price: 3.15
+  - title: Гарниры
+    items:
+    - title: Картофель, запеченный с окороком и грибами
+      id: 29
+      ingredients: 
+      weight: 150
+      price: 1.65
+    - title: Свекла тушенная в сметане
+      id: 30
+      ingredients: 
+      weight: 150
+      price: 1.30
+  - title: Хлеб
+    items:
+    - title: Хлеб белый
+      id: 1111
+      ingredients: 
+      weight: 40
+      price: 0.10
+    - title: Хлеб тёмный
+      id: 2222    
+      ingredients: 
+      weight: 40
+      price: 0.10
+- weekDay: Вторник
+  day: 4 сентября 
   validFromOrderDate: "2018-09-03 11:00:00"
   validToOrderDate: "2018-09-04 10:59:59"
-  categories:
-  - categoryTitle: Салаты
-    menuItems:
-    - menuItemTitle: Салат «Оригинальный»
-      menuItemID: 31
-      menuItemIngredients: морковь, маринованный огурец, яйцо сыр, майонез, кетчуп
-      menuItemWeight: 150
-      menuItemPrice: 2.65
-    - menuItemTitle: Салат  из сыра и моркови
-      menuItemID: 32
-      menuItemIngredients: сыр, морковь, огурец свеж., майонез
-      menuItemWeight: 150
-      menuItemPrice: 1.90
-    - menuItemTitle: Салат «Немига»
-      menuItemID: 33
-      menuItemIngredients: филе хека отварное, овощи, майонез
-      menuItemWeight: 150
-      menuItemPrice: 3.15
-  - categoryTitle: Супы
-    menuItems:  
-    - menuItemTitle: Щи ленивые с грибами
-      menuItemID: 34
-      menuItemIngredients: 
-      menuItemWeight: 250/20
-      menuItemPrice: 1.85
-    - menuItemTitle: Суп гороховый с беконом
-      menuItemID: 35
-      menuItemIngredients: 
-      menuItemWeight: 250
-      menuItemPrice: 2.45
-  - categoryTitle: Вторые блюда
-    menuItems:
-    - menuItemTitle: Зразы донские
-      menuItemID: 36
-      menuItemIngredients: филе хека, специи
-      menuItemWeight: 110
-      menuItemPrice: 3.20
-    - menuItemTitle: Птица по-ашхабадски
-      menuItemID: 37
-      menuItemIngredients: птица, овощи, специи
-      menuItemWeight: 300
-      menuItemPrice: 3.65
-    - menuItemTitle: Шницель рыбный натуральный
-      menuItemID: 38
-      menuItemIngredients: рыба треска, специи
-      menuItemWeight: 75
-      menuItemPrice: 3.15
-  - categoryTitle: Гарниры
-    menuItems:
-    - menuItemTitle: Морковь тушенная в сметанном соусе
-      menuItemID: 39
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.65
-    - menuItemTitle: Каша гречневая рассыпчатая
-      menuItemID: 40
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 0.85
-  - categoryTitle: Хлеб
-    menuItems:
-    - menuItemTitle: Хлеб белый
-      menuItemID: 1111
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-    - menuItemTitle: Хлеб тёмный
-      menuItemID: 2222    
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-- dayTitle: Среда
-  date: 5 сентября
+  courses:
+  - title: Салаты
+    items:
+    - title: Салат «Оригинальный»
+      id: 31
+      ingredients: морковь, маринованный огурец, яйцо сыр, майонез, кетчуп
+      weight: 150
+      price: 2.65
+    - title: Салат  из сыра и моркови
+      id: 32
+      ingredients: сыр, морковь, огурец свеж., майонез
+      weight: 150
+      price: 1.90
+    - title: Салат «Немига»
+      id: 33
+      ingredients: филе хека отварное, овощи, майонез
+      weight: 150
+      price: 3.15
+  - title: Супы
+    items:  
+    - title: Щи ленивые с грибами
+      id: 34
+      ingredients: 
+      weight: 250/20
+      price: 1.85
+    - title: Суп гороховый с беконом
+      id: 35
+      ingredients: 
+      weight: 250
+      price: 2.45
+  - title: Вторые блюда
+    items:
+    - title: Зразы донские
+      id: 36
+      ingredients: филе хека, специи
+      weight: 110
+      price: 3.20
+    - title: Птица по-ашхабадски
+      id: 37
+      ingredients: птица, овощи, специи
+      weight: 300
+      price: 3.65
+    - title: Шницель рыбный натуральный
+      id: 38
+      ingredients: рыба треска, специи
+      weight: 75
+      price: 3.15
+  - title: Гарниры
+    items:
+    - title: Морковь тушенная в сметанном соусе
+      id: 39
+      ingredients: 
+      weight: 150
+      price: 1.65
+    - title: Каша гречневая рассыпчатая
+      id: 40
+      ingredients: 
+      weight: 150
+      price: 0.85
+  - title: Хлеб
+    items:
+    - title: Хлеб белый
+      id: 1111
+      ingredients: 
+      weight: 40
+      price: 0.10
+    - title: Хлеб тёмный
+      id: 2222    
+      ingredients: 
+      weight: 40
+      price: 0.10
+- weekDay: Среда
+  day: 5 сентября
   validFromOrderDate: "2018-09-04 11:00:00"
   validToOrderDate: "2018-09-05 10:59:59"
-  categories:
-  - categoryTitle: Салаты
-    menuItems:
-    - menuItemTitle: Салат из свежих помидоров и огурцов
-      menuItemID: 41
-      menuItemIngredients: овощи свежие, заправка
-      menuItemWeight: 150
-      menuItemPrice: 2.20
-    - menuItemTitle: Салат «Оливье»
-      menuItemID: 42
-      menuItemIngredients: колбаса вареная, овощи отварные, горошек зеленый, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.65
-    - menuItemTitle: Салат «Любительский»
-      menuItemID: 43
-      menuItemIngredients: печень трески, картофель отварной, лук, горош.конс, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.95
-  - categoryTitle: Супы
-    menuItems:  
-    - menuItemTitle: Суп-харчо
-      menuItemID: 44
-      menuItemIngredients: 
-      menuItemWeight: 250
-      menuItemPrice: 2.85
-    - menuItemTitle: Щи из свежей капусты с картофелем
-      menuItemID: 45
-      menuItemIngredients: 
-      menuItemWeight: 250/20
-      menuItemPrice: 1.95
-  - categoryTitle: Вторые блюда
-    menuItems:
-    - menuItemTitle: Зразы «Пикантные»
-      menuItemID: 46
-      menuItemIngredients: филе хека, овощи
-      menuItemWeight: 120
-      menuItemPrice: 3.60
-    - menuItemTitle: Филе птицы в сыре
-      menuItemID: 47
-      menuItemIngredients: птица, сыр, специи
-      menuItemWeight: 130
-      menuItemPrice: 3.45
-    - menuItemTitle: Говядина, тушенная с черносливом
-      menuItemID: 48
-      menuItemIngredients: говядина, специи, соус
-      menuItemWeight: 75/75
-      menuItemPrice: 3.95
-  - categoryTitle: Гарниры
-    menuItems:
-    - menuItemTitle: Картофель, жаренный с луком и грибами
-      menuItemID: 49
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.65
-    - menuItemTitle: Макароны отварные с овощами
-      menuItemID: 50
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 0.85
-  - categoryTitle: Хлеб
-    menuItems:
-    - menuItemTitle: Хлеб белый
-      menuItemID: 1111
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-    - menuItemTitle: Хлеб тёмный
-      menuItemID: 2222    
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-- dayTitle: Четверг
-  date: 6 сентября
+  courses:
+  - title: Салаты
+    items:
+    - title: Салат из свежих помидоров и огурцов
+      id: 41
+      ingredients: овощи свежие, заправка
+      weight: 150
+      price: 2.20
+    - title: Салат «Оливье»
+      id: 42
+      ingredients: колбаса вареная, овощи отварные, горошек зеленый, майонез
+      weight: 150
+      price: 2.65
+    - title: Салат «Любительский»
+      id: 43
+      ingredients: печень трески, картофель отварной, лук, горош.конс, майонез
+      weight: 150
+      price: 2.95
+  - title: Супы
+    items:  
+    - title: Суп-харчо
+      id: 44
+      ingredients: 
+      weight: 250
+      price: 2.85
+    - title: Щи из свежей капусты с картофелем
+      id: 45
+      ingredients: 
+      weight: 250/20
+      price: 1.95
+  - title: Вторые блюда
+    items:
+    - title: Зразы «Пикантные»
+      id: 46
+      ingredients: филе хека, овощи
+      weight: 120
+      price: 3.60
+    - title: Филе птицы в сыре
+      id: 47
+      ingredients: птица, сыр, специи
+      weight: 130
+      price: 3.45
+    - title: Говядина, тушенная с черносливом
+      id: 48
+      ingredients: говядина, специи, соус
+      weight: 75/75
+      price: 3.95
+  - title: Гарниры
+    items:
+    - title: Картофель, жаренный с луком и грибами
+      id: 49
+      ingredients: 
+      weight: 150
+      price: 1.65
+    - title: Макароны отварные с овощами
+      id: 50
+      ingredients: 
+      weight: 150
+      price: 0.85
+  - title: Хлеб
+    items:
+    - title: Хлеб белый
+      id: 1111
+      ingredients: 
+      weight: 40
+      price: 0.10
+    - title: Хлеб тёмный
+      id: 2222    
+      ingredients: 
+      weight: 40
+      price: 0.10
+- weekDay: Четверг
+  day: 6 сентября
   validFromOrderDate: "2018-09-05 11:00:00"
   validToOrderDate: "2018-09-06 10:59:59"
-  categories:
-  - categoryTitle: Салаты
-    menuItems:
-    - menuItemTitle: Салат «Сельдь под шубой»
-      menuItemID: 51
-      menuItemIngredients: филе сельди, овощи отварные, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.45
-    - menuItemTitle: Салат «Греческий»
-      menuItemID: 52
-      menuItemIngredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
-      menuItemWeight: 200
-      menuItemPrice: 3.65
-    - menuItemTitle: Салат фасолевый с рыбными консервами
-      menuItemID: 53
-      menuItemIngredients: рыбная консерва, фасоль, яйцо,чеснок, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.85
-  - categoryTitle: Супы
-    menuItems:  
-    - menuItemTitle: Суп-пюре из птицы
-      menuItemID: 54
-      menuItemIngredients: 
-      menuItemWeight: 250
-      menuItemPrice: 2.95
-    - menuItemTitle: Уха ростовская
-      menuItemID: 55
-      menuItemIngredients: 
-      menuItemWeight: 250
-      menuItemPrice: 2.85
-  - categoryTitle: Вторые блюда
-    menuItems:
-    - menuItemTitle: Колбаса по-домашнему жареная
-      menuItemID: 56
-      menuItemIngredients: колбаски домашние, соус
-      menuItemWeight: 100/50
-      menuItemPrice: 3.15
-    - menuItemTitle: Горбуша жареная
-      menuItemID: 57
-      menuItemIngredients: рыба, специи
-      menuItemWeight: 120
-      menuItemPrice: 3.45
-    - menuItemTitle: Мясо, жаренное крупным куском
-      menuItemID: 58
-      menuItemIngredients: свинина, специи
-      menuItemWeight: 100
-      menuItemPrice: 3.60
-  - categoryTitle: Гарниры
-    menuItems:
-    - menuItemTitle: Картофель, жаренный с луком и грибами
-      menuItemID: 59
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.65
-    - menuItemTitle: Кабачки запеченные
-      menuItemID: 60
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.30
-  - categoryTitle: Хлеб
-    menuItems:
-    - menuItemTitle: Хлеб белый
-      menuItemID: 1111
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-    - menuItemTitle: Хлеб тёмный
-      menuItemID: 2222    
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-- dayTitle: Пятница
-  date: 7 сентября
+  courses:
+  - title: Салаты
+    items:
+    - title: Салат «Сельдь под шубой»
+      id: 51
+      ingredients: филе сельди, овощи отварные, майонез
+      weight: 150
+      price: 2.45
+    - title: Салат «Греческий»
+      id: 52
+      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
+      weight: 200
+      price: 3.65
+    - title: Салат фасолевый с рыбными консервами
+      id: 53
+      ingredients: рыбная консерва, фасоль, яйцо,чеснок, майонез
+      weight: 150
+      price: 2.85
+  - title: Супы
+    items:  
+    - title: Суп-пюре из птицы
+      id: 54
+      ingredients: 
+      weight: 250
+      price: 2.95
+    - title: Уха ростовская
+      id: 55
+      ingredients: 
+      weight: 250
+      price: 2.85
+  - title: Вторые блюда
+    items:
+    - title: Колбаса по-домашнему жареная
+      id: 56
+      ingredients: колбаски домашние, соус
+      weight: 100/50
+      price: 3.15
+    - title: Горбуша жареная
+      id: 57
+      ingredients: рыба, специи
+      weight: 120
+      price: 3.45
+    - title: Мясо, жаренное крупным куском
+      id: 58
+      ingredients: свинина, специи
+      weight: 100
+      price: 3.60
+  - title: Гарниры
+    items:
+    - title: Картофель, жаренный с луком и грибами
+      id: 59
+      ingredients: 
+      weight: 150
+      price: 1.65
+    - title: Кабачки запеченные
+      id: 60
+      ingredients: 
+      weight: 150
+      price: 1.30
+  - title: Хлеб
+    items:
+    - title: Хлеб белый
+      id: 1111
+      ingredients: 
+      weight: 40
+      price: 0.10
+    - title: Хлеб тёмный
+      id: 2222    
+      ingredients: 
+      weight: 40
+      price: 0.10
+- weekDay: Пятница
+  day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
   validToOrderDate: "2018-09-07 10:59:59"
-  categories:
-  - categoryTitle: Салаты
-    menuItems:
-    - menuItemTitle: Салат из помидоров, капусты и сладкого перца
-      menuItemID: 61
-      menuItemIngredients: помидор св., капуста белокочанная, перец св., майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.15
-    - menuItemTitle: Салат «Минутка»
-      menuItemID: 62
-      menuItemIngredients: свекла отварная, огурец маринованный, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.10
-    - menuItemTitle: Салат «Папараць-кветка»
-      menuItemID: 63
-      menuItemIngredients: говядина отварная, ветчина, овощи, яйцо, майонез
-      menuItemWeight: 150
-      menuItemPrice: 2.95
-  - categoryTitle: Супы
-    menuItems:  
-    - menuItemTitle: Солянка сборная мясная
-      menuItemID: 64
-      menuItemIngredients: 
-      menuItemWeight: 250/30
-      menuItemPrice: 2.95
-    - menuItemTitle: Суп-пюре из свежих грибов
-      menuItemID: 65
-      menuItemIngredients: 
-      menuItemWeight: 250
-      menuItemPrice: 2.45
-  - categoryTitle: Вторые блюда
-    menuItems:
-    - menuItemTitle: Филе птицы в белках
-      menuItemID: 66
-      menuItemIngredients: филе птицы, меланж, специи
-      menuItemWeight: 123
-      menuItemPrice: 3.45
-    - menuItemTitle: Бифштекс из говядины
-      menuItemID: 67
-      menuItemIngredients: говядина рубленая, специи
-      menuItemWeight: 100
-      menuItemPrice: 3.45
-    - menuItemTitle: Печень, жаренная по-домашнему
-      menuItemID: 68	
-      menuItemIngredients: печень говяжья, лук репчатый, специи
-      menuItemWeight: 105
-      menuItemPrice: 3.20
-  - categoryTitle: Гарниры
-    menuItems:
-    - menuItemTitle: Баклажаны запеченные
-      menuItemID: 69
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.40
-    - menuItemTitle: Картофель, жаренный с луком и грибами
-      menuItemID: 70
-      menuItemIngredients: 
-      menuItemWeight: 150
-      menuItemPrice: 1.65
-  - categoryTitle: Хлеб
-    menuItems:
-    - menuItemTitle: Хлеб белый
-      menuItemID: 1111
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
-    - menuItemTitle: Хлеб тёмный
-      menuItemID: 2222    
-      menuItemIngredients: 
-      menuItemWeight: 40
-      menuItemPrice: 0.10
+  courses:
+  - title: Салаты
+    items:
+    - title: Салат из помидоров, капусты и сладкого перца
+      id: 61
+      ingredients: помидор св., капуста белокочанная, перец св., майонез
+      weight: 150
+      price: 2.15
+    - title: Салат «Минутка»
+      id: 62
+      ingredients: свекла отварная, огурец маринованный, майонез
+      weight: 150
+      price: 2.10
+    - title: Салат «Папараць-кветка»
+      id: 63
+      ingredients: говядина отварная, ветчина, овощи, яйцо, майонез
+      weight: 150
+      price: 2.95
+  - title: Супы
+    items:  
+    - title: Солянка сборная мясная
+      id: 64
+      ingredients: 
+      weight: 250/30
+      price: 2.95
+    - title: Суп-пюре из свежих грибов
+      id: 65
+      ingredients: 
+      weight: 250
+      price: 2.45
+  - title: Вторые блюда
+    items:
+    - title: Филе птицы в белках
+      id: 66
+      ingredients: филе птицы, меланж, специи
+      weight: 123
+      price: 3.45
+    - title: Бифштекс из говядины
+      id: 67
+      ingredients: говядина рубленая, специи
+      weight: 100
+      price: 3.45
+    - title: Печень, жаренная по-домашнему
+      id: 68	
+      ingredients: печень говяжья, лук репчатый, специи
+      weight: 105
+      price: 3.20
+  - title: Гарниры
+    items:
+    - title: Баклажаны запеченные
+      id: 69
+      ingredients: 
+      weight: 150
+      price: 1.40
+    - title: Картофель, жаренный с луком и грибами
+      id: 70
+      ingredients: 
+      weight: 150
+      price: 1.65
+  - title: Хлеб
+    items:
+    - title: Хлеб белый
+      id: 1111
+      ingredients: 
+      weight: 40
+      price: 0.10
+    - title: Хлеб тёмный
+      id: 2222    
+      ingredients: 
+      weight: 40
+      price: 0.10
 ---
 
 

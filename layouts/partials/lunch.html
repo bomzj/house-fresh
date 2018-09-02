@@ -23,61 +23,18 @@
 			</div>
 		</div>
 		<div class="row">
-			{{ range .Params.daysOfWeek }}
-				<div class="dayOfWeek-block">
-					<div class="row" >
-						<div class="col-lg-10 col-lg-offset-1 text-center">
-							<h2 class="text-primary">{{ .dayTitle }}</h2>
-							<h4>{{.date}}</h4>
-						</div>
-					</div>
-					<div class="row bottom-padding">
-						<div class="row">
-						{{range .categories}}
-							<div class="row catalog-item" >
-								<div class="col-md-3">
-									<h3 class="catalog-item-name">{{ .categoryTitle }}</h3>
-									<hr class="gray">
-								</div>
-								
-								<div class="col-md-9">
-								{{range .menuItems}}
-									<div class="row lunch-item">
-										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-											<p class="text-muted text-nomargin">{{.menuItemTitle}}</p>
-											<p class="text-muted-italic text-small-left">{{.menuItemIngredients}}</p>
-										</div>
-										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-											<h3 class="text-muted menu-item-weight">{{.menuItemWeight}}г</h3>
-											<div class="menu-item-price-section">
-												<h3 class="menu-item-price">{{.menuItemPrice}}р</h3>
-											</div>
-										</div>
-									</div>
-								{{end}}
-								</div>
-							</div>
-						{{end}}
-						</div>
-						
-						<div class="row text-center">
-							<button class="btn btn-primary btn-xl" title="Добавить в корзину"
-								onclick="cart.addItem({ 
-									title: 'Свой обед', 
-									price: {{.menuItemPrice}},
-									id: '{{.menuItemID}}'
-									})"
-								>
-								Добавить обед в корзину
-							</button>
-						</div>
-					</div>
-				</div>
+			{{ range .Params.weekMenu }}
+				<custom-lunch :day-menu="{ 
+					weekDay: '{{.weekDay}}', 
+					day: '{{.day}}', 
+					imageUrl: '{{ "img/catalog/lunch/комплексный обед 4.jpg" | absURL}}',
+					validFromOrderDate: new Date('{{.validFromOrderDate}}'), 
+					validToOrderDate: new Date('{{.validToOrderDate}}'), 
+					courses: {{.courses | jsonify}}
+					}" 
+					v-if="new Date().isBetween(new Date('{{.validFromOrderDate}}'), new Date('{{.validToOrderDate}}')) ">
+				</custom-lunch>
 			{{ end }}
-		</div>
-		
-		<div class="catalog-footer">
-			<a href="{{ .Site.Params.services.contactButton.link }}" class="btn btn-primary btn-xl" title="контактная информация ХаусФреш">{{ .Site.Params.services.contactButton.text }}</a>
 		</div>
 	</div>
 	
@@ -86,11 +43,4 @@
 			<i class="fa fa-chevron-up fa-1x"></i>
 		</a>
 	</div>
-	
 </div>
-
-
-
-
-
-
