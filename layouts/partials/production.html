@@ -1,4 +1,5 @@
 {{ "<!-- Production page -->" | safeHTML }}
+{{ $baseUrl := .Site.BaseURL }}
 <div class="aside">
 	<div class="nav-stripe"></div>
 	<div class="content">
@@ -36,13 +37,14 @@
 					</div>
 					{{end}}
 				</div>
+				
 				<div class="row">
 					<div class="row">
 					{{range .items}}
 						<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
 								<div itemprop="image" class="img">
-									<img src="{{.itemImg | absURL}}" class="img-responsive" alt="{{ .itemImgAlt}}">
+									<img {{ printf "src='%s%s'" $baseUrl .itemImg | safeHTMLAttr }} class="img-responsive" alt="{{ .itemImgAlt}}">
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
