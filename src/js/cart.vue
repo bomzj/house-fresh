@@ -1,7 +1,7 @@
 ﻿<template>
 <div>
 <div class="navbar-cart">
-	<a href="/#cart-modal" class="btn-open-cart" data-toggle="modal"><i class="fa fa-shopping-cart fa-2x"> </i>
+	<a href="/#cart-modal" class="btn-open-cart" data-toggle="modal" title="Открыть корзину | ХаусФреш"><i class="fa fa-shopping-cart fa-2x"> </i>
 		<span class="cart-items-count" v-if="items.length">{{ items.length }}</span>
 	 </a>
 </div>
