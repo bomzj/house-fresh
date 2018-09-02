@@ -1,10 +1,8 @@
 ---
 layout: lunch
-title: "Обеды"
-description: "Приходите покушать к нам в <strong>Обед Буфет</strong> по адресу"
-subdescription1: "пр. Жукова, д.44 (ТЦ АУТЛЕТО), второй этаж."
-subdescription2: "Или составьте свой обед с доставкой в офис со <b class='text-primary'>скидкой</b>!"
-subdescription3: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
+title: "Свой обед"
+description: "Закажите обед навынос или с доставкой в офис со <b class='text-primary'>скидкой</b>!"
+subdescription: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
 metadescription: "ХаусФреш | Комплексные обеды, Меню на неделю, Организация питания на предприятиях, Организация питания на выездных мероприятиях | Минск, Беларусь"
 sitetitle: "Комплексные обеды, Кейтеринг, Организация питания | ХаусФреш"
 weekMenu:
@@ -83,6 +81,16 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
+    - title: Хлеб белый*2x
+      id: 3333
+      ingredients: 
+      weight: 80
+      price: 0.20
+    - title: Хлеб тёмный*2x
+      id: 4444    
+      ingredients: 
+      weight: 80
+      price: 0.20
 - weekDay: Вторник
   day: 4 сентября 
   validFromOrderDate: "2018-09-03 11:00:00"
@@ -158,6 +166,16 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
+    - title: Хлеб белый*2x
+      id: 3333
+      ingredients: 
+      weight: 80
+      price: 0.20
+    - title: Хлеб тёмный*2x
+      id: 4444    
+      ingredients: 
+      weight: 80
+      price: 0.20
 - weekDay: Среда
   day: 5 сентября
   validFromOrderDate: "2018-09-04 11:00:00"
@@ -233,6 +251,16 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
+    - title: Хлеб белый*2x
+      id: 3333
+      ingredients: 
+      weight: 80
+      price: 0.20
+    - title: Хлеб тёмный*2x
+      id: 4444    
+      ingredients: 
+      weight: 80
+      price: 0.20
 - weekDay: Четверг
   day: 6 сентября
   validFromOrderDate: "2018-09-05 11:00:00"
@@ -308,6 +336,16 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
+    - title: Хлеб белый*2x
+      id: 3333
+      ingredients: 
+      weight: 80
+      price: 0.20
+    - title: Хлеб тёмный*2x
+      id: 4444    
+      ingredients: 
+      weight: 80
+      price: 0.20
 - weekDay: Пятница
   day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
@@ -383,6 +421,16 @@ weekMenu:
       ingredients: 
       weight: 40
       price: 0.10
+    - title: Хлеб белый*2x
+      id: 3333
+      ingredients: 
+      weight: 80
+      price: 0.20
+    - title: Хлеб тёмный*2x
+      id: 4444    
+      ingredients: 
+      weight: 80
+      price: 0.20
 ---
 
 

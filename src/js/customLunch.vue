@@ -7,7 +7,7 @@
 		</div>
 	</div>
 	
-	<div class="row bottom-padding">
+	<div class="row">
 		<div class="row">
 			<div class="row catalog-item" v-for="course in courses">
 				<div class="col-md-3">
@@ -32,7 +32,7 @@
 			</div>
 		</div>
 		<div class="row total-price-block text-left">
-			<h4 class="total-price-text">Итоговая сумма к оплате: </h4>
+			<h4 class="total-price-text">Стоимость обеда: </h4>
 			<h4 class="total-price">{{ getTotalPrice() }} р</h4>
 		</div>
 		<div class="row text-center">

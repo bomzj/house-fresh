@@ -30,6 +30,21 @@ body {
 	margin: 20px;
 }
 
+.content .row .total-price-block {
+	margin: 15px 5px 50px 60px;
+}
+
+.content .row .total-price-text {
+	font-size: 24px;
+	float: left;
+	margin-right: 15px;
+}
+
+.content .row .total-price {
+	color: #ee4b28;
+	font-size: 24px;
+}
+
 .content h2 {
     margin: 0;
     font-size: 3em;
@@ -256,6 +271,10 @@ body {
 	.content .row .complex-lunch-item {
 		margin-bottom: 20px;
 		padding-bottom: 20px;
+	}
+	
+	.content .row .total-price-block {
+		margin: 15px 5px 35px 10px;
 	}
 	
 	.catalog-item {
