@@ -6,7 +6,7 @@ subdescription: "Читайте [условия доставки](/delivery/ 'У
 metadescription: "ХаусФреш | Комплексные обеды, Меню на неделю, Организация питания на предприятиях, Организация питания на выездных мероприятиях | Минск, Беларусь"
 sitetitle: "Комплексные обеды, Кейтеринг, Организация питания | ХаусФреш"
 weekMenu:
-- weekDay: Понедельник
+- weekDay: Меню на Понедельник
   day: 3 сентября
   validFromOrderDate: "2018-08-31 11:00:00"
   validToOrderDate: "2018-09-03 10:59:59"
@@ -91,7 +91,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Вторник
+- weekDay: Меню на Вторник
   day: 4 сентября 
   validFromOrderDate: "2018-09-03 11:00:00"
   validToOrderDate: "2018-09-04 10:59:59"
@@ -176,7 +176,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Среда
+- weekDay: Меню на Среду
   day: 5 сентября
   validFromOrderDate: "2018-09-04 11:00:00"
   validToOrderDate: "2018-09-05 10:59:59"
@@ -261,7 +261,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Четверг
+- weekDay: Меню на Четверг
   day: 6 сентября
   validFromOrderDate: "2018-09-05 11:00:00"
   validToOrderDate: "2018-09-06 10:59:59"
@@ -346,7 +346,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Пятница
+- weekDay: Меню на Пятницу
   day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
   validToOrderDate: "2018-09-07 10:59:59"
