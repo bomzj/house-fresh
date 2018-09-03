@@ -12,6 +12,7 @@ googleAnalytics = ""
 	keywords = "продукты питания оптом, комплексные обеды, обеденное меню на неделю, доставка обедов в офис"
 	# The path must be relative to the static folder
 	favicon = "img/houseFreshLogo.png"
+	freeDeliveryCost = 80
 
 
 	# Navigation

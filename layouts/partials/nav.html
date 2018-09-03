@@ -3,7 +3,7 @@
     <div class="container-fluid">
 		{{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
         <div class="navbar-header">
-			<cart email="{{.Site.Params.contact.orderEmail}}" :free-delivery-cost="80"></cart>
+			<cart email="{{.Site.Params.contact.orderEmail}}" :free-delivery-cost="{{.Site.Params.freeDeliveryCost}}"></cart>
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
