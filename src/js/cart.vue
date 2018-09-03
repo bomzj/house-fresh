@@ -216,8 +216,8 @@ export default {
 			var formData = new FormData();
 			formData.append('apikey', '7c848836-860e-4b4e-8909-a0c0fea20173'),
 			formData.append('subject', 'Заказ с housefresh.by'),
+			formData.append('from', 'mailer@housefresh.by');
 			formData.append('to', this.email);
-			formData.append('from', this.email);
 			var emailHtml = this.buildOrderEmailHtml();
 			formData.append('bodyHtml', emailHtml);
 			formData.append('isTransactional', 'true');
