@@ -181,21 +181,21 @@ weekMenu:
   courses:
   - title: Салаты
     items:
-    - title: Салат из свежих помидоров и огурцов
+    - title: Салат из белокочанной капусты с яблоками
       id: 41
-      ingredients: овощи свежие, заправка
+      ingredients: капуста белокочанная, морковь свежая, яблоко, заправка
       weight: 150
-      price: 2.20
-    - title: Салат «Оливье»
+      price: 1.45
+    - title: Салат из кукурузы с черносливом
       id: 42
-      ingredients: колбаса вареная, овощи отварные, горошек зеленый, майонез
+      ingredients: кукуруза конс., чернослив, сыр, чеснок, майонез
       weight: 150
-      price: 2.65
-    - title: Салат «Любительский»
+      price: 2.60
+    - title: Салат «Особый»
       id: 43
-      ingredients: печень трески, картофель отварной, лук, горош.конс, майонез
+      ingredients: консерва рыбная, сыр, зел.горошек, яйцо, майонез
       weight: 150
-      price: 2.95
+      price: 2.45
   - title: Супы
     items:  
     - title: Суп-харчо
@@ -203,11 +203,11 @@ weekMenu:
       ingredients: 
       weight: 250
       price: 2.85
-    - title: Щи из свежей капусты с картофелем
+    - title: Суп-пюре из разных овощей с сухариками
       id: 45
       ingredients: 
-      weight: 250/20
-      price: 1.95
+      weight: 250/10
+      price: 2.40
   - title: Вторые блюда
     items:
     - title: Зразы «Пикантные»
@@ -215,11 +215,11 @@ weekMenu:
       ingredients: филе хека, овощи
       weight: 120
       price: 3.60
-    - title: Филе птицы в сыре
+    - title: Бабка картофельная со свининой
       id: 47
-      ingredients: птица, сыр, специи
-      weight: 130
-      price: 3.45
+      ingredients: свинина, овощи, специи, сметана
+      weight: 200/50
+      price: 3.95
     - title: Говядина, тушенная с черносливом
       id: 48
       ingredients: говядина, специи, соус
@@ -232,11 +232,11 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 1.65
-    - title: Макароны отварные с овощами
+    - title: Кабачки запеченные
       id: 50
       ingredients: 
       weight: 150
-      price: 0.85
+      price: 1.30
   - title: Хлеб
     items:
     - title: Хлеб белый

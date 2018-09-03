@@ -38,6 +38,12 @@ hr.gray {
 	max-width: 1000px;
 }
 
+hr.gray-long {
+    border-color: #ddd;
+	border-width: 1px;
+	max-width: 1200px;
+}
+
 a {
     color: #6fac37;
     -webkit-transition: all .35s;

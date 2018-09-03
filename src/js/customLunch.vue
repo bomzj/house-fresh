@@ -9,10 +9,10 @@
 	
 	<div class="row">
 		<div class="row">
-			<div class="row catalog-item" v-for="course in courses">
+			<div class="course-block" v-for="course in courses">
 				<div class="col-md-3">
 					<h3 class="catalog-item-name">{{ course.title}}</h3>
-					<hr class="gray">
+					<hr class="hidden-sm hidden-xs gray">
 				</div>
 				
 				<div class="col-md-9">
@@ -31,7 +31,9 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="row total-price-block text-left">
+			<hr class="gray-long">
 			<h4 class="total-price-text">Стоимость обеда: </h4>
 			<h4 class="total-price">{{ getTotalPrice() }} р</h4>
 		</div>

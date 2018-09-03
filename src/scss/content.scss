@@ -31,7 +31,7 @@ body {
 }
 
 .content .row .total-price-block {
-	margin: 15px 5px 50px 60px;
+	margin: -55px 5px 50px 60px;
 }
 
 .content .row .total-price-text {
@@ -43,6 +43,7 @@ body {
 .content .row .total-price {
 	color: #ee4b28;
 	font-size: 24px;
+	float: left;
 }
 
 .content h2 {
@@ -121,6 +122,13 @@ body {
 	display: flex;
 }
 
+.course-block {
+	margin-bottom: 80px;
+	max-width: 1600px;
+	
+	display: flex;
+}
+
 
 .catalog-item-img {
 	padding: 0;
@@ -134,13 +142,15 @@ body {
 .lunch-item {
 	text-align: left;
 	font-size: 1.1em;
-	border: 2px solid transparent;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 2px rgba(0,0,0,.05);
     cursor: pointer;
 }
 
 .lunch-item.selected {
-	border-color: #6fac37;
-    border-radius: 6px;
+	border-color: transparent; 
+    box-shadow: 0 0 0 2px #6fac37;
+
 }
 
 .lunch-item p.text-nomargin {
@@ -262,25 +272,24 @@ body {
 	.content .row{
 		margin: 5px;
 	}
-	
-	.content .row .lunch-item {
-		margin-bottom: 20px;
-		padding-bottom: 20px;
+
+	.course-block {
+		margin-bottom: 50px;
 	}
 	
-	.content .row .complex-lunch-item {
+	.content .row .lunch-item,
+	.content .row .complex-lunch-item{
 		margin-bottom: 20px;
 		padding-bottom: 20px;
 	}
 	
 	.content .row .total-price-block {
-		margin: 15px 5px 35px 10px;
+		margin: -25px 5px 35px 10px;
 	}
 	
-	.catalog-item {
+	.catalog-item, .course-block {
 		display: block;
 	}
-	
 
 	
 	.content p {
@@ -295,15 +304,12 @@ body {
 		font-size: 2em;
 	}
 	
-	.lunch-item p{
-		text-align: left;
-		font-size: 1em;
-	}
-	
+	.lunch-item p,
 	.complex-lunch-item p{
 		text-align: left;
 		font-size: 1em;
 	}
+	
 	
 	.delivery-description {
 		padding-left: 50px;
@@ -316,10 +322,6 @@ body {
 @media(max-width:767px) {
 	.menu-item-price-section {
 		margin-top:-35px;
-	}
-	
-	.menu-item-price {
-		
 	}
 	
 	.menu-item-weight {
