@@ -64,6 +64,12 @@
 				<div class="row total-price-block text-left">
 					<h4 class="total-price-text">Итоговая сумма к оплате: </h4>
 					<h4 class="total-price">  {{ getTotalPrice() }} р</h4>
+					<template v-if="isDeliveryFree()">
+						<span class="text-primary">Бесплатная доставка!</span>
+					</template>
+					<template v-else>
+						<a href="/delivery" class="text-danger">Платная доставка!</a>
+					</template>
 				</div>
 				
 			</div>
@@ -107,7 +113,7 @@ import OrderEmailTemplate from './orderEmailTemplate';
 import $ from './jquery';
 
 export default {
-	props: ['email'],
+	props: ['email', 'freeDeliveryCost'],
 	data() {
 		return {
 			items:[],
@@ -206,6 +212,9 @@ export default {
 			}
 			
 			return description;
+		},
+		isDeliveryFree() {
+			return this.getTotalPrice() >= this.freeDeliveryCost;
 		},
 		submitOrder() {
 			if (!this.isOrderFormValid()) return;
