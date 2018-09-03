@@ -64,6 +64,8 @@
 				<div class="row total-price-block text-left">
 					<h4 class="total-price-text">Итоговая сумма к оплате: </h4>
 					<h4 class="total-price">  {{ getTotalPrice() }} р</h4>
+					<p class="text-primary">Бесплатная доставка!</p>
+					<p class="text-danger">Платная доставка! Читайте <a href="/delivery">условия доставки</a>.</p>
 				</div>
 				
 			</div>
