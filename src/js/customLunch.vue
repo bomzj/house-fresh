@@ -38,16 +38,22 @@
 			<h4 class="total-price">{{ getTotalPrice() }} р</h4>
 		</div>
 		<div class="row text-center">
-			<button class="btn btn-primary btn-xl" title="Добавить в корзину" @click="addLunchToCart" :disabled="!getSelectedItems().length">Добавить обед в корзину</button>
+			<button class="btn btn-primary btn-xl" title="Добавить в корзину" @click="addLunchToCart">Добавить обед в корзину</button>
 		</div>
 	</div>
+	
+	<transition name="fade">
+		<div class="alert alert-warning" v-show="isNothingSelectedWarningShowing" @click="isNothingSelectedWarningShowing = false">
+			<strong>Ничего не выбрано!</strong> Нажмите на понравившиеся блюда.
+		</div>
+	</transition>
 </div>
 </template>
 <script>
 export default {
 	props: ['dayMenu'],
 	data() {
-		return this.dayMenu;
+		return Object.assign({ isNothingSelectedWarningShowing: false}, this.dayMenu);
 	},
 	methods: {
 		selectItem(item, itemsToDeselect) {
@@ -67,9 +73,17 @@ export default {
 				.map(i => i.price)
 				.reduce((a, b) => Math.round((a + b) * 100) / 100, 0);
 		},
+		showNothingSelectedWarning() {
+			this.isNothingSelectedWarningShowing = true;
+			setTimeout(() => { this.isNothingSelectedWarningShowing = false }, 5000);
+		},
 		addLunchToCart() {
 			var selectedItems = this.getSelectedItems();
 			
+			if (!selectedItems.length) {
+				this.showNothingSelectedWarning();
+				return;
+			}
 			var customLunchItem = {
 				id: selectedItems.map(i => i.id).join(),
 				title: 'Свой обед',
