@@ -56,17 +56,18 @@ a:focus {
     color: #eb3812;
 }
 
-.text-danger a {
+a.text-danger {
     color: #eb3812;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-	text-decoration: underline;
+	
 }
 
-.text-danger a:hover,
-.text-danger a:focus {
+a.text-danger:hover,
+a.text-danger:focus {
     color: #6fac37;
+	text-decoration: underline;
 }
 
 h1,
