@@ -8,7 +8,7 @@ import './backtotop';
 import Vue from 'vue';  
 import Cart from './cart.vue';
 import CustomLunch from './customLunch.vue';
-import CallBackForm from './callbackForm.vue';
+import CallBackForm from './callBackForm.vue';
 
 // Init <cart>
 var cartVM = new Vue({
