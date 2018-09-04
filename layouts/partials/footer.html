@@ -1,14 +1,27 @@
 {{ "<!-- FOOTER -->" | safeHTML }}
-<aside class="footer">
-    <div class="container">
-		<div class="row">
-			{{ with .Site.Params.contact.companyIcon }}
-				<img src="/{{ . }}" class="img-responsive img-centered" alt="">
-				
-			{{ end }}
+<footer class="bg-dark" id="footer">
+    <div class="row contact-info-block">
+		<div class="row col-md-7">
+			<div class="text-center contact-info-block-section">
+				<h5 class="contact-header">Телефоны</h5>
+				<p><a class="contact-tel" title="{{ .Site.Params.contact.phoneTitle}}" href="tel:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phoneDescription }}</a></p>
+				<p><a class="contact-tel" title="{{ .Site.Params.contact.phoneTitle}}" href="tel:{{ .Site.Params.contact.phone2 }}">{{ .Site.Params.contact.phoneDescription2 }}</a></p>
+			</div>
+			
+			<div class="text-center contact-info-block-section">
+				<h5 class="contact-header">Адрес</h5>
+				<a class="contact-address" title="{{ .Site.Params.contact.addressTitle}}" href="https://goo.gl/maps/uW3GdrgG7d52" target="_blank">{{ .Site.Params.contact.address }}</a>
+			</div>
 		</div>
-		<div class="row col-lg-8 col-lg-offset-2 text-center">
-			<span class="copyright">{{ with .Site.Params.contact.copyright }}{{ . | markdownify }}{{ end }}</span>
+		<div class="row col-md-5">
+			<call-back-form email="{{.Site.Params.contact.orderEmail}}"></call-back-form>
 		</div>
 	</div>
-</aside>
+	
+	<div class="row copyright-block">
+		<div class="text-center">
+			<p class="copyright">{{ with .Site.Params.contact.copyrightMain }}{{ . | markdownify }}{{ end }}</p>
+			<p class="copyright">{{ with .Site.Params.contact.copyrightDescription }}{{ . | markdownify }}{{ end }}</p>
+		</div>
+	</div>
+</footer>

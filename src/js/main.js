@@ -8,7 +8,9 @@ import './backtotop';
 import Vue from 'vue';  
 import Cart from './cart.vue';
 import CustomLunch from './customLunch.vue';
+import CallBackForm from './callbackForm.vue';
 
+// Init <cart>
 var cartVM = new Vue({
 	el: 'cart',
 	components: {
@@ -25,6 +27,8 @@ Date.prototype.isBetween = function(from, to) {
 	return current > from.getTime() && current < to.getTime();
 };
 
+
+// Init <custom-lunch>
 var customLunches = document.querySelectorAll('custom-lunch');
 customLunches.forEach(x => {
 	new Vue({
@@ -34,3 +38,11 @@ customLunches.forEach(x => {
 		}
 	});	
 })
+
+// Init <call-back-form>
+new Vue({
+	el: 'call-back-form',
+	components: {
+		CallBackForm
+    }
+});

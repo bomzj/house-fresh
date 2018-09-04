@@ -23,9 +23,8 @@
             {{ partial "partners.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
-        {{ end }}
+		
+		{{ partial "footer.html" . }}
 		
         <script src="{{ "js/bundle.js" | absURL }}"></script>
 

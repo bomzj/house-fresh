@@ -85,12 +85,6 @@ p {
     line-height: 1.5;
 }
 
-p.contact {
-	margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1;
-}
-
 
 .bg-primary {
     background-color: #6fac37;
@@ -122,9 +116,6 @@ aside {
     padding: 50px 0;
 }
 
-aside.footer{
-    padding: 20px 0 20px 0;
-}
 
 .no-padding {
     padding: 0;
@@ -149,15 +140,6 @@ aside.footer{
 
 .section-heading {
     margin-top: 0;
-}
-
-
-span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #88776f;
-	line-height: 16px;
 }
 
 
@@ -531,4 +513,9 @@ body {
 
 .fade-enter {
   opacity: 1;
+}
+
+.alert{
+	text-align: initial !important;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
