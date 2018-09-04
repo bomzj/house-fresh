@@ -1,12 +1,12 @@
 ---
 layout: lunch
 title: "Соберите свой обед"
-description: "<span class='text-primary'>Внимание!</span> Заказ на обед должен быть оформлен <b>до 11.00</b>."
+description: "<span class='text-primary'>Внимание!</span> Заказ должен быть оформлен <b>до 11.00</b>."
 subdescription1: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
 metadescription: "ХаусФреш | Комплексные обеды, Меню на неделю, Организация питания на предприятиях, Организация питания на выездных мероприятиях | Минск, Беларусь"
 sitetitle: "Комплексные обеды, Кейтеринг, Организация питания | ХаусФреш"
 weekMenu:
-- weekDay: Меню на Понедельник
+- weekDay: Открыт приём заказов на Понедельник
   day: 3 сентября
   validFromOrderDate: "2018-08-31 11:00:00"
   validToOrderDate: "2018-09-03 10:59:59"
@@ -91,7 +91,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Меню на Вторник
+- weekDay: Открыт приём заказов на Вторник
   day: 4 сентября 
   validFromOrderDate: "2018-09-03 11:00:00"
   validToOrderDate: "2018-09-04 10:59:59"
@@ -176,7 +176,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Меню на Среду
+- weekDay: Открыт приём заказов на Среду
   day: 5 сентября
   validFromOrderDate: "2018-09-04 11:00:00"
   validToOrderDate: "2018-09-05 10:59:59"
@@ -261,7 +261,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Меню на Четверг
+- weekDay: Открыт приём заказов на Четверг
   day: 6 сентября
   validFromOrderDate: "2018-09-05 11:00:00"
   validToOrderDate: "2018-09-06 10:59:59"
@@ -346,7 +346,7 @@ weekMenu:
       ingredients: 
       weight: 80
       price: 0.20
-- weekDay: Меню на Пятницу
+- weekDay: Открыт приём заказов на Пятницу
   day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
   validToOrderDate: "2018-09-07 10:59:59"
