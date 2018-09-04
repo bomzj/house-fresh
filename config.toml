@@ -63,7 +63,7 @@ googleAnalytics = ""
 		#description = "[ХаусФреш](/) предлагает ... "
 	[params.services.contactButton]
 			text = "Связаться"
-			link = "/#contact"
+			link = "/#footer"
 
 	# ServiceTiles for product catalog
 	  [params.ProdTile]
