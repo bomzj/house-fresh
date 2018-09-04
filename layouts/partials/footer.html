@@ -14,16 +14,7 @@
 			</div>
 		</div>
 		<div class="row col-md-5">
-			<div class="text-center contact-info-block-section">
-				<h5 class="contact-header">Заказать обратный звонок</h5>
-				<form class="form-block-footer">
-					<div class="user-info-input">
-						<input type="text" class="form-control form-control-footer text-center" placeholder="Ваше имя">
-						<input type="text" class="form-control form-control-footer text-center" placeholder="Контактный телефон*">
-					</div>
-					<button class="btn btn-gray btn-xl" title="Отправить запрос на обратный звонок">Отправить запрос</button>
-				</form>
-			</div>
+			<call-back-form email="{{.Site.Params.contact.orderEmail}}"></call-back-form>
 		</div>
 	</div>
 	
