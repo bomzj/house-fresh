@@ -25,7 +25,11 @@ footer .contact-mail {
 }
 
 footer .contact-tel {
-    font-size: 30px;
+    font-size: 36px;
+}
+
+footer .social {
+	color: hsla(0,0%,100%,.9);
 }
 
 footer .contact-address:hover,
@@ -33,7 +37,9 @@ footer .contact-address:focus,
 footer .contact-tel:hover,
 footer .contact-tel:focus,
 footer .contact-mail:hover,
-footer .contact-mail:focus {
+footer .contact-mail:focus,
+footer .social:hover,
+footer .social:focus {
 	color: #fff;
 }
 
@@ -46,7 +52,7 @@ footer .contact-header {
 }
 
 footer .form-block-footer {
-	
+	margin-bottom: 75px;
 }
 
 footer .form-control-footer {
@@ -89,6 +95,10 @@ footer .copyright {
 	footer .copyright-block {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	
+	footer .copyright-block {
+		margin-top: 35px;
 	}
 }
 
