@@ -1,3 +1,4 @@
+{{ if ne (string .Site.BaseURL) "http://localhost:1313/"}}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121591089-1"></script>
 <script>
@@ -7,7 +8,7 @@
 
   gtag('config', 'UA-121591089-1');
 </script>
-
+{{ end }}
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,10 +24,3 @@
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
 <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" type="text/css">
-
-{{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
-{{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
-{{ "<!--[if lt IE 9]>" | safeHTML }}
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
