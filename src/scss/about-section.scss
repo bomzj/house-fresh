@@ -6,3 +6,10 @@
 #about a:focus {
     color: rgb(52, 52, 52);
 }
+
+#about p {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 90%;
+	font-size: 20px;
+}

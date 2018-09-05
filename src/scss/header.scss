@@ -34,10 +34,11 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     color: rgba(255,255,255,.7);
 }
+
 
 @media(min-width:768px) {
     header {
@@ -63,6 +64,5 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
     }
 }
