@@ -1,29 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html lang="{{ .Site.LanguageCode }}">
     <head>
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.partners .Site.Params.navigation.links.contact }}
-            {{ partial "nav.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.hero }}
-            {{ partial "hero.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.about }}
-            {{ partial "about.html" . }}
-        {{ end }}
-
+		{{ partial "nav.html" . }}
+		{{ partial "hero.html" . }}
+		{{ partial "about.html" . }}
 		{{ partial "services.html" . }}
-
-		
-		{{ if .Site.Params.partners }}
-            {{ partial "partners.html" . }}
-        {{ end }}
-
-		
+		{{ partial "partners.html" . }}
 		{{ partial "footer.html" . }}
 		
         <script src="{{ "js/bundle.js" | absURL }}"></script>

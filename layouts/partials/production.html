@@ -5,37 +5,21 @@
 	<div class="content">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
-				{{ with .Title }}
-					<h1>{{ . }}</h1>
-				{{ end }}
-				{{ with .Params.subtitle }}
-					<h3>{{ . }}</h3>
-				{{ end }}
+				<h1>{{ .Title }}</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 text-center">
-				{{ if .Description}}
-					<h3 class="text-center">{{ .Description  | markdownify  }}</h3>
-				{{ end }}
-				{{if .Params.subdescription1}}
-					<p class="text-center">{{ .Params.subdescription1  | markdownify}}</p>
-				{{end}}
+				<h3 class="text-center">{{ .Description  | markdownify  }}</h3>
+				<p class="text-center">{{ .Params.subdescription1  | markdownify}}</p>
 			</div>
 		</div>
 		<div class="row">
 			{{ range .Params.category }}
 				<div class="row top-padding" id="{{.categoryId}}">
-					{{if .categoryId}}
 					<div class="col-lg-10 col-lg-offset-1 text-center" >
-						{{ with .categoryTitle }}
-							<h2 class="text-primary">{{ . }}</h2>
-						{{ end }}
-						{{if .categorySubTitle}}
-							<h4>{{.categorySubTitle}}</h4>
-						{{end}}
+						<h2 class="text-primary">{{ .categoryTitle }}</h2>
 					</div>
-					{{end}}
 				</div>
 				
 				<div class="row">

@@ -3,22 +3,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                {{ with .Site.Params.about.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
-                {{ end }}
-                {{ if and .Site.Params.about.headline .Site.Params.about.description }}
-                    <hr class="light">
-                {{ end }}
-                {{ with .Site.Params.about.description }}
-                    <p>{{ . | markdownify }}</p>
-                {{ end }}
-					<hr class="light">
-				{{ with .Site.Params.about.subdescription }}
-                    <p>{{ . | markdownify }}</p>
-                {{ end }}
-                {{ if and .Site.Params.about.buttonText .Site.Params.about.buttonTitle }}
-                    <a href="{{.Site.Params.about.buttonLink}}" title="{{.Site.Params.about.buttonTitle}}" class="btn btn-gray btn-xl page-scroll">{{ .Site.Params.about.buttonText }}</a>
-                {{ end }}
+				<h2 class="section-heading">{{ .Site.Params.about.headline }}</h2>
+				<hr class="light">
+				<p>{{ .Site.Params.about.description | markdownify }}</p>
+				<hr class="light">
+				<p>{{ .Site.Params.about.subdescription | markdownify }}</p>
+				<a href="{{.Site.Params.about.buttonLink}}" title="{{.Site.Params.about.buttonTitle}}" class="btn btn-gray btn-xl page-scroll">{{ .Site.Params.about.buttonText }}</a>
             </div>
         </div>
     </div>
