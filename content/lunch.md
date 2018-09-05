@@ -302,10 +302,10 @@ weekMenu:
       ingredients: колбаски домашние, соус
       weight: 100/50
       price: 3.15
-    - title: Горбуша жареная
+    - title: Птица запеченная с помидорами
       id: 57
-      ingredients: рыба, специи
-      weight: 120
+      ingredients: птица, помидор, сыр, специи
+      weight: 100
       price: 3.45
     - title: Мясо, жаренное крупным куском
       id: 58
@@ -314,16 +314,16 @@ weekMenu:
       price: 3.60
   - title: Гарниры
     items:
-    - title: Картофель, жаренный с луком и грибами
+    - title: Каша рассыпчатая рисовая
       id: 59
       ingredients: 
       weight: 150
-      price: 1.65
-    - title: Кабачки запеченные
+      price: 0.85
+    - title: Каша гречневая рассыпчатая
       id: 60
       ingredients: 
       weight: 150
-      price: 1.30
+      price: 0.85
   - title: Хлеб
     items:
     - title: Хлеб белый
@@ -382,10 +382,10 @@ weekMenu:
       price: 2.45
   - title: Вторые блюда
     items:
-    - title: Филе птицы в белках
+    - title: Филе птицы в сыре
       id: 66
-      ingredients: филе птицы, меланж, специи
-      weight: 123
+      ingredients: птица, сыр, специи
+      weight: 130
       price: 3.45
     - title: Бифштекс из говядины
       id: 67
@@ -404,11 +404,11 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 1.40
-    - title: Картофель, жаренный с луком и грибами
+    - title: Каша перловая рассыпчатая
       id: 70
       ingredients: 
       weight: 150
-      price: 1.65
+      price: 0.90
   - title: Хлеб
     items:
     - title: Хлеб белый
