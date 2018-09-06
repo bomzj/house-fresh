@@ -99,14 +99,13 @@ footer .copyright {
 		padding-right: 15px;
 	}
 	
-	footer .copyright-block {
-		margin-top: 35px;
-	}
-	
 	footer .contact-tel {
 		font-size: 30px;
 	}
 }
 
 @media(max-width:992px) {
+	footer .copyright-block {
+		margin-top: 35px;
+	}
 }
