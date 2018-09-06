@@ -6,7 +6,118 @@
     <body id="page-top">
 		
 		{{ partial "nav.html" . }}
-		{{partial "production.html" .}}
+
+		{{ "<!-- Production page -->" | safeHTML }}
+		{{ $baseUrl := .Site.BaseURL }}
+		<div class="aside">
+			<div class="nav-stripe"></div>
+			<div class="content">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h1>{{ .Title }}</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1 text-center">
+						<h3 class="text-center">{{ .Description  | markdownify  }}</h3>
+						<p class="text-center">{{ .Params.subdescription1  | markdownify}}</p>
+					</div>
+				</div>
+				<div class="row">
+					{{ range .Params.category }}
+						<div class="row top-padding" id="{{.categoryId}}">
+							<div class="col-lg-10 col-lg-offset-1 text-center" >
+								<h2 class="text-primary">{{ .categoryTitle }}</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="row">
+							{{range .items}}
+								<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >
+									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
+										<div itemprop="image" class="img">
+											<img {{ printf "src='%s%s'" $baseUrl .itemImg | safeHTMLAttr }} class="img-responsive" alt="{{ .itemImgAlt}}">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+										<div class="catalog-item-main-info">
+											<h3 itemprop="name" class="catalog-item-name">{{ .itemTitle }}</h3>
+											{{if .itemSubTitle}}
+												<h5 class="text-muted-italic catalog-item-subTitle">{{ .itemSubTitle }}</h5>
+											{{end}}
+											<hr class="gray">
+											{{if .itemIngredients}}
+												<p itemprop="description" class="text-muted ingredients">{{.itemIngredients}}</p>
+											{{end}}
+											{{if eq .itemType "cake"}}
+												<p class="text-muted text-small-left">*Торт продаётся разрезанным на 12 порций.</p>
+											{{end}}
+										
+											<select class="form-control input-lg temperatureState-input" style="display:{{ if not .itemFrozenID }}none{{end}}">
+												<option value="{{.itemCooledID}}">охлаждённый</option>
+												<option value="{{.itemFrozenID}}">замороженный</option>
+											</select>
+											
+											<div itemprop="description" class="row complex-lunch-item">
+												{{if .salad}}
+													<p class="text-muted">{{.salad}}</p>
+												{{end}}
+												{{if .soup}}
+													<p class="text-muted">{{.soup}}<p>
+												{{end}}
+												{{if .meat}}
+													<p class="text-muted">{{.meat}}</p>
+												{{end}}
+												{{if .side}}
+													<p class="text-muted">{{.side}}</p>
+												{{end}}
+											</div>
+											<div class="row lunch-item-bread">
+												{{if eq .itemType "lunch"}}
+													<p class="text-muted">*Закажите вкусный <a href="/production/#bread" title="Свежий хлеб, багеты, чиабатта, булочки">ХЛЕБУШЕК</a> к обеду.</p>
+												{{end}}
+											</div>
+										</div>
+										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weight-price-section">
+											{{if .itemWeight}}
+												<h3 class="catalog-item-weight text-muted">{{.itemWeight}}г</h3>
+											{{end}}
+											{{if .itemPrice}}
+												<div class="catalog-item-price">
+													<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="">{{.itemPrice}}р</h3>
+													<button class="btn btn-primary btn-add-to-cart" title="Добавить в корзину" 
+														onclick="cart.addItem({ 
+															imageUrl: '{{.itemImg | absURL}}', 
+															title: '{{.itemTitle}}', 
+															temperatureState: this.closest('.catalog-item').querySelector('select').selectedOptions[0].text, 
+															price: {{.itemPrice}},
+															weight: {{.itemWeight}},
+															type: '{{.itemType}}',
+															id: this.closest('.catalog-item').querySelector('select').value  })">
+														<i class="fa fa-cart-arrow-down fa-2x"></i>
+													</button>
+												</div>
+											{{end}}
+											<meta itemprop="priceCurrency" content="BYN" />
+										</div>
+									</div>
+								</div>
+							{{end}}
+							</div>
+							{{ if .issueDate }}
+								<p class="text-muted text-small-center">{{ .issueDate | markdownify}}</p>
+							{{ end }}
+						</div>
+					{{ end }}
+				</div>
+			</div>
+			<div class="back-to-top" id="back-to-top-btn">
+				<a href="#page-top" class="page-scroll" title="Вернуться к началу страницы">
+					<i class="fa fa-chevron-up fa-1x"></i>
+				</a>
+			</div>
+		</div>
+
 		{{partial "footer.html" .}}
 		
         <script src="{{ "js/bundle.js" | absURL }}"></script>
