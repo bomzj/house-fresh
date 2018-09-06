@@ -30,6 +30,8 @@ footer .contact-tel {
 
 footer .social {
 	color: hsla(0,0%,100%,.9);
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 footer .contact-address:hover,
@@ -99,6 +101,10 @@ footer .copyright {
 	
 	footer .copyright-block {
 		margin-top: 35px;
+	}
+	
+	footer .contact-tel {
+		font-size: 30px;
 	}
 }
 
