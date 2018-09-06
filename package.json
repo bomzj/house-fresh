@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "start cmd /K webpack --mode development && start cmd /K hugo server",
-	"build": "webpack --mode production"
+	"build": "webpack --mode production && hugo"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
