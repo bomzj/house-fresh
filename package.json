@@ -3,15 +3,13 @@
   "name": "housefresh.by",
   "private": true,
   "scripts": {
-    "test": "echo keke",
-    "webpack": "webpack",
-    "build": "webpack && hugo"
+    "dev": "start cmd /K webpack --mode development && start cmd /K hugo server",
+	"build": "webpack --mode production"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-es2016": "^6.24.1",
     "css-loader": "^0.28.11",
     "mini-css-extract-plugin": "*",
     "node-sass": "^4.8.3",
