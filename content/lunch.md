@@ -3,72 +3,72 @@ layout: lunch
 title: "Соберите свой обед"
 description: "<span class='text-primary'>Внимание!</span> Заказ на текущий день должен быть оформлен <b>до 11.00</b>."
 subdescription1: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
-metadescription: "Заказать Обед в Офис. Большой выбор Блюд, Новое Меню Каждый День, Скидки. Организация Корпоративного Питания Сотрудников. | Доставка еды в офис"
+metadescription: "Заказать Обед в Офис. Большой выбор Блюд, Новое Меню Каждый День. Доступные цены, Скидки. Организация Корпоративного Питания Сотрудников. | Доставка еды в офис"
 sitetitle: "Комплексные Обеды (Корпоративное питание) | Доставка в офис"
 weekMenu:
 - weekDay: Открыт приём заказов на Понедельник
-  day: 3 сентября
-  validFromOrderDate: "2018-08-31 11:00:00"
-  validToOrderDate: "2018-09-03 10:59:59"
+  day: 10 сентября
+  validFromOrderDate: "2018-09-07 11:31:00"
+  validToOrderDate: "2018-09-10 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Белорусский»
+    - title: Салат «Папараць-кветка»
       id: 21	
-      ingredients: грибы, печень отварная, огурец марин., яйцо, майонез
-      weight: 150
-      price: 2.60
-    - title: Салат «Верасень»
-      id: 22
-      ingredients: овощи отв., овощи маринован., грибы, зеленый гор. майонез
-      weight: 150
-      price: 2.20
-    - title: Салат «Любительский»
-      id: 23
-      ingredients: печень трески, картофель отварной, лук, горош.конс, майонез
+      ingredients: говядина отварная, ветчина, овощи, яйцо, майонез
       weight: 150
       price: 2.95
+    - title: Салат-коктейль  «Вянок»
+      id: 22
+      ingredients: ветчина, чернослив, огурец яйцо, майонез
+      weight: 150
+      price: 3.15
+    - title: Салат из белокочанной капусты со свеклой и морковью
+      id: 23
+      ingredients: капуста, свекла, морковь, заправка
+      weight: 150
+      price: 1.50
   - title: Супы
     items:  
-    - title: Суп с крупой перловой
+    - title: Суп из овощей с фасолью
       id: 24
       ingredients: 
       weight: 250
-      price: 1.70
-    - title: Борщ Украинский
+      price: 1.95
+    - title: Щи из свежей капусты с картофелем
       id: 25
       ingredients: 
       weight: 250/20
       price: 1.95
   - title: Вторые блюда
     items:
-    - title: Свинина «Аппетитная»
+    - title: Фрикадельки в соусе 
       id: 26
-      ingredients: свинина, специи
-      weight: 75
-      price: 4.20
-    - title: Жаркое по-лидски
+      ingredients: свинина, лук, морковь, соус сметанный
+      weight: 110/50
+      price: 3.10
+    - title: Свинина деликатесная
       id: 27
-      ingredients: свинина, овощи тушенные, специи
-      weight: 270
-      price: 3.65
-    - title: Котлета «Свитязь» (натуральная)
+      ingredients: свинина, специи
+      weight: 145
+      price: 3.95
+    - title: Гуляш из свинины
       id: 28
-      ingredients: говядина, специи
-      weight: 120
-      price: 3.15
+      ingredients: свинина, специи
+      weight: 75/75
+      price: 3.30
   - title: Гарниры
     items:
-    - title: Картофель, запеченный с окороком и грибами
+    - title: Капуста, тушенная с яблоками
       id: 29
       ingredients: 
-      weight: 150
-      price: 1.65
-    - title: Свекла тушенная в сметане
+      weight: 200
+      price: 1.50
+    - title: Каша рассыпчатая рисовая
       id: 30
       ingredients: 
       weight: 150
-      price: 1.30
+      price: 0.85
   - title: Хлеб
     items:
     - title: Хлеб белый
@@ -92,68 +92,68 @@ weekMenu:
       weight: 80
       price: 0.20
 - weekDay: Открыт приём заказов на Вторник
-  day: 4 сентября 
-  validFromOrderDate: "2018-09-03 11:00:00"
-  validToOrderDate: "2018-09-04 10:59:59"
+  day: 11 сентября 
+  validFromOrderDate: "2018-09-10 11:00:00"
+  validToOrderDate: "2018-09-11 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Оригинальный»
+    - title: Салат «Мясной»
       id: 31
-      ingredients: морковь, маринованный огурец, яйцо сыр, майонез, кетчуп
+      ingredients: говядина отварная, овощи, майонез
       weight: 150
-      price: 2.65
-    - title: Салат  из сыра и моркови
+      price: 2.45
+    - title: Винегрет с сельдью
       id: 32
-      ingredients: сыр, морковь, огурец свеж., майонез
+      ingredients: овощи отварные, овощи маринованные, сельдь филе, заправка
       weight: 150
-      price: 1.90
-    - title: Салат «Немига»
+      price: 2.10
+    - title: Салат «Капуста по-слуцки»
       id: 33
-      ingredients: филе хека отварное, овощи, майонез
+      ingredients: капуста белокочанная, морковь, маринад
       weight: 150
-      price: 3.15
+      price: 1.75
   - title: Супы
     items:  
-    - title: Щи ленивые с грибами
+    - title: Суп-пюре из разных овощей с сухариками
       id: 34
       ingredients: 
-      weight: 250/20
-      price: 1.85
-    - title: Суп гороховый с беконом
+      weight: 250/10
+      price: 2.40
+    - title: Солянка сборная мясная
       id: 35
       ingredients: 
-      weight: 250
-      price: 2.45
+      weight: 250/30
+      price: 2.95
   - title: Вторые блюда
     items:
-    - title: Зразы донские
+    - title: Голубцы любительские
       id: 36
-      ingredients: филе хека, специи
-      weight: 110
-      price: 3.20
-    - title: Птица по-ашхабадски
-      id: 37
-      ingredients: птица, овощи, специи
-      weight: 300
+      ingredients: свинина, говядина, специи
+      weight: 230/50
       price: 3.65
-    - title: Шницель рыбный натуральный
-      id: 38
-      ingredients: рыба треска, специи
-      weight: 75
+    - title: Котлета «Спатканне»
+      id: 37
+      ingredients: птица, свинина, специи, яйцо
+      weight: 100
       price: 3.15
+    - title: Цыплята табака
+      id: 38
+      ingredients: птица, специи
+      weight: 150
+      price: 2.35
   - title: Гарниры
     items:
-    - title: Морковь тушенная в сметанном соусе
+    - title: Картофельное пюре
       id: 39
       ingredients: 
       weight: 150
-      price: 1.65
-    - title: Каша гречневая рассыпчатая
+      price: 0.95
+    - title: Каша рассыпчатая с грибами и луком гречневая
       id: 40
       ingredients: 
       weight: 150
-      price: 0.85
+      price: 1.10
   - title: Хлеб
     items:
     - title: Хлеб белый
@@ -349,7 +349,7 @@ weekMenu:
 - weekDay: Открыт приём заказов на Пятницу
   day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
-  validToOrderDate: "2018-09-07 10:59:59"
+  validToOrderDate: "2018-09-07 11:30:59"
   courses:
   - title: Салаты
     items:
