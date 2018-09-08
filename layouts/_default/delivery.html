@@ -6,7 +6,61 @@
     <body id="page-top">
 		
 		{{ partial "nav.html" . }}
-		{{ partial "delivery.html" . }}
+
+		{{ "<!-- Delivery page -->" | safeHTML }}
+		<div class="aside">
+			<div class="nav-stripe"></div>
+			<div class="content">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h1>{{ .Title }}</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center text-primary">
+							<h2 class="deliverySection">Доставка обедов</h2>
+						</div>
+					</div>
+					<div class="row delivery-info-block">
+						<h4 class="delivery-description">
+							Доставка <strong> <a href="/lunch/" title="Меню на неделю: цены, описание"> ОБЕДОВ </a> </strong> по Минску осуществляется <b> с 12.00 до 15.00 </b> только в рабочие дни. Заказ 'на сегодня' должен быть оформлен через корзину сайта или по указанным в контактах телефонам до 11.00 текущего дня.
+							<br>
+							<strong>Бесплатная доставка</strong> при сумме заказа <b>от {{.Site.Params.freeDeliveryCost}} рублей</b>. 
+							<br>
+							<strong>Платная доставка</strong> (5-10 рублей в зависимости от маршрута) при сумме заказа <b>менее {{.Site.Params.freeDeliveryCost}} рублей</b>.
+							<br>
+							<br>
+							Самовывоз возможен при оформлении заказа на любую сумму.
+							<br>
+							Доставка в выходные и праздничные дни может быть организована по согласованию.
+							<br>
+							Свяжитесь с нами для получения более подробной информации.
+						</h4>
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center text-primary">
+							<h2 class="deliverySection">Доставка продукции</h2>
+						</div>
+					</div>
+					<div class="row delivery-info-block">
+						<h4 class="delivery-description">
+							<strong> Оптовые поставки <a href="/production/" title="Сэндвичи, булочки, чиабатта, салаты, выпечка, торты, комплексные обеды: цены, описание"> ПРОДУКЦИИ </a> </strong> по Минску и Беларуси выполняются на индивидуальных условиях. Свяжитесь с нами по указанным телефонам, чтобы узнать подробную информацию.
+						</h4>
+						<br>
+					</div>
+					<br>
+				</div>
+			</div>
+			<div class="back-to-top" id="back-to-top-btn">
+				<a href="#page-top" class="page-scroll" title="Вернуться к началу страницы">
+					<i class="fa fa-chevron-up fa-1x"></i>
+				</a>
+			</div>
+		</div>
+
+
 		{{ partial "footer.html" . }}
 		
         <script src="{{ "js/bundle.js" | absURL }}"></script>

@@ -256,15 +256,13 @@ body {
 }
 
 .back-to-top a {
-	
-    background-color: #f8f8f8;
-    color: white;
     cursor: pointer;
     padding-right: 15px;
 	padding-left: 15px;
 	padding-bottom: 13px;
 	padding-top: 13px;
-	
+	border: solid 2px #ddd;
+    border-radius: 10px;
 }
 
 

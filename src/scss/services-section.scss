@@ -45,34 +45,9 @@
 }
 
 #services .services-item .services-link .services-hover .services-hover-content div {
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
-#services .services-item .services-link .services-hover .services-hover-content h2,
-#services .services-item .services-link .services-hover .services-hover-content h3,
-#services .services-item .services-link .services-hover .services-hover-content h4 {
-    margin: 0;
-}
-
-#services .services-item .services-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: #fff;
-}
-
-#services .services-item .services-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#services .services-item .services-caption p {
-    margin: 0;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
 
 #services * {
     z-index: 2;
@@ -81,6 +56,10 @@
 #services .row {
 	margin-right: -15px;
     margin-left: -15px;
+}
+
+#services .service-subtitle {
+	margin-top: 20px;
 }
 
 @media(min-width:767px) {
@@ -107,4 +86,6 @@ and (max-width : 767px) {
 		text-align: center;
 		color: #fff;
 	}
+	
+	
 }

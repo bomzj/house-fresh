@@ -1,15 +1,24 @@
-#about a {
+#lunchSection a {
     color: rgba(52, 52, 52, .7);
 }
 
-#about a:hover,
-#about a:focus {
+#lunchSection a:hover,
+#lunchSection a:focus {
     color: rgb(52, 52, 52);
 }
 
-#about p {
+#lunchSection p,
+#productionSection p {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 90%;
 	font-size: 20px;
+	line-height: 1.8;
+}
+
+@media(max-width:767px) {
+	#lunchSection p,
+	#productionSection p	{
+		max-width: 95%;
+	}
 }

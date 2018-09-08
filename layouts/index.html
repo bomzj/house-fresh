@@ -5,10 +5,73 @@
     </head>
     <body id="page-top">
 		{{ partial "nav.html" . }}
-		{{ partial "hero.html" . }}
-		{{ partial "about.html" . }}
-		{{ partial "services.html" . }}
-		{{ partial "partners.html" . }}
+		
+		{{ "<!-- HEADER -->" | safeHTML }}
+		<header>
+			<div class="header-content">
+				<div itemscope itemtype="https://schema.org/Organization" class="header-content-inner">
+					<div class="row">
+						<a itemprop="url" href="/"><img src="{{ .Site.Params.hero.companyIcon }}" itemprop="logo" class="img-responsive img-centered" alt="ХаусФреш логотип"></a>
+						<h1 itemprop="brand" >{{ .Site.Params.hero.slogan | markdownify }}</h1>
+					</div>
+					<hr>
+					<p itemprop="description">{{ .Site.Params.hero.subtitle | markdownify }}</p>
+					<a href="{{.Site.Params.navigation.links.catalogUrl | absURL}}" class="btn btn-primary btn-xl page-scroll" title="{{.Site.Params.hero.buttonTitle}}">{{ .Site.Params.hero.buttonText }}</a>
+				</div>
+			</div>
+		</header>
+
+		{{ "<!-- Lunch-section -->" | safeHTML }}
+		<section class="bg-primary" id="lunchSection">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h2 class="section-heading">{{ .Site.Params.lunchSection.headline }}</h2>
+						<hr class="light">
+						<p>{{ .Site.Params.lunchSection.description | markdownify }}</p>
+						<a href="{{.Site.Params.lunchSection.lunchButtonLink}}" title="{{.Site.Params.lunchSection.lunchButtonTitle}}" class="btn btn-gray btn-xl">{{ .Site.Params.lunchSection.lunchButtonText }}</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{{ "<!-- Production-section -->" | safeHTML }}
+		<section class="bg-light-gray" id="productionSection">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h2 class="section-heading">{{ .Site.Params.productionSection.headline }}</h2>
+						<hr>
+						<p>{{ .Site.Params.productionSection.description | markdownify }}</p>
+						<hr>
+						<p>{{ .Site.Params.productionSection.subdescription | markdownify }}</p>
+						<a href="{{.Site.Params.productionSection.productionButtonLink}}" title="{{.Site.Params.productionSection.productionButtonTitle}}" class="btn btn-primary btn-xl">{{ .Site.Params.productionSection.productionButtonText }}</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		{{ "<!-- PARTNERS -->" | safeHTML }}
+		<section id="partners" >
+			<div class="container">
+				<div class="row partnersList">
+				  {{ range .Site.Params.partners.list }}
+					<span>
+					  {{ $url := printf "img/logos/%s" .logo }}
+					  {{ if .link }}
+						<a href="{{ .link }}">
+						  <img src="{{ $url | absURL }}" class="partner img-responsive img-centered" alt="{{ .alt}}">
+						</a>
+					  {{ else }}
+						<img src="{{ $url | absURL }}" class="partner img-responsive img-centered" alt="{{ .alt}}">
+					  {{ end }}
+					</span>
+				  {{ end }}
+
+				</div>
+			</div>
+		</section>
+		
 		{{ partial "footer.html" . }}
 		
         <script src="{{ "js/bundle.js" | absURL }}"></script>
