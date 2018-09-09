@@ -3,10 +3,7 @@ languageCode = "ru"
 DefaultContentLanguage = "ru"
 title = "Продукты оптом: сэндвичи, выпечка. Доставка обедов | ХаусФреш"
 googleAnalytics = ""
-
-[taxonomies]
-  tag = ""
-  category = ""
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 	name = "ХаусФреш"
