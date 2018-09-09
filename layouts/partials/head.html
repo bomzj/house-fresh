@@ -15,9 +15,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="yandex-verification" content="1f734b10fb74f0ac" />
 <meta name="msvalidate.01" content="64E032959A8E608F139642E180B51FE5" />
-{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
-{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-{{ with .Params.metadescription }}<meta name="description" content="{{ . }}">{{ end }}
+<meta name="geo.region" content="BY-MI" />
+<meta name="geo.placename" content="Minsk" />
+<meta name="geo.position" content="53.90454;27.561524" />
+<meta name="ICBM" content="53.90454, 27.561524" />
+
+<meta name="keywords" content="{{ .Params.metakeywords }}">
+<meta name="description" content="{{ .Params.metadescription }}">
 {{ .Hugo.Generator }}
 <title>{{ .Params.sitetitle }}</title>
 
