@@ -15,17 +15,18 @@
 					<hr class="hidden-sm hidden-xs gray">
 				</div>
 				
-				<div class="col-md-9">
+				<div class="col-md-9" itemscope itemtype="https://schema.org/Product">
 					<div v-for="item in course.items" class="row lunch-item" :class="{ selected : item.isSelected }" @click="selectItem(item, course.items)">
 						<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-							<p class="text-muted text-nomargin">{{item.title}}</p>
-							<p class="text-muted-italic text-small-left">{{item.ingredients}}</p>
+							<p itemprop="name" class="text-muted text-nomargin">{{item.title}}</p>
+							<p itemprop="description" class="text-muted-italic text-small-left">{{item.ingredients}}</p>
 						</div>
-						<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+						<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 							<h3 class="text-muted menu-item-weight">{{item.weight}}г</h3>
 							<div class="menu-item-price-section">
-								<h3 class="menu-item-price">{{item.price}}р</h3>
+								<h3 itemprop="price lowPrice highPrice" class="menu-item-price">{{item.price}}р</h3>
 							</div>
+							<meta itemprop="priceCurrency" content="BYN" />
 						</div>
 					</div>
 				</div>
