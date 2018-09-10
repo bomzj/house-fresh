@@ -62,7 +62,7 @@
 				<hr class="hidden-xs hidden-sm gray">
 			
 				<div class="row total-price-block text-left">
-					<h4 class="total-price-text">Итоговая сумма к оплате: </h4>
+					<h4 class="total-price-text">Итоговая сумма: </h4>
 					<h4 class="total-price">  {{ getTotalPrice() }} р</h4>
 					<template v-if="isDeliveryFree()">
 						<span class="text-primary">Бесплатная доставка!</span>

@@ -231,6 +231,19 @@ body {
 	text-align: center;
 }
 
+
+
+.shared-courses-toggle-link {
+	margin-top: -20px;
+	margin-bottom: 40px;
+}
+
+
+.shared-courses-toggle-link:hover {
+	cursor: pointer;
+	color: #eb3812;
+}
+
 .catalog-footer{
 	text-align: center;
 }
@@ -345,6 +358,10 @@ body {
 	
 	.lunch-item.selected {
 		padding-bottom: 35px;
+	}
+	
+	.shared-courses-toggle-link {
+		margin-top: -5px;
 	}
 	
 }

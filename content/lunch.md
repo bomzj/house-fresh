@@ -4,7 +4,7 @@ title: "Соберите свой обед"
 description: "<span class='text-primary'>Внимание!</span> Заказ обеда с доставкой на текущий день должен быть оформлен <b>до 11.00</b>."
 subdescription1: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
 metadescription: "Заказать Обед (Бизнес Ланч) в Офис. Большой выбор Блюд, Новое Домашнее Меню Каждый День. Доступные цены, Скидки. Организация Корпоративного Питания Сотрудников. | Доставка еды в офис"
-metakeywords: "Заказ домашних комплексных обедов: Салаты, Супы, Вторые блюда, Гарниры, Хлеб. Корпоративное питание. Доставка обедов в офис Минск"
+metakeywords: "Заказ домашних комплексных обедов: Салаты, Супы, Вторые блюда, Гарниры, Хлеб, Выпечка, Напитки. Корпоративное питание. Доставка обедов в офис Минск"
 sitetitle: "Комплексные Обеды 🥗 (Корпоративное питание) | Доставка в офис"
 weekMenu:
 - weekDay: Открыт приём заказов на Понедельник
@@ -70,28 +70,6 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 0.85
-  - title: Хлеб
-    items:
-    - title: Хлеб белый
-      id: 1111
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб тёмный
-      id: 2222    
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб белый (2 порции)
-      id: 3333
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Хлеб тёмный (2 порции)
-      id: 4444    
-      ingredients: 
-      weight: 80
-      price: 0.20
 - weekDay: Открыт приём заказов на Вторник
   day: 11 сентября 
   validFromOrderDate: "2018-09-10 11:00:00"
@@ -155,28 +133,6 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 1.10
-  - title: Хлеб
-    items:
-    - title: Хлеб белый
-      id: 1111
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб тёмный
-      id: 2222    
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб белый (2 порции)
-      id: 3333
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Хлеб тёмный (2 порции)
-      id: 4444    
-      ingredients: 
-      weight: 80
-      price: 0.20
 - weekDay: Открыт приём заказов на Среду
   day: 12 сентября
   validFromOrderDate: "2018-09-11 11:00:00"
@@ -240,95 +196,6 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 1.40
-  - title: Выпечка
-    items:
-    - title: Хлеб белый
-      id: 1111
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб тёмный
-      id: 1112    
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб белый (2 порции)
-      id: 1113
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Хлеб тёмный (2 порции)
-      id: 1114    
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Сметанник
-      id: 1115    
-      ingredients: 
-      weight: 75
-      price: 0.85
-    - title: Булочка чайная с творогом
-      id: 1116    
-      ingredients: 
-      weight: 50
-      price: 0.65
-    - title: Маффин в ассортименте
-      id: 1117    
-      ingredients: 
-      weight: 115
-      price: 1.50
-    - title: Круассан с шоколадом
-      id: 1118    
-      ingredients: 
-      weight: 50
-      price: 1.10
-    - title: Круассан со сгущенкой
-      id: 1119    
-      ingredients: 
-      weight: 50
-      price: 1.10
-    - title: Слойка с вишней
-      id: 1120    
-      ingredients: 
-      weight: 75
-      price: 1.10
-    - title: Слойка со сгущенкой
-      id: 1121    
-      ingredients: 
-      weight: 75
-      price: 1.10
-    - title: Слойка с сыром
-      id: 1122    
-      ingredients: 
-      weight: 75
-      price: 1.10
-  - title: Напитки
-    items:
-    - title: Холодный чай Фьюз Ти
-      id: 1133
-      ingredients: 
-      weight: 500
-      price: 2.50
-    - title: Напиток Кока-Кола
-      id: 1134
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Напиток Спрайт
-      id: 1135
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Напиток Фанта Апельсин
-      id: 1136
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Питьевая вода Бонаква
-      id: 1137
-      ingredients: 
-      weight: 500
-      price: 1.50
 - weekDay: Открыт приём заказов на Четверг
   day: 13 сентября
   validFromOrderDate: "2018-09-12 11:00:00"
@@ -392,95 +259,6 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 0.95
-  - title: Выпечка
-    items:
-    - title: Хлеб белый
-      id: 1111
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб тёмный
-      id: 1112    
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб белый (2 порции)
-      id: 1113
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Хлеб тёмный (2 порции)
-      id: 1114    
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Сметанник
-      id: 1115    
-      ingredients: 
-      weight: 75
-      price: 0.85
-    - title: Булочка чайная с творогом
-      id: 1116    
-      ingredients: 
-      weight: 50
-      price: 0.65
-    - title: Маффин в ассортименте
-      id: 1117    
-      ingredients: 
-      weight: 115
-      price: 1.50
-    - title: Круассан с шоколадом
-      id: 1118    
-      ingredients: 
-      weight: 50
-      price: 1.10
-    - title: Круассан со сгущенкой
-      id: 1119    
-      ingredients: 
-      weight: 50
-      price: 1.10
-    - title: Слойка с вишней
-      id: 1120    
-      ingredients: 
-      weight: 75
-      price: 1.10
-    - title: Слойка со сгущенкой
-      id: 1121    
-      ingredients: 
-      weight: 75
-      price: 1.10
-    - title: Слойка с сыром
-      id: 1122    
-      ingredients: 
-      weight: 75
-      price: 1.10
-  - title: Напитки
-    items:
-    - title: Холодный чай Фьюз Ти
-      id: 1133
-      ingredients: 
-      weight: 500
-      price: 2.50
-    - title: Напиток Кока-Кола
-      id: 1134
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Напиток Спрайт
-      id: 1135
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Напиток Фанта Апельсин
-      id: 1136
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Питьевая вода Бонаква
-      id: 1137
-      ingredients: 
-      weight: 500
-      price: 1.50
 - weekDay: Открыт приём заказов на Пятницу
   day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
@@ -544,97 +322,8 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 0.90
-  - title: Выпечка
-    items:
-    - title: Хлеб белый
-      id: 1111
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб тёмный
-      id: 1112    
-      ingredients: 
-      weight: 40
-      price: 0.10
-    - title: Хлеб белый (2 порции)
-      id: 1113
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Хлеб тёмный (2 порции)
-      id: 1114    
-      ingredients: 
-      weight: 80
-      price: 0.20
-    - title: Сметанник
-      id: 1115    
-      ingredients: 
-      weight: 75
-      price: 0.85
-    - title: Булочка чайная с творогом
-      id: 1116    
-      ingredients: 
-      weight: 50
-      price: 0.65
-    - title: Маффин в ассортименте
-      id: 1117    
-      ingredients: 
-      weight: 115
-      price: 1.50
-    - title: Круассан с шоколадом
-      id: 1118    
-      ingredients: 
-      weight: 50
-      price: 1.10
-    - title: Круассан со сгущенкой
-      id: 1119    
-      ingredients: 
-      weight: 50
-      price: 1.10
-    - title: Слойка с вишней
-      id: 1120    
-      ingredients: 
-      weight: 75
-      price: 1.10
-    - title: Слойка со сгущенкой
-      id: 1121    
-      ingredients: 
-      weight: 75
-      price: 1.10
-    - title: Слойка с сыром
-      id: 1122    
-      ingredients: 
-      weight: 75
-      price: 1.10
-  - title: Напитки
-    items:
-    - title: Холодный чай Фьюз Ти
-      id: 1133
-      ingredients: 
-      weight: 500
-      price: 2.50
-    - title: Напиток Кока-Кола
-      id: 1134
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Напиток Спрайт
-      id: 1135
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Напиток Фанта Апельсин
-      id: 1136
-      ingredients: 
-      weight: 500
-      price: 2.00
-    - title: Питьевая вода Бонаква
-      id: 1137
-      ingredients: 
-      weight: 500
-      price: 1.50
 sharedCourses:
-- title: Выпечка
+- title: Хлеб
   items:
   - title: Хлеб белый
     id: 1111
@@ -656,6 +345,8 @@ sharedCourses:
     ingredients: 
     weight: 80
     price: 0.20
+- title: Выпечка
+  items:
   - title: Сметанник
     id: 1115    
     ingredients: 
@@ -676,7 +367,7 @@ sharedCourses:
     ingredients: 
     weight: 50
     price: 1.10
-  - title: Круассан со сгущенкой
+  - title: Круассан со сгущёнкой
     id: 1119    
     ingredients: 
     weight: 50
@@ -686,7 +377,7 @@ sharedCourses:
     ingredients: 
     weight: 75
     price: 1.10
-  - title: Слойка со сгущенкой
+  - title: Слойка со сгущёнкой
     id: 1121    
     ingredients: 
     weight: 75
@@ -719,7 +410,7 @@ sharedCourses:
     weight: 500
     price: 2.00
   - title: Питьевая вода Бонаква
-    id: 1137
+    id: 1135
     ingredients: 
     weight: 500
     price: 1.50

@@ -33,7 +33,7 @@
 			</div>
 			
 			<div class="row">
-				<a data-toggle="collapse" data-target="#sharedCourses">Хлеб, Выпечка, Напитки</a>
+				<h3 class="text-center text-primary shared-courses-toggle-link" data-toggle="collapse" data-target="#sharedCourses">Хлеб, Выпечка, Напитки</h3>
 			</div>	
 			
 			<div id="sharedCourses" class="collapse">
