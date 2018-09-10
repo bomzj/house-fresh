@@ -178,69 +178,69 @@ weekMenu:
       weight: 80
       price: 0.20
 - weekDay: Открыт приём заказов на Среду
-  day: 5 сентября
-  validFromOrderDate: "2018-09-04 11:00:00"
-  validToOrderDate: "2018-09-05 10:59:59"
+  day: 12 сентября
+  validFromOrderDate: "2018-09-11 11:00:00"
+  validToOrderDate: "2018-09-12 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из белокочанной капусты с яблоками
+    - title: Салат «Цезарь с птицей»
       id: 41
-      ingredients: капуста белокочанная, морковь свежая, яблоко, заправка
-      weight: 150
-      price: 1.45
-    - title: Салат из кукурузы с черносливом
+      ingredients: птица, овощи свежие, сыр, майонез
+      weight: 200
+      price: 3.45
+    - title: Салат-коктейль «Павлинка»
       id: 42
-      ingredients: кукуруза конс., чернослив, сыр, чеснок, майонез
+      ingredients: птица отварная, овощи свежие, яйцо, майонез
+      weight: 150
+      price: 2.85
+    - title: Салат «Слоеный»
+      id: 43
+      ingredients: овощи свежие, яйцо, сыр, майонез
       weight: 150
       price: 2.60
-    - title: Салат «Особый»
-      id: 43
-      ingredients: консерва рыбная, сыр, зел.горошек, яйцо, майонез
-      weight: 150
-      price: 2.45
   - title: Супы
     items:  
-    - title: Суп-харчо
+    - title: Борщ «Могилевский»
       id: 44
       ingredients: 
-      weight: 250
-      price: 2.85
-    - title: Суп-пюре из разных овощей с сухариками
+      weight: 250/20
+      price: 1.95
+    - title: Суп с крупой перловой
       id: 45
       ingredients: 
-      weight: 250/10
-      price: 2.40
+      weight: 250
+      price: 1.70
   - title: Вторые блюда
     items:
-    - title: Зразы «Пикантные»
+    - title: Жаркое «Прибужье»
       id: 46
-      ingredients: филе хека, овощи
-      weight: 120
-      price: 3.60
-    - title: Бабка картофельная со свининой
+      ingredients: колбаски домашние, картофель, грибы, специи, соус
+      weight: 250
+      price: 3.95
+    - title: Котлета «Нежность»
       id: 47
-      ingredients: свинина, овощи, специи, сметана
-      weight: 200/50
-      price: 3.95
-    - title: Говядина, тушенная с черносливом
+      ingredients: филе хека
+      weight: 120
+      price: 3.15
+    - title: Свинина, запеченная с сыром
       id: 48
-      ingredients: говядина, специи, соус
-      weight: 75/75
-      price: 3.95
+      ingredients: свинина, сыр, специи
+      weight: 100
+      price: 3.70
   - title: Гарниры
     items:
-    - title: Картофель, жаренный с луком и грибами
+    - title: Рис с овощами
       id: 49
       ingredients: 
       weight: 150
-      price: 1.65
-    - title: Кабачки запеченные
+      price: 1.10
+    - title: Баклажаны запеченные
       id: 50
       ingredients: 
       weight: 150
-      price: 1.30
-  - title: Хлеб
+      price: 1.40
+  - title: Выпечка
     items:
     - title: Хлеб белый
       id: 1111
@@ -248,84 +248,151 @@ weekMenu:
       weight: 40
       price: 0.10
     - title: Хлеб тёмный
-      id: 2222    
+      id: 1112    
       ingredients: 
       weight: 40
       price: 0.10
     - title: Хлеб белый (2 порции)
-      id: 3333
+      id: 1113
       ingredients: 
       weight: 80
       price: 0.20
     - title: Хлеб тёмный (2 порции)
-      id: 4444    
+      id: 1114    
       ingredients: 
       weight: 80
       price: 0.20
+    - title: Сметанник
+      id: 1115    
+      ingredients: 
+      weight: 75
+      price: 0.85
+    - title: Булочка чайная с творогом
+      id: 1116    
+      ingredients: 
+      weight: 50
+      price: 0.65
+    - title: Маффин в ассортименте
+      id: 1117    
+      ingredients: 
+      weight: 115
+      price: 1.50
+    - title: Круассан с шоколадом
+      id: 1118    
+      ingredients: 
+      weight: 50
+      price: 1.10
+    - title: Круассан со сгущенкой
+      id: 1119    
+      ingredients: 
+      weight: 50
+      price: 1.10
+    - title: Слойка с вишней
+      id: 1120    
+      ingredients: 
+      weight: 75
+      price: 1.10
+    - title: Слойка со сгущенкой
+      id: 1121    
+      ingredients: 
+      weight: 75
+      price: 1.10
+    - title: Слойка с сыром
+      id: 1122    
+      ingredients: 
+      weight: 75
+      price: 1.10
+  - title: Напитки
+    items:
+    - title: Холодный чай Фьюз Ти
+      id: 1133
+      ingredients: 
+      weight: 500
+      price: 2.50
+    - title: Напиток Кока-Кола
+      id: 1134
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Напиток Спрайт
+      id: 1135
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Напиток Фанта Апельсин
+      id: 1136
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Питьевая вода Бонаква
+      id: 1137
+      ingredients: 
+      weight: 500
+      price: 1.50
 - weekDay: Открыт приём заказов на Четверг
-  day: 6 сентября
-  validFromOrderDate: "2018-09-05 11:00:00"
-  validToOrderDate: "2018-09-06 10:59:59"
+  day: 13 сентября
+  validFromOrderDate: "2018-09-12 11:00:00"
+  validToOrderDate: "2018-09-13 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Сельдь под шубой»
+    - title: Салат «Любительский»
       id: 51
-      ingredients: филе сельди, овощи отварные, майонез
+      ingredients: печень трески, картофель отварной, лук, горош.конс, майонез
       weight: 150
-      price: 2.45
+      price: 2.95
     - title: Салат «Греческий»
       id: 52
       ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
       weight: 200
       price: 3.65
-    - title: Салат фасолевый с рыбными консервами
+    - title: Салат «Вежа»
       id: 53
-      ingredients: рыбная консерва, фасоль, яйцо,чеснок, майонез
+      ingredients: овощи свежие, грибы марин., ветчина, яблоко свежее сыр, майонез
       weight: 150
-      price: 2.85
+      price: 2.10
   - title: Супы
     items:  
-    - title: Суп-пюре из птицы
+    - title: Рассольник Ленинградский
       id: 54
       ingredients: 
-      weight: 250
-      price: 2.95
-    - title: Уха ростовская
+      weight: 250/20
+      price: 2.15
+    - title: Суп-пюре из зеленого горошка
       id: 55
       ingredients: 
       weight: 250
-      price: 2.85
+      price: 2.15
   - title: Вторые блюда
     items:
-    - title: Колбаса по-домашнему жареная
+    - title: Горбуша жареная
       id: 56
-      ingredients: колбаски домашние, соус
-      weight: 100/50
-      price: 3.15
-    - title: Птица запеченная с помидорами
+      ingredients: рыба, специи
+      weight: 120
+      price: 3.45
+    - title: Оладьи картофельные, фаршированные мясом
       id: 57
+      ingredients: свинина, картофель, овощи, специи, сметана
+      weight: 200/50
+      price: 4.15
+    - title: Птица запеченная с помидорами
+      id: 58
       ingredients: птица, помидор, сыр, специи
       weight: 100
       price: 3.45
-    - title: Мясо, жаренное крупным куском
-      id: 58
-      ingredients: свинина, специи
-      weight: 100
-      price: 3.60
   - title: Гарниры
     items:
-    - title: Каша рассыпчатая рисовая
+    - title: Каша перловая рассыпчатая
       id: 59
       ingredients: 
       weight: 150
-      price: 0.85
-    - title: Каша гречневая рассыпчатая
+      price: 0.90
+    - title: Картофельное пюре
       id: 60
       ingredients: 
       weight: 150
-      price: 0.85
-  - title: Хлеб
+      price: 0.95
+  - title: Выпечка
     items:
     - title: Хлеб белый
       id: 1111
@@ -333,20 +400,87 @@ weekMenu:
       weight: 40
       price: 0.10
     - title: Хлеб тёмный
-      id: 2222    
+      id: 1112    
       ingredients: 
       weight: 40
       price: 0.10
     - title: Хлеб белый (2 порции)
-      id: 3333
+      id: 1113
       ingredients: 
       weight: 80
       price: 0.20
     - title: Хлеб тёмный (2 порции)
-      id: 4444    
+      id: 1114    
       ingredients: 
       weight: 80
       price: 0.20
+    - title: Сметанник
+      id: 1115    
+      ingredients: 
+      weight: 75
+      price: 0.85
+    - title: Булочка чайная с творогом
+      id: 1116    
+      ingredients: 
+      weight: 50
+      price: 0.65
+    - title: Маффин в ассортименте
+      id: 1117    
+      ingredients: 
+      weight: 115
+      price: 1.50
+    - title: Круассан с шоколадом
+      id: 1118    
+      ingredients: 
+      weight: 50
+      price: 1.10
+    - title: Круассан со сгущенкой
+      id: 1119    
+      ingredients: 
+      weight: 50
+      price: 1.10
+    - title: Слойка с вишней
+      id: 1120    
+      ingredients: 
+      weight: 75
+      price: 1.10
+    - title: Слойка со сгущенкой
+      id: 1121    
+      ingredients: 
+      weight: 75
+      price: 1.10
+    - title: Слойка с сыром
+      id: 1122    
+      ingredients: 
+      weight: 75
+      price: 1.10
+  - title: Напитки
+    items:
+    - title: Холодный чай Фьюз Ти
+      id: 1133
+      ingredients: 
+      weight: 500
+      price: 2.50
+    - title: Напиток Кока-Кола
+      id: 1134
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Напиток Спрайт
+      id: 1135
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Напиток Фанта Апельсин
+      id: 1136
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Питьевая вода Бонаква
+      id: 1137
+      ingredients: 
+      weight: 500
+      price: 1.50
 - weekDay: Открыт приём заказов на Пятницу
   day: 7 сентября
   validFromOrderDate: "2018-09-06 11:00:00"
@@ -410,7 +544,7 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 0.90
-  - title: Хлеб
+  - title: Выпечка
     items:
     - title: Хлеб белый
       id: 1111
@@ -418,20 +552,177 @@ weekMenu:
       weight: 40
       price: 0.10
     - title: Хлеб тёмный
-      id: 2222    
+      id: 1112    
       ingredients: 
       weight: 40
       price: 0.10
     - title: Хлеб белый (2 порции)
-      id: 3333
+      id: 1113
       ingredients: 
       weight: 80
       price: 0.20
     - title: Хлеб тёмный (2 порции)
-      id: 4444    
+      id: 1114    
       ingredients: 
       weight: 80
       price: 0.20
+    - title: Сметанник
+      id: 1115    
+      ingredients: 
+      weight: 75
+      price: 0.85
+    - title: Булочка чайная с творогом
+      id: 1116    
+      ingredients: 
+      weight: 50
+      price: 0.65
+    - title: Маффин в ассортименте
+      id: 1117    
+      ingredients: 
+      weight: 115
+      price: 1.50
+    - title: Круассан с шоколадом
+      id: 1118    
+      ingredients: 
+      weight: 50
+      price: 1.10
+    - title: Круассан со сгущенкой
+      id: 1119    
+      ingredients: 
+      weight: 50
+      price: 1.10
+    - title: Слойка с вишней
+      id: 1120    
+      ingredients: 
+      weight: 75
+      price: 1.10
+    - title: Слойка со сгущенкой
+      id: 1121    
+      ingredients: 
+      weight: 75
+      price: 1.10
+    - title: Слойка с сыром
+      id: 1122    
+      ingredients: 
+      weight: 75
+      price: 1.10
+  - title: Напитки
+    items:
+    - title: Холодный чай Фьюз Ти
+      id: 1133
+      ingredients: 
+      weight: 500
+      price: 2.50
+    - title: Напиток Кока-Кола
+      id: 1134
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Напиток Спрайт
+      id: 1135
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Напиток Фанта Апельсин
+      id: 1136
+      ingredients: 
+      weight: 500
+      price: 2.00
+    - title: Питьевая вода Бонаква
+      id: 1137
+      ingredients: 
+      weight: 500
+      price: 1.50
+sideMenu:
+- title: Выпечка
+  items:
+  - title: Хлеб белый
+    id: 1111
+    ingredients: 
+    weight: 40
+    price: 0.10
+  - title: Хлеб тёмный
+    id: 1112    
+    ingredients: 
+    weight: 40
+    price: 0.10
+  - title: Хлеб белый (2 порции)
+    id: 1113
+    ingredients: 
+    weight: 80
+    price: 0.20
+  - title: Хлеб тёмный (2 порции)
+    id: 1114    
+    ingredients: 
+    weight: 80
+    price: 0.20
+  - title: Сметанник
+    id: 1115    
+    ingredients: 
+    weight: 75
+    price: 0.85
+  - title: Булочка чайная с творогом
+    id: 1116    
+    ingredients: 
+    weight: 50
+    price: 0.65
+  - title: Маффин в ассортименте
+    id: 1117    
+    ingredients: 
+    weight: 115
+    price: 1.50
+  - title: Круассан с шоколадом
+    id: 1118    
+    ingredients: 
+    weight: 50
+    price: 1.10
+  - title: Круассан со сгущенкой
+    id: 1119    
+    ingredients: 
+    weight: 50
+    price: 1.10
+  - title: Слойка с вишней
+    id: 1120    
+    ingredients: 
+    weight: 75
+    price: 1.10
+  - title: Слойка со сгущенкой
+    id: 1121    
+    ingredients: 
+    weight: 75
+    price: 1.10
+  - title: Слойка с сыром
+    id: 1122    
+    ingredients: 
+    weight: 75
+    price: 1.10
+- title: Напитки
+  items:
+  - title: Холодный чай Фьюз Ти
+    id: 1133
+    ingredients: 
+    weight: 500
+    price: 2.50
+  - title: Напиток Кока-Кола
+    id: 1134
+    ingredients: 
+    weight: 500
+    price: 2.00
+  - title: Напиток Спрайт
+    id: 1135
+    ingredients: 
+    weight: 500
+    price: 2.00
+  - title: Напиток Фанта Апельсин
+    id: 1136
+    ingredients: 
+    weight: 500
+    price: 2.00
+  - title: Питьевая вода Бонаква
+    id: 1137
+    ingredients: 
+    weight: 500
+    price: 1.50
 ---
 
 

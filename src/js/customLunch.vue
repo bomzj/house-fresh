@@ -31,7 +31,35 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="row">
+				<a data-toggle="collapse" data-target="#sideMenu">Хлеб, Выпечка, Напитки</a>
+			</div>	
+			
+			<div class="course-block collapse" id="sideMenu" >
+				<div class="col-md-3">
+					<h3 class="catalog-item-name">{{ course.title}}</h3>
+					<hr class="hidden-sm hidden-xs gray">
+				</div>
+
+				<div class="col-md-9" itemscope itemtype="https://schema.org/Product">
+					<div class="row lunch-item" >
+						<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+							<p itemprop="name" class="text-muted text-nomargin">{{ sideItem.title}}</p>
+						</div>
+						<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+							<h3 class="text-muted menu-item-weight">{{ sideItem.weight}}г</h3>
+							<div class="menu-item-price-section">
+								<h3 itemprop="price lowPrice highPrice" class="menu-item-price">{{ sideItem.price}}р</h3>
+							</div>
+							<meta itemprop="priceCurrency" content="BYN" />
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</div>
+		
 		
 		<div class="row total-price-block text-left">
 			<hr class="gray-long">
