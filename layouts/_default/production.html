@@ -35,8 +35,8 @@
 							{{range .items}}
 								<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >
 									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
-										<div itemprop="image" class="img">
-											<img {{ printf "src='%s%s'" $baseUrl .itemImg | safeHTMLAttr }} class="img-responsive" alt="{{ .itemImgAlt}}">
+										<div class="img">
+											<img itemprop="image" {{ printf "src='%s%s'" $baseUrl .itemImg | safeHTMLAttr }} class="img-responsive" alt="{{ .itemImgAlt}}">
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -58,25 +58,6 @@
 												<option value="{{.itemFrozenID}}">замороженный</option>
 											</select>
 											
-											<div itemprop="description" class="row complex-lunch-item">
-												{{if .salad}}
-													<p class="text-muted">{{.salad}}</p>
-												{{end}}
-												{{if .soup}}
-													<p class="text-muted">{{.soup}}<p>
-												{{end}}
-												{{if .meat}}
-													<p class="text-muted">{{.meat}}</p>
-												{{end}}
-												{{if .side}}
-													<p class="text-muted">{{.side}}</p>
-												{{end}}
-											</div>
-											<div class="row lunch-item-bread">
-												{{if eq .itemType "lunch"}}
-													<p class="text-muted">*Закажите вкусный <a href="/production/#bread" title="Свежий хлеб, багеты, чиабатта, булочки">ХЛЕБУШЕК</a> к обеду.</p>
-												{{end}}
-											</div>
 										</div>
 										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weight-price-section">
 											{{if .itemWeight}}
