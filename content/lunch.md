@@ -633,7 +633,7 @@ weekMenu:
       ingredients: 
       weight: 500
       price: 1.50
-sideMenu:
+sharedCourses:
 - title: Выпечка
   items:
   - title: Хлеб белый
@@ -724,5 +724,3 @@ sideMenu:
     weight: 500
     price: 1.50
 ---
-
-

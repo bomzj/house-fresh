@@ -23,6 +23,7 @@
 					</div>
 				</div>
 				<div class="row">
+					{{ $sharedCourses := .Params.sharedCourses}}
 					{{ range .Params.weekMenu }}
 						<custom-lunch :day-menu="{ 
 							weekDay: '{{.weekDay}}', 
@@ -30,7 +31,8 @@
 							imageUrl: '{{ "img/catalog/lunch/комплексный-обед-4.jpg" | absURL}}',
 							validFromOrderDate: new Date('{{.validFromOrderDate}}'), 
 							validToOrderDate: new Date('{{.validToOrderDate}}'), 
-							courses: {{.courses | jsonify}}
+							courses: {{.courses | jsonify}},
+							sharedCourses: {{$sharedCourses | jsonify}}
 							}" 
 							v-if="new Date().isBetween(new Date('{{.validFromOrderDate}}'), new Date('{{.validToOrderDate}}')) ">
 						</custom-lunch>
