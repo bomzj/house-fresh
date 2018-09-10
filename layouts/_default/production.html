@@ -84,7 +84,7 @@
 											{{end}}
 											{{if .itemPrice}}
 												<div class="catalog-item-price">
-													<h3 itemprop="price lowprice highPrice" content="{{.itemPrice}}" class="">{{.itemPrice}}р</h3>
+													<h3 itemprop="price lowPrice highPrice" content="{{.itemPrice}}" class="">{{.itemPrice}}р</h3>
 													<button class="btn btn-primary btn-add-to-cart" title="Добавить в корзину" 
 														onclick="cart.addItem({ 
 															imageUrl: '{{.itemImg | absURL}}', 
