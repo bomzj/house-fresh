@@ -3,13 +3,13 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body id="page-top">
+    <body id="page-top" itemscope itemtype="https://schema.org/Organization">
 		{{ partial "nav.html" . }}
 		
 		{{ "<!-- HEADER -->" | safeHTML }}
 		<header>
 			<div class="header-content">
-				<div itemscope itemtype="https://schema.org/Organization" class="header-content-inner">
+				<div class="header-content-inner">
 					<div class="row">
 						<a itemprop="url" href="/"><img src="{{ .Site.Params.hero.companyIcon }}" itemprop="logo" class="img-responsive img-centered" itemprop="name" alt="ХаусФреш логотип"></a>
 						<h1 itemprop="brand" >{{ .Site.Params.hero.slogan | markdownify }}</h1>
