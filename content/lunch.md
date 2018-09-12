@@ -205,7 +205,7 @@ weekMenu:
     items:
     - title: Салат «Любительский»
       id: 51
-      ingredients: печень трески, картофель отварной, лук, горош.конс, майонез
+      ingredients: печень трески, картофель отварной, лук, горошек консервированный, майонез
       weight: 150
       price: 2.95
     - title: Салат «Греческий»
@@ -215,7 +215,7 @@ weekMenu:
       price: 3.65
     - title: Салат «Вежа»
       id: 53
-      ingredients: овощи свежие, грибы марин., ветчина, яблоко свежее сыр, майонез
+      ingredients: овощи свежие, грибы маринованные, ветчина, яблоко свежее, сыр, майонез
       weight: 150
       price: 2.10
   - title: Супы
@@ -260,68 +260,68 @@ weekMenu:
       weight: 150
       price: 0.95
 - weekDay: Открыт приём заказов на Пятницу
-  day: 7 сентября
-  validFromOrderDate: "2018-09-06 11:00:00"
-  validToOrderDate: "2018-09-07 11:30:59"
+  day: 14 сентября
+  validFromOrderDate: "2018-09-13 11:00:00"
+  validToOrderDate: "2018-09-14 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из помидоров, капусты и сладкого перца
+    - title: Салат «Славянский»
       id: 61
-      ingredients: помидор св., капуста белокочанная, перец св., майонез
+      ingredients: ветчина, грибы, овощи отварные, яйцо, майонез
       weight: 150
-      price: 2.15
-    - title: Салат «Минутка»
+      price: 2.45
+    - title: Морковь пряная
       id: 62
-      ingredients: свекла отварная, огурец маринованный, майонез
+      ingredients: морковь свежая, заправка
       weight: 150
-      price: 2.10
-    - title: Салат «Папараць-кветка»
+      price: 1.35
+    - title: Салат «Белоснежка»
       id: 63
-      ingredients: говядина отварная, ветчина, овощи, яйцо, майонез
+      ingredients: капуста, яйцо, огурец свежий, заправка
       weight: 150
-      price: 2.95
+      price: 1.65
   - title: Супы
     items:  
-    - title: Солянка сборная мясная
+    - title: Щи кислые с грибами
       id: 64
       ingredients: 
       weight: 250/30
-      price: 2.95
-    - title: Суп-пюре из свежих грибов
+      price: 1.90
+    - title: Суп картофельный с мясными фрикадельками
       id: 65
       ingredients: 
-      weight: 250
-      price: 2.45
+      weight: 250/25
+      price: 2.15
   - title: Вторые блюда
     items:
-    - title: Филе птицы в сыре
+    - title: Плов со свининой
       id: 66
-      ingredients: птица, сыр, специи
-      weight: 130
-      price: 3.45
-    - title: Бифштекс из говядины
+      ingredients: свинина, рис, овощи
+      weight: 250
+      price: 3.80
+    - title: Колбаски по-могилевски
       id: 67
-      ingredients: говядина рубленая, специи
+      ingredients: свинина, говядина, специи
       weight: 100
-      price: 3.45
-    - title: Печень, жаренная по-домашнему
+      price: 3.10
+    - title: Свинина деликатесная
       id: 68	
-      ingredients: печень говяжья, лук репчатый, специи
-      weight: 105
-      price: 3.20
+      ingredients: свинина, специи
+      weight: 145
+      price: 3.95
   - title: Гарниры
     items:
-    - title: Баклажаны запеченные
+    - title: Каша гречневая рассыпчатая
       id: 69
       ingredients: 
       weight: 150
-      price: 1.40
-    - title: Каша перловая рассыпчатая
+      price: 0.85
+    - title: Рагу овощное
       id: 70
       ingredients: 
-      weight: 150
-      price: 0.90
+      weight: 200
+      price: 1.35
 sharedCourses:
 - title: Хлеб
   items:
