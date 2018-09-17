@@ -84,12 +84,12 @@ weekMenu:
       price: 1.60
     - title: Салат «Бонапарт»
       id: 32
-      ingredients: капуста, помидор свежий, зел.горошек, сметана, майонез
+      ingredients: капуста, помидор свежий, зелёный горошек, сметана, майонез
       weight: 150
       price: 2.15
     - title: Салат «Лесная Иллюзия» 
       id: 33
-      ingredients: грибы мар., ветчина, овощи отв., овощи мар., яйцо, майонез
+      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
       weight: 150
       price: 2.95
   - title: Супы
@@ -128,137 +128,137 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 1.10
-    - title: Овощи запеченный «Калейдоскоп»
+    - title: Овощи запеченные «Калейдоскоп»
       id: 40
       ingredients: 
       weight: 150
       price: 1.55
 - weekDay: Открыт приём заказов на Среду
-  day: 12 сентября
-  validFromOrderDate: "2018-09-11 11:00:00"
-  validToOrderDate: "2018-09-12 10:59:59"
+  day: 19 сентября
+  validFromOrderDate: "2018-09-18 11:00:00"
+  validToOrderDate: "2018-09-19 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Цезарь с птицей»
+    - title: Салат «Журавинка» 
       id: 41
+      ingredients: говядина отварная, огурец конс., грибы марин., заправка
+      weight: 150
+      price: 2.90
+    - title: Салат «Цезарь с птицей»
+      id: 42
       ingredients: птица, овощи свежие, сыр, майонез
       weight: 200
       price: 3.45
-    - title: Салат-коктейль «Павлинка»
-      id: 42
-      ingredients: птица отварная, овощи свежие, яйцо, майонез
-      weight: 150
-      price: 2.85
-    - title: Салат «Слоеный»
+    - title: Салат «Несвижский»
       id: 43
-      ingredients: овощи свежие, яйцо, сыр, майонез
+      ingredients: филе сельди, овощи отварные, майонез
+      weight: 150
+      price: 2.15
+  - title: Супы
+    items:  
+    - title: Суп-пюре из разных овощей с сухариками
+      id: 44
+      ingredients: 
+      weight: 250/10
+      price: 2.40
+    - title: Щи из свежей капусты с картофелем
+      id: 45
+      ingredients: 
+      weight: 250/20
+      price: 1.95
+  - title: Вторые блюда
+    items:
+    - title: Плов со свининой
+      id: 46
+      ingredients: свинина, рис, овощи
+      weight: 250
+      price: 3.80
+    - title: Рыба, запеченная с грибами
+      id: 47
+      ingredients: рыба треска, сыр, грибы, специи
+      weight: 90
+      price: 3.45
+    - title: Бефстроганов из говядины    
+      id: 48
+      ingredients: говядина вырезка, лук репчатый, соус, специи
+      weight: 75/75
+      price: 3.85
+  - title: Гарниры
+    items:
+    - title: Каша рассыпчатая рисовая
+      id: 49
+      ingredients: 
+      weight: 150
+      price: 0.85
+    - title: Рагу овощное
+      id: 50
+      ingredients: 
+      weight: 200
+      price: 1.35
+- weekDay: Открыт приём заказов на Четверг
+  day: 20 сентября
+  validFromOrderDate: "2018-09-19 11:00:00"
+  validToOrderDate: "2018-09-20 10:59:59"
+  courses:
+  - title: Салаты
+    items:
+    - title: Салат «Греческий»
+      id: 51
+      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
+      weight: 200
+      price: 3.65
+    - title: Салат «Сельдь под шубой»
+      id: 52
+      ingredients: филе сельди, овощи отварные, майонез
+      weight: 150
+      price: 2.45
+    - title: Салат из кукурузы с черносливом
+      id: 53
+      ingredients: кукуруза консервированная, чернослив, сыр, чеснок, майонез
       weight: 150
       price: 2.60
   - title: Супы
     items:  
-    - title: Борщ «Могилевский»
-      id: 44
-      ingredients: 
-      weight: 250/20
-      price: 1.95
-    - title: Суп с крупой перловой
-      id: 45
-      ingredients: 
-      weight: 250
-      price: 1.70
-  - title: Вторые блюда
-    items:
-    - title: Жаркое «Прибужье»
-      id: 46
-      ingredients: колбаски домашние, картофель, грибы, специи, соус
-      weight: 250
-      price: 3.95
-    - title: Котлета «Нежность»
-      id: 47
-      ingredients: филе хека
-      weight: 120
-      price: 3.15
-    - title: Свинина, запеченная с сыром
-      id: 48
-      ingredients: свинина, сыр, специи
-      weight: 100
-      price: 3.70
-  - title: Гарниры
-    items:
-    - title: Рис с овощами
-      id: 49
-      ingredients: 
-      weight: 150
-      price: 1.10
-    - title: Баклажаны запеченные
-      id: 50
-      ingredients: 
-      weight: 150
-      price: 1.40
-- weekDay: Открыт приём заказов на Четверг
-  day: 13 сентября
-  validFromOrderDate: "2018-09-12 11:00:00"
-  validToOrderDate: "2018-09-13 10:59:59"
-  courses:
-  - title: Салаты
-    items:
-    - title: Салат «Любительский»
-      id: 51
-      ingredients: печень трески, картофель отварной, лук, горошек консервированный, майонез
-      weight: 150
-      price: 2.95
-    - title: Салат «Греческий»
-      id: 52
-      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
-      weight: 200
-      price: 3.65
-    - title: Салат «Вежа»
-      id: 53
-      ingredients: овощи свежие, грибы маринованные, ветчина, яблоко свежее, сыр, майонез
-      weight: 150
-      price: 2.10
-  - title: Супы
-    items:  
-    - title: Рассольник Ленинградский
+    - title: Суп-харчо
       id: 54
       ingredients: 
-      weight: 250/20
-      price: 2.15
-    - title: Суп-пюре из зеленого горошка
+      weight: 250
+      price: 2.85
+    - title: Уха ростовская
       id: 55
       ingredients: 
       weight: 250
-      price: 2.15
+      price: 2.35
   - title: Вторые блюда
     items:
-    - title: Горбуша жареная
+    - title: Свинина «Фантазия»      
       id: 56
-      ingredients: рыба, специи
-      weight: 120
-      price: 3.45
-    - title: Оладьи картофельные, фаршированные мясом
-      id: 57
-      ingredients: свинина, картофель, овощи, специи, сметана
-      weight: 200/50
+      ingredients: свинина, овощи тушенные, специи
+      weight: 275
       price: 4.15
-    - title: Птица запеченная с помидорами
+    - title: Птица по-ашхабадски
+      id: 57
+      ingredients: птица, овощи, специи
+      weight: 300
+      price: 3.65
+    - title: Печень, жаренная по-домашнему   
       id: 58
-      ingredients: птица, помидор, сыр, специи
-      weight: 100
-      price: 3.45
+      ingredients: печень говяжья, лук репчатый, специи
+      weight: 105
+      price: 3.20
   - title: Гарниры
     items:
-    - title: Каша перловая рассыпчатая
+    - title: Макароны отварные с овощами
       id: 59
       ingredients: 
       weight: 150
-      price: 0.90
-    - title: Картофельное пюре
+      price: 0.85
+    - title: Баклажаны запеченные
       id: 60
       ingredients: 
       weight: 150
-      price: 0.95
+      price: 1.40
 - weekDay: Открыт приём заказов на Пятницу
   day: 14 сентября
   validFromOrderDate: "2018-09-13 11:00:00"
