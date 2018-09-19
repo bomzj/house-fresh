@@ -142,7 +142,7 @@ weekMenu:
     items:
     - title: Салат «Журавинка» 
       id: 41
-      ingredients: говядина отварная, огурец конс., грибы марин., заправка
+      ingredients: говядина отварная, огурец консервированный, грибы маринованные, заправка
       weight: 150
       price: 2.90
     - title: Салат «Цезарь с птицей»
@@ -260,68 +260,68 @@ weekMenu:
       weight: 150
       price: 1.40
 - weekDay: Открыт приём заказов на Пятницу
-  day: 14 сентября
-  validFromOrderDate: "2018-09-13 11:00:00"
-  validToOrderDate: "2018-09-14 10:59:59"
+  day: 21 сентября
+  validFromOrderDate: "2018-09-20 11:00:00"
+  validToOrderDate: "2018-09-21 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Славянский»
+    - title: Салат из помидоров, капусты и сладкого перца
       id: 61
-      ingredients: ветчина, грибы, овощи отварные, яйцо, майонез
+      ingredients: помидор свежий, капуста белокочанная, перец свежий, майонез
+      weight: 150
+      price: 2.15
+    - title: Салат «Праздничный» 
+      id: 62
+      ingredients: говядина отварная, морковь, огурец консервированный, майонез
+      weight: 150
+      price: 3.15
+    - title: Салат-коктейль с ветчиной и сыром
+      id: 63
+      ingredients: ветчина, овощи, сыр, майонез
       weight: 150
       price: 2.45
-    - title: Морковь пряная
-      id: 62
-      ingredients: морковь свежая, заправка
-      weight: 150
-      price: 1.35
-    - title: Салат «Белоснежка»
-      id: 63
-      ingredients: капуста, яйцо, огурец свежий, заправка
-      weight: 150
-      price: 1.65
   - title: Супы
     items:  
-    - title: Щи кислые с грибами
+    - title: Солянка сборная мясная
       id: 64
       ingredients: 
       weight: 250/30
-      price: 1.90
-    - title: Суп картофельный с мясными фрикадельками
+      price: 2.95
+    - title: Суп-лапша домашняя с курицей
       id: 65
       ingredients: 
-      weight: 250/25
+      weight: 250/30
       price: 2.15
   - title: Вторые блюда
     items:
-    - title: Плов со свининой
+    - title: Котлета «Нясвiж»
       id: 66
-      ingredients: свинина, рис, овощи
-      weight: 250
-      price: 3.80
-    - title: Колбаски по-могилевски
-      id: 67
-      ingredients: свинина, говядина, специи
-      weight: 100
-      price: 3.10
-    - title: Свинина деликатесная
-      id: 68	
       ingredients: свинина, специи
-      weight: 145
-      price: 3.95
+      weight: 125
+      price: 3.45
+    - title: Эскалоп с помидорами
+      id: 67
+      ingredients: свинина, помидор, специи
+      weight: 130
+      price: 3.65
+    - title: Котлета по-киевски
+      id: 68	
+      ingredients: птица, масло сливочное, сыр, специи
+      weight: 125
+      price: 3.40
   - title: Гарниры
     items:
-    - title: Каша гречневая рассыпчатая
+    - title: Капуста тушеная
       id: 69
       ingredients: 
-      weight: 150
-      price: 0.85
-    - title: Рагу овощное
+      weight: 200
+      price: 1.25
+    - title: Картофельное пюре
       id: 70
       ingredients: 
-      weight: 200
-      price: 1.35
+      weight: 150
+      price: 0.95
 sharedCourses:
 - title: Хлеб
   items:
