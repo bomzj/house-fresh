@@ -345,6 +345,23 @@ sharedCourses:
     ingredients: 
     weight: 80
     price: 0.20
+- title: Соусы
+  items:
+  - title: Сметана
+    id: 1140
+    ingredients: 
+    weight: 50
+    price: 0.50
+  - title: Кетчуп томатный
+    id: 1141    
+    ingredients: 
+    weight: 50
+    price: 0.50
+  - title: Майонез
+    id: 1142
+    ingredients: 
+    weight: 50
+    price: 0.50
 - title: Выпечка
   items:
   - title: Сметанник
@@ -410,7 +427,7 @@ sharedCourses:
     weight: 500
     price: 2.00
   - title: Питьевая вода Бонаква
-    id: 1135
+    id: 1137
     ingredients: 
     weight: 500
     price: 1.50
