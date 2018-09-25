@@ -142,7 +142,7 @@ weekMenu:
     items:
     - title: Салат «Белорусский»
       id: 41
-      ingredients: грибы, печень отварная, огурец марин., яйцо, майонез
+      ingredients: грибы, печень отварная, огурец маринованный, яйцо, майонез
       weight: 150
       price: 2.60
     - title: Винегрет с фасолью
@@ -197,68 +197,68 @@ weekMenu:
       weight: 150
       price: 0.90
 - weekDay: Открыт приём заказов на Четверг
-  day: 20 сентября
-  validFromOrderDate: "2018-09-19 11:00:00"
-  validToOrderDate: "2018-09-20 10:59:59"
+  day: 27 сентября
+  validFromOrderDate: "2018-09-26 11:00:00"
+  validToOrderDate: "2018-09-27 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Греческий»
+    - title: Салат «Мексиканский с фасолью»
       id: 51
-      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
-      weight: 200
-      price: 3.65
-    - title: Салат «Сельдь под шубой»
+      ingredients: филе птицы, сыр Фета, огурец свежий, помидор свежий, фасоль, заправка
+      weight: 150
+      price: 3.10
+    - title: Салат «Папараць-кветка»
       id: 52
-      ingredients: филе сельди, овощи отварные, майонез
+      ingredients: говядина отварная, ветчина, овощи, яйцо, майонез
       weight: 150
-      price: 2.45
-    - title: Салат из кукурузы с черносливом
+      price: 2.95
+    - title: Салат из свежих помидоров и огурцов
       id: 53
-      ingredients: кукуруза консервированная, чернослив, сыр, чеснок, майонез
+      ingredients: овощи свежие, заправка
       weight: 150
-      price: 2.60
+      price: 2.20
   - title: Супы
     items:  
-    - title: Суп-харчо
+    - title: Щи кислые с грибами
       id: 54
       ingredients: 
-      weight: 250
-      price: 2.85
+      weight: 250/30
+      price: 1.90
     - title: Уха ростовская
       id: 55
       ingredients: 
       weight: 250
-      price: 2.35
+      price: 2.85
   - title: Вторые блюда
     items:
-    - title: Свинина «Фантазия»      
+    - title: Перец фаршированный мясом и рисом
       id: 56
-      ingredients: свинина, овощи тушенные, специи
-      weight: 275
-      price: 4.15
-    - title: Птица по-ашхабадски
+      ingredients: свинина, крупа рисовая, лук, перец свежий, специи
+      weight: 194/50
+      price: 3.85
+    - title: Рыба, запеченная с грибами
       id: 57
-      ingredients: птица, овощи, специи
-      weight: 300
-      price: 3.65
-    - title: Печень, жаренная по-домашнему   
+      ingredients: рыба треска, сыр, грибы, специи
+      weight: 90
+      price: 3.45
+    - title: Жаркое по-домашнему
       id: 58
-      ingredients: печень говяжья, лук репчатый, специи
-      weight: 105
-      price: 3.20
+      ingredients: свинина, овощи тушенные, специи
+      weight: 325
+      price: 3.80
   - title: Гарниры
     items:
-    - title: Макароны отварные с овощами
+    - title: Рис с овощами
       id: 59
       ingredients: 
       weight: 150
-      price: 0.85
-    - title: Баклажаны запеченные
+      price: 1.10
+    - title: Макароны отварные
       id: 60
       ingredients: 
       weight: 150
-      price: 1.40
+      price: 0.65
 - weekDay: Открыт приём заказов на Пятницу
   day: 21 сентября
   validFromOrderDate: "2018-09-20 11:00:00"
