@@ -134,68 +134,68 @@ weekMenu:
       weight: 150
       price: 1.55
 - weekDay: Открыт приём заказов на Среду
-  day: 19 сентября
-  validFromOrderDate: "2018-09-18 11:00:00"
-  validToOrderDate: "2018-09-19 10:59:59"
+  day: 26 сентября
+  validFromOrderDate: "2018-09-25 11:00:00"
+  validToOrderDate: "2018-09-26 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Журавинка» 
+    - title: Салат «Белорусский»
       id: 41
-      ingredients: говядина отварная, огурец консервированный, грибы маринованные, заправка
+      ingredients: грибы, печень отварная, огурец марин., яйцо, майонез
       weight: 150
-      price: 2.90
-    - title: Салат «Цезарь с птицей»
+      price: 2.60
+    - title: Винегрет с фасолью
       id: 42
-      ingredients: птица, овощи свежие, сыр, майонез
-      weight: 200
-      price: 3.45
-    - title: Салат «Несвижский»
-      id: 43
-      ingredients: филе сельди, овощи отварные, майонез
+      ingredients: овощи отварные, овощи маринованные, фасоль, заправка
       weight: 150
-      price: 2.15
+      price: 1.95
+    - title: Салат-коктейль с ветчиной и сыром
+      id: 43
+      ingredients: ветчина, овощи, сыр, майонез
+      weight: 150
+      price: 2.45
   - title: Супы
     items:  
-    - title: Суп-пюре из разных овощей с сухариками
+    - title: Суп перловый с грибами
       id: 44
       ingredients: 
-      weight: 250/10
-      price: 2.40
-    - title: Щи из свежей капусты с картофелем
+      weight: 250/20
+      price: 1.85
+    - title: Солянка сборная мясная
       id: 45
       ingredients: 
-      weight: 250/20
-      price: 1.95
+      weight: 250/30
+      price: 2.95
   - title: Вторые блюда
     items:
-    - title: Плов со свининой
+    - title: Плов из птицы
       id: 46
-      ingredients: свинина, рис, овощи
+      ingredients: птица, рис, овощи, специи
       weight: 250
       price: 3.80
-    - title: Рыба, запеченная с грибами
+    - title: Котлеты с сыром и морковью    
       id: 47
-      ingredients: рыба треска, сыр, грибы, специи
-      weight: 90
-      price: 3.45
-    - title: Бефстроганов из говядины    
+      ingredients: свинина, сыр, морковь специи
+      weight: 115
+      price: 3.10
+    - title: Птица запеченная с помидорами
       id: 48
-      ingredients: говядина вырезка, лук репчатый, соус, специи
-      weight: 75/75
-      price: 3.85
+      ingredients: птица, помидор, сыр, специи
+      weight: 100
+      price: 3.45
   - title: Гарниры
     items:
-    - title: Каша рассыпчатая рисовая
+    - title: Картофель, тушенный с грибами в сметане
       id: 49
       ingredients: 
-      weight: 150
-      price: 0.85
-    - title: Рагу овощное
+      weight: 200
+      price: 1.50
+    - title: Каша перловая рассыпчатая
       id: 50
       ingredients: 
-      weight: 200
-      price: 1.35
+      weight: 150
+      price: 0.90
 - weekDay: Открыт приём заказов на Четверг
   day: 20 сентября
   validFromOrderDate: "2018-09-19 11:00:00"
