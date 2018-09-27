@@ -260,68 +260,68 @@ weekMenu:
       weight: 150
       price: 0.65
 - weekDay: Открыт приём заказов на Пятницу
-  day: 21 сентября
-  validFromOrderDate: "2018-09-20 11:00:00"
-  validToOrderDate: "2018-09-21 10:59:59"
+  day: 28 сентября
+  validFromOrderDate: "2018-09-27 11:00:00"
+  validToOrderDate: "2018-09-28 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из помидоров, капусты и сладкого перца
+    - title: Салат «Греческий»
       id: 61
-      ingredients: помидор свежий, капуста белокочанная, перец свежий, майонез
-      weight: 150
-      price: 2.15
-    - title: Салат «Праздничный» 
+      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
+      weight: 200
+      price: 3.65
+    - title: Салат «Сельдь под шубой»
       id: 62
-      ingredients: говядина отварная, морковь, огурец консервированный, майонез
-      weight: 150
-      price: 3.15
-    - title: Салат-коктейль с ветчиной и сыром
-      id: 63
-      ingredients: ветчина, овощи, сыр, майонез
+      ingredients: филе сельди, овощи отварные, майонез
       weight: 150
       price: 2.45
+    - title: Салат из кукурузы с черносливом
+      id: 63
+      ingredients: кукуруза консервированная, чернослив, сыр, чеснок, майонез
+      weight: 150
+      price: 2.60
   - title: Супы
     items:  
-    - title: Солянка сборная мясная
+    - title: Суп-харчо
       id: 64
       ingredients: 
-      weight: 250/30
-      price: 2.95
-    - title: Суп-лапша домашняя с курицей
+      weight: 250
+      price: 2.85
+    - title: Борщ «Могилевский»
       id: 65
       ingredients: 
-      weight: 250/30
-      price: 2.15
+      weight: 250/20
+      price: 1.95
   - title: Вторые блюда
     items:
-    - title: Котлета «Нясвiж»
+    - title: Свинина «Фантазия»      
       id: 66
-      ingredients: свинина, специи
-      weight: 125
-      price: 3.45
-    - title: Эскалоп с помидорами
+      ingredients: свинина, овощи тушенные, специи
+      weight: 275
+      price: 4.15
+    - title: Птица по-ашхабадски
       id: 67
-      ingredients: свинина, помидор, специи
-      weight: 130
+      ingredients: птица, овощи, специи
+      weight: 300
       price: 3.65
-    - title: Котлета по-киевски
+    - title: Печень, жаренная по-домашнему   
       id: 68	
-      ingredients: птица, масло сливочное, сыр, специи
-      weight: 125
-      price: 3.40
+      ingredients: печень говяжья, лук репчатый, специи
+      weight: 105
+      price: 3.20
   - title: Гарниры
     items:
-    - title: Капуста тушеная
+    - title: Макароны отварные с овощами
       id: 69
       ingredients: 
-      weight: 200
-      price: 1.25
-    - title: Картофельное пюре
+      weight: 150
+      price: 0.85
+    - title: Баклажаны запеченные
       id: 70
       ingredients: 
       weight: 150
-      price: 0.95
+      price: 1.40
 sharedCourses:
 - title: Хлеб
   items:
