@@ -36,7 +36,7 @@
 								<div itemscope itemtype="https://schema.org/Product" class="row catalog-item" >
 									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 catalog-item-img">
 										<div class="img">
-											<img itemprop="image" {{ printf "src='%s%s'" $baseUrl .itemImg | safeHTMLAttr }} class="img-responsive" alt="{{ .itemImgAlt}}">
+											<img itemprop="image" {{ printf "src='%s%s'" $baseUrl .itemImg | safeHTMLAttr }} class="img-responsive" alt="{{ .itemImgAlt}}" title="{{ .itemImgAlt}}">
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">

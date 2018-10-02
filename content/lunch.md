@@ -134,34 +134,34 @@ weekMenu:
       weight: 150
       price: 0.70
 - weekDay: Открыт приём заказов на Среду
-  day: 26 сентября
-  validFromOrderDate: "2018-09-25 11:00:00"
-  validToOrderDate: "2018-09-26 10:59:59"
+  day: 3 октября
+  validFromOrderDate: "2018-10-02 11:00:00"
+  validToOrderDate: "2018-10-03 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Белорусский»
+    - title: Салат из белокочанной капусты
       id: 41
-      ingredients: грибы, печень отварная, огурец маринованный, яйцо, майонез
+      ingredients: капуста белокочанная, морковь свежая, заправка
+      weight: 150
+      price: 1.65
+    - title: Салат «Оливье»
+      id: 42
+      ingredients: колбаса вареная, овощи отварные, горошек зеленый, майонез
+      weight: 150
+      price: 2.65
+    - title: Салат «Слоеный»
+      id: 43
+      ingredients: овощи свежие, яйцо, сыр, майонез
       weight: 150
       price: 2.60
-    - title: Винегрет с фасолью
-      id: 42
-      ingredients: овощи отварные, овощи маринованные, фасоль, заправка
-      weight: 150
-      price: 1.95
-    - title: Салат-коктейль с ветчиной и сыром
-      id: 43
-      ingredients: ветчина, овощи, сыр, майонез
-      weight: 150
-      price: 2.45
   - title: Супы
     items:  
-    - title: Суп перловый с грибами
+    - title: Суп гороховый с беконом
       id: 44
       ingredients: 
-      weight: 250/20
-      price: 1.85
+      weight: 250
+      price: 2.45
     - title: Солянка сборная мясная
       id: 45
       ingredients: 
@@ -169,16 +169,16 @@ weekMenu:
       price: 2.95
   - title: Вторые блюда
     items:
-    - title: Плов из птицы
+    - title: Шницель «Нептун»
       id: 46
-      ingredients: птица, рис, овощи, специи
-      weight: 250
-      price: 3.80
-    - title: Котлеты с сыром и морковью    
+      ingredients: рыба хек, специи, соус
+      weight: 120/50
+      price: 2.95
+    - title: Бефстроганов из говядины    
       id: 47
-      ingredients: свинина, сыр, морковь специи
-      weight: 115
-      price: 3.10
+      ingredients: говядина вырезка, лук репчатый, соус, специи
+      weight: 75/75
+      price: 3.85
     - title: Птица запеченная с помидорами
       id: 48
       ingredients: птица, помидор, сыр, специи
@@ -186,11 +186,11 @@ weekMenu:
       price: 3.45
   - title: Гарниры
     items:
-    - title: Картофель, тушенный с грибами в сметане
+    - title: Макароны отварные
       id: 49
       ingredients: 
-      weight: 200
-      price: 1.50
+      weight: 150
+      price: 0.65
     - title: Каша перловая рассыпчатая
       id: 50
       ingredients: 
