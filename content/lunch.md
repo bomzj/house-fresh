@@ -197,68 +197,68 @@ weekMenu:
       weight: 150
       price: 0.90
 - weekDay: Открыт приём заказов на Четверг
-  day: 27 сентября
-  validFromOrderDate: "2018-09-26 11:00:00"
-  validToOrderDate: "2018-09-27 10:59:59"
+  day: 4 октября
+  validFromOrderDate: "2018-10-03 11:00:00"
+  validToOrderDate: "2018-10-04 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Мексиканский с фасолью»
+    - title: Салат из квашеной капусты со свеклой
       id: 51
-      ingredients: филе птицы, сыр Фета, огурец свежий, помидор свежий, фасоль, заправка
+      ingredients: капуста квашеная, свекла, заправка
       weight: 150
-      price: 3.10
-    - title: Салат «Папараць-кветка»
+      price: 1.35
+    - title: Морковь пряная
       id: 52
-      ingredients: говядина отварная, ветчина, овощи, яйцо, майонез
+      ingredients: морковь свежая, заправка
+      weight: 150
+      price: 1.35
+    - title: Салат «Любительский»
+      id: 53
+      ingredients: печень трески, картофель отварной, лук, горошек консервированный, майонез
       weight: 150
       price: 2.95
-    - title: Салат из свежих помидоров и огурцов
-      id: 53
-      ingredients: овощи свежие, заправка
-      weight: 150
-      price: 2.20
   - title: Супы
     items:  
-    - title: Щи кислые с грибами
+    - title: Суп перловый с грибами
       id: 54
       ingredients: 
-      weight: 250/30
-      price: 1.90
-    - title: Уха ростовская
+      weight: 250/20
+      price: 1.85
+    - title: Щи из свежей капусты с картофелем
       id: 55
       ingredients: 
-      weight: 250
-      price: 2.85
+      weight: 250/20
+      price: 1.95
   - title: Вторые блюда
     items:
-    - title: Перец фаршированный мясом и рисом
+    - title: Котлеты домашние
       id: 56
-      ingredients: свинина, крупа рисовая, лук, перец свежий, специи
-      weight: 194/50
-      price: 3.85
-    - title: Рыба, запеченная с грибами
+      ingredients: свинина, говядина, специи
+      weight: 100
+      price: 2.45
+    - title: Зразы «Пикантные»
       id: 57
-      ingredients: рыба треска, сыр, грибы, специи
-      weight: 90
-      price: 3.45
-    - title: Жаркое по-домашнему
+      ingredients: филе хека, овощи
+      weight: 120
+      price: 3.60
+    - title: Гуляш из свинины
       id: 58
-      ingredients: свинина, овощи тушенные, специи
-      weight: 325
-      price: 3.80
+      ingredients: свинина, специи
+      weight: 75/75
+      price: 3.30
   - title: Гарниры
     items:
-    - title: Рис с овощами
+    - title: Рагу овощное
       id: 59
       ingredients: 
-      weight: 150
-      price: 1.10
-    - title: Макароны отварные
+      weight: 200
+      price: 1.35
+    - title: Каша гречневая рассыпчатая
       id: 60
       ingredients: 
       weight: 150
-      price: 0.65
+      price: 0.85
 - weekDay: Открыт приём заказов на Пятницу
   day: 28 сентября
   validFromOrderDate: "2018-09-27 11:00:00"
