@@ -62,20 +62,24 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	# Partners section
 	[params.partners]
 		[[params.partners.list]]
-		logo = "perspective.jpg"
+		logo = "сеть-кофеен-Перспектива-Минск-лого.jpg"
 		alt = "Перспектива кофе логотип"
 		
 		[[params.partners.list]]
-		logo = "yummy.svg"
+		logo = "сеть-кафе-Yummy-Минск-лого.svg"
 		alt = "Yummy кафе логотип"
 		
 		[[params.partners.list]]
-		logo = "Coffeecake.jpg"
+		logo = "сеть-кофеен-на-колёсах-Coffeecake-Минск-лого.jpg"
 		alt = "Coffeecake сеть кофеен на колёсах логотип"
 		
 		[[params.partners.list]]
-		logo = "свежаежа лого.jpg"
+		logo = "буфет-Свежаежа-Минск-лого.jpg"
 		alt = "СвежаЕжа буфет логотип"
+		
+		[[params.partners.list]]
+		logo = "кафе-бистро-обед-буфет-Минск-лого.svg"
+		alt = "Кафе-бистро 'Обед Буфет' Минск логотип"
 	    
 
 	# Contact section
