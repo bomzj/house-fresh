@@ -260,9 +260,9 @@ weekMenu:
       weight: 150
       price: 0.85
 - weekDay: Открыт приём заказов на Пятницу
-  day: 28 сентября
-  validFromOrderDate: "2018-09-27 11:00:00"
-  validToOrderDate: "2018-09-28 10:59:59"
+  day: 5 октября
+  validFromOrderDate: "2018-10-04 11:00:00"
+  validToOrderDate: "2018-10-05 10:59:59"
   courses:
   - title: Салаты
     items:
@@ -271,23 +271,23 @@ weekMenu:
       ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
       weight: 200
       price: 3.65
-    - title: Салат «Сельдь под шубой»
+    - title: Салат из свежих помидоров и огурцов со сметаной
       id: 62
-      ingredients: филе сельди, овощи отварные, майонез
+      ingredients: овощи свежие, сметана
+      weight: 150
+      price: 2.30
+    - title: Салат-коктейль с ветчиной и сыром
+      id: 63
+      ingredients: ветчина, овощи, сыр, майонез
       weight: 150
       price: 2.45
-    - title: Салат из кукурузы с черносливом
-      id: 63
-      ingredients: кукуруза консервированная, чернослив, сыр, чеснок, майонез
-      weight: 150
-      price: 2.60
   - title: Супы
     items:  
-    - title: Суп-харчо
+    - title: Суп из птицы с овощами
       id: 64
       ingredients: 
       weight: 250
-      price: 2.85
+      price: 1.95
     - title: Борщ «Могилевский»
       id: 65
       ingredients: 
@@ -295,33 +295,33 @@ weekMenu:
       price: 1.95
   - title: Вторые блюда
     items:
-    - title: Свинина «Фантазия»      
+    - title: Птица жареная
       id: 66
-      ingredients: свинина, овощи тушенные, специи
-      weight: 275
-      price: 4.15
-    - title: Птица по-ашхабадски
+      ingredients: птица, специи
+      weight: 125
+      price: 2.85
+    - title: Бифштекс из говядины
       id: 67
-      ingredients: птица, овощи, специи
-      weight: 300
-      price: 3.65
-    - title: Печень, жаренная по-домашнему   
+      ingredients: говядина рубленая, специи
+      weight: 100
+      price: 3.45
+    - title: Поджарка из свинины
       id: 68	
-      ingredients: печень говяжья, лук репчатый, специи
-      weight: 105
-      price: 3.20
+      ingredients: свинина, специи
+      weight: 100
+      price: 3.40
   - title: Гарниры
     items:
-    - title: Макароны отварные с овощами
+    - title: Каша перловая рассыпчатая
       id: 69
       ingredients: 
       weight: 150
-      price: 0.85
-    - title: Баклажаны запеченные
+      price: 0.90
+    - title: Картофель жареный
       id: 70
       ingredients: 
       weight: 150
-      price: 1.40
+      price: 1.65
 sharedCourses:
 - title: Хлеб
   items:
