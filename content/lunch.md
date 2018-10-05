@@ -60,7 +60,7 @@ weekMenu:
       price: 3.15
   - title: Гарниры
     items:
-    - title: Макароны отварные 	150гр	0,65
+    - title: Макароны отварные
       id: 29
       ingredients: 
       weight: 150
