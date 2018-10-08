@@ -134,68 +134,68 @@ weekMenu:
       weight: 150
       price: 0.85
 - weekDay: Открыт приём заказов на Среду
-  day: 3 октября
-  validFromOrderDate: "2018-10-02 11:00:00"
-  validToOrderDate: "2018-10-03 10:59:59"
+  day: 10 октября
+  validFromOrderDate: "2018-10-09 11:00:00"
+  validToOrderDate: "2018-10-10 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из белокочанной капусты
-      id: 41
-      ingredients: капуста белокочанная, морковь свежая, заправка
-      weight: 150
-      price: 1.65
     - title: Салат «Оливье»
-      id: 42
+      id: 41
       ingredients: колбаса вареная, овощи отварные, горошек зеленый, майонез
       weight: 150
       price: 2.65
-    - title: Салат «Слоеный»
+    - title: Салат «Цезарь с птицей»
+      id: 42
+      ingredients: птица, овощи свежие, сыр, майонез
+      weight: 200
+      price: 3.45
+    - title: Салат из свежих помидоров и огурцов со сметаной
       id: 43
-      ingredients: овощи свежие, яйцо, сыр, майонез
+      ingredients: овощи свежие, сметана
       weight: 150
-      price: 2.60
+      price: 2.30
   - title: Супы
     items:  
-    - title: Суп гороховый с беконом
+    - title: Щи из свежей капусты с картофелем
       id: 44
       ingredients: 
-      weight: 250
-      price: 2.45
-    - title: Солянка сборная мясная
+      weight: 250/20
+      price: 1.95
+    - title: Суп рисовый с мясными фрикадельками
       id: 45
       ingredients: 
-      weight: 250/30
-      price: 2.95
+      weight: 250/25
+      price: 2.15
   - title: Вторые блюда
     items:
-    - title: Шницель «Нептун»
+    - title: Печень жареная с луком          
       id: 46
-      ingredients: рыба хек, специи, соус
-      weight: 120/50
+      ingredients: печень говяжья, специи, лук, специи
+      weight: 115
       price: 2.95
-    - title: Бефстроганов из говядины    
+    - title: Птица, запеченная с помидорами
       id: 47
-      ingredients: говядина вырезка, лук репчатый, соус, специи
-      weight: 75/75
-      price: 3.85
-    - title: Птица запеченная с помидорами
-      id: 48
       ingredients: птица, помидор, сыр, специи
       weight: 100
       price: 3.45
+    - title: Колобки «Полесские»
+      id: 48
+      ingredients: свинина, специи
+      weight: 140
+      price: 2.95
   - title: Гарниры
     items:
-    - title: Макароны отварные
+    - title: Каша перловая рассыпчатая
       id: 49
       ingredients: 
       weight: 150
-      price: 0.65
-    - title: Каша перловая рассыпчатая
+      price: 0.90
+    - title: Каша рассыпчатая с грибами и луком гречневая
       id: 50
       ingredients: 
       weight: 150
-      price: 0.90
+      price: 1.10
 - weekDay: Открыт приём заказов на Четверг
   day: 4 октября
   validFromOrderDate: "2018-10-03 11:00:00"
