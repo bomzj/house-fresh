@@ -71,68 +71,68 @@ weekMenu:
       weight: 150
       price: 0.90
 - weekDay: Открыт приём заказов на Вторник
-  day: 2 октября 
-  validFromOrderDate: "2018-10-01 11:00:00"
-  validToOrderDate: "2018-10-02 10:59:59"
+  day: 9 октября 
+  validFromOrderDate: "2018-10-08 11:00:00"
+  validToOrderDate: "2018-10-09 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Морковь пряная
+    - title: Салат «Греческий»
       id: 31
-      ingredients: морковь свежая, заправка
-      weight: 150
-      price: 1.35
-    - title: Салат «Папараць-кветка»
+      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
+      weight: 200
+      price: 3.65
+    - title: Салат-коктейль с ветчиной и сыром
       id: 32
-      ingredients: говядина отварная, ветчина, овощи, яйцо, майонез
+      ingredients: ветчина, овощи, сыр, майонез
       weight: 150
-      price: 2.95
-    - title: Винегрет с сельдью
+      price: 2.45
+    - title: Салат из квашенной капусты
       id: 33
-      ingredients: овощи отварные, овощи маринованные, сельдь филе, заправка
+      ingredients: квашенная капуста, заправка
       weight: 150
-      price: 2.10
+      price: 1.30
   - title: Супы
     items:  
-    - title: Суп с крупой перловой
-      id: 34
-      ingredients: 
-      weight: 250
-      price: 1.70
     - title: Борщ «Могилевский»
-      id: 35
+      id: 34
       ingredients: 
       weight: 250/20
       price: 1.95
+    - title: Суп Осенний
+      id: 35
+      ingredients: 
+      weight: 250/20
+      price: 2.10
   - title: Вторые блюда
     items:
-    - title: Котлета «Вясковая»
+    - title: Цыплята табака
       id: 36
-      ingredients: свинина, говядина, грудинка, специи
-      weight: 100
-      price: 3.60
-    - title: Рыба в сыре  жареная
+      ingredients: птица, специи
+      weight: 150
+      price: 2.35
+    - title: Котлеты домашние
       id: 37
+      ingredients: свинина, говядина, специи
+      weight: 100
+      price: 2.45
+    - title: Рыба в сыре  жареная                
+      id: 38
       ingredients: филе трески, сыр, специи
       weight: 120
       price: 3.25
-    - title: Колбаски по - слуцки                  
-      id: 38
-      ingredients: свинина, говядина, специи, морковь, специи, соус
-      weight: 130/50
-      price: 3.10
   - title: Гарниры
     items:
-    - title: Каша гречневая рассыпчатая
+    - title: Картофельное пюре
       id: 39
       ingredients: 
       weight: 150
-      price: 0.85
+      price: 0.95
     - title: Каша рассыпчатая рисовая
       id: 40
       ingredients: 
       weight: 150
-      price: 0.70
+      price: 0.85
 - weekDay: Открыт приём заказов на Среду
   day: 3 октября
   validFromOrderDate: "2018-10-02 11:00:00"
