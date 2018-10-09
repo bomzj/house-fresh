@@ -197,68 +197,68 @@ weekMenu:
       weight: 150
       price: 1.10
 - weekDay: Открыт приём заказов на Четверг
-  day: 4 октября
-  validFromOrderDate: "2018-10-03 11:00:00"
-  validToOrderDate: "2018-10-04 10:59:59"
+  day: 11 октября
+  validFromOrderDate: "2018-10-10 11:00:00"
+  validToOrderDate: "2018-10-11 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из квашеной капусты со свеклой
+    - title: Салат с крабовыми палочками и кукурузой
       id: 51
-      ingredients: капуста квашеная, свекла, заправка
+      ingredients: крабовые палочки, рис отварной, овощи маринованные, майонез
       weight: 150
-      price: 1.35
-    - title: Морковь пряная
+      price: 2.45
+    - title: Салат «Сельдь под шубой»
       id: 52
-      ingredients: морковь свежая, заправка
+      ingredients: филе сельди, овощи отварные, майонез
       weight: 150
-      price: 1.35
-    - title: Салат «Любительский»
+      price: 2.45
+    - title: Салат из белокочанной капусты
       id: 53
-      ingredients: печень трески, картофель отварной, лук, горошек консервированный, майонез
+      ingredients: капуста белокочанная, морковь свежая, заправка
       weight: 150
-      price: 2.95
+      price: 1.65
   - title: Супы
     items:  
-    - title: Суп перловый с грибами
+    - title: Суп гороховый с беконом
       id: 54
       ingredients: 
-      weight: 250/20
-      price: 1.85
-    - title: Щи из свежей капусты с картофелем
+      weight: 250
+      price: 2.45
+    - title: Солянка сборная мясная
       id: 55
       ingredients: 
-      weight: 250/20
-      price: 1.95
+      weight: 250/30
+      price: 2.95
   - title: Вторые блюда
     items:
-    - title: Котлеты домашние
+    - title: Эскалоп с помидорами
       id: 56
-      ingredients: свинина, говядина, специи
-      weight: 100
-      price: 2.45
-    - title: Зразы «Пикантные»
+      ingredients: свинина, помидор, специи
+      weight: 130
+      price: 3.65
+    - title: Бифштекс из говядины
       id: 57
-      ingredients: филе хека, овощи
-      weight: 120
-      price: 3.60
-    - title: Гуляш из свинины
+      ingredients: говядина рубленая, специи
+      weight: 100
+      price: 3.45
+    - title: Плов из птицы
       id: 58
-      ingredients: свинина, специи
-      weight: 75/75
-      price: 3.30
+      ingredients: птица, рис, овощи, специи
+      weight: 250
+      price: 3.80
   - title: Гарниры
     items:
-    - title: Рагу овощное
+    - title: Картофель жареный
       id: 59
       ingredients: 
-      weight: 200
-      price: 1.35
-    - title: Каша гречневая рассыпчатая
+      weight: 150
+      price: 1.65
+    - title: Рис с овощами
       id: 60
       ingredients: 
       weight: 150
-      price: 0.85
+      price: 1.10
 - weekDay: Открыт приём заказов на Пятницу
   day: 5 октября
   validFromOrderDate: "2018-10-04 11:00:00"
