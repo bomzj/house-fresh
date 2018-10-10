@@ -260,68 +260,68 @@ weekMenu:
       weight: 150
       price: 1.10
 - weekDay: Открыт приём заказов на Пятницу
-  day: 5 октября
-  validFromOrderDate: "2018-10-04 11:00:00"
-  validToOrderDate: "2018-10-05 10:59:59"
+  day: 12 октября
+  validFromOrderDate: "2018-10-11 11:00:00"
+  validToOrderDate: "2018-10-12 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Греческий»
+    - title: Морковь пряная
       id: 61
-      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
-      weight: 200
-      price: 3.65
-    - title: Салат из свежих помидоров и огурцов со сметаной
-      id: 62
-      ingredients: овощи свежие, сметана
+      ingredients: морковь свежая, заправка
       weight: 150
-      price: 2.30
+      price: 1.35
     - title: Салат-коктейль с ветчиной и сыром
-      id: 63
+      id: 62
       ingredients: ветчина, овощи, сыр, майонез
       weight: 150
       price: 2.45
+    - title: Салат «Греческий»
+      id: 63
+      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
+      weight: 200
+      price: 3.65
   - title: Супы
     items:  
-    - title: Суп из птицы с овощами
+    - title: Суп-пюре из разных овощей с сухариками
       id: 64
       ingredients: 
-      weight: 250
-      price: 1.95
-    - title: Борщ «Могилевский»
+      weight: 250/10
+      price: 2.40
+    - title: Рассольник Ленинградский
       id: 65
       ingredients: 
       weight: 250/20
-      price: 1.95
+      price: 2.15
   - title: Вторые блюда
     items:
-    - title: Птица жареная
+    - title: Гуляш из свинины
       id: 66
-      ingredients: птица, специи
-      weight: 125
-      price: 2.85
-    - title: Бифштекс из говядины
+      ingredients: свинина, специи
+      weight: 75/75
+      price: 3.30
+    - title: Шницель «Нептун»
       id: 67
-      ingredients: говядина рубленая, специи
-      weight: 100
-      price: 3.45
-    - title: Поджарка из свинины
+      ingredients: рыба хек, специи, соус
+      weight: 120/50
+      price: 2.95
+    - title: Мясо, жаренное крупным куском
       id: 68	
       ingredients: свинина, специи
       weight: 100
-      price: 3.40
+      price: 3.60
   - title: Гарниры
     items:
-    - title: Каша перловая рассыпчатая
+    - title: Картофельное пюре
       id: 69
       ingredients: 
       weight: 150
-      price: 0.90
-    - title: Картофель жареный
+      price: 0.95
+    - title: Каша гречневая рассыпчатая
       id: 70
       ingredients: 
       weight: 150
-      price: 1.65
+      price: 0.85
 sharedCourses:
 - title: Хлеб
   items:
