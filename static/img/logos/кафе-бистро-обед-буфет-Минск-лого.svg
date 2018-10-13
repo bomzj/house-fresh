@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="obed.svg"
+   sodipodi:docname="кафе-бистро-обед-буфет-Минск-лого.svg"
    inkscape:export-filename="C:\Documents\!!!\business\сайт хаусфреш\сайт\HouseFresh\static\img\logos\obed.png"
    inkscape:export-xdpi="89.8106"
    inkscape:export-ydpi="89.8106">
@@ -49,6 +49,14 @@
        effect="spiro"
        id="path-effect840-2"
        is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect840-0"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect840-2-5"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -58,10 +66,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="284.9706"
-     inkscape:cy="42.680327"
+     inkscape:cx="71.399176"
+     inkscape:cy="-71.605387"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g97-2-3"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -135,5 +143,9 @@
          inkscape:path-effect="#path-effect840-2"
          inkscape:original-d="m 820.49332,-337.23974 c 39.60952,-3.8e-4 79.21872,-3.8e-4 118.82756,0" />
     </g>
+    <g
+       id="g97-2-3"
+       transform="matrix(0.14473,0,0,0.14474842,-265.28609,254.93459)"
+       style="stroke-width:6.90897751" />
   </g>
 </svg>
