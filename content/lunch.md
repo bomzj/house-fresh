@@ -186,7 +186,7 @@ weekMenu:
       price: 4.20
   - title: Гарниры
     items:
-    - title: Овощи запеченный «Калейдоскоп»
+    - title: Овощи запеченные «Калейдоскоп»
       id: 49
       ingredients: 
       weight: 150
