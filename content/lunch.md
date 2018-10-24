@@ -1,7 +1,7 @@
 ---
 layout: lunch
 title: "Кафе ОБЕД БУФЕТ"
-description: "<b>Адрес:</b> проспект Жукова 44 (ТЦ Аутлето), второй этаж <br> <b>Режим работы:</b> ежедневно с 10.00 до 18.00<br> <a href='/menu/Меню 24.10.18.docx' download class='text-small-center'>Меню на 24 октября</a>  <br><hr> Закажите свой обед с доставкой в офис или на дом со скидкой 10%."
+description: "<b>Адрес:</b> проспект Жукова 44 (ТЦ Аутлето), второй этаж <br> <b>Режим работы:</b> ежедневно с 10.00 до 18.00<br> <a href='/menu/Меню 25.10.18.docx' download class='text-small-center'>Меню на 25 октября</a>  <br><hr> Закажите свой обед с доставкой в офис или на дом со скидкой 10%."
 subdescription1: "Читайте [условия доставки](/delivery/ 'Условия доставки | ХаусФреш')"
 metadescription: "Кафе ОБЕД БУФЕТ на Жукова: адрес, режим работы. Заказать Горячий Комплексный Обед в Офис. Самое вкусное обеденное меню. Доступные цены, Скидки. Организация Корпоративного Питания. Доставка обедов в офис и на дом"
 metakeywords: "Кафе ОБЕД БУФЕТ на Жукова: адрес, режим работы. Заказ домашних комплексных обедов: Салаты, Супы, Вторые блюда, Гарниры, Хлеб, Выпечка, Напитки. Корпоративное питание. Доставка обедов в офис Минск"
@@ -212,68 +212,78 @@ weekMenu:
       weight: 150
       price: 0.95
 - weekDay: Открыт приём заказов на Четверг
-  day: 18 октября
-  validFromOrderDate: "2018-10-17 11:00:00"
-  validToOrderDate: "2018-10-18 10:59:59"
+  day: 25 октября
+  validFromOrderDate: "2018-10-24 11:00:00"
+  validToOrderDate: "2018-10-25 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат овощной с колбасой
+    - title: Салат «Сельдь под шубой»
       id: 54
-      ingredients: колбаса, овощи отварные, майонез
+      ingredients: филе сельди, овощи отварные, майонез
       weight: 150
       price: 2.45
-    - title: Салат «Греческий»
+    - title: Салат «Цезарь с птицей»
       id: 55
-      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
+      ingredients: птица, овощи свежие, сыр, майонез
       weight: 200
-      price: 3.65
-    - title: Салат из белокочанной капусты со свеклой и морковью
+      price: 3.45
+    - title: Салат из свеклы с черносливом
       id: 56
-      ingredients: капуста, свекла, морковь, заправка
+      ingredients: свекла отварная, чернослив, сметана
       weight: 150
-      price: 1.50
+      price: 2.60
   - title: Супы
     items:  
-    - title: Солянка сборная мясная
+    - title: Уха рыбацкая
       id: 57
       ingredients: 
-      weight: 250/30
-      price: 2.95
-    - title: Щи из свежей капусты с картофелем
+      weight: 250
+      price: 2.55
+    - title: Суп-крем тыквенный
       id: 58
       ingredients: 
-      weight: 250/20
-      price: 1.95
+      weight: 250
+      price: 2.45
   - title: Вторые блюда
     items:
-    - title: Рыба по-гречески
+    - title: Котлеты из птицы с перцем
       id: 59
-      ingredients: рыба, овощи, сыр, специи
-      weight: 185
-      price: 4.20
-    - title: Свинина, запеченная с сыром
+      ingredients: филе цыпленка, перец свежий, специи
+      weight: 120
+      price: 4.00
+    - title: Оладьи из печени
       id: 60
-      ingredients: свинина, сыр, специи
-      weight: 100
-      price: 3.70
-    - title: Котлета «Папараць-кветка»
-      id: 61
-      ingredients: птица, сыр, специи
+      ingredients: печень, яйцо, лук, специи
       weight: 105
-      price: 3.60
+      price: 3.70
+    - title: Гуляш из свинины
+      id: 61
+      ingredients: свинина, специи
+      weight: 75/75
+      price: 3.95
+    - title: Паста с ветчиной и грибами  
+      id: 62
+      ingredients: паста, ветчина, сыр, специи, соус
+      weight: 300
+      price: 5.90
   - title: Гарниры
     items:
-    - title: Каша рассыпчатая рисовая
+    - title: Картофель жареный
       id: 63
       ingredients: 
       weight: 150
-      price: 0.85
-    - title: Рагу овощное
+      price: 1.65
+    - title: Каша перловая с грибами
       id: 64
       ingredients: 
-      weight: 200
-      price: 1.35
+      weight: 150
+      price: 1.20
+    - title: Брокколи отварная
+      id: 65
+      ingredients: 
+      weight: 150
+      price: 2.20
 - weekDay: Открыт приём заказов на Пятницу
   day: 19 октября
   validFromOrderDate: "2018-10-18 11:00:00"
@@ -282,63 +292,63 @@ weekMenu:
   - title: Салаты
     items:
     - title: Салат «Слоеный»
-      id: 65
+      id: 66
       ingredients: овощи свежие, яйцо, сыр, майонез
       weight: 150
       price: 2.60
     - title: Салат «Хрустящий»
-      id: 66
+      id: 67
       ingredients: капуста пекинская, ветчина, сухарики, заправка
       weight: 150
       price: 2.45
     - title: Салат из свежих помидоров и огурцов
-      id: 67
+      id: 68
       ingredients: овощи свежие, заправка
       weight: 150
       price: 2.20
   - title: Супы
     items:  
     - title: Щи ленивые с грибами
-      id: 68
+      id: 69
       ingredients: 
       weight: 250/20
       price: 1.85
     - title: Суп-харчо
-      id: 69
+      id: 70
       ingredients: 
       weight: 250
       price: 2.85
   - title: Вторые блюда
     items:
     - title: Биточки рыбные
-      id: 70
+      id: 71
       ingredients: рыба, специи
       weight: 125
       price: 2.95
     - title: Гуляш из свинины
-      id: 71
+      id: 72
       ingredients: свинина, специи
       weight: 75/75
       price: 3.30
     - title: Филе птицы в сыре
-      id: 72	
+      id: 73	
       ingredients: птица, сыр, специи
       weight: 130
       price: 3.45
     - title: Паста с курицей и грибами
-      id: 73	
+      id: 74	
       ingredients: птица, макаронные изделия, грибы, соус, специи
       weight: 360
       price: 6.20
   - title: Гарниры
     items:
     - title: Каша рассыпчатая с грибами и луком гречневая
-      id: 74
+      id: 75
       ingredients: 
       weight: 150
       price: 1.10
     - title: Картофельное пюре
-      id: 75
+      id: 76
       ingredients: 
       weight: 150
       price: 0.95
