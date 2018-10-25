@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
             </button>
 			{{ if and .Site.Params.navigation.brand .Site.Params.navigation.title}}
-                <a class="navbar-brand" href="/#page-top" title="{{ .Site.Params.navigation.title}}">{{ .Site.Params.navigation.brand | markdownify }}</a>
+                <a itemprop="brand name url" class="navbar-brand" href="/#page-top" title="{{ .Site.Params.navigation.title}}">{{ .Site.Params.navigation.brand | markdownify }}</a>
             {{ end }}
         </div>
 		{{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
