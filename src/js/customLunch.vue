@@ -24,7 +24,7 @@
 						<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4" >
 							<h3 class="text-muted menu-item-weight">{{item.weight}}г</h3>
 							<div class="menu-item-price-section">
-								<h3 class="menu-item-price">{{item.price}}р</h3>
+								<h3 class="menu-item-price">{{ item.price | price }}</h3>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 							<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
 								<h3 class="text-muted menu-item-weight">{{item.weight}}г</h3>
 								<div class="menu-item-price-section">
-									<h3 class="menu-item-price">{{item.price}}р</h3>
+									<h3 class="menu-item-price">{{ item.price | price }}</h3>
 								</div>
 							</div>
 						</div>
@@ -63,7 +63,7 @@
 		<div class="row total-price-block text-left">
 			<hr class="gray-long">
 			<h4 class="total-price-text">Стоимость обеда: </h4>
-			<h4 class="total-price">{{ getTotalPrice() }} р</h4>
+			<h4 class="total-price">{{ getTotalPrice() | price }}</h4>
 		</div>
 		<div class="row text-center">
 			<button class="btn btn-primary btn-xl" title="Добавить в корзину" @click="addLunchToCart">Добавить обед в корзину</button>
@@ -77,6 +77,7 @@
 	</transition>
 </div>
 </template>
+
 <script>
 export default {
 	props: ['dayMenu'],

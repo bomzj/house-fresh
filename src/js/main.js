@@ -9,6 +9,7 @@ import Vue from 'vue';
 import Cart from './cart.vue';
 import CustomLunch from './customLunch.vue';
 import CallBackForm from './callBackForm.vue';
+import './filters'
 
 // Init <cart>
 var cartVM = new Vue({

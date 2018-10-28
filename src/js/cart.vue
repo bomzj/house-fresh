@@ -45,7 +45,7 @@
 								</div>
 							</div>
 							<div class="col-xs-4 col-sm-6 col-md-5 col-lg-5">
-								<h4 class="cart-item-text cart-item-price">{{ getItemFullPrice(item) }} р</h4>
+								<h4 class="cart-item-text cart-item-price">{{ getItemFullPrice(item) | price }}</h4>
 							</div>	
 							<div class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
 								<button type="button" class="btn btn-default" @click="removeItem(item)">
@@ -63,7 +63,7 @@
 			
 				<div class="row total-price-block text-left">
 					<h4 class="total-price-text">Итоговая сумма: </h4>
-					<h4 class="total-price">  {{ getTotalPrice() }} р</h4>
+					<h4 class="total-price">  {{ getTotalPrice() | price}}</h4>
 					<template v-if="isDeliveryFree()">
 						<span class="text-primary">Бесплатная доставка!</span>
 					</template>
