@@ -218,135 +218,135 @@ weekMenu:
   courses:
   - title: Салаты
     items:
-    - title: Салат «1812» 
+    - title: Салат «Лесная Иллюзия» 
       id: 4101
-      ingredients: филе цыпленка отварное, огурец маринованный, грибы маринованные, капуста пекинская, сыр, сухарики, заправка
+      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
       weight: 150
-      price: 3.45
-    - title: Салат «Оливье»
+      price: 2.95
+    - title: Яйцо, фаршированное грибами
       id: 4102
-      ingredients: колбаса вареная, овощи отварные, горошек зеленый, майонез
-      weight: 150
-      price: 2.65
-    - title: Салат из свежих помидоров и огурцов
+      ingredients: яйцо, грибы, майонез
+      weight: 70
+      price: 2.40
+    - title: Салат «Слоеный»
       id: 4103
-      ingredients: овощи свежие, заправка
+      ingredients: овощи свежие, яйцо, сыр, майонез
       weight: 150
-      price: 2.20
+      price: 2.60
   - title: Супы
     items:  
-    - title: Уха ростовская
+    - title: Суп-лапша домашняя с курицей
       id: 4201
       ingredients: 
-      weight: 250
-      price: 2.85
-    - title: Суп-пюре гороховый
+      weight: 250/30
+      price: 2.15
+    - title: Суп-пюре из птицы
       id: 4202
       ingredients: 
       weight: 250
-      price: 2.35
+      price: 2.95
   - title: Вторые блюда
     items:
-    - title: Птица в соусе терияки  
+    - title: Колобки «Полесские»
       id: 4301
-      ingredients: птица, соус, специи
-      weight: 170
-      price: 4.90
-    - title: Печень по-строгановски
+      ingredients: свинина, специи
+      weight: 140
+      price: 2.95
+    - title: Рулетики из птицы с ветчиной
       id: 4302
-      ingredients: печень говяжья, специи, соус
-      weight: 75/75
-      price: 3.10
-    - title: Котлеты домашние
+      ingredients: птица, ветчина, сыр, специи
+      weight: 130
+      price: 4.80
+    - title: Мясо по-осеннему
       id: 4303
-      ingredients: свинина, говядина, специи
-      weight: 100
-      price: 2.45
-    - title: Бабка картофельная со свининой
-      id: 4304
-      ingredients: свинина, овощи, специи, сметана
-      weight: 200/50
+      ingredients: говядина вырезка, морковь, яблоко, специи, соус
+      weight: 75/75
       price: 3.95
+    - title: Рыба жареная
+      id: 4304
+      ingredients: рыба аргентина, специи
+      weight: 120
+      price: 3.20
   - title: Гарниры
     items:
-    - title: Картофельное пюре
+    - title: Картофель отварной
       id: 4401
       ingredients: 
       weight: 150
-      price: 0.95
+      price: 0.90
     - title: Каша гречневая рассыпчатая
       id: 4402
       ingredients: 
       weight: 150
       price: 0.85
 - weekDay: Открыт приём заказов на Пятницу
-  day: 2 ноября
-  validFromOrderDate: "2018-11-01 11:00:00"
-  validToOrderDate: "2018-11-02 10:59:59"
+  day: 9 ноября
+  validFromOrderDate: "2018-11-08 11:00:00"
+  validToOrderDate: "2018-11-09 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из птицы с семенами подсолнуха 
+    - title: Салат «Праздничный» 
       id: 5101
-      ingredients: филе цыпленка отварное, огурец свежий, капуста пекинская, перец свежий, семена подсолнуха, заправка
-      weight: 170
-      price: 3.95
-    - title: Салат «Цезарь с птицей»
+      ingredients: говядина отварная, морковь, огурец консервированный, майонез
+      weight: 150
+      price: 3.15
+    - title: Салат «Хрустящий»
       id: 5102
-      ingredients: птица, овощи свежие, сыр, майонез
-      weight: 200
-      price: 3.45
-    - title: Салат овощной с колбасой
-      id: 5103
-      ingredients: колбаса, овощи отварные, майонез
+      ingredients: капуста пекинская, ветчина, сухарики, заправка
       weight: 150
       price: 2.45
+    - title: Салат–коктейль «Мимоза» 
+      id: 5103
+      ingredients: консерва рыбная, сыр, яйцо, майонез
+      weight: 150
+      price: 3.15
   - title: Супы
     items:  
-    - title: Суп перловый с грибами
+    - title: Борщ «Хатнi» с пампушками
       id: 5201
       ingredients: 
-      weight: 250/20
-      price: 1.85
-    - title: Крем-суп Пикантный
+      weight: 250/50/30
+      price: 2.15
+    - title: Суп-пюре из свежих грибов
       id: 5202
       ingredients: 
       weight: 250
       price: 2.45
   - title: Вторые блюда
     items:
-    - title: Паста с курицей и грибами
+    - title: Котлеты домашние
       id: 5301
-      ingredients: птица, макаронные изделия, грибы, соус, специи
-      weight: 360
-      price: 5.00
-    - title: Рыба по гречески
+      ingredients: свинина, говядина, специи
+      weight: 100
+      price: 2.45
+    - title: Птица в сырно-шпинатной шапочке
       id: 5302
-      ingredients: рыба, овощи, сыр, специи
-      weight: 185
-      price: 4.20
-    - title: Эскалоп с помидорами
+      ingredients: птица, яйцо, сыр, шпинат, специи
+      weight: 160
+      price: 4.60
+    - title: Рыба в сыре  жареная
       id: 5303
-      ingredients: свинина, помидор, специи
-      weight: 130
-      price: 3.65
-    - title: Котлеты из птицы с перцем
-      id: 5304
-      ingredients: филе цыпленка, перец свежий, специи
+      ingredients: филе трески, сыр, специи
       weight: 120
-      price: 4.00
+      price: 3.25
+    - title: Паста Болоньез
+      id: 5304
+      ingredients: паста, свинина, овощи, специи, соус
+      weight: 300
+      price: 5.00
   - title: Гарниры
     items:
-    - title: Картофель жареный
+    - title: Картофельное пюре
       id: 5401
       ingredients: 
       weight: 150
-      price: 1.65
-    - title: Овощи запеченные «Калейдоскоп»
+      price: 0.95
+    - title: Рис с овощами
       id: 5402
       ingredients: 
       weight: 150
-      price: 1.55
+      price: 1.10
 sharedCourses:
 - title: Хлеб
   items:
