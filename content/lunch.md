@@ -90,7 +90,7 @@ weekMenu:
     - title: Салат «Белорусский Новый»
       id: 2102
       ingredients: филе цыпленка отварное, огурец свежий, помидор свежий, ветчина, майонез
-      weight: 70
+      weight: 150
       price: 3.40
     - title: Салат–коктейль «Мимоза» 
       id: 2103
@@ -144,77 +144,77 @@ weekMenu:
       weight: 150
       price: 0.95
 - weekDay: Открыт приём заказов на Среду
-  day: 31 октября
-  validFromOrderDate: "2018-10-30 11:00:00"
-  validToOrderDate: "2018-10-31 10:59:59"
+  day: 7 ноября
+  validFromOrderDate: "2018-11-06 11:00:00"
+  validToOrderDate: "2018-11-07 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Полесский»
+    - title: Салат «Цезарь с птицей»
       id: 3101
-      ingredients: птица отварная, сыр, сметана, овощи, майонез
-      weight: 150
-      price: 2.45
-    - title: Салат–коктейль «Мимоза» 
+      ingredients: птица, овощи свежие, сыр, майонез
+      weight: 200
+      price: 3.45
+    - title: Салат «1812» 
       id: 3102
-      ingredients: консерва рыбная, сыр, яйцо, майонез
+      ingredients: филе цыпленка отварное, огурец маринованный, грибы маринованные, капуста пекинская, сыр, сухарики, заправка
       weight: 150
-      price: 3.15
-    - title: Салат из свежих помидоров и огурцов
+      price: 3.45
+    - title: Салат «Мясной с фасолью»
       id: 3103
-      ingredients: овощи свежие, заправка
+      ingredients: говядина отварная, овощи маринованные, фасоль, картофель отварной, майонез
       weight: 150
-      price: 2.20
+      price: 2.65
   - title: Супы
     items:  
-    - title: Суп-крем Тыквенный
+    - title: Щи из свежей капусты с картофелем
       id: 3201
       ingredients: 
-      weight: 250
-      price: 2.45
-    - title: Солянка сборная мясная
+      weight: 250/20
+      price: 1.95
+    - title: Суп-харчо
       id: 3202
       ingredients: 
-      weight: 250/30
-      price: 2.95
+      weight: 250
+      price: 2.85
   - title: Вторые блюда
     items:
-    - title: Оладьи из тыквы 
+    - title: Гуляш из свинины
       id: 3301
-      ingredients: тыква, сметана
-      weight: 250/30
-      price: 3.00
-    - title: Голубцы с мясом и рисом
+      ingredients: свинина, специи
+      weight: 75/75
+      price: 3.30
+    - title: Филе птицы в сыре
       id: 3302
-      ingredients: свинина, говядина, рис, капуста белокочанная, сметана, специи
-      weight: 210/40
-      price: 3.85
-    - title: Птица запеченная с помидорами
-      id: 3303
-      ingredients: птица, помидор, сыр, специи
-      weight: 100
+      ingredients: птица, сыр, специи
+      weight: 130
       price: 3.45
     - title: Биточки рыбные
-      id: 3304
+      id: 3303
       ingredients: рыба, специи
       weight: 125
       price: 2.95
+    - title: Паста с курицей и грибами
+      id: 3304
+      ingredients: птица, макаронные изделия, грибы, соус, специи
+      weight: 300
+      price: 5.00
   - title: Гарниры
     items:
-    - title: Картофель жаренный
+    - title: Каша рассыпчатая с грибами и луком гречневая
       id: 3401
       ingredients: 
       weight: 150
-      price: 1.65
-    - title: Каша перловая с грибами
+      price: 1.10
+    - title: Картофельное пюре
       id: 3402
       ingredients: 
       weight: 150
-      price: 1.20
+      price: 0.95
 - weekDay: Открыт приём заказов на Четверг
-  day: 1 ноября
-  validFromOrderDate: "2018-10-31 11:00:00"
-  validToOrderDate: "2018-11-01 10:59:59"
+  day: 8 ноября
+  validFromOrderDate: "2018-11-07 11:00:00"
+  validToOrderDate: "2018-11-08 10:59:59"
   courses:
   - title: Салаты
     items:
