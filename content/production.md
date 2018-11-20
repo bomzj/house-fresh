@@ -448,14 +448,6 @@ category:
   issueDate: "Срок хранения и реализации: охлажденные без заморозки - при t°: от +2°Cдо +6°C - 5 суток, замороженные - при t°при -18°C- 30 суток, после разморозки - при t°: от +2°Cдо +6°C - 5 суток"
   categoryId: bakery
   items:
-  - itemTitle: Трубочка со сгущёнкой
-    itemCooledID: "0187"
-    itemSubTitle: охлаждённая
-    itemImg: img/catalog/bakery/трубочка-со-сгущёнкой.jpg
-    itemImgAlt: Трубочка со сгущёнкой | ХаусФреш
-    itemIngredients: Мука пшеничная высшего сорта, маргарин, меланж, сахар-песок, дрожжи прессованные, молоко цельное, соль, сгущенка 
-    itemWeight: 100
-    itemPrice: 1.08
   - itemTitle: Слойка с грушей
     itemCooledID: "0188"
     itemFrozenID: "0189"
@@ -464,7 +456,7 @@ category:
     itemImgAlt: Слойка с грушей | ХаусФреш
     itemIngredients: Мука пшеничная высшего сорта, маргарин, соль, сахар-песок, дрожжи прессованные, джем 
     itemWeight: 75
-    itemPrice: 0.78
+    itemPrice: 0.94
   - itemTitle: Слойка с вишней
     itemCooledID: "0190"
     itemFrozenID: "0191"
@@ -473,7 +465,7 @@ category:
     itemImgAlt: Слойка с вишней | ХаусФреш
     itemIngredients: Мука пшеничная высшего сорта, маргарин, соль, сахар-песок, дрожжи прессованные, джем 
     itemWeight: 75
-    itemPrice: 0.78
+    itemPrice: 0.94
   - itemTitle: Слойка с сыром
     itemCooledID: "0261"
     itemFrozenID: "0262"
@@ -482,7 +474,16 @@ category:
     itemImgAlt: Слойка с сыром | ХаусФреш
     itemIngredients: Мука пшеничная высшего сорта, маргарин, соль, дрожжи прессованные, сыр 
     itemWeight: 75
-    itemPrice: 0.96
+    itemPrice: 1.15
+  - itemTitle: Слойка с ветчиной и сыром
+    itemCooledID: "1261"
+    itemFrozenID: "1262"
+    itemSubTitle: охлаждённая/замороженная
+    itemImg: img/catalog/bakery/слойка-с-сыром.jpg
+    itemImgAlt: Слойка с сыром | ХаусФреш
+    itemIngredients: Мука пшеничная высшего сорта, маргарин, соль, дрожжи прессованные, ветчина, сыр 
+    itemWeight: 75
+    itemPrice: 1.15
   - itemTitle: Круассан с шоколадом 
     itemCooledID: "0192"
     itemFrozenID: "0193"
@@ -491,7 +492,16 @@ category:
     itemImgAlt: Круассан с шоколадом | ХаусФреш
     itemIngredients: Мука пшеничная высшего сорта, масло крестьянское, яичный желток, яичный белок, сметана, сахарная пудра, шоколад 
     itemWeight: 50
-    itemPrice: 0.72
+    itemPrice: 0.86
+  - itemTitle: Круассан со сгущёнкой 
+    itemCooledID: "1192"
+    itemFrozenID: "1193"
+    itemSubTitle: охлаждённый/замороженный
+    itemImg: img/catalog/bakery/круассан-с-шоколадом.jpg
+    itemImgAlt: Круассан с шоколадом | ХаусФреш
+    itemIngredients: Мука пшеничная высшего сорта, масло крестьянское, яичный желток, яичный белок, сметана, сахарная пудра, вареная сгущёнка 
+    itemWeight: 50
+    itemPrice: 0.86
 - categoryTitle: Маффины
   issueDate: "Срок хранения и реализации: охлажденные без заморозки - при t°: от +2°Cдо +6°C - 5 суток, замороженные - при t°при -18°C- 30 суток, после разморозки - при t°: от +2°Cдо +6°C - 5 суток"
   categoryId: maffin

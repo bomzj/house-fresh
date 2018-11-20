@@ -163,6 +163,9 @@ export default {
 		},
 		getItemFullPrice(item) {
 			var fullPrice = item.price * item.count;
+			if (item.type == "cake"){
+				fullPrice*=item.weight/1000;
+			}
 			return Math.round(fullPrice * 100) / 100;
 		},
 		getTotalPrice() {
