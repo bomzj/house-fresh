@@ -280,69 +280,69 @@ weekMenu:
       weight: 150
       price: 1.55
 - weekDay: Открыт приём заказов на Пятницу
-  day: 23 ноября
-  validFromOrderDate: "2018-11-22 11:00:00"
-  validToOrderDate: "2018-11-23 10:59:59"
+  day: 30 ноября
+  validFromOrderDate: "2018-11-29 11:00:00"
+  validToOrderDate: "2018-11-30 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Оливье»
+    - title: Салат «Лесная Иллюзия» 
       id: 5101
-      ingredients: птица отварная, овощи отварные, горошек зеленый, майонез
+      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
       weight: 150
-      price: 2.65
-    - title: Салат из свеклы с огурцами
+      price: 2.95
+    - title: Салат «Цезарь с птицей»
       id: 5102
-      ingredients: свекла отварная, огурец соленый, майонез
-      weight: 150
-      price: 1.95
-    - title: Салат «Дружба»
+      ingredients: птица, овощи свежие, сыр, майонез
+      weight: 200
+      price: 3.45
+    - title: Салат из белокочанной капусты со свеклой и морковью
       id: 5103
-      ingredients: капуста, кукуруза консервированная, морковь, яблоко, крабовые палочки, майонез
+      ingredients: капуста, свекла, морковь, заправка
       weight: 150
-      price: 2.15
+      price: 1.50
   - title: Супы
     items:  
-    - title: Суп картофельный с фасолью и курицей
+    - title: Уха ростовская
       id: 5201
       ingredients: 
       weight: 250
-      price: 2.20
-    - title: Суп-пюре из томатов
+      price: 2.85
+    - title: Суп-пюре из разных овощей с сухариками
       id: 5202
       ingredients: 
-      weight: 250
-      price: 3.00
+      weight: 250/10
+      price: 2.40
   - title: Вторые блюда
     items:
-    - title: Печень по-строгановски
+    - title: Рыба жареная с перцем
       id: 5301
-      ingredients: печень говяжья, специи, соус
-      weight: 75/75
-      price: 3.10
-    - title: Шницель Тирольский
+      ingredients: филе хека, овощи, специи
+      weight: 150
+      price: 4.50
+    - title: Биточки особые
       id: 5302
-      ingredients: филе свинины,  специи
-      weight: 90
-      price: 4.00
-    - title: Биточки рыбные
+      ingredients: свинина, говядина, специи
+      weight: 100
+      price: 3.50
+    - title: Соте из птицы с овощами    
       id: 5303
-      ingredients: рыба, специи
-      weight: 125
-      price: 2.95
-    - title: Бабка картофельная со свининой
+      ingredients: филе птицы, овощи, специи
+      weight: 170
+      price: 4.20
+    - title: Картофельные оладьи, фаршированные грибами
       id: 5304
-      ingredients: свинина, овощи, специи, сметана
-      weight: 200/50
-      price: 3.95
+      ingredients: 
+      weight: 225/20
+      price: 3.65
   - title: Гарниры
     items:
-    - title: Картофель отварной
+    - title: Картофель жаренный
       id: 5401
       ingredients: 
       weight: 150
-      price: 1.20
-    - title: Каша перловая рассыпчатая
+      price: 1.90
+    - title: Каша рассыпчатая рисовая
       id: 5402
       ingredients: 
       weight: 150
