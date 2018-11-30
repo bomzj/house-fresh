@@ -20,36 +20,42 @@
 				</div>
 			</div>
 		</header>
-
-		{{ "<!-- Lunch-section -->" | safeHTML }}
-		<section class="bg-primary" id="lunchSection">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h2 class="section-heading">{{ .Site.Params.lunchSection.headline }}</h2>
-						<hr class="light">
-						<p>{{ .Site.Params.lunchSection.description | markdownify }}</p>
-						<a href="{{.Site.Params.lunchSection.lunchButtonLink}}" title="{{.Site.Params.lunchSection.lunchButtonTitle}}" class="btn btn-gray btn-xl">{{ .Site.Params.lunchSection.lunchButtonText }}</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
+		
+		
 		{{ "<!-- Production-section -->" | safeHTML }}
-		<section class="bg-light-gray" id="productionSection">
+		<section class="bg-primary" id="productionSection">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<h2 class="section-heading">{{ .Site.Params.productionSection.headline }}</h2>
-						<hr>
+						<hr class="light">
 						<p>{{ .Site.Params.productionSection.description | markdownify }}</p>
-						<hr>
+						<hr class="light">
 						<p>{{ .Site.Params.productionSection.subdescription | markdownify }}</p>
-						<a href="{{.Site.Params.productionSection.productionButtonLink}}" title="{{.Site.Params.productionSection.productionButtonTitle}}" class="btn btn-primary btn-xl">{{ .Site.Params.productionSection.productionButtonText }}</a>
+						<a href="{{.Site.Params.productionSection.productionButtonLink}}" title="{{.Site.Params.productionSection.productionButtonTitle}}" class="btn btn-gray btn-xl">{{ .Site.Params.productionSection.productionButtonText }}</a>
 					</div>
 				</div>
 			</div>
 		</section>
+		
+		
+		{{ "<!-- Lunch-section -->" | safeHTML }}
+		<section class="bg-light-gray" id="lunchSection">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h2 class="section-heading">{{ .Site.Params.lunchSection.headline }}</h2>
+						<hr>
+						<p>{{ .Site.Params.lunchSection.description | markdownify }}</p>
+						<hr>
+						<p>{{ .Site.Params.lunchSection.subdescription | markdownify }}</p>
+						<a href="{{.Site.Params.lunchSection.lunchButtonLink}}" title="{{.Site.Params.lunchSection.lunchButtonTitle}}" class="btn btn-primary btn-xl">{{ .Site.Params.lunchSection.lunchButtonText }}</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
 		
 		{{ "<!-- PARTNERS -->" | safeHTML }}
 		<section id="partners" >

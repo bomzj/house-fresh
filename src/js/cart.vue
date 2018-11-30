@@ -78,13 +78,13 @@
 				<h3 class="text-primary text-center">Введите Ваши данные</h3>
 				<form @submit.prevent="submitOrder">
 					<div class="form-group user-info-input">
-						<input type="text" class="form-control input-lg" placeholder="Ваше имя*" v-model="orderForm.name">
+						<input type="text" class="form-control input-lg" placeholder="Имя*" v-model="orderForm.name">
 					</div>
 					<div class="form-group user-info-input">
 						<input type="phone" class="form-control input-lg" placeholder="Контактный телефон*" v-model="orderForm.phone">
 					</div>
 					<div class="form-group user-info-input">
-						<input type="text" class="form-control input-lg" placeholder="Адрес доставки*" v-model="orderForm.address">
+						<input type="text" class="form-control input-lg" placeholder="Адрес доставки и комментарии к заказу*" v-model="orderForm.address">
 					</div>
 					<div class="row">
 						<button class="btn btn-primary btn-xl" title="Заказать" :disabled="!isOrderFormValid()">Заказать</button>
