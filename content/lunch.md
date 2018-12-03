@@ -144,73 +144,73 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Среду
-  day: 28 ноября
-  validFromOrderDate: "2018-11-27 11:00:00"
-  validToOrderDate: "2018-11-28 10:59:59"
+  day: 5 декабря
+  validFromOrderDate: "2018-12-04 11:00:00"
+  validToOrderDate: "2018-12-05 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат с крабовыми палочками и кукурузой
+    - title: Салат «Лесная Иллюзия» 
       id: 3101
-      ingredients: крабовые палочки, рис отварной, овощи маринованные, майонез
+      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
       weight: 150
-      price: 2.45
-    - title: Салат «Несвижский»
+      price: 2.95
+    - title: Салат «Цезарь с птицей»
       id: 3102
-      ingredients: филе сельди, овощи отварные, майонез
-      weight: 150
-      price: 2.15
-    - title: Салат из свежих помидоров и огурцов
+      ingredients: птица, овощи свежие, сыр, майонез
+      weight: 200
+      price: 3.45
+    - title: Салат из белокочанной капусты со свеклой и морковью
       id: 3103
-      ingredients: овощи свежие, заправка
+      ingredients: капуста, свекла, морковь, заправка
       weight: 150
-      price: 2.20
+      price: 1.50
   - title: Супы
     items:  
-    - title: Суп-крем Тыквенный
+    - title: Уха ростовская
       id: 3201
       ingredients: 
       weight: 250
-      price: 2.45
-    - title: Суп рисовый с курицей
+      price: 2.85
+    - title: Суп-пюре из разных овощей с сухариками
       id: 3202
       ingredients: 
-      weight: 250
-      price: 2.15
+      weight: 250/10
+      price: 2.40
   - title: Вторые блюда
     items:
-    - title: Зразы рубленые, фаршированные грибами
+    - title: Рыба жареная с перцем
       id: 3301
-      ingredients: свинина, говядина, грибы, специи
-      weight: 140
-      price: 3.70
-    - title: Птица в сливочно-горчичном соусе
+      ingredients: филе хека, овощи, специи
+      weight: 160
+      price: 4.50
+    - title: Биточки особые
       id: 3302
-      ingredients: птица, соус, специи
-      weight: 100/50
-      price: 4.10
-    - title: Рыба, тушенная в томате с овощами   
+      ingredients: свинина, говядина, специи
+      weight: 100
+      price: 3.50
+    - title: Соте из птицы с овощами    
       id: 3303
-      ingredients: рыба хек, специи, овощи тушеные, соус
-      weight: 150
-      price: 3.40
-    - title: Оладьи из кабачка
+      ingredients: филе птицы, овощи, специи
+      weight: 170
+      price: 4.20
+    - title: Картофельные оладьи, фаршированные грибами
       id: 3304
-      ingredients: кабачок свежий, сметана
-      weight: 250/30
-      price: 3.00
+      ingredients:
+      weight: 225/20
+      price: 3.65
   - title: Гарниры
     items:
-    - title: Картофельное пюре
+    - title: Картофель жаренный
       id: 3401
       ingredients: 
       weight: 150
-      price: 1.50
-    - title: Макароны отварные
+      price: 1.90
+    - title: Каша рассыпчатая рисовая
       id: 3402
       ingredients: 
       weight: 150
-      price: 1.00
+      price: 1.20
 - weekDay: Открыт приём заказов на Четверг
   day: 29 ноября
   validFromOrderDate: "2018-11-28 11:00:00"
