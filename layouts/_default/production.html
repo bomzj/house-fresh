@@ -51,13 +51,15 @@
 												<p itemprop="description" class="text-muted ingredients">{{.itemIngredients}}</p>
 											{{end}}
 											{{if eq .itemType "cake"}}
-												<p class="text-primary text-small-left"><strong>*Вес торта {{.itemWeight}}г. </strong> <br> Торт продаётся разрезанным на 12 порций.</p>
+												<p class="text-muted ingredients"><strong>Вес торта {{.itemWeight}}г. </strong> <br> Торт продаётся разрезанным на 12 порций.</p>
 											{{end}}
 										
 											<select class="form-control input-lg temperatureState-input" style="display:{{ if not .itemFrozenID }}none{{end}}">
 												<option value="{{.itemCooledID}}">охлаждённый</option>
 												<option value="{{.itemFrozenID}}">замороженный</option>
 											</select>
+											
+											<p class="text-primary text-small-left"><strong>*Внимание!</strong> Указаны ОПТОВЫЕ / МЕЛКООПТОВЫЕ цены.</p>
 											
 										</div>
 										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weight-price-section">
@@ -67,9 +69,11 @@
 											{{if ne .itemType "cake"}}	
 												<h3 class="catalog-item-weight text-muted">{{.itemWeight}}г</h3>
 											{{end}}
+											
 											{{if .itemPrice}}
+												
 												<div class="catalog-item-price">
-													<h3 itemprop="price lowPrice highPrice" content="{{.itemPrice}}" class="">{{ lang.NumFmt 2 .itemPrice }}р</h3>
+													<h3 itemprop="price lowPrice highPrice" content="{{.itemPrice}}" class="">{{ lang.NumFmt 2 .itemPrice }}р*</h3>
 													<button class="btn btn-primary btn-add-to-cart" title="Добавить в корзину" 
 														onclick="cart.addItem({ 
 															imageUrl: '{{.itemImg | absURL}}', 
@@ -82,9 +86,12 @@
 														<i class="fa fa-cart-arrow-down fa-2x"></i>
 													</button>
 												</div>
+												
+												
 											{{end}}
 											<meta itemprop="priceCurrency" content="BYN" />
 										</div>
+										
 									</div>
 								</div>
 							{{end}}
