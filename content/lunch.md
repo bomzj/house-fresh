@@ -150,55 +150,55 @@ weekMenu:
   courses:
   - title: Салаты
     items:
-    - title: Салат «Лесная Иллюзия» 
+    - title: Салат «Бонапарт»
       id: 3101
-      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
+      ingredients: капуста, помидор свежий, зелёный горошек, сметана, майонез
       weight: 150
-      price: 2.95
-    - title: Салат «Цезарь с птицей»
+      price: 2.15
+    - title: Салат «Полесский»
       id: 3102
-      ingredients: птица, овощи свежие, сыр, майонез
-      weight: 200
-      price: 3.45
-    - title: Салат из белокочанной капусты со свеклой и морковью
-      id: 3103
-      ingredients: капуста, свекла, морковь, заправка
+      ingredients: птица отварная, сыр, сметана, овощи, майонез
       weight: 150
-      price: 1.50
+      price: 2.45
+    - title: Салат из свежих помидоров и огурцов
+      id: 3103
+      ingredients: овощи свежие, заправка
+      weight: 150
+      price: 2.20
   - title: Супы
     items:  
-    - title: Уха ростовская
+    - title: Рассольник Ленинградский
       id: 3201
       ingredients: 
-      weight: 250
-      price: 2.85
-    - title: Суп-пюре из разных овощей с сухариками
+      weight: 250/20
+      price: 2.15
+    - title: Суп куриный
       id: 3202
       ingredients: 
-      weight: 250/10
-      price: 2.40
+      weight: 250
+      price: 2.20
   - title: Вторые блюда
     items:
-    - title: Рыба жареная с перцем
+    - title: Рыба, запеченная в сметане с морковью
       id: 3301
-      ingredients: филе хека, овощи, специи
-      weight: 160
-      price: 4.50
-    - title: Биточки особые
+      ingredients: филе хека, морковь, сметана, специи
+      weight: 125
+      price: 3.45
+    - title: Колбаски по - слуцки                  
       id: 3302
-      ingredients: свинина, говядина, специи
-      weight: 100
-      price: 3.50
-    - title: Соте из птицы с овощами    
+      ingredients: свинина, говядина, специи, морковь, специи, соус
+      weight: 130/50
+      price: 3.10
+    - title: Филе птицы в белках  
       id: 3303
-      ingredients: филе птицы, овощи, специи
-      weight: 170
-      price: 4.20
-    - title: Картофельные оладьи, фаршированные грибами
+      ingredients: филе птицы, белки яичные, специи
+      weight: 123
+      price: 3.45
+    - title: Печень жареная с луком          
       id: 3304
-      ingredients:
-      weight: 225/20
-      price: 3.65
+      ingredients: печень говяжья, специи, лук, специи
+      weight: 115
+      price: 2.95
   - title: Гарниры
     items:
     - title: Картофель жаренный
@@ -206,11 +206,11 @@ weekMenu:
       ingredients: 
       weight: 150
       price: 1.90
-    - title: Каша рассыпчатая рисовая
+    - title: Каша перловая с грибами
       id: 3402
       ingredients: 
       weight: 150
-      price: 1.20
+      price: 1.60
 - weekDay: Открыт приём заказов на Четверг
   day: 29 ноября
   validFromOrderDate: "2018-11-28 11:00:00"
