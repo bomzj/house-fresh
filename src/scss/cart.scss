@@ -111,10 +111,27 @@ body {
 }
 
 .user-info-input {
-	margin-top: 25px;
+	margin-top: 40px;
 	margin-bottom: 25px;
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+.cart-modal .user-info-input input {
+	border: 0;
+    border-bottom: 1px solid #ddd;
+	box-shadow: none;
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	
+	float: none;
+	margin: auto;
+}
+
+.cart-modal .user-info-input input:focus {
+	border-bottom: 1px solid #333;
+	box-shadow: none;
 }
 
 .cart-items-count{
@@ -209,6 +226,10 @@ hr.cart-items-separator {
     .navbar-default.affix .navbar-cart>a:focus:hover {
         color: #6fac37;
     }
+	
+	.cart-modal .user-info-input input {
+		width: 70%;
+	}
 }
 
 @media(max-width:767px) {
@@ -222,7 +243,64 @@ hr.cart-items-separator {
 	.navbar-default .navbar-cart>a:focus:hover {
 		color: #6fac37;
 	}
-    
+	
+    .cart-modal .container {
+		padding-right: 5px; 
+		padding-left: 5px; 
+	}
+	
+	.item-in-cart .col-lg-1, 
+	.item-in-cart .col-lg-2, 
+	.item-in-cart .col-lg-3, 
+	.item-in-cart .col-lg-4, 
+	.item-in-cart .col-lg-5, 
+	.item-in-cart .col-lg-6, 
+	.item-in-cart .col-lg-7, 
+	.item-in-cart .col-lg-8, 
+	.item-in-cart .col-lg-9, 
+	.item-in-cart .col-lg-10, 
+	.item-in-cart .col-lg-11, 
+	.item-in-cart .col-lg-12, 
+	.item-in-cart .col-md-1, 
+	.item-in-cart .col-md-2, 
+	.item-in-cart .col-md-3, 
+	.item-in-cart .col-md-4, 
+	.item-in-cart .col-md-5, 
+	.item-in-cart .col-md-6, 
+	.item-in-cart .col-md-7, 
+	.item-in-cart .col-md-8, 
+	.item-in-cart .col-md-9, 
+	.item-in-cart .col-md-10, 
+	.item-in-cart .col-md-11, 
+	.item-in-cart .col-md-12, 
+	.item-in-cart .col-sm-1, 
+	.item-in-cart .col-sm-2, 
+	.item-in-cart .col-sm-3, 
+	.item-in-cart .col-sm-4, 
+	.item-in-cart .col-sm-5, 
+	.item-in-cart .col-sm-6, 
+	.item-in-cart .col-sm-7, 
+	.item-in-cart .col-sm-8, 
+	.item-in-cart .col-sm-9, 
+	.item-in-cart .col-sm-10, 
+	.item-in-cart .col-sm-11, 
+	.item-in-cart .col-sm-12, 
+	.item-in-cart .col-xs-1, 
+	.item-in-cart .col-xs-2, 
+	.item-in-cart .col-xs-3, 
+	.item-in-cart .col-xs-4, 
+	.item-in-cart .col-xs-5, 
+	.item-in-cart .col-xs-6, 
+	.item-in-cart .col-xs-7, 
+	.item-in-cart .col-xs-8, 
+	.item-in-cart .col-xs-9, 
+	.item-in-cart .col-xs-10, 
+	.item-in-cart .col-xs-11, 
+	.item-in-cart .col-xs-12 {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	
 }
 
 

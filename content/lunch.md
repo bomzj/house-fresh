@@ -280,34 +280,34 @@ weekMenu:
       weight: 150
       price: 1.55
 - weekDay: Открыт приём заказов на Пятницу
-  day: 30 ноября
-  validFromOrderDate: "2018-11-29 11:00:00"
-  validToOrderDate: "2018-11-30 10:59:59"
+  day: 7 декабря
+  validFromOrderDate: "2018-12-06 11:00:00"
+  validToOrderDate: "2018-12-07 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Лесная Иллюзия» 
-      id: 5101
-      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
-      weight: 150
-      price: 2.95
     - title: Салат «Цезарь с птицей»
-      id: 5102
+      id: 5101
       ingredients: птица, овощи свежие, сыр, майонез
       weight: 200
       price: 3.45
-    - title: Салат из белокочанной капусты со свеклой и морковью
-      id: 5103
-      ingredients: капуста, свекла, морковь, заправка
+    - title: Салат «Белоснежка»
+      id: 5102
+      ingredients: капуста, яйцо, огурец свежий, заправка
       weight: 150
-      price: 1.50
+      price: 1.65
+    - title: Салат «Лесная Иллюзия» 
+      id: 5103
+      ingredients: грибы маринованные, ветчина, овощи отварные, овощи маринованные, яйцо, майонез
+      weight: 150
+      price: 2.95
   - title: Супы
     items:  
-    - title: Уха ростовская
+    - title: Суп перловый с грибами
       id: 5201
       ingredients: 
-      weight: 250
-      price: 2.85
+      weight: 250/20
+      price: 1.85
     - title: Суп-пюре из разных овощей с сухариками
       id: 5202
       ingredients: 
@@ -315,38 +315,38 @@ weekMenu:
       price: 2.40
   - title: Вторые блюда
     items:
-    - title: Рыба жареная с перцем
+    - title: Котлеты домашние
       id: 5301
-      ingredients: филе хека, овощи, специи
-      weight: 150
-      price: 4.50
-    - title: Биточки особые
-      id: 5302
       ingredients: свинина, говядина, специи
       weight: 100
+      price: 2.45
+    - title: Бедро цыпленка в грибном соусе
+      id: 5302
+      ingredients: бедро цыпленка, грибы,  соус, специи
+      weight: 175
       price: 3.50
-    - title: Соте из птицы с овощами    
+    - title: Оладьи из кабачка    
       id: 5303
-      ingredients: филе птицы, овощи, специи
-      weight: 170
-      price: 4.20
-    - title: Картофельные оладьи, фаршированные грибами
+      ingredients: кабачок свежий, сметана
+      weight: 250/30
+      price: 3.00
+    - title: Плов из птицы
       id: 5304
-      ingredients: 
-      weight: 225/20
-      price: 3.65
+      ingredients: птица, рис, овощи, специи
+      weight: 225
+      price: 3.80
   - title: Гарниры
     items:
-    - title: Картофель жаренный
+    - title: Картофельное пюре
       id: 5401
       ingredients: 
       weight: 150
-      price: 1.90
-    - title: Каша рассыпчатая рисовая
+      price: 1.50
+    - title: Рагу овощное
       id: 5402
       ingredients: 
-      weight: 150
-      price: 1.20
+      weight: 200
+      price: 1.35
 sharedCourses:
 - title: Хлеб
   items:
