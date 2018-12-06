@@ -8,7 +8,7 @@
 		<div class="user-info-input">
 			<input class="form-control form-control-onorder text-center" placeholder="Ваше имя*" v-model="name">
 			<input class="form-control form-control-onorder text-center" placeholder="Контактный телефон*" v-model="phone">
-			<input class="form-control form-control-onorder text-center" placeholder="Описание (в том числе, объёмы, сроки и т.д.)*" v-model="description">
+			<input class="form-control form-control-onorder text-center" placeholder="Описание, объёмы, сроки и т.д.*" v-model="description">
 		</div>
 		<button class="btn btn-primary btn-xl" title="Отправить запрос на индивидуальный заказ" :disabled="!isFormValid()">Отправить запрос</button>
 	</form>
