@@ -2,7 +2,7 @@
 <div class="col-lg-8 col-lg-offset-2 text-center">
 	<h2 class="text-primary">Не нашли то, что искали?</h2>
 	<hr>
-	<h3 class="text-center">Отправьте нам запрос на изготовление продукции на заказ: <br> <br>Сэндвичи, Бутерброды, Хлеб, Торты, Выпечка, Круассаны с начинаками, Кексы, Салаты и другое!</h3>
+	<h3 class="text-center">Отправьте нам запрос на изготовление продукции под заказ: <br> <br>Сэндвичи, Бутерброды, Хлеб, Торты, Выпечка, Круассаны с начинаками, Кексы, Салаты и другое!</h3>
 	<hr>
 	<form class="form-block-onorder" @submit.prevent="submitForm">
 		<div class="user-info-input">
