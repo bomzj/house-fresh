@@ -39,7 +39,7 @@ customLunches.forEach(x => {
 			CustomLunch
 		}
 	});	
-})
+});
 
 // Init <call-back-form>
 new Vue({
@@ -51,9 +51,12 @@ new Vue({
 
 
 // Init <on-order-form>
-new Vue({
-	el: 'on-order-form',
-	components: {
-		OnOrderForm
-    }
+var onOrderForms = document.querySelectorAll('on-order-form');
+onOrderForms.forEach(x => {
+	new Vue({
+		el: x,
+		components: {
+			OnOrderForm
+		}
+	});	
 });
