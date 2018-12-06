@@ -76,7 +76,7 @@
 			
 			<div class="row personal-info-block">
 				<h3 class="text-primary text-center">Введите Ваши данные</h3>
-				<form @submit.prevent="submitOrder">
+				<form class="form-block-cart" @submit.prevent="submitOrder">
 					<div class="form-group user-info-input">
 						<input type="text" class="form-control input-lg" placeholder="Имя*" v-model="orderForm.name">
 					</div>

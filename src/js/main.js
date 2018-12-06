@@ -9,6 +9,7 @@ import Vue from 'vue';
 import Cart from './cart.vue';
 import CustomLunch from './customLunch.vue';
 import CallBackForm from './callBackForm.vue';
+import OnOrderForm from './onOrderForm.vue';
 import './filters'
 
 // Init <cart>
@@ -45,5 +46,14 @@ new Vue({
 	el: 'call-back-form',
 	components: {
 		CallBackForm
+    }
+});
+
+
+// Init <on-order-form>
+new Vue({
+	el: 'on-order-form',
+	components: {
+		OnOrderForm
     }
 });

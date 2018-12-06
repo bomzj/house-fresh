@@ -122,7 +122,31 @@ body {
 }
 
 
+.content .form-block-onorder {
+	margin-bottom: 15px;
+}
 
+.content .form-control-onorder {
+	background-color: #f7f7f7;
+	border: 0;
+    border-bottom: 1px solid #ccc;
+	box-shadow: none;
+	font-size: 1.1em;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.content .form-control-onorder:focus {
+	border-bottom: 1px solid #555;
+	box-shadow: none;
+	color: #555;
+}
+
+.content .user-info-input {
+	margin: auto;
+    width: 80%;
+	margin-bottom: 20px;
+}
 
 
 

@@ -110,7 +110,11 @@ body {
           box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(111, 172, 55, .6);
 }
 
-.user-info-input {
+.cart-modal .form-block-cart {
+	margin-bottom: 5px;
+}
+
+.cart-modal .user-info-input {
 	margin-top: 40px;
 	margin-bottom: 25px;
 	margin-left: 50px;
@@ -121,9 +125,10 @@ body {
 	border: 0;
     border-bottom: 1px solid #ddd;
 	box-shadow: none;
-	font-size: 18px;
+	font-size: 1.1em;
 	margin-bottom: 50px;
 	margin-top: 40px;
+	text-align: center;
 	
 	float: none;
 	margin: auto;
