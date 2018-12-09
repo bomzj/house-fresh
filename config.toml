@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	name = "ХаусФреш"
 	favicon = "img/houseFreshLogo.png"
 	freeDeliveryCost = 80
-	wholesaleValue = 35
+	wholesalePriceThreshold = 35
 
 	# Navigation
 	[params.navigation]

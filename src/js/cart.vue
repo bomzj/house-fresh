@@ -105,6 +105,11 @@
 		<strong>Произошла ошибка!</strong> Попробуйте отправить заказ еще раз или перезвоните нам.
 	</div>
 </transition>
+<transition name="fade">
+	<div class="alert alert-warning" v-show="isWholesaleWarninigAlertShowing" @click="isWholesaleWarninigAlertShowing = false">
+		<strong>Внимание!</strong> Минимальный оптовый заказ - от {{ wholesalePriceThreshold }} руб.
+	</div>
+</transition>
 </div>
 </template>
 
@@ -113,7 +118,7 @@ import OrderEmailTemplate from './orderEmailTemplate';
 import $ from './jquery';
 
 export default {
-	props: ['email', 'freeDeliveryCost'],
+	props: ['email', 'freeDeliveryCost', 'wholesalePriceThreshold'],
 	data() {
 		return {
 			items:[],
@@ -124,8 +129,9 @@ export default {
 				address: ''
 			},
 			isSuccessAlertShowing: false,
-			isErrorAlertShowing: false
-		};
+			isErrorAlertShowing: false,
+			isWholesaleWarninigAlertShowing: false
+			};
 	},
 	// Track any kind of cart items changes and save to local storage
 	watch: {
@@ -175,6 +181,14 @@ export default {
 			}
 			return totalPrice;
 		},
+		getWholesaleItemsTotalPrice() {
+			var totalPrice = 0;
+			var items = this.getWholesaleItems();
+			for (var i = 0; i < items.length; i++) {
+				totalPrice = Math.round((totalPrice + this.getItemFullPrice(items[i])) * 100) / 100;
+			}
+			return totalPrice;
+		},
 		preventInvalidCountInput(event) {
 			var value = parseInt(event.target.value);
 			var isValid = value >= 1 && value <= 999 && Math.floor(event.target.value) == value;
@@ -220,10 +234,9 @@ export default {
 			return this.getTotalPrice() >= this.freeDeliveryCost;
 		},
 		submitOrder() {
-			if (!this.isOrderFormValid()) return;
-			
+			if (!this.validateOrder()) return;
+						
 			var xhr = new XMLHttpRequest();
-			
 			
 			var formData = new FormData();
 			formData.append('apikey', '7c848836-860e-4b4e-8909-a0c0fea20173'),
@@ -263,6 +276,19 @@ export default {
 				this.orderForm.phone && 
 				this.orderForm.address;
 		},
+		// Is not used
+		isOrderValid() {
+			return this.isOrderFormValid() &&
+				(this.hasWholesaleItems() ? this.isWholesaleThresholdReached(): true);
+		},
+		validateOrder() {
+			var isWholesaleOrderValid = this.hasWholesaleItems() ? this.isWholesaleThresholdReached(): true;
+			if (!isWholesaleOrderValid) {
+				this.isWholesaleWarninigAlertShowing = true;
+				setTimeout(() => { this.isWholesaleWarninigAlertShowing = false }, 5000);
+			}
+			return this.isOrderFormValid() && isWholesaleOrderValid;
+		},
 		buildOrderEmailHtml() {
 			var data = {
 				items: this.items,
@@ -276,7 +302,17 @@ export default {
 		showErrorAlert() {
 			this.isErrorAlertShowing = true;
 			setTimeout(() => { this.isErrorAlertShowing = false }, 5000);
-		}
+		},
+		getWholesaleItems() {
+			return this.items.filter(i => i.isWholesaleItem);
+		},
+		hasWholesaleItems() {
+			return this.items.some(i => i.isWholesaleItem);
+		},
+		isWholesaleThresholdReached() {
+			return this.getWholesaleItemsTotalPrice() >= this.wholesalePriceThreshold;
+		},
+
 	}
 }
 </script>
