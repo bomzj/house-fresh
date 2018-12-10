@@ -104,11 +104,11 @@ weekMenu:
       ingredients: 
       weight: 250/20
       price: 1.95
-    - title: Суп-пюре из зеленого горошка
+    - title: Суп гороховый с беконом
       id: 2202
       ingredients: 
       weight: 250
-      price: 2.15
+      price: 2.45
   - title: Вторые блюда
     items:
     - title: Свинина, запеченная с грибами
