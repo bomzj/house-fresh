@@ -65,7 +65,7 @@
 					<h4 class="total-price-text">Итоговая сумма: </h4>
 					<h4 class="total-price">  {{ getTotalPrice() | price}}</h4>
 					<template v-if="isDeliveryFree()">
-						<span class="text-primary">Бесплатная доставка!</span>
+						<span class="text-primary">Бесплатная доставка по Минску!</span>
 					</template>
 					<template v-else>
 						<a href="/delivery" class="text-danger">Платная доставка!</a>

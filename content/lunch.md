@@ -139,73 +139,73 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Среду
-  day: 5 декабря
-  validFromOrderDate: "2018-12-04 11:00:00"
-  validToOrderDate: "2018-12-05 10:59:59"
+  day: 12 декабря
+  validFromOrderDate: "2018-12-11 11:00:00"
+  validToOrderDate: "2018-12-12 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Бонапарт»
+    - title: Винегрет с сельдью
       id: 3101
-      ingredients: капуста, помидор свежий, зелёный горошек, сметана, майонез
+      ingredients: овощи отварные, овощи маринованные, сельдь филе, заправка
+      weight: 150
+      price: 2.10
+    - title: Салат «Дружба»
+      id: 3102
+      ingredients: капуста, кукуруза консервированная, морковь, яблоко, крабовые палочки, майонез
       weight: 150
       price: 2.15
-    - title: Салат «Полесский»
-      id: 3102
-      ingredients: птица отварная, сыр, сметана, овощи, майонез
-      weight: 150
-      price: 2.45
-    - title: Салат из свежих помидоров и огурцов
+    - title: Салат «Мексиканский с фасолью»
       id: 3103
-      ingredients: овощи свежие, заправка
+      ingredients: филе птицы, сыр Фета, огурец свежий, помидор свежий, фасоль, заправка
       weight: 150
-      price: 2.20
+      price: 3.10
   - title: Супы
     items:  
-    - title: Рассольник Ленинградский
+    - title: Суп-лапша домашняя с курицей
       id: 3201
       ingredients: 
-      weight: 250/20
+      weight: 250/30
       price: 2.15
-    - title: Суп куриный
+    - title: Суп перловый с грибами
       id: 3202
       ingredients: 
-      weight: 250
-      price: 2.20
+      weight: 250/20
+      price: 1.85
   - title: Вторые блюда
     items:
-    - title: Рыба, запеченная в сметане с морковью
+    - title: Рыба, тушенная в томате с овощами   
       id: 3301
-      ingredients: филе хека, морковь, сметана, специи
-      weight: 125
-      price: 3.45
-    - title: Колбаски по - слуцки                  
+      ingredients: рыба хек, специи, овощи тушеные, соус
+      weight: 150
+      price: 3.40
+    - title: Голубцы любительские
       id: 3302
-      ingredients: свинина, говядина, специи, морковь, специи, соус
-      weight: 130/50
-      price: 3.10
-    - title: Филе птицы в белках  
+      ingredients: свинина, говядина, капуста белокочанная, специи
+      weight: 230/50
+      price: 3.65
+    - title: Бифштекс «Смак»
       id: 3303
-      ingredients: филе птицы, белки яичные, специи
-      weight: 123
-      price: 3.45
-    - title: Печень жареная с луком          
+      ingredients: птица, специи
+      weight: 95
+      price: 3.20
+    - title: Птица в сливочно-горчичном соусе
       id: 3304
-      ingredients: печень говяжья, специи, лук, специи
-      weight: 115
-      price: 2.95
+      ingredients: птица, соус, специи
+      weight: 100/50
+      price: 4.10
   - title: Гарниры
     items:
-    - title: Картофель жаренный
+    - title: Каша рассыпчатая рисовая
       id: 3401
       ingredients: 
       weight: 150
-      price: 1.90
-    - title: Каша перловая с грибами
+      price: 1.20
+    - title: Картофель отварной
       id: 3402
       ingredients: 
       weight: 150
-      price: 1.60
+      price: 1.20
 - weekDay: Открыт приём заказов на Четверг
   day: 6 декабря
   validFromOrderDate: "2018-12-05 11:00:00"
