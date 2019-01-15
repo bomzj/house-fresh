@@ -49,7 +49,7 @@
 											{{end}}
 											<hr class="gray">
 											{{if .itemIngredients}}
-												<p itemprop="description" class="text-muted ingredients">{{.itemIngredients}}</p>
+												<h4 itemprop="description" class="text-muted ingredients">{{.itemIngredients | markdownify}}</h4>
 											{{end}}
 											{{if eq .itemType "cake"}}
 												<p class="text-muted ingredients"><strong>Вес торта {{.itemWeight}}г. </strong> <br> Торт продаётся разрезанным на 12 порций.</p>
@@ -60,15 +60,19 @@
 												<option value="{{.itemFrozenID}}">замороженный</option>
 											</select>
 											
-											<p class="text-primary text-small-left"><strong>*Внимание!</strong> Указаны ОПТОВЫЕ / МЕЛКООПТОВЫЕ цены (заказ от {{$siteRute.Params.wholesalePriceThreshold}}руб).</p>
+											{{if .itemPrice}}
+												<p class="text-primary text-small-left"><strong>*Внимание!</strong> Указаны ОПТОВЫЕ / МЕЛКООПТОВЫЕ цены (заказ от {{$siteRute.Params.wholesalePriceThreshold}}руб).</p>
+											{{end}}
 											
 										</div>
 										<div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer" class="weight-price-section">
 											{{if eq .itemType "cake"}}	
 												<h3 class="catalog-item-weight text-muted">За 1кг:</h3>
 											{{end}}
-											{{if ne .itemType "cake"}}	
-												<h3 class="catalog-item-weight text-muted">{{.itemWeight}}г</h3>
+											{{if .itemWeight}}
+												{{if ne .itemType "cake"}}	
+													<h3 class="catalog-item-weight text-muted">{{.itemWeight}}г</h3>
+												{{end}}
 											{{end}}
 											
 											{{if .itemPrice}}
