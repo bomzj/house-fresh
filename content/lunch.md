@@ -139,73 +139,68 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Среду
-  day: 12 декабря
-  validFromOrderDate: "2018-12-11 11:00:00"
-  validToOrderDate: "2018-12-12 10:59:59"
+  day: 13 февраля
+  validFromOrderDate: "2019-02-12 11:00:00"
+  validToOrderDate: "2019-02-13 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Винегрет с сельдью
+    - title: Салат из белокочанной капусты и морской капусты
       id: 3101
-      ingredients: овощи отварные, овощи маринованные, сельдь филе, заправка
+      ingredients: капуста, морковь свежая, морская капуста, заправка
       weight: 150
-      price: 2.10
-    - title: Салат «Дружба»
+      price: 1.70
+    - title: Салат «Мясной»
       id: 3102
-      ingredients: капуста, кукуруза консервированная, морковь, яблоко, крабовые палочки, майонез
+      ingredients: говядина отварная, овощи, майонез
       weight: 150
-      price: 2.15
-    - title: Салат «Мексиканский с фасолью»
+      price: 2.50
+    - title: Салат из свежих помидоров и огурцов со сметаной
       id: 3103
-      ingredients: филе птицы, сыр Фета, огурец свежий, помидор свежий, фасоль, заправка
+      ingredients: овощи свежие, сметана
       weight: 150
-      price: 3.10
+      price: 2.50
   - title: Супы
     items:  
-    - title: Суп-лапша домашняя с курицей
+    - title: Борщ «Хатнi» с пампушками
       id: 3201
       ingredients: 
-      weight: 250/30
-      price: 2.15
-    - title: Суп перловый с грибами
+      weight: 250/50/30
+      price: 2.50
+    - title: Суп Осенний
       id: 3202
       ingredients: 
       weight: 250/20
-      price: 1.85
+      price: 2.10
   - title: Вторые блюда
     items:
-    - title: Рыба, тушенная в томате с овощами   
+    - title: Чахохбили
       id: 3301
-      ingredients: рыба хек, специи, овощи тушеные, соус
-      weight: 150
-      price: 3.40
-    - title: Голубцы любительские
+      ingredients: птица, овощи, специи
+      weight: 250
+      price: 3.90
+    - title: Биточки из птицы, фаршированные шампиньонами
       id: 3302
-      ingredients: свинина, говядина, капуста белокочанная, специи
-      weight: 230/50
-      price: 3.65
-    - title: Бифштекс «Смак»
+      ingredients: птица, шампиньоны, специи
+      weight: 120
+      price: 3.50
+    - title: Мясо, жаренное крупным куском
       id: 3303
-      ingredients: птица, специи
-      weight: 95
-      price: 3.20
-    - title: Птица в сливочно-горчичном соусе
-      id: 3304
-      ingredients: птица, соус, специи
-      weight: 100/50
-      price: 4.10
+      ingredients: свинина, специи
+      weight: 100
+      price: 3.90
   - title: Гарниры
     items:
-    - title: Каша рассыпчатая рисовая
+    - title: Картофель отварной
       id: 3401
       ingredients: 
       weight: 150
-      price: 1.20
-    - title: Картофель отварной
+      price: 1.50
+    - title: Овощи запеченные «Калейдоскоп»
       id: 3402
       ingredients: 
       weight: 150
-      price: 1.20
+      price: 1.90
 - weekDay: Открыт приём заказов на Четверг
   day: 13 декабря
   validFromOrderDate: "2018-12-12 11:00:00"
@@ -399,71 +394,34 @@ sharedCourses:
     ingredients: 
     weight: 83
     price: 2.00
-  - title: Сметанник
-    id: 10    
-    ingredients: 
-    weight: 75
-    price: 0.85
-  - title: Булочка чайная с творогом
-    id: 11    
-    ingredients: 
-    weight: 50
-    price: 0.65
   - title: Маффин в ассортименте
     id: 12    
     ingredients: 
     weight: 115
-    price: 1.50
+    price: 2.00
   - title: Круассан с шоколадом
     id: 13    
     ingredients: 
     weight: 50
-    price: 1.10
+    price: 1.50
   - title: Круассан со сгущёнкой
     id: 14    
     ingredients: 
     weight: 50
-    price: 1.10
+    price: 1.50
   - title: Слойка с вишней
     id: 15    
     ingredients: 
     weight: 75
-    price: 1.10
+    price: 1.50
   - title: Слойка со сгущёнкой
     id: 16    
     ingredients: 
     weight: 75
-    price: 1.10
+    price: 1.50
   - title: Слойка с сыром
     id: 17    
     ingredients: 
     weight: 75
-    price: 1.10
-- title: Напитки
-  items:
-  - title: Холодный чай Фьюз Ти
-    id: 18
-    ingredients: 
-    weight: 500
-    price: 2.50
-  - title: Напиток Кока-Кола
-    id: 19
-    ingredients: 
-    weight: 500
-    price: 2.00
-  - title: Напиток Спрайт
-    id: 20
-    ingredients: 
-    weight: 500
-    price: 2.00
-  - title: Напиток Фанта Апельсин
-    id: 21
-    ingredients: 
-    weight: 500
-    price: 2.00
-  - title: Питьевая вода Бонаква
-    id: 22
-    ingredients: 
-    weight: 500
     price: 1.50
 ---
