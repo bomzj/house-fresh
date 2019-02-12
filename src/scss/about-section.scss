@@ -7,18 +7,21 @@
     color: rgb(52, 52, 52);
 }
 
-#lunchSection p,
-#productionSection p {
+#lunchSection h4,
+#productionSection h4,
+#obedBufetSection h4 {
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 50px;
 	max-width: 90%;
 	font-size: 20px;
 	line-height: 1.8;
 }
 
 @media(max-width:767px) {
-	#lunchSection p,
-	#productionSection p	{
+	#lunchSection h4,
+	#productionSection h4,
+	#obedBufetSection h4	{
 		max-width: 95%;
 	}
 }
