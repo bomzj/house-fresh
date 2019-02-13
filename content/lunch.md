@@ -202,73 +202,73 @@ weekMenu:
       weight: 150
       price: 1.90
 - weekDay: Открыт приём заказов на Четверг
-  day: 13 декабря
-  validFromOrderDate: "2018-12-12 11:00:00"
-  validToOrderDate: "2018-12-13 10:59:59"
+  day: 14 февраля
+  validFromOrderDate: "2019-02-13 11:00:00"
+  validToOrderDate: "2019-02-14 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Минутка»
+    - title: Салат из белокочанной капусты
       id: 4101
-      ingredients: свекла отварная, огурец маринованный, майонез
+      ingredients: капуста белокочанная, морковь свежая, заправка
       weight: 150
-      price: 2.10
-    - title: Салат «Греческий»
+      price: 1.90
+    - title: Салат «Хрустящий»
       id: 4102
-      ingredients: огурец свежий, помидор свежий, перец свежий, оливки, заправка
-      weight: 200
-      price: 3.65
-    - title: Салат с крабовыми палочками и кукурузой
-      id: 4103
-      ingredients: крабовые палочки, рис отварной, овощи маринованные, майонез
+      ingredients: капуста пекинская, ветчина, сухарики, заправка
       weight: 150
-      price: 2.45
+      price: 2.90
+    - title: Салат-коктейль «Павлинка»
+      id: 4103
+      ingredients: птица отварная, овощи свежие, яйцо, майонез
+      weight: 150
+      price: 3.50
   - title: Супы
     items:  
-    - title: Суп-пюре из разных овощей с сухариками
+    - title: Щи из свежей капусты с картофелем
       id: 4201
       ingredients: 
-      weight: 250/10
-      price: 2.40
-    - title: Щи кислые с грибами
+      weight: 250/20
+      price: 2.00
+    - title: Суп рисовый с курицей
       id: 4202
       ingredients: 
-      weight: 250/30
-      price: 1.90
+      weight: 250
+      price: 2.50
   - title: Вторые блюда
     items:
-    - title: Тефтели с соусом
+    - title: Котлеты с сыром и морковью    
       id: 4301
-      ingredients: свинина, рис, специи, соус
-      weight: 120/30
-      price: 4.10
-    - title: Жаркое по-домашнему
+      ingredients: свинина, сыр, морковь специи
+      weight: 115
+      price: 3.50
+    - title: Жаркое «Прибужье»
       id: 4302
-      ingredients: свинина, овощи тушенные, специи
-      weight: 325
-      price: 3.80
-    - title: Цыплята табака
+      ingredients: колбаски домашние, картофель, грибы, специи, соус
+      weight: 250
+      price: 4.20
+    - title: Птица запеченная с помидорами
       id: 4303
-      ingredients: птица, специи
-      weight: 150
-      price: 2.35
-    - title: Свинина деликатесная
+      ingredients: птица, помидор, сыр, специи
+      weight: 100
+      price: 3.70
+    - title: Блинчики с мясом
       id: 4304
       ingredients: свинина, специи
-      weight: 145
-      price: 3.95
+      weight: 1/150
+      price: 2.80
   - title: Гарниры
     items:
-    - title: Каша гречневая рассыпчатая
+    - title: Картофель жареный
       id: 4401
       ingredients: 
       weight: 150
-      price: 1.20
-    - title: Картофель жареный
+      price: 1.90
+    - title: Каша гречневая рассыпчатая
       id: 4402
       ingredients:
       weight: 150
-      price: 1.90
+      price: 1.50
 - weekDay: Открыт приём заказов на Пятницу
   day: 14 декабря
   validFromOrderDate: "2018-12-13 11:00:00"
