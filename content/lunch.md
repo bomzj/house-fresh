@@ -270,78 +270,68 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Пятницу
-  day: 14 декабря
-  validFromOrderDate: "2018-12-13 11:00:00"
-  validToOrderDate: "2018-12-14 10:59:59"
+  day: 15 февраля
+  validFromOrderDate: "2019-02-14 11:00:00"
+  validToOrderDate: "2019-02-15 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «1812» 
+    - title: Винегрет овощной
       id: 5101
-      ingredients: филе цыпленка отварное, огурец маринованный, грибы маринованные, капуста пекинская, сыр, сухарики, заправка
+      ingredients: овощи отварные, овощи маринованные, заправка
       weight: 150
-      price: 3.45
-    - title: Салат «Мясной»
+      price: 1.90
+    - title: Салат «Гродненский»
       id: 5102
-      ingredients: говядина отварная, овощи, майонез
+      ingredients: говядина отварная, овощи свежие, майонез
       weight: 150
-      price: 2.45
-    - title: Салат «Сельдь под шубой»
+      price: 2.90
+    - title: Салат «Белорусский Новый»
       id: 5103
-      ingredients: филе сельди, овощи отварные, майонез
+      ingredients: ветчина, огурец свежий, помидор свежий, майонез
       weight: 150
-      price: 2.45
+      price: 3.50
   - title: Супы
     items:  
-    - title: Борщ Украинский
+    - title: Суп-пюре из разных овощей с сухариками
       id: 5201
       ingredients: 
-      weight: 250/20
-      price: 1.95
-    - title: Суп-крем морковный
+      weight: 250/10
+      price: 2.50
+    - title: Капустник «Старобелорусский»
       id: 5202
       ingredients: 
-      weight: 250
-      price: 2.45
+      weight: 250/20
+      price: 2.10
   - title: Вторые блюда
     items:
-    - title: Котлета «Папараць-кветка»
+    - title: Филе птицы в сыре
       id: 5301
       ingredients: птица, сыр, специи
-      weight: 105
-      price: 3.60
-    - title: Оладьи из тыквы
+      weight: 130
+      price: 3.80
+    - title: Шницель «Полесский»
       id: 5302
-      ingredients: тыква, сметана
-      weight: 250/30
-      price: 3.00
-    - title: Свинина, запеченная с сыром
-      id: 5303
-      ingredients: свинина, сыр, специи
+      ingredients: свинина, специи
       weight: 100
-      price: 3.70
-    - title: Рыба по гречески
-      id: 5304
-      ingredients: рыба, овощи, сыр, специи
-      weight: 185
-      price: 4.20
-    - title: Птица в сливочно-горчичном соусе
-      id: 5305
-      ingredients: птица, соус, специи
+      price: 3.50
+    - title: Птица жареная с соусом томатным с грибами
+      id: 5303
+      ingredients: птица, грибы, специи, соус
       weight: 100/50
-      price: 4.10
+      price: 3.90
   - title: Гарниры
     items:
-    - title: Картофельное пюре
+    - title: Картофель отварной
       id: 5401
       ingredients: 
       weight: 150
       price: 1.50
-    - title: Каша перловая с грибами
+    - title: Рис с овощами
       id: 5402
       ingredients: 
       weight: 150
-      price: 1.60
+      price: 1.70
 sharedCourses:
 - title: Хлеб
   items:
