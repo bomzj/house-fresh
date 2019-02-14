@@ -298,11 +298,11 @@ weekMenu:
       ingredients: 
       weight: 250/10
       price: 2.50
-    - title: Капустник «Старобелорусский»
+    - title: Щи кислые с грибами
       id: 5202
       ingredients: 
-      weight: 250/20
-      price: 2.10
+      weight: 250/30
+      price: 2.00
   - title: Вторые блюда
     items:
     - title: Филе птицы в сыре
@@ -315,11 +315,11 @@ weekMenu:
       ingredients: свинина, специи
       weight: 100
       price: 3.50
-    - title: Птица жареная с соусом томатным с грибами
+    - title: Бедро цыпленка в грибном соусе
       id: 5303
-      ingredients: птица, грибы, специи, соус
-      weight: 100/50
-      price: 3.90
+      ingredients: бедро цыпленка, грибы,  соус, специи
+      weight: 175
+      price: 3.50
   - title: Гарниры
     items:
     - title: Картофель отварной
