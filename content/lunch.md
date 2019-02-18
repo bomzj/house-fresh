@@ -71,63 +71,63 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Вторник
-  day: 11 декабря 
-  validFromOrderDate: "2018-12-10 11:00:00"
-  validToOrderDate: "2018-12-11 10:59:59"
+  day: 19 февраля 
+  validFromOrderDate: "2019-02-18 11:00:00"
+  validToOrderDate: "2019-02-19 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Цезарь с птицей»
+    - title: Салат «Капуста по-слуцки»
       id: 2101
-      ingredients: птица, овощи свежие, сыр, майонез
-      weight: 200
-      price: 3.45
-    - title: Салат-коктейль «Павлинка»
+      ingredients: капуста белокочанная, морковь, маринад
+      weight: 150
+      price: 1.90
+    - title: Салат с крабовыми палочками и кукурузой
       id: 2102
-      ingredients: птица отварная, овощи свежие, яйцо, майонез
+      ingredients: крабовые палочки, рис отварной, овощи маринованные, майонез
       weight: 150
-      price: 3.55
-    - title: Салат «Слоеный»
+      price: 2.50
+    - title: Салат из птицы с грибами
       id: 2103
-      ingredients: овощи свежие, яйцо, сыр, майонез
+      ingredients: птица отварная, овощи отварные, грибы, майонез
       weight: 150
-      price: 2.60
+      price: 2.90
   - title: Супы
     items:  
-    - title: Борщ «Могилевский»
+    - title: Суп с крупой перловой
       id: 2201
       ingredients: 
-      weight: 250/20
-      price: 1.95
-    - title: Суп гороховый с беконом
+      weight: 250
+      price: 2.00
+    - title: Солянка сборная мясная
       id: 2202
       ingredients: 
-      weight: 250
-      price: 2.45
+      weight: 250/30
+      price: 3.00
   - title: Вторые блюда
     items:
-    - title: Свинина, запеченная с грибами
-      id: 2301
-      ingredients: свинина, сыр, грибы, специи
-      weight: 120
-      price: 4.10
-    - title: Котлеты из птицы с перцем
-      id: 2302
-      ingredients: филе цыпленка, перец свежий, специи
-      weight: 120
-      price: 4.00
     - title: Оладьи картофельные, фаршированные мясом
-      id: 2303
+      id: 2301
       ingredients: свинина, картофель, овощи, специи, сметана
       weight: 200/50
-      price: 4.15
+      price: 4.20
+    - title: Филе птицы в белках  
+      id: 2302
+      ingredients: филе птицы, белки яичные, специи
+      weight: 123
+      price: 3.90
+    - title: Котлеты домашние
+      id: 2303
+      ingredients: свинина, говядина, специи
+      weight: 100
+      price: 3.10
   - title: Гарниры
     items:
-    - title: Каша рассыпчатая с грибами и луком гречневая
+    - title: Каша гречневая рассыпчатая
       id: 2401
       ingredients: 
       weight: 150
-      price: 1.60
+      price: 1.50
     - title: Картофельное пюре
       id: 2402
       ingredients: 
