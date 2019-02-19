@@ -134,68 +134,68 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Среду
-  day: 13 февраля
-  validFromOrderDate: "2019-02-12 11:00:00"
-  validToOrderDate: "2019-02-13 10:59:59"
+  day: 20 февраля
+  validFromOrderDate: "2019-02-19 11:00:00"
+  validToOrderDate: "2019-02-20 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из белокочанной капусты и морской капусты
+    - title: Салат «Дружба»
       id: 3101
-      ingredients: капуста, морковь свежая, морская капуста, заправка
-      weight: 150
-      price: 1.70
-    - title: Салат «Мясной»
-      id: 3102
-      ingredients: говядина отварная, овощи, майонез
+      ingredients: капуста, кукуруза консервированная, морковь, яблоко, крабовые палочки, майонез
       weight: 150
       price: 2.50
-    - title: Салат из свежих помидоров и огурцов со сметаной
+    - title: Салат «Оригинальный»
+      id: 3102
+      ingredients: морковь, маринованный огурец, яйцо сыр, майонез, кетчуп
+      weight: 150
+      price: 2.70
+    - title: Салат-коктейль с ветчиной и сыром
       id: 3103
-      ingredients: овощи свежие, сметана
+      ingredients: ветчина, овощи, сыр, майонез
       weight: 150
       price: 2.50
   - title: Супы
     items:  
-    - title: Борщ «Хатнi» с пампушками
+    - title: Рассольник Ленинградский
       id: 3201
       ingredients: 
-      weight: 250/50/30
+      weight: 250/20
       price: 2.50
-    - title: Суп Осенний
+    - title: Суп из овощей с фасолью
       id: 3202
       ingredients: 
-      weight: 250/20
-      price: 2.10
+      weight: 250
+      price: 2.00
   - title: Вторые блюда
     items:
-    - title: Чахохбили
+    - title: Котлета «Нясвiж»
       id: 3301
-      ingredients: птица, овощи, специи
-      weight: 250
-      price: 3.90
-    - title: Биточки из птицы, фаршированные шампиньонами
-      id: 3302
-      ingredients: птица, шампиньоны, специи
-      weight: 120
-      price: 3.50
-    - title: Мясо, жаренное крупным куском
-      id: 3303
       ingredients: свинина, специи
-      weight: 100
+      weight: 125
+      price: 3.50
+    - title: Гуляш из свинины
+      id: 3302
+      ingredients: свинина, специи
+      weight: 75/75
       price: 3.90
+    - title: Птица запеченная с помидорами
+      id: 3303
+      ingredients: птица, помидор, сыр, специи
+      weight: 100
+      price: 3.70
   - title: Гарниры
     items:
-    - title: Картофель отварной
+    - title: Картофель жареный
       id: 3401
       ingredients: 
       weight: 150
-      price: 1.50
-    - title: Овощи запеченные «Калейдоскоп»
+      price: 1.90
+    - title: Макароны отварные
       id: 3402
       ingredients: 
       weight: 150
-      price: 1.90
+      price: 1.50
 - weekDay: Открыт приём заказов на Четверг
   day: 14 февраля
   validFromOrderDate: "2019-02-13 11:00:00"
