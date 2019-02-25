@@ -71,64 +71,69 @@ weekMenu:
       weight: 150
       price: 1.50
 - weekDay: Открыт приём заказов на Вторник
-  day: 19 февраля 
-  validFromOrderDate: "2019-02-18 11:00:00"
-  validToOrderDate: "2019-02-19 10:59:59"
+  day: 26 февраля 
+  validFromOrderDate: "2019-02-25 11:00:00"
+  validToOrderDate: "2019-02-26 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат «Капуста по-слуцки»
+    - title: Салат «Хрустящий»
       id: 2101
-      ingredients: капуста белокочанная, морковь, маринад
-      weight: 150
-      price: 1.90
-    - title: Салат с крабовыми палочками и кукурузой
-      id: 2102
-      ingredients: крабовые палочки, рис отварной, овощи маринованные, майонез
-      weight: 150
-      price: 2.50
-    - title: Салат из птицы с грибами
-      id: 2103
-      ingredients: птица отварная, овощи отварные, грибы, майонез
+      ingredients: капуста пекинская, ветчина, сухарики, заправка
       weight: 150
       price: 2.90
+    - title: Винегрет с фасолью
+      id: 2102
+      ingredients: овощи отварные, овощи маринованные, фасоль, заправка
+      weight: 150
+      price: 2.10
+    - title: Салат из маринованной моркови с луком и яйцом
+      id: 2103
+      ingredients: морковь маринованная, лук, яйцо, майонез
+      weight: 150
+      price: 2.00
   - title: Супы
     items:  
-    - title: Суп с крупой перловой
+    - title: Суп гороховый с беконом
       id: 2201
       ingredients: 
       weight: 250
-      price: 2.00
-    - title: Солянка сборная мясная
+      price: 2.50
+    - title: Борщ «Могилевский»
       id: 2202
       ingredients: 
-      weight: 250/30
-      price: 3.00
+      weight: 250/20
+      price: 2.00
   - title: Вторые блюда
     items:
-    - title: Оладьи картофельные, фаршированные мясом
+    - title: Биточки рыбные
       id: 2301
-      ingredients: свинина, картофель, овощи, специи, сметана
-      weight: 200/50
-      price: 4.20
-    - title: Филе птицы в белках  
+      ingredients: рыба, специи
+      weight: 125
+      price: 3.50
+    - title: Котлета по-киевски
       id: 2302
-      ingredients: филе птицы, белки яичные, специи
-      weight: 123
-      price: 3.90
-    - title: Котлеты домашние
+      ingredients: птица, масло сливочное, сыр, специи
+      weight: 125
+      price: 3.50
+    - title: Шницель Тирольский
       id: 2303
-      ingredients: свинина, говядина, специи
-      weight: 100
-      price: 3.10
+      ingredients: филе свинины,  специи
+      weight: 90
+      price: 4.20
+    - title: Жаркое «Прибужье»
+      id: 2304
+      ingredients: колбаски домашние, картофель, грибы, специи, соус
+      weight: 250
+      price: 4.20
   - title: Гарниры
     items:
-    - title: Каша гречневая рассыпчатая
+    - title: Картофельное пюре
       id: 2401
       ingredients: 
       weight: 150
       price: 1.50
-    - title: Картофельное пюре
+    - title: Каша рисовая рассыпчатая
       id: 2402
       ingredients: 
       weight: 150
