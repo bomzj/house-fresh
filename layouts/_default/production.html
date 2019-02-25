@@ -75,6 +75,10 @@
 												{{end}}
 											{{end}}
 											
+											{{if eq .itemType "lunch"}}
+												<h3 itemprop="price lowPrice highPrice" content="5.5" class=""></h3>
+											{{end}}
+											
 											{{if .itemPrice}}
 												
 												<div class="catalog-item-price">
