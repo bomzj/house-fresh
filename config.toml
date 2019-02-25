@@ -104,5 +104,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 		workingHours = "будние дни с 9.00 до 18.00"
 				
 		companyIcon = "img/houseFreshLogo64x64.svg"	
-		copyrightMain = "© ХаусФреш 2018 | Все права защищены"
+		copyrightMain = "© ХаусФреш 2018-2019 | Все права защищены"
 		copyrightDescription = "Копирование и использование материалов данного сайта разрешено только по согласованию с владельцем."
