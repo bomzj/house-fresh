@@ -207,69 +207,69 @@ weekMenu:
       weight: 150
       price: 1.90
 - weekDay: Открыт приём заказов на Четверг
-  day: 14 февраля
-  validFromOrderDate: "2019-02-13 11:00:00"
-  validToOrderDate: "2019-02-14 10:59:59"
+  day: 28 февраля
+  validFromOrderDate: "2019-02-27 11:00:00"
+  validToOrderDate: "2019-02-28 10:59:59"
   courses:
   - title: Салаты
     items:
-    - title: Салат из белокочанной капусты
+    - title: Салат из белокочанной капусты со свеклой и морковью 
       id: 4101
-      ingredients: капуста белокочанная, морковь свежая, заправка
+      ingredients: капуста, свекла, морковь, заправка
       weight: 150
-      price: 1.90
-    - title: Салат «Хрустящий»
+      price: 1.70
+    - title: Салат «Цезарь с птицей»
       id: 4102
-      ingredients: капуста пекинская, ветчина, сухарики, заправка
-      weight: 150
-      price: 2.90
-    - title: Салат-коктейль «Павлинка»
+      ingredients: птица, овощи свежие, сыр, майонез
+      weight: 200
+      price: 3.90
+    - title: Салат «Славянский»
       id: 4103
-      ingredients: птица отварная, овощи свежие, яйцо, майонез
+      ingredients: ветчина, грибы, овощи отварные, яйцо, майонез
       weight: 150
-      price: 3.50
+      price: 2.50
   - title: Супы
     items:  
-    - title: Щи из свежей капусты с картофелем
+    - title: Суп перловый с грибами
       id: 4201
       ingredients: 
       weight: 250/20
       price: 2.00
-    - title: Суп рисовый с курицей
+    - title: Суп-крем морковный
       id: 4202
       ingredients: 
       weight: 250
       price: 2.50
   - title: Вторые блюда
     items:
-    - title: Котлеты с сыром и морковью    
+    - title: Тефтели «Ежики»  
       id: 4301
-      ingredients: свинина, сыр, морковь специи
-      weight: 115
+      ingredients: свинина, говядина, специи, соус
+      weight: 80/50
       price: 3.50
-    - title: Жаркое «Прибужье»
+    - title: Птица в сливочно-горчичном соусе
       id: 4302
-      ingredients: колбаски домашние, картофель, грибы, специи, соус
-      weight: 250
-      price: 4.20
-    - title: Птица запеченная с помидорами
+      ingredients: птица, соус, специи
+      weight: 100/50
+      price: 4.10
+    - title: Рыба, запеченная в сметане с морковью
       id: 4303
-      ingredients: птица, помидор, сыр, специи
-      weight: 100
-      price: 3.70
-    - title: Блинчики с мясом
+      ingredients: филе хека, морковь, специи
+      weight: 125
+      price: 3.90
+    - title: Паста Карбонара
       id: 4304
-      ingredients: свинина, специи
-      weight: 1/150
-      price: 2.80
+      ingredients: паста, ветчина, сыр, специи, соус
+      weight: 300
+      price: 5.00
   - title: Гарниры
     items:
-    - title: Картофель жареный
+    - title: Каша рассыпчатая рисовая
       id: 4401
       ingredients: 
       weight: 150
-      price: 1.90
-    - title: Каша гречневая рассыпчатая
+      price: 1.50
+    - title: Картофель отварной
       id: 4402
       ingredients:
       weight: 150
