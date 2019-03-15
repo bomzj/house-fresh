@@ -98,8 +98,12 @@
 											<meta itemprop="availability" content="InStock " />
 											<meta itemprop="offerCount" content="50" />
 										</div>
-										<div itemprop="brand" itemtype="http://schema.org/Thing" itemscope>
-										  <meta itemprop="name" content="ХаусФреш" />
+										<div itemprop="brand" itemtype="http://schema.org/Organization" itemscope>
+										  <meta itemprop="legalName" content="ХаусФреш" />
+										  <meta itemprop="address location" content="{{.Site.Params.contact.address}}" />
+										  <meta itemprop="telephone" content="{{.Site.Params.contact.phone}}" />
+										  <meta itemprop="areaServed" content="Minsk Belarus" />
+										  <meta itemprop="logo" content="{{.Site.Params.navigation.brandIcon}}" />
 										</div>
 										<meta itemprop="sku" content="{{.itemCooledID}}" />
 									</div>
