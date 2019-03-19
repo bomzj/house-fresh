@@ -71,6 +71,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	# Partners section
 	[params.partners]
 		[[params.partners.list]]
+		logo = "unity-coffee-Минск-лого.jpg"
+		alt = "Unity Coffee логотип"
+		
+		[[params.partners.list]]
 		logo = "сеть-кофеен-Перспектива-Минск-лого.jpg"
 		alt = "Перспектива кофе логотип"
 		
