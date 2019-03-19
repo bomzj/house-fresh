@@ -40,6 +40,10 @@ header .header-content .header-content-inner h2 {
     color: rgba(255,255,255,.7);
 }
 
+header .slogan {
+	font-size: 6vw;
+}
+
 
 @media(min-width:768px) {
     header {
@@ -66,4 +70,36 @@ header .header-content .header-content-inner h2 {
         margin-left: auto;
         max-width: 90%;
     }
+	
+	
+}
+
+@media(max-width:992px) {
+	header .slogan {
+		font-size: 7vw;
+	}
+
+}
+
+@media(max-width:768px) {
+	header .slogan {
+		font-size: 8vw;
+	}
+
+}
+
+
+@media(max-width:640px) {
+	header .slogan {
+		font-size: 9vw;
+	}
+
+}
+
+
+@media(max-width:360px) {
+	header .slogan {
+		font-size: 10vw;
+	}
+
 }
