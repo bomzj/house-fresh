@@ -1,4 +1,4 @@
-baseurl = "https://housefresh.by/"
+baseurl = "https://housefresh.netlify.app/"
 languageCode = "ru"
 DefaultContentLanguage = "ru"
 title = "Сэндвичи, Выпечка (Мелкий Опт). 🥗 Доставка Обедов | ХаусФреш"
